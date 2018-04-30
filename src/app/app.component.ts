@@ -1,29 +1,65 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 
 import 'hammerjs';
-import { ImagesService } from './images/images.service';
+import { ImagesService, FlickrPhoto } from './images/images.service';
+import { ArrayType } from '@angular/compiler/src/output/output_ast';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
+export class AppComponent implements OnInit, OnDestroy {
   title = 'app';
 
-  tiles = [
-    {text: 'One', cols: 1, rows: 1, color: 'lightblue'},
-    {text: 'Two', cols: 2, rows: 1, color: 'lightgreen'},
-    {text: 'Three', cols: 1, rows: 1, color: 'lightpink'},
-    {text: 'Four', cols: 2, rows: 1, color: '#DDBDF1'},
-  ];
+  tiles = [];
 
-  constructor(private images: ImagesService){ }
+  constructor(
+    private images: ImagesService
+  ){ }
+
+  _loadTiles(){
+
+    var _self = this;
+
+    this.images.search({})
+      .subscribe(res =>{
+        var results = [];
+        res.photos.photo.forEach(p =>{
+          if(!p.url_l){
+            return;
+          }
+          
+          var rate = (p.width_l/p.height_l)
+          var cols = 2;
+          var rows = 2;
+          if(rate > (1 - 0.3) && rate < (1 + 0.3)){
+            rows = 1;
+          }else if(rate < (1 - 0.3) && rate > 0.3){
+            cols = 1
+          }
+          console.log(rate);
+
+          results.push({
+            cols: cols,
+            rows: rows,
+            styles: {
+              'background-image': 'url(' + p.url_l +')',
+              'background-size' : 'cover',
+              'background-position': 'center'
+            }
+          });
+        });
+        console.log(results);
+        _self.tiles = results;
+      });
+  }
 
   ngOnInit(): void {
-    this.images.search()
-      .subscribe(res =>{
-        console.log(res);
-      })
+    this._loadTiles()
+  }
+
+  ngOnDestroy(): void {
+
   }
 }

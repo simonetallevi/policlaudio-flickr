@@ -5,8 +5,11 @@ import { ArrayType } from '@angular/compiler/src/output/output_ast';
 import { Secret } from '../config/secret';
 
 
-export interface FlickrPhotos { 
-  id: string
+export interface FlickrPhoto { 
+  id: string,
+  url_l: string,
+  height_l: number,
+  width_l: number
 }
 
 export interface FlickrPhotosSearch { 
@@ -14,7 +17,7 @@ export interface FlickrPhotosSearch {
   pages: number,
   perpage: number,
   total: string,
-  photo: Array<FlickrPhotos>
+  photo: Array<FlickrPhoto>
 }
 
 export interface FlickrPhotosSearchResponse { 
@@ -30,19 +33,29 @@ export class ImagesService {
     private secret: Secret
   ) { }
 
-  search(){
+  _copy(inputParams, params){
+    Object.keys(params).forEach(key => {
+      console.log(key);
+      inputParams[key] = params[key];
+    });
+    return inputParams;
+  }
+
+  search(params: object){
+    var inputParams = {
+      'method': 'flickr.photos.search',
+      'user_id': this.secret.userId,
+      'api_key': this.secret.apiKey,
+      'format': 'json',
+      'nojsoncallback': '1',
+      'extras': 'url_l',
+      'per_page': '30',
+      'page': '0'
+    };
+
     return this.http.get<FlickrPhotosSearchResponse>(
       'https://api.flickr.com/services/rest/',{
-        params:{
-          'method': 'flickr.photos.search',
-          'user_id': this.secret.userId,
-          'api_key': this.secret.apiKey,
-          'format': 'json',
-          'nojsoncallback': '1',
-          'extras': 'url_l',
-          'per_page': '10',
-          'page': '1'
-        }
+        params:this._copy(inputParams, params)
     });
   }
 }
