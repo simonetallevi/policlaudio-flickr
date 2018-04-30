@@ -1,11 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { MaterialModule } from './/material.module';
-
+import { ImagesService } from './images/images.service';
 
 @NgModule({
   declarations: [
@@ -13,9 +14,10 @@ import { MaterialModule } from './/material.module';
   ],
   imports: [
     BrowserModule,
-    MaterialModule
+    MaterialModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ImagesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
