@@ -1,8 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BreakpointObserver, MediaMatcher } from '@angular/cdk/layout';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { Secret } from './config/secret';
@@ -20,7 +20,9 @@ import { ImagesService } from './images/images.service';
   ],
   providers: [
     ImagesService,
-    Secret
+    Secret,
+    BreakpointObserver,
+    MediaMatcher
   ],
   bootstrap: [AppComponent]
 })
