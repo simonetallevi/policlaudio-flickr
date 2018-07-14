@@ -27,11 +27,29 @@ export interface FlickrPhotosSearchResponse {
 
 @Injectable()
 export class ImagesService {
+  
+  input;
+  page;
+  pageSize;
+    
 
   constructor(
     private http: HttpClient,
     private secret: Secret
-  ) { }
+  ) { 
+    this.page = 0;
+    this.pageSize = 10;
+    this.input = {
+      'method': 'flickr.photos.search',
+      'user_id': this.secret.userId,
+      'api_key': this.secret.apiKey,
+      'format': 'json',
+      'nojsoncallback': '1',
+      'extras': 'url_l',
+      'per_page': this.pageSize,
+      'page': this.page
+    };
+  }
 
   _copy(inputParams, params){
     Object.keys(params).forEach(key => {
@@ -41,21 +59,20 @@ export class ImagesService {
     return inputParams;
   }
 
-  search(params: object){
-    var inputParams = {
-      'method': 'flickr.photos.search',
-      'user_id': this.secret.userId,
-      'api_key': this.secret.apiKey,
-      'format': 'json',
-      'nojsoncallback': '1',
-      'extras': 'url_l',
-      'per_page': '30',
-      'page': '0'
-    };
+  reset(){
+    this.page = 0;
+  }
 
+  next(params: object){
+    this.page++;
+    return this.search(params);
+  }
+
+  search(params: object){
+    console.log(this.input);
     return this.http.get<FlickrPhotosSearchResponse>(
       'https://api.flickr.com/services/rest/',{
-        params:this._copy(inputParams, params)
+        params:this._copy(this.input, params)
     });
   }
 }

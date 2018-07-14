@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
-import { ImagesService, FlickrPhoto } from './images.service'
+import { ImagesService, FlickrPhoto, FlickrPhotosSearchResponse } from './images.service'
 
 @Component({
   selector: 'app-images',
@@ -11,9 +11,13 @@ import { ImagesService, FlickrPhoto } from './images.service'
 export class ImagesComponent implements OnInit, OnDestroy {
 
   tiles = [];
+  throttle = 300;
   colsNum = 3;
   rowHeightPx = 100;
   mediaObserve = null;
+  scrollDistance = 1;
+  scrollUpDistance = 2;
+  direction = '';
 
   constructor(
     private images: ImagesService,
@@ -45,52 +49,64 @@ export class ImagesComponent implements OnInit, OnDestroy {
     });
   }
 
-  _loadTiles(){
-
+  loadNextTiles(){
     var _self = this;
 
-    this.images.search({})
+    this.images.next({})
       .subscribe(res =>{
-        var results = [];
-        res.photos.photo.forEach(p =>{
-          if(!p.url_l){
-            return;
-          }
-          //WF=WI*HF/HI
-         
-          results.push({
-            cols: 1,
-            rows: 1,
-            styles: {
-              'background-image': 'url(' + p.url_l +')',
-              'background-size' : 'cover',
-              'background-color': 'red',
-              'background-position': 'center'
-            }
-          });
-        });
-        console.log(results);
-        _self.tiles = results;
+        _self.tiles = _self.tiles.concat(_self.toTiles(res))
       }, error => {
         console.error(error);
-        var results = [];
-        for(var i=0; i<10; i++){
-          results.push({
-            cols: 1,
-            rows: 1,
-            styles: {
-              'background-size' : 'cover',
-              'background-color': 'red',
-              'background-position': 'center'
-            }
-          });
-        }
-        _self.tiles = results;
       });
   }
 
+  loadTiles(){
+    var _self = this;
+    
+    this.images.search({})
+      .subscribe(res =>{
+        _self.tiles = _self.toTiles(res)
+      }, error => {
+        console.error(error);
+      });
+  }
+
+  toTiles(res : FlickrPhotosSearchResponse){
+    var results = [];
+    res.photos.photo.forEach(p =>{
+      if(!p.url_l){
+        return;
+      }
+      //WF=WI*HF/HI
+      
+      results.push({
+        cols: 1,
+        rows: 1,
+        styles: {
+          'background-image': 'url(' + p.url_l +')',
+          'background-size' : 'cover',
+          'background-color': 'red',
+          'background-position': 'center'
+        }
+      });
+    });
+    console.log(results);
+    return results;
+  }
+
+  onScrollDown(ev): void {
+    console.log('scrolled down!!', ev);
+    this.direction = 'down'
+    this.loadNextTiles()
+  }
+  
+  onUp(ev): void {
+    console.log('scrolled up!', ev);
+    this.direction = 'down'
+  }
+
   ngOnInit(): void {
-    this._loadTiles()
+    this.loadTiles()
   }
 
   ngOnDestroy(): void {
