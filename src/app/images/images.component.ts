@@ -2,7 +2,6 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 import { ImagesService, FlickrPhoto } from './images.service'
-import { ImagesComponent } from './images.component';;
 
 @Component({
   selector: 'app-images',
