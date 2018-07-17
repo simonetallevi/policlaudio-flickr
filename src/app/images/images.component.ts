@@ -1,7 +1,8 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
 
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 import { ImagesService, FlickrPhoto, FlickrPhotosSearchResponse } from './images.service'
+import {MatDialog, MAT_DIALOG_DATA} from '@angular/material';
 
 @Component({
   selector: 'app-images',
@@ -21,7 +22,8 @@ export class ImagesComponent implements OnInit, OnDestroy {
 
   constructor(
     private images: ImagesService,
-    private breakpointObserver: BreakpointObserver
+    private breakpointObserver: BreakpointObserver,
+    private dialog: MatDialog
   ) {
     this.mediaObserve = breakpointObserver.observe([
       Breakpoints.XLarge,
@@ -45,6 +47,15 @@ export class ImagesComponent implements OnInit, OnDestroy {
       } else if(breakpointObserver.isMatched(Breakpoints.XSmall)){
         this.colsNum = 3;
         this.rowHeightPx = 100;
+      }
+    });
+  }
+
+  openSlideShow(tile :object) {
+    console.log(tile)
+    this.dialog.open(SlideshowDialog, {
+      data: {
+        url: ""
       }
     });
   }
@@ -95,7 +106,6 @@ export class ImagesComponent implements OnInit, OnDestroy {
   }
 
   onScrollDown(ev): void {
-    console.log('scrolled down!!', ev);
     this.direction = 'down'
     this.loadNextTiles()
   }
@@ -113,4 +123,16 @@ export class ImagesComponent implements OnInit, OnDestroy {
     this.mediaObserve.unsubscribe();
   }
 
+}
+
+export interface DialogData {
+  url;
+}
+
+@Component({
+  selector: 'slideshow-dialog',
+  templateUrl: 'slideshow.dialog.html',
+})
+export class SlideshowDialog {
+  constructor(@Inject(MAT_DIALOG_DATA) public data: DialogData) {}
 }

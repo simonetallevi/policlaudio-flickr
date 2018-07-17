@@ -29,16 +29,14 @@ export interface FlickrPhotosSearchResponse {
 export class ImagesService {
   
   input;
-  page;
-  pageSize;
+  currentPage;
     
 
   constructor(
     private http: HttpClient,
     private secret: Secret
   ) { 
-    this.page = 0;
-    this.pageSize = 10;
+    this.currentPage = 0;
     this.input = {
       'method': 'flickr.photos.search',
       'user_id': this.secret.userId,
@@ -46,8 +44,8 @@ export class ImagesService {
       'format': 'json',
       'nojsoncallback': '1',
       'extras': 'url_l',
-      'per_page': this.pageSize,
-      'page': this.page
+      'per_page': 25,
+      'page': 0
     };
   }
 
@@ -60,11 +58,12 @@ export class ImagesService {
   }
 
   reset(){
-    this.page = 0;
+    this.currentPage = 0;
   }
 
   next(params: object){
-    this.page++;
+    this.currentPage++
+    params['page'] = this.currentPage;
     return this.search(params);
   }
 
