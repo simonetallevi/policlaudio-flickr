@@ -23,37 +23,6 @@ CREATE DATABASE /*!32312 IF NOT EXISTS*/ `photo_claudio` /*!40100 DEFAULT CHARAC
 
 USE `photo_claudio`;
 
---
--- Table structure for table `login`
---
-
-DROP TABLE IF EXISTS `login`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `login` (
-  `id` int(255) NOT NULL AUTO_INCREMENT,
-  `user_name` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `password` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `position` tinyint(4) NOT NULL,
-  `telephone` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
-  `email` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `login`
---
-
-LOCK TABLES `login` WRITE;
-/*!40000 ALTER TABLE `login` DISABLE KEYS */;
-INSERT INTO `login` VALUES (1,'simone.tallevi','2942d5a1322a4167e060bd994ff644d2f726618a',0,NULL,'simone.tallevi@gmail.com'),(2,'claudio.poli','2942d5a1322a4167e060bd994ff644d2f726618a',0,NULL,'claudiopoli.photo@gmail.com'),(3,'manuela.manotta','2942d5a1322a4167e060bd994ff644d2f726618a',0,NULL,'manuela.manotta@gmail.com');
-/*!40000 ALTER TABLE `login` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `photo`
---
 
 DROP TABLE IF EXISTS `photo`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
