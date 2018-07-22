@@ -1,0 +1,21 @@
+<div class="filter-container">
+    <mat-chip-list *ngIf="!isMobile">
+        <mat-chip class="tag" *ngFor="let tag of tags">
+            {{tag}}
+        </mat-chip>
+    </mat-chip-list>
+    <mat-accordion *ngIf="isMobile">
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    tags
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <mat-chip-list>
+                <mat-chip class="tag" *ngFor="let tag of tags">
+                    {{tag}}
+                </mat-chip>
+            </mat-chip-list>
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>

@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatButtonModule, MatCheckboxModule, MatDialogModule} from '@angular/material';
+import {MatButtonModule, 
+  MatCheckboxModule, 
+  MatDialogModule, 
+  MatExpansionModule, 
+  MatFormFieldModule,
+  MatChipsModule} from '@angular/material';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatGridListModule} from '@angular/material/grid-list';
 
 @NgModule({
   imports: [
-    BrowserAnimationsModule,
-    MatButtonModule, 
-    MatCheckboxModule,
-    MatToolbarModule,
-    MatGridListModule,
-    MatDialogModule
+    BrowserAnimationsModule
   ],
   exports: [
     BrowserAnimationsModule,
@@ -20,7 +20,10 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatCheckboxModule,
     MatToolbarModule,
     MatGridListModule,
-    MatDialogModule
-  ],
+    MatDialogModule,
+    MatExpansionModule,
+    MatFormFieldModule,
+    MatChipsModule
+  ]
 })
 export class MaterialModule { }
