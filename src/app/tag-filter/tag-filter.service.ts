@@ -5,20 +5,27 @@ import { HttpClient } from '@angular/common/http';
 @Injectable()
 export class TagFilterService {
 
-    filters = {};
+    filters = null;
 
     constructor(
         private http: HttpClient
     ){
     }
 
-    getFilters (key){
-        return this.http.get<Object> ('../assets/filter.tags.json')
-                .subscrbe(result => {
-                    console.log(result)
-                    this.filters = result;
-                    observer.next(this.filters[key]);
-                    observer.complete();
-                })
+    getFilters (key) : Observable<Object>{
+        if(this.filters == null){
+            return new Observable((observer) =>{
+                this.http.get<Object> ('../assets/filter.tags.json')
+                    .subscribe(result => {
+                        this.filters = result;
+                        observer.next(this.filters[key]);
+                        observer.complete();
+                    })
+            });
+        }
+        return new Observable((observer) =>{
+            observer.next(this.filters[key]);
+            observer.complete();
+        });
     }
 }

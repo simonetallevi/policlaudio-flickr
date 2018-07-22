@@ -1,4 +1,6 @@
 import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
+import {FormControl} from '@angular/forms';
+
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 import { TagFilterService } from './tag-filter.service';
 
@@ -9,14 +11,15 @@ import { TagFilterService } from './tag-filter.service';
 })
 export class TagFilterComponent implements OnInit, OnDestroy {
 
-    isMobile = false;
+    withAccordium = false;
     tagSlice = 3;
-    tags = ["some ramdon","test","cuusyasgsgasa","cuausyse ee","ciiiaausua","ciao",
-    "47523","cdcis","csiaudca","cuusyasgsgasa","cuausyse ee","ciiiaausua","ciao","47523","cdcis","csiaudca"];
+    tags = [];
+    mediaObserve;
+    selectedTags = [];
 
     constructor(
         private breakpointObserver: BreakpointObserver,
-        private service: TagFilterService
+        private tagFilterService: TagFilterService
     ){
         this.mediaObserve = breakpointObserver.observe([
             Breakpoints.XLarge,
@@ -26,26 +29,48 @@ export class TagFilterComponent implements OnInit, OnDestroy {
             Breakpoints.XSmall
           ]).subscribe((result : BreakpointState) => {
             if(breakpointObserver.isMatched(Breakpoints.XLarge)){
-                this.isMobile = false;
+                this.withAccordium = false;
             } else if(breakpointObserver.isMatched(Breakpoints.Large)){
-                this.isMobile = false;
+                this.withAccordium = false;
             } else if(breakpointObserver.isMatched(Breakpoints.Medium)){
-                this.isMobile = false;
+                this.withAccordium = false;
             } else if(breakpointObserver.isMatched(Breakpoints.Small)){
-                this.isMobile = true;
+                this.withAccordium = true;
             } else if(breakpointObserver.isMatched(Breakpoints.XSmall)){
-                this.isMobile = true;
+                this.withAccordium = true;
             }
           });
     }
 
+    _loadFilters(tagName: String): void{
+        if(!tagName){
+            tagName = 'root';
+        }
+        this.tagFilterService.getFilters(tagName).subscribe(
+            results =>{
+                this.tags = [];
+                for(var key  in results){
+                    this.tags.push({name:key, type:results[key]});
+                }
+                console.log('tags' + this.tags);
+            }, 
+            error =>{console.log('error'+ error)}, 
+            () => {console.log('completed')});
+    }
+
+    selectTag(tag): void{
+        this.selectedTags.push(tag);
+        var key = this.selectedTags.map(x => { return x.name }).join('_');
+        this._loadFilters(key);
+    }
+    deselectTag(tag): void{
+        this.selectedTags = this.selectedTags.slice(0, this.selectedTags.length-1);
+        var key = this.selectedTags.map(x => { return x.name }).join('_');
+        this._loadFilters(key);
+    }
+
     ngOnInit(): void {
-        this.service.getFilters('root').subscribe(result1 =>{
-            console.log(result1);
-            this.service.getFilters('root').subscribe(result2 =>{
-                console.log(result2);
-            });
-        });
+        this._loadFilters();
     }
     
     ngOnDestroy(): void {

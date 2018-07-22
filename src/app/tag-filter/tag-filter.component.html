@@ -1,21 +1,17 @@
 <div class="filter-container">
-    <mat-chip-list *ngIf="!isMobile">
-        <mat-chip class="tag" *ngFor="let tag of tags">
-            {{tag}}
-        </mat-chip>
-    </mat-chip-list>
-    <mat-accordion *ngIf="isMobile">
-        <mat-expansion-panel>
-            <mat-expansion-panel-header>
-                <mat-panel-title>
-                    tags
-                </mat-panel-title>
-            </mat-expansion-panel-header>
-            <mat-chip-list>
-                <mat-chip class="tag" *ngFor="let tag of tags">
-                    {{tag}}
-                </mat-chip>
-            </mat-chip-list>
-        </mat-expansion-panel>
-    </mat-accordion>
+    <div>
+        <mat-chip-list>
+            <mat-chip class="tag" *ngFor="let tag of selectedTags;  index as i" (click)="deselectTag(tag)">
+                {{tag.name}}
+                <mat-icon matChipRemove *ngIf="(selectedTags.length-1) == i">cancel</mat-icon>
+            </mat-chip>
+        </mat-chip-list>
+    </div>
+    <div>
+        <mat-chip-list>
+            <mat-chip class="tag" *ngFor="let tag of tags" (click)="selectTag(tag)">
+                {{tag.name}}
+            </mat-chip>
+        </mat-chip-list>
+    </div>
 </div>
