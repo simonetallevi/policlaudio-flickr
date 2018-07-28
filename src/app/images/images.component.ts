@@ -64,7 +64,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
   loadNextTiles(){
     var _self = this;
 
-    this.images.next({})
+    this.images.next({'tags': this.tags})
       .subscribe(res =>{
         _self.tiles = _self.tiles.concat(_self.toTiles(res))
       }, error => {
@@ -74,8 +74,8 @@ export class ImagesComponent implements OnInit, OnDestroy {
 
   loadTiles($event){
     var _self = this;
-    var tags = $event.tags;
-    this.images.search({'tags': tags})
+    this.tags = $event.tags;
+    this.images.search({'tags': this.tags})
       .subscribe(res =>{
         _self.tiles = _self.toTiles(res)
       }, error => {

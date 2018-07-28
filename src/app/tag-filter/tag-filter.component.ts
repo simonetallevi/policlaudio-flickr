@@ -70,6 +70,7 @@ export class TagFilterComponent implements OnInit, OnDestroy {
         this.selectedTags = this.selectedTags.slice(0, this.selectedTags.length-1);
         var key = this.selectedTags.map(x => { return x.name }).join('_');
         this._loadFilters(key);
+        this.selected.emit({ tags: this.selectedTags });
     }
 
     ngOnInit(): void {

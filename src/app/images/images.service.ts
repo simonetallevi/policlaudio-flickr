@@ -46,6 +46,7 @@ export class ImagesService {
       'extras': 'url_l',
       'per_page': 25,
       'page': 0,
+      'tag_mode': 'all',
       'tags':'',
       'in_gallery': false
     };
