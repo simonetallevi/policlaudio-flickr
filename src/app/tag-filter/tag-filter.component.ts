@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
+import { Component, OnInit, OnDestroy, Output, EventEmitter, HostListener} from '@angular/core';
 import {FormControl} from '@angular/forms';
 
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
@@ -16,6 +16,8 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     tags = [];
     mediaObserve;
     selectedTags = [];
+
+    @Output() selected: EventEmitter<object> = new EventEmitter();
 
     constructor(
         private breakpointObserver: BreakpointObserver,
@@ -52,16 +54,17 @@ export class TagFilterComponent implements OnInit, OnDestroy {
                 for(var key  in results){
                     this.tags.push({name:key, type:results[key]});
                 }
-                console.log('tags' + this.tags);
             }, 
             error =>{console.log('error'+ error)}, 
             () => {console.log('completed')});
     }
 
+    @HostListener('select')
     selectTag(tag): void{
         this.selectedTags.push(tag);
         var key = this.selectedTags.map(x => { return x.name }).join('_');
         this._loadFilters(key);
+        this.selected.emit({ tags: this.selectedTags });
     }
     deselectTag(tag): void{
         this.selectedTags = this.selectedTags.slice(0, this.selectedTags.length-1);
@@ -70,7 +73,7 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     }
 
     ngOnInit(): void {
-        this._loadFilters();
+        this._loadFilters('root');
     }
     
     ngOnDestroy(): void {

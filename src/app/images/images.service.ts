@@ -45,13 +45,14 @@ export class ImagesService {
       'nojsoncallback': '1',
       'extras': 'url_l',
       'per_page': 25,
-      'page': 0
+      'page': 0,
+      'tags':'',
+      'in_gallery': false
     };
   }
 
   _copy(inputParams, params){
     Object.keys(params).forEach(key => {
-      console.log(key);
       inputParams[key] = params[key];
     });
     return inputParams;
@@ -62,16 +63,22 @@ export class ImagesService {
   }
 
   next(params: object){
-    this.currentPage++
+    this.currentPage = this.currentPage + 1;
     params['page'] = this.currentPage;
     return this.search(params);
   }
 
   search(params: object){
-    console.log(this.input);
+    if(params['tags']){
+        params['tags'] = params['tags'].map(x => { return x.name }).join(',');
+    }else{
+      delete(params['tags'])
+    }
+    console.log(params)
+    var input = this._copy(this.input, params);
     return this.http.get<FlickrPhotosSearchResponse>(
       'https://api.flickr.com/services/rest/',{
-        params:this._copy(this.input, params)
+        params:input
     });
   }
 }

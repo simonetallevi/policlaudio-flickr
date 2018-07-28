@@ -1,2473 +1,2473 @@
 {
-  "root": {
-    "animali": "genere_fotografico",
-    "funghi": "genere_fotografico",
-    "piante": "genere_fotografico",
-    "paesaggi": "genere_fotografico"
-  },
-  "animali": {
-    "animalia": "regno"
-  },
-  "animali_animalia": {
-    "chordata": "phylum",
-    "arthropoda": "phylum",
-    "mollusca": "phylum",
-    "nematoda": "phylum"
-  },
-  "animali_animalia_chordata": {
-    "aves": "classe",
-    "amphibia": "classe",
-    "mammalia": "classe",
-    "reptilia": "classe"
-  },
-  "animali_animalia_chordata_aves": {
-    "coraciformes": "ordine",
-    "pelecaniformes": "ordine",
-    "anseriformes": "ordine",
-    "gruiformes": "ordine",
-    "podicipediformes": "ordine",
-    "falconiformes": "ordine",
-    "passeriformes": "ordine",
-    "charadriiformes": "ordine",
-    "galliformes": "ordine",
-    "caprimulgiformes": "ordine",
-    "columbiformes": "ordine",
-    "strigiformes": "ordine",
-    "phoenicopteriformes": "ordine",
-    "cuculiformes": "ordine",
-    "ciconiiformes": "ordine",
-    "piciformes": "ordine"
-  },
-  "animali_animalia_chordata_aves_coraciformes": {
-    "alcedimidae": "famiglia",
-    "upupidae": "famiglia",
-    "meropidae": "famiglia"
-  },
-  "animali_animalia_chordata_aves_coraciformes_alcedimidae": {
-    "atthis": "specie"
-  },
-  "animali_animalia_chordata_aves_coraciformes_alcedimidae_atthis": {
-    "martin pescatore": "nome comune"
-  },
-  "animali_animalia_chordata_aves_coraciformes_upupidae": {
-    "epops": "specie"
-  },
-  "animali_animalia_chordata_aves_coraciformes_upupidae_epops": {
-    "upupa": "nome comune"
-  },
-  "animali_animalia_chordata_aves_coraciformes_meropidae": {
-    "apiaster": "specie"
-  },
-  "animali_animalia_chordata_aves_coraciformes_meropidae_apiaster": {
-    "gruccione": "nome comune"
-  },
-  "animali_animalia_chordata_aves_pelecaniformes": {
-    "phalacrocoracidae": "famiglia",
-    "ardeidae": "famiglia",
-    "threskiornithidae": "famiglia"
-  },
-  "animali_animalia_chordata_aves_pelecaniformes_phalacrocoracidae": {
-    "carbo": "specie"
-  },
-  "animali_animalia_chordata_aves_pelecaniformes_phalacrocoracidae_carbo": {
-    "cormorano": "nome comune"
-  },
-  "animali_animalia_chordata_aves_pelecaniformes_ardeidae": {
-    "garzetta": "specie",
-    "minutus": "specie",
-    "cinerea": "specie",
-    "alba": "specie",
-    "purpurea": "specie",
-    "nycticorax": "specie",
-    "ralloides": "specie"
-  },
-  "animali_animalia_chordata_aves_pelecaniformes_ardeidae_garzetta": {
-    "garzetta": "nome comune",
-    "garzette": "nome comune"
-  },
-  "animali_animalia_chordata_aves_pelecaniformes_ardeidae_minutus": {
-    "tarabusino": "nome comune"
-  },
-  "animali_animalia_chordata_aves_pelecaniformes_ardeidae_cinerea": {
-    "airone cenerino": "nome comune"
-  },
-  "animali_animalia_chordata_aves_pelecaniformes_ardeidae_alba": {
-    "airone bianco": "nome comune"
-  },
-  "animali_animalia_chordata_aves_pelecaniformes_ardeidae_purpurea": {
-    "airone rosso": "nome comune"
-  },
-  "animali_animalia_chordata_aves_pelecaniformes_ardeidae_nycticorax": {
-    "nitticora": "nome comune"
-  },
-  "animali_animalia_chordata_aves_pelecaniformes_ardeidae_ralloides": {
-    "sgarza ciuffetto": "nome comune"
-  },
-  "animali_animalia_chordata_aves_pelecaniformes_threskiornithidae": {
-    "leucorodia": "specie"
-  },
-  "animali_animalia_chordata_aves_pelecaniformes_threskiornithidae_leucorodia": {
-    "spatola": "nome comune"
-  },
-  "animali_animalia_chordata_aves_anseriformes": {
-    "anatidae": "famiglia"
-  },
-  "animali_animalia_chordata_aves_anseriformes_anatidae": {
-    "nyroca": "specie",
-    "platyrhynchos": "specie",
-    "crecca": "specie",
-    "acuta": "specie",
-    "querquedula": "specie",
-    "clypeata": "specie",
-    "ferina": "specie",
-    "olor": "specie",
-    "penelope": "specie",
-    "galericulata": "specie"
-  },
-  "animali_animalia_chordata_aves_anseriformes_anatidae_nyroca": {
-    "moretta tabaccata": "nome comune"
-  },
-  "animali_animalia_chordata_aves_anseriformes_anatidae_platyrhynchos": {
-    "germano reale": "nome comune"
-  },
-  "animali_animalia_chordata_aves_anseriformes_anatidae_crecca": {
-    "alzavola": "nome comune"
-  },
-  "animali_animalia_chordata_aves_anseriformes_anatidae_acuta": {
-    "codone": "nome comune"
-  },
-  "animali_animalia_chordata_aves_anseriformes_anatidae_querquedula": {
-    "marzaiola": "nome comune"
-  },
-  "animali_animalia_chordata_aves_anseriformes_anatidae_clypeata": {
-    "mestoloni": "nome comune"
-  },
-  "animali_animalia_chordata_aves_anseriformes_anatidae_ferina": {
-    "moriglione": "nome comune"
-  },
-  "animali_animalia_chordata_aves_anseriformes_anatidae_olor": {
-    "cigno": "nome comune"
-  },
-  "animali_animalia_chordata_aves_anseriformes_anatidae_penelope": {
-    "fischione": "nome comune"
-  },
-  "animali_animalia_chordata_aves_anseriformes_anatidae_galericulata": {
-    "anatra mandarina": "nome comune"
-  },
-  "animali_animalia_chordata_aves_gruiformes": {
-    "rallidae": "famiglia"
-  },
-  "animali_animalia_chordata_aves_gruiformes_rallidae": {
-    "atra": "specie",
-    "chloropus": "specie",
-    "aquaticus": "specie"
-  },
-  "animali_animalia_chordata_aves_gruiformes_rallidae_atra": {
-    "folaghe": "nome comune"
-  },
-  "animali_animalia_chordata_aves_gruiformes_rallidae_chloropus": {
-    "gallinella d'acqua": "nome comune"
-  },
-  "animali_animalia_chordata_aves_gruiformes_rallidae_aquaticus": {
-    "porciglione": "nome comune"
-  },
-  "animali_animalia_chordata_aves_podicipediformes": {
-    "podicipedidae": "famiglia"
-  },
-  "animali_animalia_chordata_aves_podicipediformes_podicipedidae": {
-    "ruficollis": "specie",
-    "cristatus": "specie"
-  },
-  "animali_animalia_chordata_aves_podicipediformes_podicipedidae_ruficollis": {
-    "tuffetto": "nome comune"
-  },
-  "animali_animalia_chordata_aves_podicipediformes_podicipedidae_cristatus": {
-    "svasso maggiore": "nome comune"
-  },
-  "animali_animalia_chordata_aves_falconiformes": {
-    "accipitridae": "famiglia",
-    "falconidae": "famiglia"
-  },
-  "animali_animalia_chordata_aves_falconiformes_accipitridae": {
-    "nisus": "specie"
-  },
-  "animali_animalia_chordata_aves_falconiformes_accipitridae_chrysaetos": {
-    "aquila reale": "nome comune"
-  },
-  "animali_animalia_chordata_aves_falconiformes_accipitridae_buteo": {
-    "poiana": "nome comune"
-  },
-  "animali_animalia_chordata_aves_falconiformes_accipitridae_aeruginosus": {
-    "falco di palude": "nome comune"
-  },
-  "animali_animalia_chordata_aves_falconiformes_accipitridae_fulvus": {
-    "grifone": "nome comune"
-  },
-  "animali_animalia_chordata_aves_falconiformes_accipitridae_pygargus": {
-    "albanella minore": "nome comune"
-  },
-  "animali_animalia_chordata_aves_falconiformes_accipitridae_apivorus": {
-    "falco pecchiaiolo": "nome comune"
-  },
-  "animali_animalia_chordata_aves_falconiformes_accipitridae_nisus": {
-    "sparviere": "nome comune"
-  },
-  "animali_animalia_chordata_aves_falconiformes_falconidae": {
-    "tinnunculus": "specie",
-    "peregrinus": "specie"
-  },
-  "animali_animalia_chordata_aves_falconiformes_falconidae_tinnunculus": {
-    "gheppio": "nome comune"
-  },
-  "animali_animalia_chordata_aves_falconiformes_falconidae_peregrinus": {
-    "falco pellegrino": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes": {
-    "phylloscopidae": "famiglia",
-    "muscicapidae": "famiglia",
-    "turdidae": "famiglia",
-    "motacillidae": "famiglia",
-    "paridae": "famiglia",
-    "fringillidae": "famiglia",
-    "troglodytidae": "famiglia",
-    "prunellidae": "famiglia",
-    "remizidae": "famiglia",
-    "aegithalidae": "famiglia",
-    "passeridae": "famiglia",
-    "laniidae": "famiglia",
-    "sylviidae": "famiglia",
-    "corvidae": "famiglia",
-    "hirundinidae": "famiglia",
-    "sturnidae": "famiglia",
-    "certhiidae": "famiglia",
-    "regulidae": "famiglia",
-    "sittidae": "famiglia"
-  },
-  "animali_animalia_chordata_aves_passeriformes_phylloscopidae": {
-    "lu\u00c3\u00ac": "nome comune",
-    "collybita": "specie"
-  },
-  "animali_animalia_chordata_aves_passeriformes_phylloscopidae_collybita": {
-    "lu\u00c3\u00ac piccolo": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_muscicapidae": {
-    "rubecula": "specie",
-    "oenanthe": "specie",
-    "torquatus": "specie",
-    "striata": "specie"
-  },
-  "animali_animalia_chordata_aves_passeriformes_muscicapidae_rubecula": {
-    "pettirosso": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_muscicapidae_oenanthe": {
-    "culbianco": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_muscicapidae_torquatus": {
-    "saltimpalo": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_muscicapidae_striata": {
-    "pigliamosche": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_turdidae": {
-    "merula": "specie",
-    "ochruros": "specie",
-    "viscivorus": "specie",
-    "pilaris": "specie",
-    "phoenicurus": "specie"
-  },
-  "animali_animalia_chordata_aves_passeriformes_turdidae_merula": {
-    "merlo": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_turdidae_ochruros": {
-    "codirosso spazzacamino": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_turdidae_viscivorus": {
-    "tordela": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_turdidae_pilaris": {
-    "cesena": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_turdidae_phoenicurus": {
-    "codirosso": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_motacillidae": {
-    "cutrettola": "nome comune",
-    "alba": "specie",
-    "spinoletta spinoletta": "specie"
-  },
-  "animali_animalia_chordata_aves_passeriformes_motacillidae_alba": {
-    "ballerina bianca": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_motacillidae_spinoletta spinoletta": {
-    "spioncello di montagna": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_paridae": {
-    "major": "specie",
-    "caeruleus": "specie",
-    "ater": "specie",
-    "palustris": "specie"
-  },
-  "animali_animalia_chordata_aves_passeriformes_paridae_major": {
-    "cinciallegra": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_paridae_caeruleus": {
-    "cinciarella": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_paridae_ater": {
-    "cincia mora": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_paridae_palustris": {
-    "cincia bigia": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_fringillidae": {
-    "coelebs": "specie",
-    "chloris": "specie",
-    "spinus": "specie",
-    "serinus": "specie"
-  },
-  "animali_animalia_chordata_aves_passeriformes_fringillidae_coelebs": {
-    "fringuello": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_fringillidae_chloris": {
-    "verdone": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_fringillidae_spinus": {
-    "lucherino": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_fringillidae_serinus": {
-    "verzellino": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_troglodytidae": {
-    "troglodytes": "specie"
-  },
-  "animali_animalia_chordata_aves_passeriformes_troglodytidae_troglodytes": {
-    "scricciolo": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_prunellidae": {
-    "modularis": "specie"
-  },
-  "animali_animalia_chordata_aves_passeriformes_prunellidae_modularis": {
-    "passera scopaiola": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_remizidae": {
-    "pendulinus": "specie"
-  },
-  "animali_animalia_chordata_aves_passeriformes_remizidae_pendulinus": {
-    "pendolino": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_aegithalidae": {
-    "caudatus": "specie"
-  },
-  "animali_animalia_chordata_aves_passeriformes_aegithalidae_caudatus": {
-    "codibugnolo": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_passeridae": {
-    "domesticus": "specie"
-  },
-  "animali_animalia_chordata_aves_passeriformes_passeridae_domesticus": {
-    "passero comune": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_laniidae": {
-    "collurio": "specie"
-  },
-  "animali_animalia_chordata_aves_passeriformes_laniidae_collurio": {
-    "averla piccola": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_sylviidae": {
-    "atricapilla": "specie"
-  },
-  "animali_animalia_chordata_aves_passeriformes_sylviidae_atricapilla": {
-    "capinera": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_corvidae": {
-    "corone cornix": "specie",
-    "glandarius": "specie",
-    "monedula": "specie",
-    "pica": "specie"
-  },
-  "animali_animalia_chordata_aves_passeriformes_corvidae_corone cornix": {
-    "cornacchia grigia": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_corvidae_glandarius": {
-    "ghiandaia": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_corvidae_monedula": {
-    "taccola": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_corvidae_pica": {
-    "gazza": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_hirundinidae": {
-    "rustica": "specie",
-    "riparia": "specie"
-  },
-  "animali_animalia_chordata_aves_passeriformes_hirundinidae_rustica": {
-    "rondine": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_hirundinidae_riparia": {
-    "topino": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_sturnidae": {
-    "vulgaris": "specie"
-  },
-  "animali_animalia_chordata_aves_passeriformes_sturnidae_vulgaris": {
-    "storno": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_certhiidae": {
-    "brachydactyla": "specie"
-  },
-  "animali_animalia_chordata_aves_passeriformes_certhiidae_brachydactyla": {
-    "rampichino": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_regulidae": {
-    "regulus": "specie"
-  },
-  "animali_animalia_chordata_aves_passeriformes_regulidae_regulus": {
-    "regolo": "nome comune"
-  },
-  "animali_animalia_chordata_aves_passeriformes_sittidae": {
-    "europaeae": "specie"
-  },
-  "animali_animalia_chordata_aves_passeriformes_sittidae_europaeae": {
-    "picchio muratore": "nome comune"
-  },
-  "animali_animalia_chordata_aves_charadriiformes_laridae": {
-    "michahellis": "specie",
-    "ridibundus": "specie"
-  },
-  "animali_animalia_chordata_aves_charadriiformes_laridae_michahellis": {
-    "gabbiano reale": "nome comune"
-  },
-  "animali_animalia_chordata_aves_charadriiformes_laridae_ridibundus": {
-    "gabbiano comune": "nome comune"
-  },
-  "animali_animalia_chordata_aves_charadriiformes_recurvirostridae": {
-    "himantopus": "specie"
-  },
-  "animali_animalia_chordata_aves_charadriiformes_recurvirostridae_himantopus": {
-    "cavaliere d'Italia": "nome comune"
-  },
-  "animali_animalia_chordata_aves_charadriiformes_scolopacidae": {
-    "gallinago": "specie",
-    "glareola": "specie",
-    "interpres": "specie",
-    "hypoleucos": "specie"
-  },
-  "animali_animalia_chordata_aves_charadriiformes_scolopacidae_gallinago": {
-    "beccaccino": "nome comune"
-  },
-  "animali_animalia_chordata_aves_charadriiformes_scolopacidae_glareola": {
-    "piro-piro boschereccio": "nome comune"
-  },
-  "animali_animalia_chordata_aves_charadriiformes_scolopacidae_interpres": {
-    "voltapietre": "nome comune"
-  },
-  "animali_animalia_chordata_aves_charadriiformes_scolopacidae_hypoleucos": {
-    "piro piro piccolo": "nome comune"
-  },
-  "animali_animalia_chordata_aves_charadriiformes_charadriidae": {
-    "bubius": "specie"
-  },
-  "animali_animalia_chordata_aves_charadriiformes_charadriidae_bubius": {
-    "corriere piccolo": "nome comune"
-  },
-  "animali_animalia_chordata_aves_charadriiformes_sternidae": {
-    "hybridus": "specie"
-  },
-  "animali_animalia_chordata_aves_charadriiformes_sternidae_hybridus": {
-    "mignattino piombato": "nome comune"
-  },
-  "animali_animalia_chordata_aves_galliformes": {
-    "phasianidae": "famiglia"
-  },
-  "animali_animalia_chordata_aves_galliformes_phasianidae": {
-    "rufa": "specie",
-    "colchicus": "specie"
-  },
-  "animali_animalia_chordata_aves_galliformes_phasianidae_rufa": {
-    "pernice rossa": "nome comune"
-  },
-  "animali_animalia_chordata_aves_galliformes_phasianidae_colchicus": {
-    "fagiano comune": "nome comune"
-  },
-  "animali_animalia_chordata_aves_caprimulgiformes": {
-    "caprimulgidae": "famiglia"
-  },
-  "animali_animalia_chordata_aves_caprimulgiformes_caprimulgidae": {
-    "europaeus": "specie"
-  },
-  "animali_animalia_chordata_aves_caprimulgiformes_caprimulgidae_europaeus": {
-    "succiacapre": "nome comune"
-  },
-  "animali_animalia_chordata_aves_columbiformes": {
-    "columbidae": "famiglia"
-  },
-  "animali_animalia_chordata_aves_columbiformes_columbidae": {
-    "turtur": "specie",
-    "decaocto": "specie",
-    "palumbus": "specie"
-  },
-  "animali_animalia_chordata_aves_columbiformes_columbidae_turtur": {
-    "tortora selvatica": "nome comune"
-  },
-  "animali_animalia_chordata_aves_columbiformes_columbidae_decaocto": {
-    "tortora dal collare orientale": "nome comune"
-  },
-  "animali_animalia_chordata_aves_columbiformes_columbidae_palumbus": {
-    "colombaccio": "nome comune"
-  },
-  "animali_animalia_chordata_aves_strigiformes": {
-    "strigidae": "famiglia"
-  },
-  "animali_animalia_chordata_aves_strigiformes_strigidae": {
-    "aluco": "specie",
-    "flammeus": "specie"
-  },
-  "animali_animalia_chordata_aves_strigiformes_strigidae_aluco": {
-    "allocco": "nome comune"
-  },
-  "animali_animalia_chordata_aves_strigiformes_strigidae_flammeus": {
-    "gufo di palude": "nome comune"
-  },
-  "animali_animalia_chordata_aves_phoenicopteriformes": {
-    "phoenicopteridae": "famiglia"
-  },
-  "animali_animalia_chordata_aves_phoenicopteriformes_phoenicopteridae": {
-    "roseus": "specie",
-    "ruber": "specie"
-  },
-  "animali_animalia_chordata_aves_phoenicopteriformes_phoenicopteridae_roseus": {
-    "fenicottero rosa": "nome comune"
-  },
-  "animali_animalia_chordata_aves_phoenicopteriformes_phoenicopteridae_ruber": {
-    "fenicottero rosa": "nome comune"
-  },
-  "animali_animalia_chordata_aves_cuculiformes": {
-    "cuculidae": "famiglia"
-  },
-  "animali_animalia_chordata_aves_cuculiformes_cuculidae": {
-    "canorus": "specie"
-  },
-  "animali_animalia_chordata_aves_cuculiformes_cuculidae_canorus": {
-    "cuculo": "nome comune"
-  },
-  "animali_animalia_chordata_aves_ciconiiformes": {
-    "ciconiidae": "famiglia"
-  },
-  "animali_animalia_chordata_aves_ciconiiformes_ciconiidae": {
-    "ciconia": "specie"
-  },
-  "animali_animalia_chordata_aves_ciconiiformes_ciconiidae_ciconia": {
-    "cicogna bianca": "nome comune"
-  },
-  "animali_animalia_chordata_aves_piciformes": {
-    "picidae": "famiglia"
-  },
-  "animali_animalia_chordata_aves_piciformes_picidae": {
-    "major": "specie",
-    "medius": "specie"
-  },
-  "animali_animalia_chordata_aves_piciformes_picidae_major": {
-    "picchio rosso maggiore": "nome comune"
-  },
-  "animali_animalia_chordata_aves_piciformes_picidae_medius": {
-    "picchio rosso mezzano": "nome comune"
-  },
-  "animali_animalia_chordata_amphibia": {
-    "caudata": "ordine",
-    "anura": "ordine"
-  },
-  "animali_animalia_chordata_amphibia_caudata": {
-    "salamandridae": "famiglia"
-  },
-  "animali_animalia_chordata_amphibia_caudata_salamandridae": {
-    "tergiditata": "specie",
-    "salamandra": "specie",
-    "vulgaris": "specie"
-  },
-  "animali_animalia_chordata_amphibia_caudata_salamandridae_tergiditata": {
-    "salamandrina dagli occhiali": "nome comune"
-  },
-  "animali_animalia_chordata_amphibia_caudata_salamandridae_salamandra": {
-    "salamandra pezzata": "nome comune"
-  },
-  "animali_animalia_chordata_amphibia_caudata_salamandridae_vulgaris": {
-    "tritoni punteggiati": "nome comune"
-  },
-  "animali_animalia_chordata_amphibia_anura": {
-    "ranidae": "famiglia",
-    "hylidae": "famiglia",
-    "bufonidae": "famiglia",
-    "bombinatoridae": "famiglia"
-  },
-  "animali_animalia_chordata_amphibia_anura_ranidae": {
-    "rana rossa": "nome comune",
-    "rana verde": "nome comune",
-    "temporaria": "specie"
-  },
-  "animali_animalia_chordata_amphibia_anura_ranidae_esculentus": {
-    "rana verde": "nome comune"
-  },
-  "animali_animalia_chordata_amphibia_anura_hylidae": {
-    "arborea": "specie"
-  },
-  "animali_animalia_chordata_amphibia_anura_hylidae_arborea": {
-    "raganella": "nome comune"
-  },
-  "animali_animalia_chordata_amphibia_anura_bufonidae": {
-    "bufo": "specie",
-    "viridis": "specie"
-  },
-  "animali_animalia_chordata_amphibia_anura_bufonidae_bufo": {
-    "rospo comune": "nome comune"
-  },
-  "animali_animalia_chordata_amphibia_anura_bufonidae_viridis": {
-    "rospo smeraldino": "nome comune"
-  },
-  "animali_animalia_chordata_amphibia_anura_bombinatoridae": {
-    "variegata": "specie"
-  },
-  "animali_animalia_chordata_amphibia_anura_bombinatoridae_variegata": {
-    "ululone dal ventre giallo": "nome comune"
-  },
-  "animali_animalia_chordata_mammalia": {
-    "carnivora": "ordine",
-    "artiodactyla": "ordine",
-    "logomorpha": "ordine",
-    "rodentia": "ordine",
-    "chiroptera": "ordine",
-    "insectivora": "ordine"
-  },
-  "animali_animalia_chordata_mammalia_carnivora": {
-    "canidae": "famiglia"
-  },
-  "animali_animalia_chordata_mammalia_carnivora_canidae": {
-    "lupus": "specie",
-    "vulpes": "specie"
-  },
-  "animali_animalia_chordata_mammalia_carnivora_canidae_lupus": {
-    "lupo": "nome comune"
-  },
-  "animali_animalia_chordata_mammalia_carnivora_canidae_vulpes": {
-    "volpe": "nome comune"
-  },
-  "animali_animalia_chordata_mammalia_artiodactyla": {
-    "cervidae": "famiglia",
-    "bovidae": "famiglia",
-    "suidae": "famiglia"
-  },
-  "animali_animalia_chordata_mammalia_artiodactyla_cervidae": {
-    "elaphus": "specie",
-    "dama": "specie",
-    "capreolus": "specie",
-    "nobilis": "specie"
-  },
-  "animali_animalia_chordata_mammalia_artiodactyla_cervidae_elaphus": {
-    "cervo nobile": "nome comune"
-  },
-  "animali_animalia_chordata_mammalia_artiodactyla_cervidae_dama": {
-    "daino": "nome comune"
-  },
-  "animali_animalia_chordata_mammalia_artiodactyla_cervidae_capreolus": {
-    "capriolo": "nome comune"
-  },
-  "animali_animalia_chordata_mammalia_artiodactyla_cervidae_nobilis": {
-    "cervo nobile": "nome comune"
-  },
-  "animali_animalia_chordata_mammalia_artiodactyla_bovidae": {
-    "capra rinselvatichita": "nome comune",
-    "musimon": "specie",
-    "ibex": "specie",
-    "pyrenaica": "specie",
-    "bonasus": "specie"
-  },
-  "animali_animalia_chordata_mammalia_artiodactyla_bovidae_musimon": {
-    "muflone": "nome comune"
-  },
-  "animali_animalia_chordata_mammalia_artiodactyla_bovidae_ibex": {
-    "stambecco alpino": "nome comune"
-  },
-  "animali_animalia_chordata_mammalia_artiodactyla_bovidae_pyrenaica": {
-    "camoscio d'Abruzzo": "nome comune"
-  },
-  "animali_animalia_chordata_mammalia_artiodactyla_bovidae_bonasus": {
-    "bisonte europeo": "nome comune"
-  },
-  "animali_animalia_chordata_mammalia_artiodactyla_suidae": {
-    "scrofa": "specie"
-  },
-  "animali_animalia_chordata_mammalia_artiodactyla_suidae_scrofa": {
-    "cinghiale": "nome comune"
-  },
-  "animali_animalia_chordata_mammalia_logomorpha": {
-    "leporidae": "famiglia"
-  },
-  "animali_animalia_chordata_mammalia_logomorpha_leporidae": {
-    "europaeus": "specie"
-  },
-  "animali_animalia_chordata_mammalia_logomorpha_leporidae_europaeus": {
-    "lepre": "nome comune"
-  },
-  "animali_animalia_chordata_mammalia_rodentia": {
-    "gliridae": "famiglia",
-    "sciuridae": "famiglia",
-    "cricetidae": "famiglia"
-  },
-  "animali_animalia_chordata_mammalia_rodentia_gliridae": {
-    "glis": "specie",
-    "avellanarius": "specie"
-  },
-  "animali_animalia_chordata_mammalia_rodentia_gliridae_glis": {
-    "ghiro": "nome comune"
-  },
-  "animali_animalia_chordata_mammalia_rodentia_gliridae_avellanarius": {
-    "moscardino": "nome comune"
-  },
-  "animali_animalia_chordata_mammalia_rodentia_sciuridae": {
-    "vulgaris": "specie"
-  },
-  "animali_animalia_chordata_mammalia_rodentia_sciuridae_vulgaris": {
-    "scoiattolo": "nome comune"
-  },
-  "animali_animalia_chordata_mammalia_chiroptera": {
-    "rhinolophidae": "famiglia"
-  },
-  "animali_animalia_chordata_mammalia_chiroptera_rhinolophidae": {
-    "pipistrello": "nome comune"
-  },
-  "animali_animalia_chordata_mammalia_insectivora": {
-    "erinaceidae": "famiglia"
-  },
-  "animali_animalia_chordata_mammalia_insectivora_erinaceidae": {
-    "europaeus": "specie"
-  },
-  "animali_animalia_chordata_mammalia_insectivora_erinaceidae_europaeus": {
-    "riccio": "nome comune"
-  },
-  "animali_animalia_chordata_reptilia": {
-    "squamata": "ordine",
-    "testudines": "ordine"
-  },
-  "animali_animalia_chordata_reptilia_squamata": {
-    "viperidae": "famiglia",
-    "colubridae": "famiglia",
-    "anguidae": "famiglia",
-    "lacertidae": "famiglia",
-    "gekkonidae": "famiglia"
-  },
-  "animali_animalia_chordata_reptilia_squamata_viperidae": {
-    "aspis": "specie"
-  },
-  "animali_animalia_chordata_reptilia_squamata_viperidae_aspis": {
-    "vipera comune": "nome comune"
-  },
-  "animali_animalia_chordata_reptilia_squamata_colubridae": {
-    "viridiflavus": "specie",
-    "natrix": "specie",
-    "tessellata": "specie",
-    "quatuorlineata": "specie",
-    "longissima": "specie"
-  },
-  "animali_animalia_chordata_reptilia_squamata_colubridae_viridiflavus": {
-    "biacco": "nome comune"
-  },
-  "animali_animalia_chordata_reptilia_squamata_colubridae_natrix": {
-    "biscia dal collare": "nome comune"
-  },
-  "animali_animalia_chordata_reptilia_squamata_colubridae_quatuorlineata": {
-    "cervone": "nome comune"
-  },
-  "animali_animalia_chordata_reptilia_squamata_colubridae_longissima": {
-    "colubro di esculapio": "nome comune",
-    "colubro di esculapio giovane": "nome comune"
-  },
-  "animali_animalia_chordata_reptilia_squamata_anguidae": {
-    "fragilis": "specie"
-  },
-  "animali_animalia_chordata_reptilia_squamata_anguidae_fragilis": {
-    "orbettino": "nome comune"
-  },
-  "animali_animalia_chordata_reptilia_squamata_lacertidae": {
-    "viridis": "specie",
-    "muralis": "specie",
-    "sicula": "specie",
-    "tiliguerta": "specie",
-    "sicula tyrrenica": "specie"
-  },
-  "animali_animalia_chordata_reptilia_squamata_lacertidae_viridis": {
-    "ramarro": "nome comune"
-  },
-  "animali_animalia_chordata_reptilia_squamata_lacertidae_muralis": {
-    "lucertola muraiola": "nome comune"
-  },
-  "animali_animalia_chordata_reptilia_squamata_lacertidae_sicula": {
-    "lucertola campestre": "nome comune"
-  },
-  "animali_animalia_chordata_reptilia_squamata_gekkonidae": {
-    "mauritanica": "specie"
-  },
-  "animali_animalia_chordata_reptilia_squamata_gekkonidae_mauritanica": {
-    "tarantola muraiola": "nome comune"
-  },
-  "animali_animalia_chordata_reptilia_testudines": {
-    "emydidae": "famiglia"
-  },
-  "animali_animalia_chordata_reptilia_testudines_emydidae": {
-    "orbicularis": "specie"
-  },
-  "animali_animalia_chordata_reptilia_testudines_emydidae_orbicularis": {
-    "testuggine palustre": "nome comune"
-  },
-  "animali_animalia_arthropoda": {
-    "insecta": "classe",
-    "arachnida": "classe",
-    "diplopoda": "classe",
-    "chilopoda": "classe",
-    "malacostraca": "classe"
-  },
-  "animali_animalia_arthropoda_insecta": {
-    "lepidoptera": "ordine",
-    "diptera": "ordine",
-    "odonata": "ordine",
-    "hymenoptera": "ordine",
-    "coleoptera": "ordine",
-    "hemiptera": "ordine",
-    "neuroptera": "ordine",
-    "phasmida": "ordine",
-    "mantodea": "ordine",
-    "trichoptera": "ordine",
-    "orthoptera": "ordine",
-    "plecoptera": "ordine",
-    "ephemeroptera": "ordine",
-    "mecoptera": "ordine",
-    "dermaptera": "ordine",
-    "raphidioptera": "ordine",
-    "blattodea": "ordine"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera": {
-    "bruco": "nome comune",
-    "crambidae": "famiglia",
-    "lasiocampidae": "famiglia",
-    "yponomeutidae": "famiglia",
-    "ctenuchidae": "famiglia",
-    "nemeobiidae": "famiglia",
-    "micropterygidae": "famiglia",
-    "adelidae": "famiglia",
-    "zygaenidae": "famiglia",
-    "elachistidae": "famiglia",
-    "incurvariidae": "famiglia",
-    "erebidae": "famiglia"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_papilionidae": {
-    "machaon": "specie",
-    "apollo": "specie",
-    "podalirius": "specie",
-    "mnemosyne": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_papilionidae_machaon": {
-    "macaone": "nome comune",
-    "(bruco)": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_papilionidae_podalirius": {
-    "podalirio": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_tortricidae": {
-    "arcuella": "specie",
-    "consimiliana": "specie",
-    "rurinana": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_amphisbtidae": {
-    "citrinalis": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_nymphalidae": {
-    "egea": "specie",
-    "phoebe": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_nymphalidae_didyma": {
-    "bruco": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_nymphalidae_reducta": {
-    "bruco": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_nymphalidae_c-album": {
-    "vanessa c-bianco": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_nymphalidae_urticae": {
-    "vanessa dell'ortica": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_nymphalidae_cardui": {
-    "vanessa del cardo": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_nymphalidae_paphia": {
-    "(bruco)": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_pieridae": {
-    "bruco": "nome comune",
-    "rhamni": "specie",
-    "crataegi": "specie",
-    "cleopatra": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_pieridae_cardamines": {
-    "Aurora (maschio)": "nome comune",
-    "aurora (femmina) ": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_pieridae_brassicae": {
-    "cavolaia maggiore": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_pieridae_crataegi (crisalide)": {
-    "pieride del biancospino": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_pieridae_crataegi (schiusa)": {
-    "pieride del biancospino": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_pieridae_crataegi (sfarfallamento)": {
-    "pieride del biancospino": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_pieridae_napi": {
-    "pieridi del navone": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_pieridae_rhamni": {
-    "cedronella": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_pieridae_crataegi": {
-    "pieride del biancospino": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_geometridae": {
-    "bruco": "nome comune",
-    "(bruco)": "nome comune",
-    "lineata": "specie",
-    "riguata": "specie",
-    "defoliaria": "specie",
-    "plagiata": "specie",
-    "lunularia": "specie",
-    "viridata": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_noctuidae": {
-    "persicariae": "specie",
-    "dysodea": "specie",
-    "verbasci (bruco)": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_sphingidae": {
-    "convolvuli": "specie",
-    "tiliae": "specie",
-    "stellatarum": "specie",
-    "lineata": "specie",
-    "stellatarum (bruco)": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_sphingidae_convolvuli": {
-    "sfinge del convolvolo": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_sphingidae_tiliae": {
-    "sfinge del tiglio": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_sphingidae_stellatarum": {
-    "bruco": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_sphingidae_lineata": {
-    "sfinge lineata": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_lycaenidae": {
-    "quercus": "specie",
-    "marshall": "specie",
-    "agestis": "specie",
-    "phlaeas": "specie",
-    "alexis": "specie",
-    "pirithous": "specie",
-    "corydon": "specie",
-    "decoloratus": "specie",
-    "bellargus": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_satyridae": {
-    "petropolitana": "specie",
-    "megera": "specie",
-    "statilinus": "specie",
-    "briseis": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_sesiidae": {
-    "vespiformis": "specie",
-    "tipuliformes": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_lymantriidae": {
-    "monacha": "specie",
-    "dispar": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_crambidae": {
-    "dentalis": "specie",
-    "linetella": "specie",
-    "palealis": "specie",
-    "hortulata": "specie",
-    "ornatalis": "specie",
-    "basistrigalis": "specie",
-    "perspectalis": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_crambidae_perspectalis": {
-    "piralide del bosso": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_lasiocampidae": {
-    "castrensis": "specie",
-    "quercus": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_lasiocampidae_quercus": {
-    "bombice della quercia": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_yponomeutidae": {
-    "xilostella": "specie",
-    "xylostella": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_ctenuchidae": {
-    "phegea": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_nemeobiidae": {
-    "lucina": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_micropterygidae": {
-    "caltella": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_adelidae": {
-    "metallica": "specie",
-    "degeerella": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_zygaenidae": {
-    "purpuralis": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_elachistidae": {
-    "aurifluella": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_incurvariidae": {
-    "viridella": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_lepidoptera_erebidae": {
-    "pulchella": "specie",
-    "algira": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_diptera": {
-    "syrphidae": "famiglia",
-    "conopidae": "famiglia",
-    "tabanidae": "famiglia",
-    "bombyliidae": "famiglia",
-    "asilidae": "famiglia",
-    "sarcophagidae": "famiglia",
-    "platystomatidae": "famiglia",
-    "trichoceridae": "famiglia",
-    "scathophagidae": "famiglia",
-    "lonchaeidae": "famiglia"
-  },
-  "animali_animalia_arthropoda_insecta_diptera_tipulidae": {
-    "maxima": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_diptera_sciomyzidae": {
-    "punctulata": "specie",
-    "marginata": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_diptera_syrphidae": {
-    "ribesii": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_diptera_tabanidae": {
-    "bovinus": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_diptera_tabanidae_pluvialis": {
-    "tafano della pioggia": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_diptera_tabanidae_bovinus": {
-    "tafano bovino": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_diptera_asilidae": {
-    "crabroniformis": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_diptera_sarcophagidae": {
-    "carnaria": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_diptera_platystomatidae": {
-    "seminationis": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_diptera_trichoceridae": {
-    "hiemalis": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_diptera_scathophagidae": {
-    "stercoraria": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_odonata_gomphidae": {
-    "vulgatissimus": "specie",
-    "uncatus": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_odonata_calopterygidae": {
-    "virgo": "specie",
-    "haemorrhoidalis": "specie",
-    "splendens": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_odonata_aeshnidae": {
-    "cyanea": "specie",
-    "isosceles": "specie",
-    "imperator": "specie",
-    "juncea": "specie",
-    "parthenope": "specie",
-    "imperator (maschio)": "specie",
-    "imperator (femmina)": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_odonata_libellulidae": {
-    "fonscolombei": "specie",
-    "flaveolum": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_odonata_libellulidae_depressa": {
-    "(metamorfosi)": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_odonata_cordulegastridae": {
-    "boltonii": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_hymenoptera": {
-    "chrysididae": "famiglia",
-    "apidae": "famiglia",
-    "formicidae": "famiglia",
-    "argidae": "famiglia",
-    "vespidae": "famiglia",
-    "cimbicidae": "famiglia",
-    "tenthredinae": "famiglia",
-    "gasteruptiidae": "famiglia"
-  },
-  "animali_animalia_arthropoda_insecta_hymenoptera_sphecidae": {
-    "sabulosa": "specie",
-    "cementarium": "specie",
-    "curvatum": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_hymenoptera_sphecidae_cementarium": {
-    "vespa vasaio": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_hymenoptera_ichneumonidae": {
-    "armatorius": "specie",
-    "persuasoria": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_hymenoptera_chrysididae_ignita": {
-    "criside di fuoco": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_hymenoptera_apidae": {
-    "pasquorum": "specie",
-    "septemdentatum": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_hymenoptera_vespidae": {
-    "germanica": "specie",
-    "crabro": "specie",
-    "gallicus": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_hymenoptera_vespidae_crabro": {
-    "calabrone": "nome comune",
-    "calabroni (nido)": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_hymenoptera_cimbicidae": {
-    "luteus": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera": {
-    "dytiscidae": "famiglia",
-    "staphylimidae": "famiglia",
-    "coccinellidae": "famiglia",
-    "buprestidae": "famiglia",
-    "pyrochroidae": "famiglia",
-    "lucanidae": "famiglia",
-    "hydrophilidae": "famiglia",
-    "attelabidae": "famiglia",
-    "cetonidae": "famiglia",
-    "silphidae": "famiglia",
-    "pyrrhocoridae": "famiglia",
-    "oedemeridae": "famiglia",
-    "lampyridae": "famiglia",
-    "elateridae": "famiglia",
-    "geotrupidae": "famiglia",
-    "malachidae": "famiglia"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_scarabeidae": {
-    "nasicornis": "specie",
-    "melolontha": "specie",
-    "junii": "specie",
-    "hirta": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_scarabeidae_nasicornis": {
-    "scarabeo rinoceronte": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_scarabeidae_melolontha": {
-    "maggiolino": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_chrysomelidae": {
-    "fornicata": "specie",
-    "sexpuntata": "specie",
-    "herbacea": "specie",
-    "sanguinolenta": "specie",
-    "tenebricosa": "specie",
-    "lusitanicum": "specie",
-    "grossa": "specie",
-    "bimaculatus": "specie",
-    "bipunctatus": "specie",
-    "melanopus": "specie",
-    "americana": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_curculionidae": {
-    "dirus": "specie",
-    "pulverulentus": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_cleridae": {
-    "alvearius": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_meloidae": {
-    "variabilis": "specie",
-    "vesicatoria": "specie",
-    "rufidorsum": "specie",
-    "proscarabeus": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_meloidae_vesicatoria": {
-    "mosca di Spagna": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_cerambycidae": {
-    "asper": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_cerambycidae_cerdo": {
-    "cerambice della quercia": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_dytiscidae_marginalis": {
-    "ditisco": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_staphylimidae": {
-    "riparius": "specie",
-    "olens": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_coccinellidae": {
-    "decempunctata": "specie",
-    "sedecimguttata": "specie",
-    "bipunctata": "specie",
-    "quatuordecimguttata": "specie",
-    "vigintiguttata": "specie",
-    "septempunctata": "specie",
-    "elaterii": "specie",
-    "vigintiquatorpunctata": "specie",
-    "quatuordecimpunctata": "specie",
-    "variegata": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_coccinellidae_septempunctata": {
-    "coccinella": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_buprestidae": {
-    "aenea": "specie",
-    "hungarica": "specie",
-    "flavoguttata": "specie",
-    "tenebrionis": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_pyrochroidae": {
-    "coccinea": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_lucanidae": {
-    "parallelipipedus": "specie",
-    "cylindricum": "specie",
-    "cervus": "specie",
-    "caraboides": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_lucanidae_cervus": {
-    "cervo volante": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_hydrophilidae": {
-    "piceus": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_attelabidae": {
-    "nitens": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_cetonidae": {
-    "aurata": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_silphidae": {
-    "quadrimaculata": "specie",
-    "carinata": "specie",
-    "investigator": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_pyrrhocoridae": {
-    "serraticornis": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_oedemeridae": {
-    "nobilis": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_coleoptera_geotrupidae": {
-    "vernalis": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_hemiptera": {
-    "(muta)": "nome comune",
-    "pentatomidae": "famiglia",
-    "cercopidae": "famiglia",
-    "rhopalidae": "famiglia",
-    "pyrrhocoridae": "famiglia",
-    "miridae": "famiglia",
-    "gerridae": "famiglia",
-    "notonectidae": "famiglia",
-    "reduviidae": "famiglia",
-    "cicadellidae": "famiglia",
-    "nepidae": "famiglia",
-    "lygaeidae": "famiglia"
-  },
-  "animali_animalia_arthropoda_insecta_hemiptera_dictyopharidae": {
-    "europaea": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_hemiptera_membracidae": {
-    "bisonia": "specie",
-    "cornutus": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_hemiptera_cicadidae": {
-    "plebejus": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_hemiptera_cicadidae_plebejus": {
-    "cicala": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_hemiptera_coreidae": {
-    "occidentalis": "specie",
-    "marginatus": "specie",
-    "rhombeus": "specie",
-    "juniperi": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_hemiptera_pentatomidae": {
-    "italicum": "specie",
-    "pudicus": "specie",
-    "oleracea": "specie",
-    "coerulea": "specie",
-    "dominulus": "specie",
-    "varia": "specie",
-    "ornata": "specie",
-    "rufipes": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_hemiptera_cercopidae": {
-    "vulnerata": "specie",
-    "arcuata": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_hemiptera_rhopalidae": {
-    "schillingii": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_hemiptera_pyrrhocoridae": {
-    "apterus": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_hemiptera_miridae": {
-    "roseomaculatus": "specie",
-    "laevigatum": "specie",
-    "lineolaris": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_hemiptera_gerridae": {
-    "lacustris": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_hemiptera_notonectidae": {
-    "glauca": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_hemiptera_notonectidae_glauca": {
-    "notonetta": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_hemiptera_reduviidae": {
-    "iracundus": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_hemiptera_nepidae": {
-    "cinerea": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_hemiptera_nepidae_cinerea": {
-    "scorpione d'acqua": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_hemiptera_lygaeidae": {
-    "saxatilis": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_neuroptera": {
-    "mantispidae": "famiglia",
-    "chrysopidae": "famiglia",
-    "myrmeleontidae": "famiglia",
-    "ascalaphidae": "famiglia"
-  },
-  "animali_animalia_arthropoda_insecta_neuroptera_mantispidae": {
-    "styriaca": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_neuroptera_myrmeleontidae": {
-    "formicarius": "specie",
-    "libelluloides": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_neuroptera_myrmeleontidae_formicarius": {
-    "formicaleone": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_neuroptera_ascalaphidae": {
-    "coccajus": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_phasmida": {
-    "phasmatidae": "famiglia"
-  },
-  "animali_animalia_arthropoda_insecta_phasmida_phasmatidae": {
-    "rossius": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_phasmida_phasmatidae_rossius": {
-    "insetto stecco": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_mantodea": {
-    "mantidae": "famiglia",
-    "empusidae": "famiglia"
-  },
-  "animali_animalia_arthropoda_insecta_mantodea_mantidae": {
-    "religiosa": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_mantodea_mantidae_religiosa": {
-    "mantide religiosa": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_mantodea_empusidae": {
-    "pennata": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_orthoptera": {
-    "acrididae": "famiglia",
-    "tettigoniidae": "famiglia",
-    "gryllotalpidae": "famiglia",
-    "phaneropteridae": "famiglia"
-  },
-  "animali_animalia_arthropoda_insecta_orthoptera_acrididae_aegyptum": {
-    "locusta egiziana": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_orthoptera_tettigoniidae": {
-    "pedo": "specie",
-    "viridissima": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_orthoptera_gryllotalpidae": {
-    "gryllotalpa": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_orthoptera_gryllotalpidae_gryllotalpa": {
-    "grillotalpa": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_orthoptera_phaneropteridae": {
-    "liliifolia": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_plecoptera": {
-    "perlodidae": "famiglia"
-  },
-  "animali_animalia_arthropoda_insecta_ephemeroptera_heptageniidae": {
-    "effimera": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_mecoptera": {
-    "panorpidae": "famiglia"
-  },
-  "animali_animalia_arthropoda_insecta_mecoptera_panorpidae": {
-    "communis": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_mecoptera_panorpidae_communis": {
-    "mosca scorpione (maschio)": "nome comune",
-    "mosca scorpione (femmina)": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_dermaptera": {
-    "forficulidae": "famiglia"
-  },
-  "animali_animalia_arthropoda_insecta_dermaptera_forficulidae": {
-    "auricularia": "specie"
-  },
-  "animali_animalia_arthropoda_insecta_dermaptera_forficulidae_auricularia": {
-    "forbicina": "nome comune"
-  },
-  "animali_animalia_arthropoda_insecta_blattodea": {
-    "blattellidae": "famiglia"
-  },
-  "animali_animalia_arthropoda_arachnida_araneae_thomisidae": {
-    "vatia": "specie"
-  },
-  "animali_animalia_arthropoda_arachnida_araneae_thomisidae_onustus": {
-    "ragno granchio": "nome comune"
-  },
-  "animali_animalia_arthropoda_arachnida_araneae_salticidae": {
-    "seriatus": "specie"
-  },
-  "animali_animalia_arthropoda_arachnida_araneae_lycosidae": {
-    "ragno lupo (con prole)": "nome comune",
-    "ragno lupo": "nome comune",
-    "piraticus": "specie"
-  },
-  "animali_animalia_arthropoda_arachnida_araneae_agelenidae": {
-    "labyrinthica": "specie"
-  },
-  "animali_animalia_arthropoda_arachnida_araneae_araneidae": {
-    "conica": "specie",
-    "redii": "specie",
-    "bruennichi": "specie",
-    "cucurbitina": "specie",
-    "diadematus": "specie",
-    "armida": "specie",
-    "angolatus": "specie"
-  },
-  "animali_animalia_arthropoda_arachnida_araneae_araneidae_bruennichi": {
-    "argiope fasciata": "nome comune"
-  },
-  "animali_animalia_arthropoda_arachnida_araneae_araneidae_diadematus": {
-    "epeira crociata": "nome comune",
-    "epeira crociata (nidiata)": "nome comune"
-  },
-  "animali_animalia_arthropoda_arachnida_araneae_clubionidae": {
-    "cheiracanzio": "nome comune"
-  },
-  "animali_animalia_arthropoda_arachnida_araneae_sparassidae": {
-    "virescens": "specie"
-  },
-  "animali_animalia_arthropoda_arachnida_araneae_pisauridae": {
-    "mirabilis": "specie"
-  },
-  "animali_animalia_arthropoda_arachnida_opiliones": {
-    "phalangiidae": "famiglia"
-  },
-  "animali_animalia_arthropoda_arachnida_opiliones_phalangiidae": {
-    "opilio": "specie"
-  },
-  "animali_animalia_arthropoda_arachnida_scorpiones": {
-    "euscorpiidae": "famiglia"
-  },
-  "animali_animalia_arthropoda_arachnida_scorpiones_euscorpiidae": {
-    "scorpione": "nome comune"
-  },
-  "animali_animalia_arthropoda_arachnida_acari": {
-    "trombidiidae": "famiglia"
-  },
-  "animali_animalia_arthropoda_diplopoda": {
-    "julida": "ordine",
-    "polydesmidae": "ordine"
-  },
-  "animali_animalia_arthropoda_diplopoda_julida": {
-    "julidae": "famiglia"
-  },
-  "animali_animalia_arthropoda_diplopoda_polydesmidae": {
-    "polydesmidae": "famiglia"
-  },
-  "animali_animalia_arthropoda_diplopoda_polydesmidae_polydesmidae": {
-    "collaris": "specie"
-  },
-  "animali_animalia_arthropoda_chilopoda": {
-    "scolopendromorpha": "ordine",
-    "scutigeromorpha": "ordine",
-    "lithobiomorpha": "ordine"
-  },
-  "animali_animalia_arthropoda_chilopoda_scolopendromorpha": {
-    "scolopendridae": "famiglia"
-  },
-  "animali_animalia_arthropoda_chilopoda_scolopendromorpha_scolopendridae": {
-    "cingulata": "specie"
-  },
-  "animali_animalia_arthropoda_chilopoda_scutigeromorpha": {
-    "scutigeridae": "famiglia"
-  },
-  "animali_animalia_arthropoda_chilopoda_scutigeromorpha_scutigeridae": {
-    "coleoptrata": "specie"
-  },
-  "animali_animalia_arthropoda_chilopoda_lithobiomorpha": {
-    "lithobiidae": "famiglia"
-  },
-  "animali_animalia_arthropoda_chilopoda_lithobiomorpha_lithobiidae": {
-    "forficatus": "specie"
-  },
-  "animali_animalia_arthropoda_malacostraca": {
-    "decapoda": "ordine"
-  },
-  "animali_animalia_arthropoda_malacostraca_decapoda": {
-    "astacidae": "famiglia",
-    "potamidae": "famiglia"
-  },
-  "animali_animalia_arthropoda_malacostraca_decapoda_astacidae": {
-    "pallipes": "specie"
-  },
-  "animali_animalia_arthropoda_malacostraca_decapoda_potamidae": {
-    "fluviatile": "specie"
-  },
-  "animali_animalia_mollusca": {
-    "bivalvia": "classe",
-    "gastropoda": "classe"
-  },
-  "animali_animalia_mollusca_bivalvia": {
-    "unionoida": "ordine"
-  },
-  "animali_animalia_mollusca_bivalvia_unionoida": {
-    "unionidae": "famiglia"
-  },
-  "animali_animalia_mollusca_bivalvia_unionoida_unionidae": {
-    "pictorum": "specie"
-  },
-  "animali_animalia_mollusca_gastropoda": {
-    "pulmonata": "ordine",
-    "heterobranchia": "ordine"
-  },
-  "animali_animalia_mollusca_gastropoda_pulmonata": {
-    "helicidae": "famiglia",
-    "hygromiidae": "famiglia",
-    "agriolimacidae": "famiglia",
-    "arionidae": "famiglia"
-  },
-  "animali_animalia_mollusca_gastropoda_pulmonata_helicidae": {
-    "nemoralis": "specie",
-    "pomatia": "specie"
-  },
-  "animali_animalia_mollusca_gastropoda_pulmonata_agriolimacidae_reticulatum": {
-    "limaccia": "nome comune"
-  },
-  "animali_animalia_mollusca_gastropoda_pulmonata_arionidae": {
-    "rufus": "specie"
-  },
-  "animali_animalia_mollusca_gastropoda_heterobranchia": {
-    "hygromiidae": "famiglia"
-  },
-  "animali_animalia_mollusca_gastropoda_heterobranchia_hygromiidae": {
-    "cantiana": "specie"
-  },
-  "funghi": {
-    "fungi": "regno"
-  },
-  "funghi_fungi": {
-    "basidiomycetes": "classe",
-    "ascomycetes": "classe",
-    "pezizomycetes": "classe",
-    "agaricomycetes": "classe",
-    "hymenomycetes": "classe",
-    "tremellomycetes": "classe",
-    "sordariomycetes": "classe",
-    "amoebozoa": "phylum"
-  },
-  "funghi_fungi_basidiomycetes": {
-    "hymenochaetales": "ordine"
-  },
-  "funghi_fungi_basidiomycetes_gomphales": {
-    "ramariaceae": "famiglia"
-  },
-  "funghi_fungi_basidiomycetes_gomphales_ramariaceae": {
-    "manina": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_agaricales": {
-    "coprinaceae": "famiglia",
-    "amanitaceae": "famiglia",
-    "pleurotaceae": "famiglia",
-    "cortinariaceae": "famiglia",
-    "strophariaceae": "famiglia",
-    "hygrophoraceae": "famiglia",
-    "agaricaceae": "famiglia",
-    "tricholomataceae": "famiglia",
-    "marasmiaceae": "famiglia",
-    "bolbitiaceae": "famiglia",
-    "physalacriaceae": "famiglia",
-    "pluteaceae": "famiglia"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_coprinaceae": {
-    "comatus": "specie",
-    "picaceus": "specie",
-    "atramentarius": "specie",
-    "disseminatus": "specie",
-    "micaceus": "specie"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_amanitaceae": {
-    "phalloides": "specie",
-    "muscaria": "specie",
-    "strobiliformis": "specie",
-    "ovoidea": "specie",
-    "phalloides var. alba": "specie",
-    "fulva": "specie",
-    "rubescens": "specie",
-    "speciosa": "specie",
-    "pantherina": "specie",
-    "caesarea": "specie",
-    "citrina": "specie",
-    "echinocephala": "specie"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_amanitaceae_strobiliformis": {
-    "amanita solitaria": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_amanitaceae_ovoidea": {
-    "farinaccio": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_amanitaceae_fulva": {
-    "bubbolina bruna": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_amanitaceae_rubescens": {
-    "amanita vinosa": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_pleurotaceae": {
-    "ostreatus": "specie"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_strophariaceae": {
-    "pseudocyanea": "specie",
-    "fasciculare": "specie",
-    "aeruginosa": "specie"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_strophariaceae_fasciculare": {
-    "falso chiodino": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_hygrophoraceae": {
-    "conica": "specie"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_agaricaceae": {
-    "procera": "specie",
-    "campestris": "specie",
-    "cristata": "specie",
-    "asperum": "specie"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_agaricaceae_procera": {
-    "mazza da tamburo": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_agaricaceae_asperum": {
-    "lepiota aspera": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_tricholomataceae": {
-    "leaiana": "specie",
-    "inclinata": "specie",
-    "amethystina": "specie",
-    "rickenii": "specie"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_tricholomataceae_gambosa": {
-    "fungo di San Giorgio": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_tricholomataceae_nebularis": {
-    "fungo della nebbia": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_tricholomataceae_terreum": {
-    "moretta": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_tricholomataceae_gibba": {
-    "imbutino": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_marasmiaceae": {
-    "mellea": "specie"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_marasmiaceae_mellea": {
-    "famigliola": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_bolbitiaceae_aegerita": {
-    "piopparello": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_physalacriaceae": {
-    "melanotricha": "specie"
-  },
-  "funghi_fungi_basidiomycetes_agaricales_pluteaceae": {
-    "cervinus": "specie",
-    "thomsonii": "specie"
-  },
-  "funghi_fungi_basidiomycetes_polyporales": {
-    "ganodermataceae": "famiglia",
-    "fomitopsidaceae": "famiglia",
-    "polyporaceae": "famiglia",
-    "sparassidaceae": "famiglia"
-  },
-  "funghi_fungi_basidiomycetes_polyporales_ganodermataceae": {
-    "lucidum": "specie"
-  },
-  "funghi_fungi_basidiomycetes_polyporales_fomitopsidaceae": {
-    "pinicola": "specie"
-  },
-  "funghi_fungi_basidiomycetes_polyporales_fomitopsidaceae_pinicola": {
-    "ungulina marginata": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_polyporales_polyporaceae": {
-    "hirsuta": "specie"
-  },
-  "funghi_fungi_basidiomycetes_polyporales_sparassidaceae": {
-    "crispa": "specie"
-  },
-  "funghi_fungi_basidiomycetes_russulales": {
-    "russulaceae": "famiglia",
-    "hericiaceae": "famiglia"
-  },
-  "funghi_fungi_basidiomycetes_russulales_russulaceae": {
-    "olivacea": "specie",
-    "helvus": "specie",
-    "virescens": "specie",
-    "claroflava": "specie",
-    "decolorans": "specie",
-    "caerulea": "specie"
-  },
-  "funghi_fungi_basidiomycetes_russulales_russulaceae_deliciosus": {
-    "sanguinello": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_russulales_hericiaceae": {
-    "clathroides": "specie",
-    "coralloides": "specie"
-  },
-  "funghi_fungi_basidiomycetes_boletales": {
-    "boletaceae": "famiglia",
-    "gomphidiaceae": "famiglia",
-    "suillaceae": "famiglia"
-  },
-  "funghi_fungi_basidiomycetes_boletales_boletaceae": {
-    "reticulatus": "specie",
-    "satanas": "specie",
-    "luridus": "specie",
-    "radicans": "specie",
-    "cavipes": "specie",
-    "erythropus": "specie",
-    "subappendiculatus": "specie",
-    "edulis": "specie",
-    "aestivalis": "specie",
-    "subtomentosus": "specie"
-  },
-  "funghi_fungi_basidiomycetes_boletales_boletaceae_satanas": {
-    "porcino malefico": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_boletales_boletaceae_edulis": {
-    "porcino": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_boletales_gomphidiaceae": {
-    "glutinosus": "specie",
-    "viscidus": "specie",
-    "subroseus": "specie"
-  },
-  "funghi_fungi_basidiomycetes_boletales_gomphidiaceae_glutinosus": {
-    "chiodetto": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_boletales_suillaceae": {
-    "granulatus": "specie"
-  },
-  "funghi_fungi_basidiomycetes_boletales_suillaceae_granulatus": {
-    "pinarello": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_phallales": {
-    "clatraceae": "famiglia",
-    "geastraceae": "famiglia",
-    "phallaceae": "famiglia",
-    "gomphaceae": "famiglia"
-  },
-  "funghi_fungi_basidiomycetes_phallales_clatraceae": {
-    "ruber": "specie"
-  },
-  "funghi_fungi_basidiomycetes_phallales_clatraceae_ruber": {
-    "clatro reticolato": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_phallales_geastraceae": {
-    "fimbriatum": "specie",
-    "triplex": "specie"
-  },
-  "funghi_fungi_basidiomycetes_phallales_phallaceae": {
-    "impudicus": "specie",
-    "caninus": "specie"
-  },
-  "funghi_fungi_basidiomycetes_phallales_phallaceae_impudicus": {
-    "satirione": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_phallales_gomphaceae": {
-    "pistillaris": "specie"
-  },
-  "funghi_fungi_basidiomycetes_phallales_gomphaceae_pistillaris": {
-    "mazza d'Ercole": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_cantharellales": {
-    "cantharellaceae": "famiglia"
-  },
-  "funghi_fungi_basidiomycetes_cantharellales_cantharellaceae": {
-    "cibarius": "specie",
-    "cornucopioides": "specie"
-  },
-  "funghi_fungi_basidiomycetes_cantharellales_cantharellaceae_cibarius": {
-    "galletto": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_cantharellales_cantharellaceae_cornucopioides": {
-    "trombetta dei morti": "nome comune"
-  },
-  "funghi_fungi_basidiomycetes_hymenochaetales": {
-    "hymenochaetaceae": "famiglia"
-  },
-  "funghi_fungi_basidiomycetes_hymenochaetales_hymenochaetaceae": {
-    "hispidus": "specie"
-  },
-  "funghi_fungi_basidiomycetes_hymenochaetales_hymenochaetaceae_hispidus": {
-    "poliporo irsuto": "nome comune"
-  },
-  "funghi_fungi_ascomycetes": {
-    "pezizales": "ordine"
-  },
-  "funghi_fungi_ascomycetes_pezizales": {
-    "helvellaceae": "famiglia",
-    "morchellaceae": "famiglia"
-  },
-  "funghi_fungi_ascomycetes_pezizales_helvellaceae": {
-    "lacunosa": "specie",
-    "esculenta": "specie",
-    "crispa": "specie"
-  },
-  "funghi_fungi_ascomycetes_pezizales_morchellaceae": {
-    "spugnola": "nome comune"
-  },
-  "funghi_fungi_pezizomycetes": {
-    "pezizales": "ordine"
-  },
-  "funghi_fungi_pezizomycetes_pezizales": {
-    "pezizaceae": "famiglia"
-  },
-  "funghi_fungi_agaricomycetes": {
-    "agaricales": "ordine",
-    "auriculariales": "ordine",
-    "polyporales": "ordine",
-    "russulales": "ordine"
-  },
-  "funghi_fungi_agaricomycetes_agaricales": {
-    "lycoperdaceae": "famiglia",
-    "strophariaceae": "famiglia",
-    "tricholomataceae": "famiglia",
-    "agaricaceae": "famiglia"
-  },
-  "funghi_fungi_agaricomycetes_agaricales_lycoperdaceae": {
-    "caelatum": "specie",
-    "pyriforme": "specie",
-    "echinatum": "specie"
-  },
-  "funghi_fungi_agaricomycetes_agaricales_strophariaceae": {
-    "gummosa": "specie",
-    "aurivella": "specie",
-    "adiposa": "specie",
-    "mutabilis": "specie",
-    "squarrosa": "specie"
-  },
-  "funghi_fungi_agaricomycetes_agaricales_agaricaceae": {
-    "perlatum": "specie"
-  },
-  "funghi_fungi_agaricomycetes_auriculariales": {
-    "exidiaceae": "famiglia"
-  },
-  "funghi_fungi_agaricomycetes_auriculariales_exidiaceae": {
-    "helvelloides": "specie"
-  },
-  "funghi_fungi_agaricomycetes_polyporales": {
-    "polyporaceae": "famiglia",
-    "fomitopsidaceae": "famiglia"
-  },
-  "funghi_fungi_agaricomycetes_polyporales_polyporaceae": {
-    "tuberaster": "specie",
-    "sulphureus": "specie",
-    "picipes": "specie",
-    "montanus": "specie"
-  },
-  "funghi_fungi_agaricomycetes_polyporales_polyporaceae_sulphureus": {
-    "gallina dei boschi": "nome comune"
-  },
-  "funghi_fungi_agaricomycetes_polyporales_fomitopsidaceae": {
-    "betulina": "specie"
-  },
-  "funghi_fungi_agaricomycetes_russulales": {
-    "russulaceae": "famiglia"
-  },
-  "funghi_fungi_agaricomycetes_russulales_russulaceae": {
-    "turpis": "specie"
-  },
-  "funghi_fungi_hymenomycetes": {
-    "auriculariales": "ordine"
-  },
-  "funghi_fungi_hymenomycetes_auriculariales": {
-    "auriculariaceae": "famiglia"
-  },
-  "funghi_fungi_hymenomycetes_auriculariales_auriculariaceae": {
-    "auricula judae": "specie"
-  },
-  "funghi_fungi_tremellomycetes": {
-    "tremellales": "ordine"
-  },
-  "funghi_fungi_tremellomycetes_tremellales": {
-    "tremellaceae": "famiglia"
-  },
-  "funghi_fungi_tremellomycetes_tremellales_tremellaceae": {
-    "foliacea": "specie",
-    "mesenterica": "specie"
-  },
-  "funghi_fungi_sordariomycetes": {
-    "xylariales": "ordine"
-  },
-  "funghi_fungi_sordariomycetes_xylariales": {
-    "xylariaceae": "famiglia"
-  },
-  "funghi_fungi_sordariomycetes_xylariales_xylariaceae": {
-    "polymorpha": "specie"
-  },
-  "funghi_fungi_amoebozoa": {
-    "myxogastria": "classe",
-    "mycetozoa": "classe"
-  },
-  "funghi_fungi_amoebozoa_myxogastria": {
-    "physarales": "ordine",
-    "liceales": "ordine"
-  },
-  "funghi_fungi_amoebozoa_myxogastria_physarales": {
-    "physaraceae": "famiglia"
-  },
-  "funghi_fungi_amoebozoa_myxogastria_physarales_physaraceae": {
-    "septica": "specie"
-  },
-  "funghi_fungi_amoebozoa_myxogastria_liceales": {
-    "tubiferaceae": "famiglia"
-  },
-  "funghi_fungi_amoebozoa_myxogastria_liceales_tubiferaceae": {
-    "ferruginosa": "specie"
-  },
-  "funghi_fungi_amoebozoa_mycetozoa": {
-    "liceales": "ordine"
-  },
-  "funghi_fungi_amoebozoa_mycetozoa_liceales": {
-    "reticulariaceae": "famiglia"
-  },
-  "funghi_fungi_amoebozoa_mycetozoa_liceales_reticulariaceae": {
-    "epidendrum": "specie"
-  },
-  "piante": {
-    "plantae": "regno"
-  },
-  "piante_plantae": {
-    "liliopsida": "classe",
-    "magnoliopsida": "classe",
-    "pteridopsida": "classe"
-  },
-  "piante_plantae_liliopsida": {
-    "orchidales": "ordine",
-    "liliales": "ordine",
-    "asparagales": "ordine",
-    "arales": "ordine",
-    "cyperales": "ordine"
-  },
-  "piante_plantae_liliopsida_orchidales": {
-    "orchidaceae": "famiglia"
-  },
-  "piante_plantae_liliopsida_orchidales_orchidaceae": {
-    "chlorantha": "specie",
-    "rubra": "specie",
-    "muelleri": "specie",
-    "fusca": "specie",
-    "mascula var. olbiensis ": "specie",
-    "mascula var. alba": "specie",
-    "mascula": "specie",
-    "parviflora": "specie",
-    "helleborine": "specie"
-  },
-  "piante_plantae_liliopsida_orchidales_orchidaceae_ovata": {
-    "(particolare)": "nome comune"
-  },
-  "piante_plantae_liliopsida_orchidales_orchidaceae_adriaticum": {
-    "(particolare)": "nome comune"
-  },
-  "piante_plantae_liliopsida_orchidales_orchidaceae_conopsea": {
-    "(particolare)": "nome comune"
-  },
-  "piante_plantae_liliopsida_orchidales_orchidaceae_vomeracea": {
-    "serapide maggiore": "nome comune"
-  },
-  "piante_plantae_liliopsida_liliales": {
-    "liliaceae": "famiglia",
-    "iridaceae": "famiglia"
-  },
-  "piante_plantae_liliopsida_liliales_liliaceae": {
-    "martagon": "specie",
-    "quadrifolia": "specie",
-    "bulbiferum": "specie",
-    "neapolitanum": "specie",
-    "comosum": "specie",
-    "sphaerocephalon": "specie",
-    "roseum": "specie",
-    "ursinum": "specie"
-  },
-  "piante_plantae_liliopsida_liliales_liliaceae_martagon": {
-    "giglio martagone": "nome comune"
-  },
-  "piante_plantae_liliopsida_liliales_liliaceae_quadrifolia": {
-    "uva di volpe": "nome comune"
-  },
-  "piante_plantae_liliopsida_liliales_liliaceae_bulbiferum": {
-    "giglio rosso": "nome comune"
-  },
-  "piante_plantae_liliopsida_liliales_liliaceae_ursinum": {
-    "aglio orsino": "nome comune"
-  },
-  "piante_plantae_liliopsida_liliales_iridaceae": {
-    "vernus": "specie",
-    "germanica": "specie",
-    "pseudacorus": "specie",
-    "biflorus": "specie",
-    "vernus (albiflora)": "specie"
-  },
-  "piante_plantae_liliopsida_liliales_iridaceae_germanica": {
-    "giaggiolo": "nome comune"
-  },
-  "piante_plantae_liliopsida_liliales_iridaceae_pseudacorus": {
-    "giaggiolo acquatico": "nome comune"
-  },
-  "piante_plantae_liliopsida_asparagales": {
-    "ruscaceae": "famiglia",
-    "amaryllidaceae": "famiglia",
-    "iridaceae": "famiglia"
-  },
-  "piante_plantae_liliopsida_asparagales_ruscaceae": {
-    "odoratum": "specie"
-  },
-  "piante_plantae_liliopsida_asparagales_ruscaceae_odoratum": {
-    "sigillo di salomone": "nome comune"
-  },
-  "piante_plantae_liliopsida_asparagales_amaryllidaceae": {
-    "dubius": "specie",
-    "nivalis": "specie",
-    "poeticus": "specie"
-  },
-  "piante_plantae_liliopsida_asparagales_amaryllidaceae_nivalis": {
-    "bucaneve": "nome comune"
-  },
-  "piante_plantae_liliopsida_asparagales_amaryllidaceae_poeticus": {
-    "narciso": "nome comune"
-  },
-  "piante_plantae_liliopsida_asparagales_iridaceae": {
-    "italicus": "specie"
-  },
-  "piante_plantae_liliopsida_arales": {
-    "araceae": "famiglia"
-  },
-  "piante_plantae_liliopsida_arales_araceae": {
-    "maculatum": "specie"
-  },
-  "piante_plantae_liliopsida_arales_araceae_maculatum": {
-    "gigaro scuro": "nome comune"
-  },
-  "piante_plantae_liliopsida_cyperales": {
-    "poaceae": "famiglia"
-  },
-  "piante_plantae_liliopsida_cyperales_poaceae": {
-    "erectus": "specie"
-  },
-  "piante_plantae_magnoliopsida": {
-    "solanales": "ordine",
-    "ranunculales": "ordine",
-    "malvales": "ordine",
-    "asterales": "ordine",
-    "lamiales": "ordine",
-    "saxifragales": "ordine",
-    "scrophulariales": "ordine",
-    "fabales": "ordine",
-    "campanulales": "ordine",
-    "primulales": "ordine",
-    "apiales": "ordine",
-    "violales": "ordine",
-    "caryophyllales": "ordine",
-    "gentianales": "ordine",
-    "nymphaeales": "ordine",
-    "rosales": "ordine",
-    "ericales": "ordine",
-    "brassicales": "ordine",
-    "dipsacales": "ordine",
-    "celastrales": "ordine",
-    "fagales": "ordine",
-    "euphorbiales": "ordine",
-    "aquifoliales": "ordine",
-    "malpighiales": "ordine",
-    "mirtales": "ordine",
-    "cucurbitales": "ordine"
-  },
-  "piante_plantae_magnoliopsida_solanales": {
-    "solanaceae": "famiglia",
-    "convolvulaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_solanales_solanaceae": {
-    "stramonium": "specie",
-    "nigrum": "specie",
-    "belladonna": "specie"
-  },
-  "piante_plantae_magnoliopsida_solanales_solanaceae_stramonium": {
-    "stramonio": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_solanales_solanaceae_nigrum": {
-    "erba morella": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_solanales_convolvulaceae": {
-    "cantabrica": "specie",
-    "sepium": "specie"
-  },
-  "piante_plantae_magnoliopsida_solanales_convolvulaceae_cantabrica": {
-    "vilucchio": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_solanales_convolvulaceae_sepium": {
-    "vilucchio bianco": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_ranunculales": {
-    "ranunculaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_ranunculales_ranunculaceae": {
-    "memorosa": "specie",
-    "foetidus": "specie",
-    "viridis": "specie",
-    "vulgaris": "specie",
-    "nobilis": "specie",
-    "fissum": "specie",
-    "hyemalis": "specie",
-    "coronaria": "specie",
-    "vitalba": "specie",
-    "lycoctonum vulparia": "specie"
-  },
-  "piante_plantae_magnoliopsida_ranunculales_ranunculaceae_memorosa": {
-    "anemone bianco": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_ranunculales_ranunculaceae_foetidus": {
-    "elleboro puzzolente": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_ranunculales_ranunculaceae_vulgaris": {
-    "aquilegia": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_ranunculales_ranunculaceae_fissum": {
-    "speronella lacerata": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_ranunculales_ranunculaceae_vitalba": {
-    "vitalba": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_malvales": {
-    "malvaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_malvales_malvaceae": {
-    "malva": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_asterales": {
-    "asteraceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_asterales_asteraceae": {
-    "acaulis": "specie",
-    "farfara": "specie",
-    "officinale": "specie",
-    "vulgare": "specie",
-    "marianum": "specie",
-    "lappa": "specie",
-    "fullonum": "specie",
-    "vesicaria": "specie"
-  },
-  "piante_plantae_magnoliopsida_asterales_asteraceae_farfara": {
-    "farfara": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_asterales_asteraceae_officinale": {
-    "dente di leone": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_asterales_asteraceae_vulgare": {
-    "margherita dei campi": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_asterales_asteraceae_marianum": {
-    "cardo mariano": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_asterales_asteraceae_lappa": {
-    "bardana": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_asterales_asteraceae_fullonum": {
-    "cardo dei lanaioli": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_asterales_asteraceae_vesicaria": {
-    "radichiella vescicosa": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_lamiales": {
-    "boraginaceae": "famiglia",
-    "lamiaceae": "famiglia",
-    "plantaginaceae": "famiglia",
-    "scrophulariaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_lamiales_boraginaceae": {
-    "apennina": "specie"
-  },
-  "piante_plantae_magnoliopsida_lamiales_boraginaceae_arvensis": {
-    "nom ti scordar di me": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_lamiales_lamiaceae": {
-    "pratensis": "specie",
-    "reptans": "specie",
-    "recta": "specie"
-  },
-  "piante_plantae_magnoliopsida_lamiales_lamiaceae_reptans": {
-    "bugola": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_lamiales_lamiaceae_recta": {
-    "pianta della paura": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_lamiales_plantaginaceae": {
-    "lutea": "specie"
-  },
-  "piante_plantae_magnoliopsida_lamiales_scrophulariaceae": {
-    "vulgaris": "specie"
-  },
-  "piante_plantae_magnoliopsida_lamiales_scrophulariaceae_vulgaris": {
-    "linaiola": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_saxifragales": {
-    "crassulaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_saxifragales_crassulaceae": {
-    "tectorum": "specie"
-  },
-  "piante_plantae_magnoliopsida_scrophulariales": {
-    "orobanchaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_scrophulariales_orobanchaceae": {
-    "alba": "specie"
-  },
-  "piante_plantae_magnoliopsida_fabales": {
-    "ginestra": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_fabales_fabaceae": {
-    "emerus": "specie",
-    "viciaefolia": "specie",
-    "spinosa": "specie",
-    "silvestris": "specie",
-    "scoparius": "specie"
-  },
-  "piante_plantae_magnoliopsida_fabales_fabaceae_cicera": {
-    "cicerchia": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_fabales_fabaceae_viciaefolia": {
-    "fieno santo": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_fabales_fabaceae_spinosa": {
-    "arrestabue": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_fabales_fabaceae_scoparius": {
-    "ginestra dei carbonai": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_campanulales": {
-    "campanulaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_campanulales_campanulaceae": {
-    "media": "specie"
-  },
-  "piante_plantae_magnoliopsida_campanulales_campanulaceae_media": {
-    "campanula toscana": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_primulales": {
-    "primulaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_primulales_primulaceae": {
-    "repandum": "specie",
-    "veris": "specie"
-  },
-  "piante_plantae_magnoliopsida_primulales_primulaceae_repandum": {
-    "ciclamino": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_apiales": {
-    "apiaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_apiales_apiaceae": {
-    "maculatum": "specie",
-    "campestre": "specie"
-  },
-  "piante_plantae_magnoliopsida_apiales_apiaceae_maculatum": {
-    "cicuta (particolare)": "nome comune",
-    "cicuta": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_apiales_apiaceae_campestre": {
-    "calcatreppola": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_violales": {
-    "violaceae": "famiglia",
-    "cistaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_violales_violaceae": {
-    "tricolor": "specie",
-    "odorata": "specie",
-    "alba": "specie",
-    "eugeniae": "specie"
-  },
-  "piante_plantae_magnoliopsida_violales_violaceae_eugeniae": {
-    "viola di Eugenia": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_caryophyllales": {
-    "caryophyllaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_caryophyllales_caryophyllaceae": {
-    "vulgaris": "specie"
-  },
-  "piante_plantae_magnoliopsida_gentianales": {
-    "apocynaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_gentianales_apocynaceae": {
-    "major": "specie"
-  },
-  "piante_plantae_magnoliopsida_gentianales_apocynaceae_major": {
-    "vinca maggiore": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_nymphaeales": {
-    "nymphaeaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_rosales": {
-    "rosaceae": "famiglia",
-    "fabaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_rosales_rosaceae": {
-    "spinosissima": "specie",
-    "vulgaris": "specie"
-  },
-  "piante_plantae_magnoliopsida_rosales_rosaceae_vulgaris": {
-    "erba peperina": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_rosales_fabaceae": {
-    "siliquastrum": "specie"
-  },
-  "piante_plantae_magnoliopsida_rosales_fabaceae_siliquastrum": {
-    "albero di Giuda": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_ericales": {
-    "ericaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_ericales_ericaceae": {
-    "arborea": "specie",
-    "uniflora": "specie"
-  },
-  "piante_plantae_magnoliopsida_brassicales": {
-    "brassicaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_brassicales_brassicaceae": {
-    "maritima": "specie"
-  },
-  "piante_plantae_magnoliopsida_dipsacales": {
-    "valerianaceae": "famiglia",
-    "caprifoliaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_dipsacales_valerianaceae": {
-    "ruber": "specie"
-  },
-  "piante_plantae_magnoliopsida_dipsacales_valerianaceae_ruber": {
-    "valeriana rossa": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_dipsacales_caprifoliaceae": {
-    "caprifolium": "specie"
-  },
-  "piante_plantae_magnoliopsida_dipsacales_caprifoliaceae_caprifolium": {
-    "caprifoglio": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_celastrales": {
-    "celastraceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_celastrales_celastraceae": {
-    "europaeus": "specie"
-  },
-  "piante_plantae_magnoliopsida_celastrales_celastraceae_europaeus": {
-    "fusaggine": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_fagales": {
-    "fagaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_euphorbiales": {
-    "euphorbiaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_euphorbiales_euphorbiaceae": {
-    "cyparissias": "specie"
-  },
-  "piante_plantae_magnoliopsida_aquifoliales": {
-    "aquifoliaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_aquifoliales_aquifoliaceae": {
-    "aquifolium": "specie"
-  },
-  "piante_plantae_magnoliopsida_aquifoliales_aquifoliaceae_aquifolium": {
-    "agrifoglio": "nome comune"
-  },
-  "piante_plantae_magnoliopsida_malpighiales": {
-    "hypericaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_malpighiales_hypericaceae": {
-    "hircinum": "specie"
-  },
-  "piante_plantae_magnoliopsida_mirtales": {
-    "onagraceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_mirtales_onagraceae": {
-    "rubricaulis": "specie"
-  },
-  "piante_plantae_magnoliopsida_cucurbitales": {
-    "cucurbitaceae": "famiglia"
-  },
-  "piante_plantae_magnoliopsida_cucurbitales_cucurbitaceae": {
-    "elaterium": "specie"
-  },
-  "piante_plantae_magnoliopsida_cucurbitales_cucurbitaceae_elaterium": {
-    "cocomero asinino": "nome comune"
-  },
-  "piante_plantae_pteridopsida": {
-    "pteridales": "ordine"
-  },
-  "piante_plantae_pteridopsida_pteridales": {
-    "hypolepidaceae": "famiglia"
-  },
-  "piante_plantae_pteridopsida_pteridales_hypolepidaceae": {
-    "aquilinum": "specie"
-  },
-  "piante_plantae_pteridopsida_pteridales_hypolepidaceae_aquilinum": {
-    "felce aquilina": "nome comune"
-  },
-  "paesaggi": {
-    "nido di formica rufa": "nome comune"
-  }
+    "root": {
+        "animali": "genere_fotografico",
+        "funghi": "genere_fotografico",
+        "piante": "genere_fotografico",
+        "paesaggi": "genere_fotografico"
+    },
+    "animali": {
+        "animalia": "regno"
+    },
+    "animali_animalia": {
+        "chordata": "phylum",
+        "arthropoda": "phylum",
+        "mollusca": "phylum",
+        "nematoda": "phylum"
+    },
+    "animali_animalia_chordata": {
+        "aves": "classe",
+        "amphibia": "classe",
+        "mammalia": "classe",
+        "reptilia": "classe"
+    },
+    "animali_animalia_chordata_aves": {
+        "coraciformes": "ordine",
+        "pelecaniformes": "ordine",
+        "anseriformes": "ordine",
+        "gruiformes": "ordine",
+        "podicipediformes": "ordine",
+        "falconiformes": "ordine",
+        "passeriformes": "ordine",
+        "charadriiformes": "ordine",
+        "galliformes": "ordine",
+        "caprimulgiformes": "ordine",
+        "columbiformes": "ordine",
+        "strigiformes": "ordine",
+        "phoenicopteriformes": "ordine",
+        "cuculiformes": "ordine",
+        "ciconiiformes": "ordine",
+        "piciformes": "ordine"
+    },
+    "animali_animalia_chordata_aves_coraciformes": {
+        "alcedimidae": "famiglia",
+        "upupidae": "famiglia",
+        "meropidae": "famiglia"
+    },
+    "animali_animalia_chordata_aves_coraciformes_alcedimidae": {
+        "atthis": "specie"
+    },
+    "animali_animalia_chordata_aves_coraciformes_alcedimidae_atthis": {
+        "martin pescatore": "nome comune"
+    },
+    "animali_animalia_chordata_aves_coraciformes_upupidae": {
+        "epops": "specie"
+    },
+    "animali_animalia_chordata_aves_coraciformes_upupidae_epops": {
+        "upupa": "nome comune"
+    },
+    "animali_animalia_chordata_aves_coraciformes_meropidae": {
+        "apiaster": "specie"
+    },
+    "animali_animalia_chordata_aves_coraciformes_meropidae_apiaster": {
+        "gruccione": "nome comune"
+    },
+    "animali_animalia_chordata_aves_pelecaniformes": {
+        "phalacrocoracidae": "famiglia",
+        "ardeidae": "famiglia",
+        "threskiornithidae": "famiglia"
+    },
+    "animali_animalia_chordata_aves_pelecaniformes_phalacrocoracidae": {
+        "carbo": "specie"
+    },
+    "animali_animalia_chordata_aves_pelecaniformes_phalacrocoracidae_carbo": {
+        "cormorano": "nome comune"
+    },
+    "animali_animalia_chordata_aves_pelecaniformes_ardeidae": {
+        "garzetta": "specie",
+        "minutus": "specie",
+        "cinerea": "specie",
+        "alba": "specie",
+        "purpurea": "specie",
+        "nycticorax": "specie",
+        "ralloides": "specie"
+    },
+    "animali_animalia_chordata_aves_pelecaniformes_ardeidae_garzetta": {
+        "garzetta": "nome comune",
+        "garzette": "nome comune"
+    },
+    "animali_animalia_chordata_aves_pelecaniformes_ardeidae_minutus": {
+        "tarabusino": "nome comune"
+    },
+    "animali_animalia_chordata_aves_pelecaniformes_ardeidae_cinerea": {
+        "airone cenerino": "nome comune"
+    },
+    "animali_animalia_chordata_aves_pelecaniformes_ardeidae_alba": {
+        "airone bianco": "nome comune"
+    },
+    "animali_animalia_chordata_aves_pelecaniformes_ardeidae_purpurea": {
+        "airone rosso": "nome comune"
+    },
+    "animali_animalia_chordata_aves_pelecaniformes_ardeidae_nycticorax": {
+        "nitticora": "nome comune"
+    },
+    "animali_animalia_chordata_aves_pelecaniformes_ardeidae_ralloides": {
+        "sgarza ciuffetto": "nome comune"
+    },
+    "animali_animalia_chordata_aves_pelecaniformes_threskiornithidae": {
+        "leucorodia": "specie"
+    },
+    "animali_animalia_chordata_aves_pelecaniformes_threskiornithidae_leucorodia": {
+        "spatola": "nome comune"
+    },
+    "animali_animalia_chordata_aves_anseriformes": {
+        "anatidae": "famiglia"
+    },
+    "animali_animalia_chordata_aves_anseriformes_anatidae": {
+        "nyroca": "specie",
+        "platyrhynchos": "specie",
+        "crecca": "specie",
+        "acuta": "specie",
+        "querquedula": "specie",
+        "clypeata": "specie",
+        "ferina": "specie",
+        "olor": "specie",
+        "penelope": "specie",
+        "galericulata": "specie"
+    },
+    "animali_animalia_chordata_aves_anseriformes_anatidae_nyroca": {
+        "moretta tabaccata": "nome comune"
+    },
+    "animali_animalia_chordata_aves_anseriformes_anatidae_platyrhynchos": {
+        "germano reale": "nome comune"
+    },
+    "animali_animalia_chordata_aves_anseriformes_anatidae_crecca": {
+        "alzavola": "nome comune"
+    },
+    "animali_animalia_chordata_aves_anseriformes_anatidae_acuta": {
+        "codone": "nome comune"
+    },
+    "animali_animalia_chordata_aves_anseriformes_anatidae_querquedula": {
+        "marzaiola": "nome comune"
+    },
+    "animali_animalia_chordata_aves_anseriformes_anatidae_clypeata": {
+        "mestoloni": "nome comune"
+    },
+    "animali_animalia_chordata_aves_anseriformes_anatidae_ferina": {
+        "moriglione": "nome comune"
+    },
+    "animali_animalia_chordata_aves_anseriformes_anatidae_olor": {
+        "cigno": "nome comune"
+    },
+    "animali_animalia_chordata_aves_anseriformes_anatidae_penelope": {
+        "fischione": "nome comune"
+    },
+    "animali_animalia_chordata_aves_anseriformes_anatidae_galericulata": {
+        "anatra mandarina": "nome comune"
+    },
+    "animali_animalia_chordata_aves_gruiformes": {
+        "rallidae": "famiglia"
+    },
+    "animali_animalia_chordata_aves_gruiformes_rallidae": {
+        "atra": "specie",
+        "chloropus": "specie",
+        "aquaticus": "specie"
+    },
+    "animali_animalia_chordata_aves_gruiformes_rallidae_atra": {
+        "folaghe": "nome comune"
+    },
+    "animali_animalia_chordata_aves_gruiformes_rallidae_chloropus": {
+        "gallinella d'acqua": "nome comune"
+    },
+    "animali_animalia_chordata_aves_gruiformes_rallidae_aquaticus": {
+        "porciglione": "nome comune"
+    },
+    "animali_animalia_chordata_aves_podicipediformes": {
+        "podicipedidae": "famiglia"
+    },
+    "animali_animalia_chordata_aves_podicipediformes_podicipedidae": {
+        "ruficollis": "specie",
+        "cristatus": "specie"
+    },
+    "animali_animalia_chordata_aves_podicipediformes_podicipedidae_ruficollis": {
+        "tuffetto": "nome comune"
+    },
+    "animali_animalia_chordata_aves_podicipediformes_podicipedidae_cristatus": {
+        "svasso maggiore": "nome comune"
+    },
+    "animali_animalia_chordata_aves_falconiformes": {
+        "accipitridae": "famiglia",
+        "falconidae": "famiglia"
+    },
+    "animali_animalia_chordata_aves_falconiformes_accipitridae": {
+        "nisus": "specie"
+    },
+    "animali_animalia_chordata_aves_falconiformes_accipitridae_chrysaetos": {
+        "aquila reale": "nome comune"
+    },
+    "animali_animalia_chordata_aves_falconiformes_accipitridae_buteo": {
+        "poiana": "nome comune"
+    },
+    "animali_animalia_chordata_aves_falconiformes_accipitridae_aeruginosus": {
+        "falco di palude": "nome comune"
+    },
+    "animali_animalia_chordata_aves_falconiformes_accipitridae_fulvus": {
+        "grifone": "nome comune"
+    },
+    "animali_animalia_chordata_aves_falconiformes_accipitridae_pygargus": {
+        "albanella minore": "nome comune"
+    },
+    "animali_animalia_chordata_aves_falconiformes_accipitridae_apivorus": {
+        "falco pecchiaiolo": "nome comune"
+    },
+    "animali_animalia_chordata_aves_falconiformes_accipitridae_nisus": {
+        "sparviere": "nome comune"
+    },
+    "animali_animalia_chordata_aves_falconiformes_falconidae": {
+        "tinnunculus": "specie",
+        "peregrinus": "specie"
+    },
+    "animali_animalia_chordata_aves_falconiformes_falconidae_tinnunculus": {
+        "gheppio": "nome comune"
+    },
+    "animali_animalia_chordata_aves_falconiformes_falconidae_peregrinus": {
+        "falco pellegrino": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes": {
+        "phylloscopidae": "famiglia",
+        "muscicapidae": "famiglia",
+        "turdidae": "famiglia",
+        "motacillidae": "famiglia",
+        "paridae": "famiglia",
+        "fringillidae": "famiglia",
+        "troglodytidae": "famiglia",
+        "prunellidae": "famiglia",
+        "remizidae": "famiglia",
+        "aegithalidae": "famiglia",
+        "passeridae": "famiglia",
+        "laniidae": "famiglia",
+        "sylviidae": "famiglia",
+        "corvidae": "famiglia",
+        "hirundinidae": "famiglia",
+        "sturnidae": "famiglia",
+        "certhiidae": "famiglia",
+        "regulidae": "famiglia",
+        "sittidae": "famiglia"
+    },
+    "animali_animalia_chordata_aves_passeriformes_phylloscopidae": {
+        "lu\u00c3\u00ac": "nome comune",
+        "collybita": "specie"
+    },
+    "animali_animalia_chordata_aves_passeriformes_phylloscopidae_collybita": {
+        "lu\u00c3\u00ac piccolo": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_muscicapidae": {
+        "rubecula": "specie",
+        "oenanthe": "specie",
+        "torquatus": "specie",
+        "striata": "specie"
+    },
+    "animali_animalia_chordata_aves_passeriformes_muscicapidae_rubecula": {
+        "pettirosso": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_muscicapidae_oenanthe": {
+        "culbianco": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_muscicapidae_torquatus": {
+        "saltimpalo": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_muscicapidae_striata": {
+        "pigliamosche": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_turdidae": {
+        "merula": "specie",
+        "ochruros": "specie",
+        "viscivorus": "specie",
+        "pilaris": "specie",
+        "phoenicurus": "specie"
+    },
+    "animali_animalia_chordata_aves_passeriformes_turdidae_merula": {
+        "merlo": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_turdidae_ochruros": {
+        "codirosso spazzacamino": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_turdidae_viscivorus": {
+        "tordela": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_turdidae_pilaris": {
+        "cesena": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_turdidae_phoenicurus": {
+        "codirosso": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_motacillidae": {
+        "cutrettola": "nome comune",
+        "alba": "specie",
+        "spinoletta spinoletta": "specie"
+    },
+    "animali_animalia_chordata_aves_passeriformes_motacillidae_alba": {
+        "ballerina bianca": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_motacillidae_spinoletta spinoletta": {
+        "spioncello di montagna": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_paridae": {
+        "major": "specie",
+        "caeruleus": "specie",
+        "ater": "specie",
+        "palustris": "specie"
+    },
+    "animali_animalia_chordata_aves_passeriformes_paridae_major": {
+        "cinciallegra": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_paridae_caeruleus": {
+        "cinciarella": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_paridae_ater": {
+        "cincia mora": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_paridae_palustris": {
+        "cincia bigia": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_fringillidae": {
+        "coelebs": "specie",
+        "chloris": "specie",
+        "spinus": "specie",
+        "serinus": "specie"
+    },
+    "animali_animalia_chordata_aves_passeriformes_fringillidae_coelebs": {
+        "fringuello": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_fringillidae_chloris": {
+        "verdone": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_fringillidae_spinus": {
+        "lucherino": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_fringillidae_serinus": {
+        "verzellino": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_troglodytidae": {
+        "troglodytes": "specie"
+    },
+    "animali_animalia_chordata_aves_passeriformes_troglodytidae_troglodytes": {
+        "scricciolo": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_prunellidae": {
+        "modularis": "specie"
+    },
+    "animali_animalia_chordata_aves_passeriformes_prunellidae_modularis": {
+        "passera scopaiola": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_remizidae": {
+        "pendulinus": "specie"
+    },
+    "animali_animalia_chordata_aves_passeriformes_remizidae_pendulinus": {
+        "pendolino": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_aegithalidae": {
+        "caudatus": "specie"
+    },
+    "animali_animalia_chordata_aves_passeriformes_aegithalidae_caudatus": {
+        "codibugnolo": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_passeridae": {
+        "domesticus": "specie"
+    },
+    "animali_animalia_chordata_aves_passeriformes_passeridae_domesticus": {
+        "passero comune": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_laniidae": {
+        "collurio": "specie"
+    },
+    "animali_animalia_chordata_aves_passeriformes_laniidae_collurio": {
+        "averla piccola": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_sylviidae": {
+        "atricapilla": "specie"
+    },
+    "animali_animalia_chordata_aves_passeriformes_sylviidae_atricapilla": {
+        "capinera": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_corvidae": {
+        "corone cornix": "specie",
+        "glandarius": "specie",
+        "monedula": "specie",
+        "pica": "specie"
+    },
+    "animali_animalia_chordata_aves_passeriformes_corvidae_corone cornix": {
+        "cornacchia grigia": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_corvidae_glandarius": {
+        "ghiandaia": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_corvidae_monedula": {
+        "taccola": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_corvidae_pica": {
+        "gazza": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_hirundinidae": {
+        "rustica": "specie",
+        "riparia": "specie"
+    },
+    "animali_animalia_chordata_aves_passeriformes_hirundinidae_rustica": {
+        "rondine": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_hirundinidae_riparia": {
+        "topino": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_sturnidae": {
+        "vulgaris": "specie"
+    },
+    "animali_animalia_chordata_aves_passeriformes_sturnidae_vulgaris": {
+        "storno": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_certhiidae": {
+        "brachydactyla": "specie"
+    },
+    "animali_animalia_chordata_aves_passeriformes_certhiidae_brachydactyla": {
+        "rampichino": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_regulidae": {
+        "regulus": "specie"
+    },
+    "animali_animalia_chordata_aves_passeriformes_regulidae_regulus": {
+        "regolo": "nome comune"
+    },
+    "animali_animalia_chordata_aves_passeriformes_sittidae": {
+        "europaeae": "specie"
+    },
+    "animali_animalia_chordata_aves_passeriformes_sittidae_europaeae": {
+        "picchio muratore": "nome comune"
+    },
+    "animali_animalia_chordata_aves_charadriiformes_laridae": {
+        "michahellis": "specie",
+        "ridibundus": "specie"
+    },
+    "animali_animalia_chordata_aves_charadriiformes_laridae_michahellis": {
+        "gabbiano reale": "nome comune"
+    },
+    "animali_animalia_chordata_aves_charadriiformes_laridae_ridibundus": {
+        "gabbiano comune": "nome comune"
+    },
+    "animali_animalia_chordata_aves_charadriiformes_recurvirostridae": {
+        "himantopus": "specie"
+    },
+    "animali_animalia_chordata_aves_charadriiformes_recurvirostridae_himantopus": {
+        "cavaliere d'Italia": "nome comune"
+    },
+    "animali_animalia_chordata_aves_charadriiformes_scolopacidae": {
+        "gallinago": "specie",
+        "glareola": "specie",
+        "interpres": "specie",
+        "hypoleucos": "specie"
+    },
+    "animali_animalia_chordata_aves_charadriiformes_scolopacidae_gallinago": {
+        "beccaccino": "nome comune"
+    },
+    "animali_animalia_chordata_aves_charadriiformes_scolopacidae_glareola": {
+        "piro-piro boschereccio": "nome comune"
+    },
+    "animali_animalia_chordata_aves_charadriiformes_scolopacidae_interpres": {
+        "voltapietre": "nome comune"
+    },
+    "animali_animalia_chordata_aves_charadriiformes_scolopacidae_hypoleucos": {
+        "piro piro piccolo": "nome comune"
+    },
+    "animali_animalia_chordata_aves_charadriiformes_charadriidae": {
+        "bubius": "specie"
+    },
+    "animali_animalia_chordata_aves_charadriiformes_charadriidae_bubius": {
+        "corriere piccolo": "nome comune"
+    },
+    "animali_animalia_chordata_aves_charadriiformes_sternidae": {
+        "hybridus": "specie"
+    },
+    "animali_animalia_chordata_aves_charadriiformes_sternidae_hybridus": {
+        "mignattino piombato": "nome comune"
+    },
+    "animali_animalia_chordata_aves_galliformes": {
+        "phasianidae": "famiglia"
+    },
+    "animali_animalia_chordata_aves_galliformes_phasianidae": {
+        "rufa": "specie",
+        "colchicus": "specie"
+    },
+    "animali_animalia_chordata_aves_galliformes_phasianidae_rufa": {
+        "pernice rossa": "nome comune"
+    },
+    "animali_animalia_chordata_aves_galliformes_phasianidae_colchicus": {
+        "fagiano comune": "nome comune"
+    },
+    "animali_animalia_chordata_aves_caprimulgiformes": {
+        "caprimulgidae": "famiglia"
+    },
+    "animali_animalia_chordata_aves_caprimulgiformes_caprimulgidae": {
+        "europaeus": "specie"
+    },
+    "animali_animalia_chordata_aves_caprimulgiformes_caprimulgidae_europaeus": {
+        "succiacapre": "nome comune"
+    },
+    "animali_animalia_chordata_aves_columbiformes": {
+        "columbidae": "famiglia"
+    },
+    "animali_animalia_chordata_aves_columbiformes_columbidae": {
+        "turtur": "specie",
+        "decaocto": "specie",
+        "palumbus": "specie"
+    },
+    "animali_animalia_chordata_aves_columbiformes_columbidae_turtur": {
+        "tortora selvatica": "nome comune"
+    },
+    "animali_animalia_chordata_aves_columbiformes_columbidae_decaocto": {
+        "tortora dal collare orientale": "nome comune"
+    },
+    "animali_animalia_chordata_aves_columbiformes_columbidae_palumbus": {
+        "colombaccio": "nome comune"
+    },
+    "animali_animalia_chordata_aves_strigiformes": {
+        "strigidae": "famiglia"
+    },
+    "animali_animalia_chordata_aves_strigiformes_strigidae": {
+        "aluco": "specie",
+        "flammeus": "specie"
+    },
+    "animali_animalia_chordata_aves_strigiformes_strigidae_aluco": {
+        "allocco": "nome comune"
+    },
+    "animali_animalia_chordata_aves_strigiformes_strigidae_flammeus": {
+        "gufo di palude": "nome comune"
+    },
+    "animali_animalia_chordata_aves_phoenicopteriformes": {
+        "phoenicopteridae": "famiglia"
+    },
+    "animali_animalia_chordata_aves_phoenicopteriformes_phoenicopteridae": {
+        "roseus": "specie",
+        "ruber": "specie"
+    },
+    "animali_animalia_chordata_aves_phoenicopteriformes_phoenicopteridae_roseus": {
+        "fenicottero rosa": "nome comune"
+    },
+    "animali_animalia_chordata_aves_phoenicopteriformes_phoenicopteridae_ruber": {
+        "fenicottero rosa": "nome comune"
+    },
+    "animali_animalia_chordata_aves_cuculiformes": {
+        "cuculidae": "famiglia"
+    },
+    "animali_animalia_chordata_aves_cuculiformes_cuculidae": {
+        "canorus": "specie"
+    },
+    "animali_animalia_chordata_aves_cuculiformes_cuculidae_canorus": {
+        "cuculo": "nome comune"
+    },
+    "animali_animalia_chordata_aves_ciconiiformes": {
+        "ciconiidae": "famiglia"
+    },
+    "animali_animalia_chordata_aves_ciconiiformes_ciconiidae": {
+        "ciconia": "specie"
+    },
+    "animali_animalia_chordata_aves_ciconiiformes_ciconiidae_ciconia": {
+        "cicogna bianca": "nome comune"
+    },
+    "animali_animalia_chordata_aves_piciformes": {
+        "picidae": "famiglia"
+    },
+    "animali_animalia_chordata_aves_piciformes_picidae": {
+        "major": "specie",
+        "medius": "specie"
+    },
+    "animali_animalia_chordata_aves_piciformes_picidae_major": {
+        "picchio rosso maggiore": "nome comune"
+    },
+    "animali_animalia_chordata_aves_piciformes_picidae_medius": {
+        "picchio rosso mezzano": "nome comune"
+    },
+    "animali_animalia_chordata_amphibia": {
+        "caudata": "ordine",
+        "anura": "ordine"
+    },
+    "animali_animalia_chordata_amphibia_caudata": {
+        "salamandridae": "famiglia"
+    },
+    "animali_animalia_chordata_amphibia_caudata_salamandridae": {
+        "tergiditata": "specie",
+        "salamandra": "specie",
+        "vulgaris": "specie"
+    },
+    "animali_animalia_chordata_amphibia_caudata_salamandridae_tergiditata": {
+        "salamandrina dagli occhiali": "nome comune"
+    },
+    "animali_animalia_chordata_amphibia_caudata_salamandridae_salamandra": {
+        "salamandra pezzata": "nome comune"
+    },
+    "animali_animalia_chordata_amphibia_caudata_salamandridae_vulgaris": {
+        "tritoni punteggiati": "nome comune"
+    },
+    "animali_animalia_chordata_amphibia_anura": {
+        "ranidae": "famiglia",
+        "hylidae": "famiglia",
+        "bufonidae": "famiglia",
+        "bombinatoridae": "famiglia"
+    },
+    "animali_animalia_chordata_amphibia_anura_ranidae": {
+        "rana rossa": "nome comune",
+        "rana verde": "nome comune",
+        "temporaria": "specie"
+    },
+    "animali_animalia_chordata_amphibia_anura_ranidae_esculentus": {
+        "rana verde": "nome comune"
+    },
+    "animali_animalia_chordata_amphibia_anura_hylidae": {
+        "arborea": "specie"
+    },
+    "animali_animalia_chordata_amphibia_anura_hylidae_arborea": {
+        "raganella": "nome comune"
+    },
+    "animali_animalia_chordata_amphibia_anura_bufonidae": {
+        "bufo": "specie",
+        "viridis": "specie"
+    },
+    "animali_animalia_chordata_amphibia_anura_bufonidae_bufo": {
+        "rospo comune": "nome comune"
+    },
+    "animali_animalia_chordata_amphibia_anura_bufonidae_viridis": {
+        "rospo smeraldino": "nome comune"
+    },
+    "animali_animalia_chordata_amphibia_anura_bombinatoridae": {
+        "variegata": "specie"
+    },
+    "animali_animalia_chordata_amphibia_anura_bombinatoridae_variegata": {
+        "ululone dal ventre giallo": "nome comune"
+    },
+    "animali_animalia_chordata_mammalia": {
+        "carnivora": "ordine",
+        "artiodactyla": "ordine",
+        "logomorpha": "ordine",
+        "rodentia": "ordine",
+        "chiroptera": "ordine",
+        "insectivora": "ordine"
+    },
+    "animali_animalia_chordata_mammalia_carnivora": {
+        "canidae": "famiglia"
+    },
+    "animali_animalia_chordata_mammalia_carnivora_canidae": {
+        "lupus": "specie",
+        "vulpes": "specie"
+    },
+    "animali_animalia_chordata_mammalia_carnivora_canidae_lupus": {
+        "lupo": "nome comune"
+    },
+    "animali_animalia_chordata_mammalia_carnivora_canidae_vulpes": {
+        "volpe": "nome comune"
+    },
+    "animali_animalia_chordata_mammalia_artiodactyla": {
+        "cervidae": "famiglia",
+        "bovidae": "famiglia",
+        "suidae": "famiglia"
+    },
+    "animali_animalia_chordata_mammalia_artiodactyla_cervidae": {
+        "elaphus": "specie",
+        "dama": "specie",
+        "capreolus": "specie",
+        "nobilis": "specie"
+    },
+    "animali_animalia_chordata_mammalia_artiodactyla_cervidae_elaphus": {
+        "cervo nobile": "nome comune"
+    },
+    "animali_animalia_chordata_mammalia_artiodactyla_cervidae_dama": {
+        "daino": "nome comune"
+    },
+    "animali_animalia_chordata_mammalia_artiodactyla_cervidae_capreolus": {
+        "capriolo": "nome comune"
+    },
+    "animali_animalia_chordata_mammalia_artiodactyla_cervidae_nobilis": {
+        "cervo nobile": "nome comune"
+    },
+    "animali_animalia_chordata_mammalia_artiodactyla_bovidae": {
+        "capra rinselvatichita": "nome comune",
+        "musimon": "specie",
+        "ibex": "specie",
+        "pyrenaica": "specie",
+        "bonasus": "specie"
+    },
+    "animali_animalia_chordata_mammalia_artiodactyla_bovidae_musimon": {
+        "muflone": "nome comune"
+    },
+    "animali_animalia_chordata_mammalia_artiodactyla_bovidae_ibex": {
+        "stambecco alpino": "nome comune"
+    },
+    "animali_animalia_chordata_mammalia_artiodactyla_bovidae_pyrenaica": {
+        "camoscio d'Abruzzo": "nome comune"
+    },
+    "animali_animalia_chordata_mammalia_artiodactyla_bovidae_bonasus": {
+        "bisonte europeo": "nome comune"
+    },
+    "animali_animalia_chordata_mammalia_artiodactyla_suidae": {
+        "scrofa": "specie"
+    },
+    "animali_animalia_chordata_mammalia_artiodactyla_suidae_scrofa": {
+        "cinghiale": "nome comune"
+    },
+    "animali_animalia_chordata_mammalia_logomorpha": {
+        "leporidae": "famiglia"
+    },
+    "animali_animalia_chordata_mammalia_logomorpha_leporidae": {
+        "europaeus": "specie"
+    },
+    "animali_animalia_chordata_mammalia_logomorpha_leporidae_europaeus": {
+        "lepre": "nome comune"
+    },
+    "animali_animalia_chordata_mammalia_rodentia": {
+        "gliridae": "famiglia",
+        "sciuridae": "famiglia",
+        "cricetidae": "famiglia"
+    },
+    "animali_animalia_chordata_mammalia_rodentia_gliridae": {
+        "glis": "specie",
+        "avellanarius": "specie"
+    },
+    "animali_animalia_chordata_mammalia_rodentia_gliridae_glis": {
+        "ghiro": "nome comune"
+    },
+    "animali_animalia_chordata_mammalia_rodentia_gliridae_avellanarius": {
+        "moscardino": "nome comune"
+    },
+    "animali_animalia_chordata_mammalia_rodentia_sciuridae": {
+        "vulgaris": "specie"
+    },
+    "animali_animalia_chordata_mammalia_rodentia_sciuridae_vulgaris": {
+        "scoiattolo": "nome comune"
+    },
+    "animali_animalia_chordata_mammalia_chiroptera": {
+        "rhinolophidae": "famiglia"
+    },
+    "animali_animalia_chordata_mammalia_chiroptera_rhinolophidae": {
+        "pipistrello": "nome comune"
+    },
+    "animali_animalia_chordata_mammalia_insectivora": {
+        "erinaceidae": "famiglia"
+    },
+    "animali_animalia_chordata_mammalia_insectivora_erinaceidae": {
+        "europaeus": "specie"
+    },
+    "animali_animalia_chordata_mammalia_insectivora_erinaceidae_europaeus": {
+        "riccio": "nome comune"
+    },
+    "animali_animalia_chordata_reptilia": {
+        "squamata": "ordine",
+        "testudines": "ordine"
+    },
+    "animali_animalia_chordata_reptilia_squamata": {
+        "viperidae": "famiglia",
+        "colubridae": "famiglia",
+        "anguidae": "famiglia",
+        "lacertidae": "famiglia",
+        "gekkonidae": "famiglia"
+    },
+    "animali_animalia_chordata_reptilia_squamata_viperidae": {
+        "aspis": "specie"
+    },
+    "animali_animalia_chordata_reptilia_squamata_viperidae_aspis": {
+        "vipera comune": "nome comune"
+    },
+    "animali_animalia_chordata_reptilia_squamata_colubridae": {
+        "viridiflavus": "specie",
+        "natrix": "specie",
+        "tessellata": "specie",
+        "quatuorlineata": "specie",
+        "longissima": "specie"
+    },
+    "animali_animalia_chordata_reptilia_squamata_colubridae_viridiflavus": {
+        "biacco": "nome comune"
+    },
+    "animali_animalia_chordata_reptilia_squamata_colubridae_natrix": {
+        "biscia dal collare": "nome comune"
+    },
+    "animali_animalia_chordata_reptilia_squamata_colubridae_quatuorlineata": {
+        "cervone": "nome comune"
+    },
+    "animali_animalia_chordata_reptilia_squamata_colubridae_longissima": {
+        "colubro di esculapio": "nome comune",
+        "colubro di esculapio giovane": "nome comune"
+    },
+    "animali_animalia_chordata_reptilia_squamata_anguidae": {
+        "fragilis": "specie"
+    },
+    "animali_animalia_chordata_reptilia_squamata_anguidae_fragilis": {
+        "orbettino": "nome comune"
+    },
+    "animali_animalia_chordata_reptilia_squamata_lacertidae": {
+        "viridis": "specie",
+        "muralis": "specie",
+        "sicula": "specie",
+        "tiliguerta": "specie",
+        "sicula tyrrenica": "specie"
+    },
+    "animali_animalia_chordata_reptilia_squamata_lacertidae_viridis": {
+        "ramarro": "nome comune"
+    },
+    "animali_animalia_chordata_reptilia_squamata_lacertidae_muralis": {
+        "lucertola muraiola": "nome comune"
+    },
+    "animali_animalia_chordata_reptilia_squamata_lacertidae_sicula": {
+        "lucertola campestre": "nome comune"
+    },
+    "animali_animalia_chordata_reptilia_squamata_gekkonidae": {
+        "mauritanica": "specie"
+    },
+    "animali_animalia_chordata_reptilia_squamata_gekkonidae_mauritanica": {
+        "tarantola muraiola": "nome comune"
+    },
+    "animali_animalia_chordata_reptilia_testudines": {
+        "emydidae": "famiglia"
+    },
+    "animali_animalia_chordata_reptilia_testudines_emydidae": {
+        "orbicularis": "specie"
+    },
+    "animali_animalia_chordata_reptilia_testudines_emydidae_orbicularis": {
+        "testuggine palustre": "nome comune"
+    },
+    "animali_animalia_arthropoda": {
+        "insecta": "classe",
+        "arachnida": "classe",
+        "diplopoda": "classe",
+        "chilopoda": "classe",
+        "malacostraca": "classe"
+    },
+    "animali_animalia_arthropoda_insecta": {
+        "lepidoptera": "ordine",
+        "diptera": "ordine",
+        "odonata": "ordine",
+        "hymenoptera": "ordine",
+        "coleoptera": "ordine",
+        "hemiptera": "ordine",
+        "neuroptera": "ordine",
+        "phasmida": "ordine",
+        "mantodea": "ordine",
+        "trichoptera": "ordine",
+        "orthoptera": "ordine",
+        "plecoptera": "ordine",
+        "ephemeroptera": "ordine",
+        "mecoptera": "ordine",
+        "dermaptera": "ordine",
+        "raphidioptera": "ordine",
+        "blattodea": "ordine"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera": {
+        "bruco": "nome comune",
+        "crambidae": "famiglia",
+        "lasiocampidae": "famiglia",
+        "yponomeutidae": "famiglia",
+        "ctenuchidae": "famiglia",
+        "nemeobiidae": "famiglia",
+        "micropterygidae": "famiglia",
+        "adelidae": "famiglia",
+        "zygaenidae": "famiglia",
+        "elachistidae": "famiglia",
+        "incurvariidae": "famiglia",
+        "erebidae": "famiglia"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_papilionidae": {
+        "machaon": "specie",
+        "apollo": "specie",
+        "podalirius": "specie",
+        "mnemosyne": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_papilionidae_machaon": {
+        "macaone": "nome comune",
+        "(bruco)": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_papilionidae_podalirius": {
+        "podalirio": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_tortricidae": {
+        "arcuella": "specie",
+        "consimiliana": "specie",
+        "rurinana": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_amphisbtidae": {
+        "citrinalis": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_nymphalidae": {
+        "egea": "specie",
+        "phoebe": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_nymphalidae_didyma": {
+        "bruco": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_nymphalidae_reducta": {
+        "bruco": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_nymphalidae_c-album": {
+        "vanessa c-bianco": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_nymphalidae_urticae": {
+        "vanessa dell'ortica": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_nymphalidae_cardui": {
+        "vanessa del cardo": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_nymphalidae_paphia": {
+        "(bruco)": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_pieridae": {
+        "bruco": "nome comune",
+        "rhamni": "specie",
+        "crataegi": "specie",
+        "cleopatra": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_pieridae_cardamines": {
+        "Aurora (maschio)": "nome comune",
+        "aurora (femmina) ": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_pieridae_brassicae": {
+        "cavolaia maggiore": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_pieridae_crataegi (crisalide)": {
+        "pieride del biancospino": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_pieridae_crataegi (schiusa)": {
+        "pieride del biancospino": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_pieridae_crataegi (sfarfallamento)": {
+        "pieride del biancospino": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_pieridae_napi": {
+        "pieridi del navone": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_pieridae_rhamni": {
+        "cedronella": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_pieridae_crataegi": {
+        "pieride del biancospino": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_geometridae": {
+        "bruco": "nome comune",
+        "(bruco)": "nome comune",
+        "lineata": "specie",
+        "riguata": "specie",
+        "defoliaria": "specie",
+        "plagiata": "specie",
+        "lunularia": "specie",
+        "viridata": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_noctuidae": {
+        "persicariae": "specie",
+        "dysodea": "specie",
+        "verbasci (bruco)": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_sphingidae": {
+        "convolvuli": "specie",
+        "tiliae": "specie",
+        "stellatarum": "specie",
+        "lineata": "specie",
+        "stellatarum (bruco)": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_sphingidae_convolvuli": {
+        "sfinge del convolvolo": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_sphingidae_tiliae": {
+        "sfinge del tiglio": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_sphingidae_stellatarum": {
+        "bruco": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_sphingidae_lineata": {
+        "sfinge lineata": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_lycaenidae": {
+        "quercus": "specie",
+        "marshall": "specie",
+        "agestis": "specie",
+        "phlaeas": "specie",
+        "alexis": "specie",
+        "pirithous": "specie",
+        "corydon": "specie",
+        "decoloratus": "specie",
+        "bellargus": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_satyridae": {
+        "petropolitana": "specie",
+        "megera": "specie",
+        "statilinus": "specie",
+        "briseis": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_sesiidae": {
+        "vespiformis": "specie",
+        "tipuliformes": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_lymantriidae": {
+        "monacha": "specie",
+        "dispar": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_crambidae": {
+        "dentalis": "specie",
+        "linetella": "specie",
+        "palealis": "specie",
+        "hortulata": "specie",
+        "ornatalis": "specie",
+        "basistrigalis": "specie",
+        "perspectalis": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_crambidae_perspectalis": {
+        "piralide del bosso": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_lasiocampidae": {
+        "castrensis": "specie",
+        "quercus": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_lasiocampidae_quercus": {
+        "bombice della quercia": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_yponomeutidae": {
+        "xilostella": "specie",
+        "xylostella": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_ctenuchidae": {
+        "phegea": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_nemeobiidae": {
+        "lucina": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_micropterygidae": {
+        "caltella": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_adelidae": {
+        "metallica": "specie",
+        "degeerella": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_zygaenidae": {
+        "purpuralis": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_elachistidae": {
+        "aurifluella": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_incurvariidae": {
+        "viridella": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_lepidoptera_erebidae": {
+        "pulchella": "specie",
+        "algira": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_diptera": {
+        "syrphidae": "famiglia",
+        "conopidae": "famiglia",
+        "tabanidae": "famiglia",
+        "bombyliidae": "famiglia",
+        "asilidae": "famiglia",
+        "sarcophagidae": "famiglia",
+        "platystomatidae": "famiglia",
+        "trichoceridae": "famiglia",
+        "scathophagidae": "famiglia",
+        "lonchaeidae": "famiglia"
+    },
+    "animali_animalia_arthropoda_insecta_diptera_tipulidae": {
+        "maxima": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_diptera_sciomyzidae": {
+        "punctulata": "specie",
+        "marginata": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_diptera_syrphidae": {
+        "ribesii": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_diptera_tabanidae": {
+        "bovinus": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_diptera_tabanidae_pluvialis": {
+        "tafano della pioggia": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_diptera_tabanidae_bovinus": {
+        "tafano bovino": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_diptera_asilidae": {
+        "crabroniformis": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_diptera_sarcophagidae": {
+        "carnaria": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_diptera_platystomatidae": {
+        "seminationis": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_diptera_trichoceridae": {
+        "hiemalis": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_diptera_scathophagidae": {
+        "stercoraria": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_odonata_gomphidae": {
+        "vulgatissimus": "specie",
+        "uncatus": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_odonata_calopterygidae": {
+        "virgo": "specie",
+        "haemorrhoidalis": "specie",
+        "splendens": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_odonata_aeshnidae": {
+        "cyanea": "specie",
+        "isosceles": "specie",
+        "imperator": "specie",
+        "juncea": "specie",
+        "parthenope": "specie",
+        "imperator (maschio)": "specie",
+        "imperator (femmina)": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_odonata_libellulidae": {
+        "fonscolombei": "specie",
+        "flaveolum": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_odonata_libellulidae_depressa": {
+        "(metamorfosi)": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_odonata_cordulegastridae": {
+        "boltonii": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_hymenoptera": {
+        "chrysididae": "famiglia",
+        "apidae": "famiglia",
+        "formicidae": "famiglia",
+        "argidae": "famiglia",
+        "vespidae": "famiglia",
+        "cimbicidae": "famiglia",
+        "tenthredinae": "famiglia",
+        "gasteruptiidae": "famiglia"
+    },
+    "animali_animalia_arthropoda_insecta_hymenoptera_sphecidae": {
+        "sabulosa": "specie",
+        "cementarium": "specie",
+        "curvatum": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_hymenoptera_sphecidae_cementarium": {
+        "vespa vasaio": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_hymenoptera_ichneumonidae": {
+        "armatorius": "specie",
+        "persuasoria": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_hymenoptera_chrysididae_ignita": {
+        "criside di fuoco": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_hymenoptera_apidae": {
+        "pasquorum": "specie",
+        "septemdentatum": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_hymenoptera_vespidae": {
+        "germanica": "specie",
+        "crabro": "specie",
+        "gallicus": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_hymenoptera_vespidae_crabro": {
+        "calabrone": "nome comune",
+        "calabroni (nido)": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_hymenoptera_cimbicidae": {
+        "luteus": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera": {
+        "dytiscidae": "famiglia",
+        "staphylimidae": "famiglia",
+        "coccinellidae": "famiglia",
+        "buprestidae": "famiglia",
+        "pyrochroidae": "famiglia",
+        "lucanidae": "famiglia",
+        "hydrophilidae": "famiglia",
+        "attelabidae": "famiglia",
+        "cetonidae": "famiglia",
+        "silphidae": "famiglia",
+        "pyrrhocoridae": "famiglia",
+        "oedemeridae": "famiglia",
+        "lampyridae": "famiglia",
+        "elateridae": "famiglia",
+        "geotrupidae": "famiglia",
+        "malachidae": "famiglia"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_scarabeidae": {
+        "nasicornis": "specie",
+        "melolontha": "specie",
+        "junii": "specie",
+        "hirta": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_scarabeidae_nasicornis": {
+        "scarabeo rinoceronte": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_scarabeidae_melolontha": {
+        "maggiolino": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_chrysomelidae": {
+        "fornicata": "specie",
+        "sexpuntata": "specie",
+        "herbacea": "specie",
+        "sanguinolenta": "specie",
+        "tenebricosa": "specie",
+        "lusitanicum": "specie",
+        "grossa": "specie",
+        "bimaculatus": "specie",
+        "bipunctatus": "specie",
+        "melanopus": "specie",
+        "americana": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_curculionidae": {
+        "dirus": "specie",
+        "pulverulentus": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_cleridae": {
+        "alvearius": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_meloidae": {
+        "variabilis": "specie",
+        "vesicatoria": "specie",
+        "rufidorsum": "specie",
+        "proscarabeus": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_meloidae_vesicatoria": {
+        "mosca di Spagna": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_cerambycidae": {
+        "asper": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_cerambycidae_cerdo": {
+        "cerambice della quercia": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_dytiscidae_marginalis": {
+        "ditisco": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_staphylimidae": {
+        "riparius": "specie",
+        "olens": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_coccinellidae": {
+        "decempunctata": "specie",
+        "sedecimguttata": "specie",
+        "bipunctata": "specie",
+        "quatuordecimguttata": "specie",
+        "vigintiguttata": "specie",
+        "septempunctata": "specie",
+        "elaterii": "specie",
+        "vigintiquatorpunctata": "specie",
+        "quatuordecimpunctata": "specie",
+        "variegata": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_coccinellidae_septempunctata": {
+        "coccinella": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_buprestidae": {
+        "aenea": "specie",
+        "hungarica": "specie",
+        "flavoguttata": "specie",
+        "tenebrionis": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_pyrochroidae": {
+        "coccinea": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_lucanidae": {
+        "parallelipipedus": "specie",
+        "cylindricum": "specie",
+        "cervus": "specie",
+        "caraboides": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_lucanidae_cervus": {
+        "cervo volante": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_hydrophilidae": {
+        "piceus": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_attelabidae": {
+        "nitens": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_cetonidae": {
+        "aurata": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_silphidae": {
+        "quadrimaculata": "specie",
+        "carinata": "specie",
+        "investigator": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_pyrrhocoridae": {
+        "serraticornis": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_oedemeridae": {
+        "nobilis": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_coleoptera_geotrupidae": {
+        "vernalis": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_hemiptera": {
+        "(muta)": "nome comune",
+        "pentatomidae": "famiglia",
+        "cercopidae": "famiglia",
+        "rhopalidae": "famiglia",
+        "pyrrhocoridae": "famiglia",
+        "miridae": "famiglia",
+        "gerridae": "famiglia",
+        "notonectidae": "famiglia",
+        "reduviidae": "famiglia",
+        "cicadellidae": "famiglia",
+        "nepidae": "famiglia",
+        "lygaeidae": "famiglia"
+    },
+    "animali_animalia_arthropoda_insecta_hemiptera_dictyopharidae": {
+        "europaea": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_hemiptera_membracidae": {
+        "bisonia": "specie",
+        "cornutus": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_hemiptera_cicadidae": {
+        "plebejus": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_hemiptera_cicadidae_plebejus": {
+        "cicala": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_hemiptera_coreidae": {
+        "occidentalis": "specie",
+        "marginatus": "specie",
+        "rhombeus": "specie",
+        "juniperi": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_hemiptera_pentatomidae": {
+        "italicum": "specie",
+        "pudicus": "specie",
+        "oleracea": "specie",
+        "coerulea": "specie",
+        "dominulus": "specie",
+        "varia": "specie",
+        "ornata": "specie",
+        "rufipes": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_hemiptera_cercopidae": {
+        "vulnerata": "specie",
+        "arcuata": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_hemiptera_rhopalidae": {
+        "schillingii": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_hemiptera_pyrrhocoridae": {
+        "apterus": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_hemiptera_miridae": {
+        "roseomaculatus": "specie",
+        "laevigatum": "specie",
+        "lineolaris": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_hemiptera_gerridae": {
+        "lacustris": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_hemiptera_notonectidae": {
+        "glauca": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_hemiptera_notonectidae_glauca": {
+        "notonetta": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_hemiptera_reduviidae": {
+        "iracundus": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_hemiptera_nepidae": {
+        "cinerea": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_hemiptera_nepidae_cinerea": {
+        "scorpione d'acqua": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_hemiptera_lygaeidae": {
+        "saxatilis": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_neuroptera": {
+        "mantispidae": "famiglia",
+        "chrysopidae": "famiglia",
+        "myrmeleontidae": "famiglia",
+        "ascalaphidae": "famiglia"
+    },
+    "animali_animalia_arthropoda_insecta_neuroptera_mantispidae": {
+        "styriaca": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_neuroptera_myrmeleontidae": {
+        "formicarius": "specie",
+        "libelluloides": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_neuroptera_myrmeleontidae_formicarius": {
+        "formicaleone": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_neuroptera_ascalaphidae": {
+        "coccajus": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_phasmida": {
+        "phasmatidae": "famiglia"
+    },
+    "animali_animalia_arthropoda_insecta_phasmida_phasmatidae": {
+        "rossius": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_phasmida_phasmatidae_rossius": {
+        "insetto stecco": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_mantodea": {
+        "mantidae": "famiglia",
+        "empusidae": "famiglia"
+    },
+    "animali_animalia_arthropoda_insecta_mantodea_mantidae": {
+        "religiosa": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_mantodea_mantidae_religiosa": {
+        "mantide religiosa": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_mantodea_empusidae": {
+        "pennata": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_orthoptera": {
+        "acrididae": "famiglia",
+        "tettigoniidae": "famiglia",
+        "gryllotalpidae": "famiglia",
+        "phaneropteridae": "famiglia"
+    },
+    "animali_animalia_arthropoda_insecta_orthoptera_acrididae_aegyptum": {
+        "locusta egiziana": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_orthoptera_tettigoniidae": {
+        "pedo": "specie",
+        "viridissima": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_orthoptera_gryllotalpidae": {
+        "gryllotalpa": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_orthoptera_gryllotalpidae_gryllotalpa": {
+        "grillotalpa": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_orthoptera_phaneropteridae": {
+        "liliifolia": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_plecoptera": {
+        "perlodidae": "famiglia"
+    },
+    "animali_animalia_arthropoda_insecta_ephemeroptera_heptageniidae": {
+        "effimera": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_mecoptera": {
+        "panorpidae": "famiglia"
+    },
+    "animali_animalia_arthropoda_insecta_mecoptera_panorpidae": {
+        "communis": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_mecoptera_panorpidae_communis": {
+        "mosca scorpione (maschio)": "nome comune",
+        "mosca scorpione (femmina)": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_dermaptera": {
+        "forficulidae": "famiglia"
+    },
+    "animali_animalia_arthropoda_insecta_dermaptera_forficulidae": {
+        "auricularia": "specie"
+    },
+    "animali_animalia_arthropoda_insecta_dermaptera_forficulidae_auricularia": {
+        "forbicina": "nome comune"
+    },
+    "animali_animalia_arthropoda_insecta_blattodea": {
+        "blattellidae": "famiglia"
+    },
+    "animali_animalia_arthropoda_arachnida_araneae_thomisidae": {
+        "vatia": "specie"
+    },
+    "animali_animalia_arthropoda_arachnida_araneae_thomisidae_onustus": {
+        "ragno granchio": "nome comune"
+    },
+    "animali_animalia_arthropoda_arachnida_araneae_salticidae": {
+        "seriatus": "specie"
+    },
+    "animali_animalia_arthropoda_arachnida_araneae_lycosidae": {
+        "ragno lupo (con prole)": "nome comune",
+        "ragno lupo": "nome comune",
+        "piraticus": "specie"
+    },
+    "animali_animalia_arthropoda_arachnida_araneae_agelenidae": {
+        "labyrinthica": "specie"
+    },
+    "animali_animalia_arthropoda_arachnida_araneae_araneidae": {
+        "conica": "specie",
+        "redii": "specie",
+        "bruennichi": "specie",
+        "cucurbitina": "specie",
+        "diadematus": "specie",
+        "armida": "specie",
+        "angolatus": "specie"
+    },
+    "animali_animalia_arthropoda_arachnida_araneae_araneidae_bruennichi": {
+        "argiope fasciata": "nome comune"
+    },
+    "animali_animalia_arthropoda_arachnida_araneae_araneidae_diadematus": {
+        "epeira crociata": "nome comune",
+        "epeira crociata (nidiata)": "nome comune"
+    },
+    "animali_animalia_arthropoda_arachnida_araneae_clubionidae": {
+        "cheiracanzio": "nome comune"
+    },
+    "animali_animalia_arthropoda_arachnida_araneae_sparassidae": {
+        "virescens": "specie"
+    },
+    "animali_animalia_arthropoda_arachnida_araneae_pisauridae": {
+        "mirabilis": "specie"
+    },
+    "animali_animalia_arthropoda_arachnida_opiliones": {
+        "phalangiidae": "famiglia"
+    },
+    "animali_animalia_arthropoda_arachnida_opiliones_phalangiidae": {
+        "opilio": "specie"
+    },
+    "animali_animalia_arthropoda_arachnida_scorpiones": {
+        "euscorpiidae": "famiglia"
+    },
+    "animali_animalia_arthropoda_arachnida_scorpiones_euscorpiidae": {
+        "scorpione": "nome comune"
+    },
+    "animali_animalia_arthropoda_arachnida_acari": {
+        "trombidiidae": "famiglia"
+    },
+    "animali_animalia_arthropoda_diplopoda": {
+        "julida": "ordine",
+        "polydesmidae": "ordine"
+    },
+    "animali_animalia_arthropoda_diplopoda_julida": {
+        "julidae": "famiglia"
+    },
+    "animali_animalia_arthropoda_diplopoda_polydesmidae": {
+        "polydesmidae": "famiglia"
+    },
+    "animali_animalia_arthropoda_diplopoda_polydesmidae_polydesmidae": {
+        "collaris": "specie"
+    },
+    "animali_animalia_arthropoda_chilopoda": {
+        "scolopendromorpha": "ordine",
+        "scutigeromorpha": "ordine",
+        "lithobiomorpha": "ordine"
+    },
+    "animali_animalia_arthropoda_chilopoda_scolopendromorpha": {
+        "scolopendridae": "famiglia"
+    },
+    "animali_animalia_arthropoda_chilopoda_scolopendromorpha_scolopendridae": {
+        "cingulata": "specie"
+    },
+    "animali_animalia_arthropoda_chilopoda_scutigeromorpha": {
+        "scutigeridae": "famiglia"
+    },
+    "animali_animalia_arthropoda_chilopoda_scutigeromorpha_scutigeridae": {
+        "coleoptrata": "specie"
+    },
+    "animali_animalia_arthropoda_chilopoda_lithobiomorpha": {
+        "lithobiidae": "famiglia"
+    },
+    "animali_animalia_arthropoda_chilopoda_lithobiomorpha_lithobiidae": {
+        "forficatus": "specie"
+    },
+    "animali_animalia_arthropoda_malacostraca": {
+        "decapoda": "ordine"
+    },
+    "animali_animalia_arthropoda_malacostraca_decapoda": {
+        "astacidae": "famiglia",
+        "potamidae": "famiglia"
+    },
+    "animali_animalia_arthropoda_malacostraca_decapoda_astacidae": {
+        "pallipes": "specie"
+    },
+    "animali_animalia_arthropoda_malacostraca_decapoda_potamidae": {
+        "fluviatile": "specie"
+    },
+    "animali_animalia_mollusca": {
+        "bivalvia": "classe",
+        "gastropoda": "classe"
+    },
+    "animali_animalia_mollusca_bivalvia": {
+        "unionoida": "ordine"
+    },
+    "animali_animalia_mollusca_bivalvia_unionoida": {
+        "unionidae": "famiglia"
+    },
+    "animali_animalia_mollusca_bivalvia_unionoida_unionidae": {
+        "pictorum": "specie"
+    },
+    "animali_animalia_mollusca_gastropoda": {
+        "pulmonata": "ordine",
+        "heterobranchia": "ordine"
+    },
+    "animali_animalia_mollusca_gastropoda_pulmonata": {
+        "helicidae": "famiglia",
+        "hygromiidae": "famiglia",
+        "agriolimacidae": "famiglia",
+        "arionidae": "famiglia"
+    },
+    "animali_animalia_mollusca_gastropoda_pulmonata_helicidae": {
+        "nemoralis": "specie",
+        "pomatia": "specie"
+    },
+    "animali_animalia_mollusca_gastropoda_pulmonata_agriolimacidae_reticulatum": {
+        "limaccia": "nome comune"
+    },
+    "animali_animalia_mollusca_gastropoda_pulmonata_arionidae": {
+        "rufus": "specie"
+    },
+    "animali_animalia_mollusca_gastropoda_heterobranchia": {
+        "hygromiidae": "famiglia"
+    },
+    "animali_animalia_mollusca_gastropoda_heterobranchia_hygromiidae": {
+        "cantiana": "specie"
+    },
+    "funghi": {
+        "fungi": "regno"
+    },
+    "funghi_fungi": {
+        "basidiomycetes": "classe",
+        "ascomycetes": "classe",
+        "pezizomycetes": "classe",
+        "agaricomycetes": "classe",
+        "hymenomycetes": "classe",
+        "tremellomycetes": "classe",
+        "sordariomycetes": "classe",
+        "amoebozoa": "phylum"
+    },
+    "funghi_fungi_basidiomycetes": {
+        "hymenochaetales": "ordine"
+    },
+    "funghi_fungi_basidiomycetes_gomphales": {
+        "ramariaceae": "famiglia"
+    },
+    "funghi_fungi_basidiomycetes_gomphales_ramariaceae": {
+        "manina": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_agaricales": {
+        "coprinaceae": "famiglia",
+        "amanitaceae": "famiglia",
+        "pleurotaceae": "famiglia",
+        "cortinariaceae": "famiglia",
+        "strophariaceae": "famiglia",
+        "hygrophoraceae": "famiglia",
+        "agaricaceae": "famiglia",
+        "tricholomataceae": "famiglia",
+        "marasmiaceae": "famiglia",
+        "bolbitiaceae": "famiglia",
+        "physalacriaceae": "famiglia",
+        "pluteaceae": "famiglia"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_coprinaceae": {
+        "comatus": "specie",
+        "picaceus": "specie",
+        "atramentarius": "specie",
+        "disseminatus": "specie",
+        "micaceus": "specie"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_amanitaceae": {
+        "phalloides": "specie",
+        "muscaria": "specie",
+        "strobiliformis": "specie",
+        "ovoidea": "specie",
+        "phalloides var. alba": "specie",
+        "fulva": "specie",
+        "rubescens": "specie",
+        "speciosa": "specie",
+        "pantherina": "specie",
+        "caesarea": "specie",
+        "citrina": "specie",
+        "echinocephala": "specie"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_amanitaceae_strobiliformis": {
+        "amanita solitaria": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_amanitaceae_ovoidea": {
+        "farinaccio": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_amanitaceae_fulva": {
+        "bubbolina bruna": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_amanitaceae_rubescens": {
+        "amanita vinosa": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_pleurotaceae": {
+        "ostreatus": "specie"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_strophariaceae": {
+        "pseudocyanea": "specie",
+        "fasciculare": "specie",
+        "aeruginosa": "specie"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_strophariaceae_fasciculare": {
+        "falso chiodino": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_hygrophoraceae": {
+        "conica": "specie"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_agaricaceae": {
+        "procera": "specie",
+        "campestris": "specie",
+        "cristata": "specie",
+        "asperum": "specie"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_agaricaceae_procera": {
+        "mazza da tamburo": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_agaricaceae_asperum": {
+        "lepiota aspera": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_tricholomataceae": {
+        "leaiana": "specie",
+        "inclinata": "specie",
+        "amethystina": "specie",
+        "rickenii": "specie"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_tricholomataceae_gambosa": {
+        "fungo di San Giorgio": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_tricholomataceae_nebularis": {
+        "fungo della nebbia": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_tricholomataceae_terreum": {
+        "moretta": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_tricholomataceae_gibba": {
+        "imbutino": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_marasmiaceae": {
+        "mellea": "specie"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_marasmiaceae_mellea": {
+        "famigliola": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_bolbitiaceae_aegerita": {
+        "piopparello": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_physalacriaceae": {
+        "melanotricha": "specie"
+    },
+    "funghi_fungi_basidiomycetes_agaricales_pluteaceae": {
+        "cervinus": "specie",
+        "thomsonii": "specie"
+    },
+    "funghi_fungi_basidiomycetes_polyporales": {
+        "ganodermataceae": "famiglia",
+        "fomitopsidaceae": "famiglia",
+        "polyporaceae": "famiglia",
+        "sparassidaceae": "famiglia"
+    },
+    "funghi_fungi_basidiomycetes_polyporales_ganodermataceae": {
+        "lucidum": "specie"
+    },
+    "funghi_fungi_basidiomycetes_polyporales_fomitopsidaceae": {
+        "pinicola": "specie"
+    },
+    "funghi_fungi_basidiomycetes_polyporales_fomitopsidaceae_pinicola": {
+        "ungulina marginata": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_polyporales_polyporaceae": {
+        "hirsuta": "specie"
+    },
+    "funghi_fungi_basidiomycetes_polyporales_sparassidaceae": {
+        "crispa": "specie"
+    },
+    "funghi_fungi_basidiomycetes_russulales": {
+        "russulaceae": "famiglia",
+        "hericiaceae": "famiglia"
+    },
+    "funghi_fungi_basidiomycetes_russulales_russulaceae": {
+        "olivacea": "specie",
+        "helvus": "specie",
+        "virescens": "specie",
+        "claroflava": "specie",
+        "decolorans": "specie",
+        "caerulea": "specie"
+    },
+    "funghi_fungi_basidiomycetes_russulales_russulaceae_deliciosus": {
+        "sanguinello": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_russulales_hericiaceae": {
+        "clathroides": "specie",
+        "coralloides": "specie"
+    },
+    "funghi_fungi_basidiomycetes_boletales": {
+        "boletaceae": "famiglia",
+        "gomphidiaceae": "famiglia",
+        "suillaceae": "famiglia"
+    },
+    "funghi_fungi_basidiomycetes_boletales_boletaceae": {
+        "reticulatus": "specie",
+        "satanas": "specie",
+        "luridus": "specie",
+        "radicans": "specie",
+        "cavipes": "specie",
+        "erythropus": "specie",
+        "subappendiculatus": "specie",
+        "edulis": "specie",
+        "aestivalis": "specie",
+        "subtomentosus": "specie"
+    },
+    "funghi_fungi_basidiomycetes_boletales_boletaceae_satanas": {
+        "porcino malefico": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_boletales_boletaceae_edulis": {
+        "porcino": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_boletales_gomphidiaceae": {
+        "glutinosus": "specie",
+        "viscidus": "specie",
+        "subroseus": "specie"
+    },
+    "funghi_fungi_basidiomycetes_boletales_gomphidiaceae_glutinosus": {
+        "chiodetto": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_boletales_suillaceae": {
+        "granulatus": "specie"
+    },
+    "funghi_fungi_basidiomycetes_boletales_suillaceae_granulatus": {
+        "pinarello": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_phallales": {
+        "clatraceae": "famiglia",
+        "geastraceae": "famiglia",
+        "phallaceae": "famiglia",
+        "gomphaceae": "famiglia"
+    },
+    "funghi_fungi_basidiomycetes_phallales_clatraceae": {
+        "ruber": "specie"
+    },
+    "funghi_fungi_basidiomycetes_phallales_clatraceae_ruber": {
+        "clatro reticolato": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_phallales_geastraceae": {
+        "fimbriatum": "specie",
+        "triplex": "specie"
+    },
+    "funghi_fungi_basidiomycetes_phallales_phallaceae": {
+        "impudicus": "specie",
+        "caninus": "specie"
+    },
+    "funghi_fungi_basidiomycetes_phallales_phallaceae_impudicus": {
+        "satirione": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_phallales_gomphaceae": {
+        "pistillaris": "specie"
+    },
+    "funghi_fungi_basidiomycetes_phallales_gomphaceae_pistillaris": {
+        "mazza d'Ercole": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_cantharellales": {
+        "cantharellaceae": "famiglia"
+    },
+    "funghi_fungi_basidiomycetes_cantharellales_cantharellaceae": {
+        "cibarius": "specie",
+        "cornucopioides": "specie"
+    },
+    "funghi_fungi_basidiomycetes_cantharellales_cantharellaceae_cibarius": {
+        "galletto": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_cantharellales_cantharellaceae_cornucopioides": {
+        "trombetta dei morti": "nome comune"
+    },
+    "funghi_fungi_basidiomycetes_hymenochaetales": {
+        "hymenochaetaceae": "famiglia"
+    },
+    "funghi_fungi_basidiomycetes_hymenochaetales_hymenochaetaceae": {
+        "hispidus": "specie"
+    },
+    "funghi_fungi_basidiomycetes_hymenochaetales_hymenochaetaceae_hispidus": {
+        "poliporo irsuto": "nome comune"
+    },
+    "funghi_fungi_ascomycetes": {
+        "pezizales": "ordine"
+    },
+    "funghi_fungi_ascomycetes_pezizales": {
+        "helvellaceae": "famiglia",
+        "morchellaceae": "famiglia"
+    },
+    "funghi_fungi_ascomycetes_pezizales_helvellaceae": {
+        "lacunosa": "specie",
+        "esculenta": "specie",
+        "crispa": "specie"
+    },
+    "funghi_fungi_ascomycetes_pezizales_morchellaceae": {
+        "spugnola": "nome comune"
+    },
+    "funghi_fungi_pezizomycetes": {
+        "pezizales": "ordine"
+    },
+    "funghi_fungi_pezizomycetes_pezizales": {
+        "pezizaceae": "famiglia"
+    },
+    "funghi_fungi_agaricomycetes": {
+        "agaricales": "ordine",
+        "auriculariales": "ordine",
+        "polyporales": "ordine",
+        "russulales": "ordine"
+    },
+    "funghi_fungi_agaricomycetes_agaricales": {
+        "lycoperdaceae": "famiglia",
+        "strophariaceae": "famiglia",
+        "tricholomataceae": "famiglia",
+        "agaricaceae": "famiglia"
+    },
+    "funghi_fungi_agaricomycetes_agaricales_lycoperdaceae": {
+        "caelatum": "specie",
+        "pyriforme": "specie",
+        "echinatum": "specie"
+    },
+    "funghi_fungi_agaricomycetes_agaricales_strophariaceae": {
+        "gummosa": "specie",
+        "aurivella": "specie",
+        "adiposa": "specie",
+        "mutabilis": "specie",
+        "squarrosa": "specie"
+    },
+    "funghi_fungi_agaricomycetes_agaricales_agaricaceae": {
+        "perlatum": "specie"
+    },
+    "funghi_fungi_agaricomycetes_auriculariales": {
+        "exidiaceae": "famiglia"
+    },
+    "funghi_fungi_agaricomycetes_auriculariales_exidiaceae": {
+        "helvelloides": "specie"
+    },
+    "funghi_fungi_agaricomycetes_polyporales": {
+        "polyporaceae": "famiglia",
+        "fomitopsidaceae": "famiglia"
+    },
+    "funghi_fungi_agaricomycetes_polyporales_polyporaceae": {
+        "tuberaster": "specie",
+        "sulphureus": "specie",
+        "picipes": "specie",
+        "montanus": "specie"
+    },
+    "funghi_fungi_agaricomycetes_polyporales_polyporaceae_sulphureus": {
+        "gallina dei boschi": "nome comune"
+    },
+    "funghi_fungi_agaricomycetes_polyporales_fomitopsidaceae": {
+        "betulina": "specie"
+    },
+    "funghi_fungi_agaricomycetes_russulales": {
+        "russulaceae": "famiglia"
+    },
+    "funghi_fungi_agaricomycetes_russulales_russulaceae": {
+        "turpis": "specie"
+    },
+    "funghi_fungi_hymenomycetes": {
+        "auriculariales": "ordine"
+    },
+    "funghi_fungi_hymenomycetes_auriculariales": {
+        "auriculariaceae": "famiglia"
+    },
+    "funghi_fungi_hymenomycetes_auriculariales_auriculariaceae": {
+        "auricula judae": "specie"
+    },
+    "funghi_fungi_tremellomycetes": {
+        "tremellales": "ordine"
+    },
+    "funghi_fungi_tremellomycetes_tremellales": {
+        "tremellaceae": "famiglia"
+    },
+    "funghi_fungi_tremellomycetes_tremellales_tremellaceae": {
+        "foliacea": "specie",
+        "mesenterica": "specie"
+    },
+    "funghi_fungi_sordariomycetes": {
+        "xylariales": "ordine"
+    },
+    "funghi_fungi_sordariomycetes_xylariales": {
+        "xylariaceae": "famiglia"
+    },
+    "funghi_fungi_sordariomycetes_xylariales_xylariaceae": {
+        "polymorpha": "specie"
+    },
+    "funghi_fungi_amoebozoa": {
+        "myxogastria": "classe",
+        "mycetozoa": "classe"
+    },
+    "funghi_fungi_amoebozoa_myxogastria": {
+        "physarales": "ordine",
+        "liceales": "ordine"
+    },
+    "funghi_fungi_amoebozoa_myxogastria_physarales": {
+        "physaraceae": "famiglia"
+    },
+    "funghi_fungi_amoebozoa_myxogastria_physarales_physaraceae": {
+        "septica": "specie"
+    },
+    "funghi_fungi_amoebozoa_myxogastria_liceales": {
+        "tubiferaceae": "famiglia"
+    },
+    "funghi_fungi_amoebozoa_myxogastria_liceales_tubiferaceae": {
+        "ferruginosa": "specie"
+    },
+    "funghi_fungi_amoebozoa_mycetozoa": {
+        "liceales": "ordine"
+    },
+    "funghi_fungi_amoebozoa_mycetozoa_liceales": {
+        "reticulariaceae": "famiglia"
+    },
+    "funghi_fungi_amoebozoa_mycetozoa_liceales_reticulariaceae": {
+        "epidendrum": "specie"
+    },
+    "piante": {
+        "plantae": "regno"
+    },
+    "piante_plantae": {
+        "liliopsida": "classe",
+        "magnoliopsida": "classe",
+        "pteridopsida": "classe"
+    },
+    "piante_plantae_liliopsida": {
+        "orchidales": "ordine",
+        "liliales": "ordine",
+        "asparagales": "ordine",
+        "arales": "ordine",
+        "cyperales": "ordine"
+    },
+    "piante_plantae_liliopsida_orchidales": {
+        "orchidaceae": "famiglia"
+    },
+    "piante_plantae_liliopsida_orchidales_orchidaceae": {
+        "chlorantha": "specie",
+        "rubra": "specie",
+        "muelleri": "specie",
+        "fusca": "specie",
+        "mascula var. olbiensis ": "specie",
+        "mascula var. alba": "specie",
+        "mascula": "specie",
+        "parviflora": "specie",
+        "helleborine": "specie"
+    },
+    "piante_plantae_liliopsida_orchidales_orchidaceae_ovata": {
+        "(particolare)": "nome comune"
+    },
+    "piante_plantae_liliopsida_orchidales_orchidaceae_adriaticum": {
+        "(particolare)": "nome comune"
+    },
+    "piante_plantae_liliopsida_orchidales_orchidaceae_conopsea": {
+        "(particolare)": "nome comune"
+    },
+    "piante_plantae_liliopsida_orchidales_orchidaceae_vomeracea": {
+        "serapide maggiore": "nome comune"
+    },
+    "piante_plantae_liliopsida_liliales": {
+        "liliaceae": "famiglia",
+        "iridaceae": "famiglia"
+    },
+    "piante_plantae_liliopsida_liliales_liliaceae": {
+        "martagon": "specie",
+        "quadrifolia": "specie",
+        "bulbiferum": "specie",
+        "neapolitanum": "specie",
+        "comosum": "specie",
+        "sphaerocephalon": "specie",
+        "roseum": "specie",
+        "ursinum": "specie"
+    },
+    "piante_plantae_liliopsida_liliales_liliaceae_martagon": {
+        "giglio martagone": "nome comune"
+    },
+    "piante_plantae_liliopsida_liliales_liliaceae_quadrifolia": {
+        "uva di volpe": "nome comune"
+    },
+    "piante_plantae_liliopsida_liliales_liliaceae_bulbiferum": {
+        "giglio rosso": "nome comune"
+    },
+    "piante_plantae_liliopsida_liliales_liliaceae_ursinum": {
+        "aglio orsino": "nome comune"
+    },
+    "piante_plantae_liliopsida_liliales_iridaceae": {
+        "vernus": "specie",
+        "germanica": "specie",
+        "pseudacorus": "specie",
+        "biflorus": "specie",
+        "vernus (albiflora)": "specie"
+    },
+    "piante_plantae_liliopsida_liliales_iridaceae_germanica": {
+        "giaggiolo": "nome comune"
+    },
+    "piante_plantae_liliopsida_liliales_iridaceae_pseudacorus": {
+        "giaggiolo acquatico": "nome comune"
+    },
+    "piante_plantae_liliopsida_asparagales": {
+        "ruscaceae": "famiglia",
+        "amaryllidaceae": "famiglia",
+        "iridaceae": "famiglia"
+    },
+    "piante_plantae_liliopsida_asparagales_ruscaceae": {
+        "odoratum": "specie"
+    },
+    "piante_plantae_liliopsida_asparagales_ruscaceae_odoratum": {
+        "sigillo di salomone": "nome comune"
+    },
+    "piante_plantae_liliopsida_asparagales_amaryllidaceae": {
+        "dubius": "specie",
+        "nivalis": "specie",
+        "poeticus": "specie"
+    },
+    "piante_plantae_liliopsida_asparagales_amaryllidaceae_nivalis": {
+        "bucaneve": "nome comune"
+    },
+    "piante_plantae_liliopsida_asparagales_amaryllidaceae_poeticus": {
+        "narciso": "nome comune"
+    },
+    "piante_plantae_liliopsida_asparagales_iridaceae": {
+        "italicus": "specie"
+    },
+    "piante_plantae_liliopsida_arales": {
+        "araceae": "famiglia"
+    },
+    "piante_plantae_liliopsida_arales_araceae": {
+        "maculatum": "specie"
+    },
+    "piante_plantae_liliopsida_arales_araceae_maculatum": {
+        "gigaro scuro": "nome comune"
+    },
+    "piante_plantae_liliopsida_cyperales": {
+        "poaceae": "famiglia"
+    },
+    "piante_plantae_liliopsida_cyperales_poaceae": {
+        "erectus": "specie"
+    },
+    "piante_plantae_magnoliopsida": {
+        "solanales": "ordine",
+        "ranunculales": "ordine",
+        "malvales": "ordine",
+        "asterales": "ordine",
+        "lamiales": "ordine",
+        "saxifragales": "ordine",
+        "scrophulariales": "ordine",
+        "fabales": "ordine",
+        "campanulales": "ordine",
+        "primulales": "ordine",
+        "apiales": "ordine",
+        "violales": "ordine",
+        "caryophyllales": "ordine",
+        "gentianales": "ordine",
+        "nymphaeales": "ordine",
+        "rosales": "ordine",
+        "ericales": "ordine",
+        "brassicales": "ordine",
+        "dipsacales": "ordine",
+        "celastrales": "ordine",
+        "fagales": "ordine",
+        "euphorbiales": "ordine",
+        "aquifoliales": "ordine",
+        "malpighiales": "ordine",
+        "mirtales": "ordine",
+        "cucurbitales": "ordine"
+    },
+    "piante_plantae_magnoliopsida_solanales": {
+        "solanaceae": "famiglia",
+        "convolvulaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_solanales_solanaceae": {
+        "stramonium": "specie",
+        "nigrum": "specie",
+        "belladonna": "specie"
+    },
+    "piante_plantae_magnoliopsida_solanales_solanaceae_stramonium": {
+        "stramonio": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_solanales_solanaceae_nigrum": {
+        "erba morella": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_solanales_convolvulaceae": {
+        "cantabrica": "specie",
+        "sepium": "specie"
+    },
+    "piante_plantae_magnoliopsida_solanales_convolvulaceae_cantabrica": {
+        "vilucchio": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_solanales_convolvulaceae_sepium": {
+        "vilucchio bianco": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_ranunculales": {
+        "ranunculaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_ranunculales_ranunculaceae": {
+        "memorosa": "specie",
+        "foetidus": "specie",
+        "viridis": "specie",
+        "vulgaris": "specie",
+        "nobilis": "specie",
+        "fissum": "specie",
+        "hyemalis": "specie",
+        "coronaria": "specie",
+        "vitalba": "specie",
+        "lycoctonum vulparia": "specie"
+    },
+    "piante_plantae_magnoliopsida_ranunculales_ranunculaceae_memorosa": {
+        "anemone bianco": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_ranunculales_ranunculaceae_foetidus": {
+        "elleboro puzzolente": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_ranunculales_ranunculaceae_vulgaris": {
+        "aquilegia": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_ranunculales_ranunculaceae_fissum": {
+        "speronella lacerata": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_ranunculales_ranunculaceae_vitalba": {
+        "vitalba": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_malvales": {
+        "malvaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_malvales_malvaceae": {
+        "malva": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_asterales": {
+        "asteraceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_asterales_asteraceae": {
+        "acaulis": "specie",
+        "farfara": "specie",
+        "officinale": "specie",
+        "vulgare": "specie",
+        "marianum": "specie",
+        "lappa": "specie",
+        "fullonum": "specie",
+        "vesicaria": "specie"
+    },
+    "piante_plantae_magnoliopsida_asterales_asteraceae_farfara": {
+        "farfara": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_asterales_asteraceae_officinale": {
+        "dente di leone": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_asterales_asteraceae_vulgare": {
+        "margherita dei campi": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_asterales_asteraceae_marianum": {
+        "cardo mariano": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_asterales_asteraceae_lappa": {
+        "bardana": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_asterales_asteraceae_fullonum": {
+        "cardo dei lanaioli": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_asterales_asteraceae_vesicaria": {
+        "radichiella vescicosa": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_lamiales": {
+        "boraginaceae": "famiglia",
+        "lamiaceae": "famiglia",
+        "plantaginaceae": "famiglia",
+        "scrophulariaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_lamiales_boraginaceae": {
+        "apennina": "specie"
+    },
+    "piante_plantae_magnoliopsida_lamiales_boraginaceae_arvensis": {
+        "nom ti scordar di me": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_lamiales_lamiaceae": {
+        "pratensis": "specie",
+        "reptans": "specie",
+        "recta": "specie"
+    },
+    "piante_plantae_magnoliopsida_lamiales_lamiaceae_reptans": {
+        "bugola": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_lamiales_lamiaceae_recta": {
+        "pianta della paura": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_lamiales_plantaginaceae": {
+        "lutea": "specie"
+    },
+    "piante_plantae_magnoliopsida_lamiales_scrophulariaceae": {
+        "vulgaris": "specie"
+    },
+    "piante_plantae_magnoliopsida_lamiales_scrophulariaceae_vulgaris": {
+        "linaiola": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_saxifragales": {
+        "crassulaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_saxifragales_crassulaceae": {
+        "tectorum": "specie"
+    },
+    "piante_plantae_magnoliopsida_scrophulariales": {
+        "orobanchaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_scrophulariales_orobanchaceae": {
+        "alba": "specie"
+    },
+    "piante_plantae_magnoliopsida_fabales": {
+        "ginestra": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_fabales_fabaceae": {
+        "emerus": "specie",
+        "viciaefolia": "specie",
+        "spinosa": "specie",
+        "silvestris": "specie",
+        "scoparius": "specie"
+    },
+    "piante_plantae_magnoliopsida_fabales_fabaceae_cicera": {
+        "cicerchia": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_fabales_fabaceae_viciaefolia": {
+        "fieno santo": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_fabales_fabaceae_spinosa": {
+        "arrestabue": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_fabales_fabaceae_scoparius": {
+        "ginestra dei carbonai": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_campanulales": {
+        "campanulaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_campanulales_campanulaceae": {
+        "media": "specie"
+    },
+    "piante_plantae_magnoliopsida_campanulales_campanulaceae_media": {
+        "campanula toscana": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_primulales": {
+        "primulaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_primulales_primulaceae": {
+        "repandum": "specie",
+        "veris": "specie"
+    },
+    "piante_plantae_magnoliopsida_primulales_primulaceae_repandum": {
+        "ciclamino": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_apiales": {
+        "apiaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_apiales_apiaceae": {
+        "maculatum": "specie",
+        "campestre": "specie"
+    },
+    "piante_plantae_magnoliopsida_apiales_apiaceae_maculatum": {
+        "cicuta (particolare)": "nome comune",
+        "cicuta": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_apiales_apiaceae_campestre": {
+        "calcatreppola": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_violales": {
+        "violaceae": "famiglia",
+        "cistaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_violales_violaceae": {
+        "tricolor": "specie",
+        "odorata": "specie",
+        "alba": "specie",
+        "eugeniae": "specie"
+    },
+    "piante_plantae_magnoliopsida_violales_violaceae_eugeniae": {
+        "viola di Eugenia": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_caryophyllales": {
+        "caryophyllaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_caryophyllales_caryophyllaceae": {
+        "vulgaris": "specie"
+    },
+    "piante_plantae_magnoliopsida_gentianales": {
+        "apocynaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_gentianales_apocynaceae": {
+        "major": "specie"
+    },
+    "piante_plantae_magnoliopsida_gentianales_apocynaceae_major": {
+        "vinca maggiore": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_nymphaeales": {
+        "nymphaeaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_rosales": {
+        "rosaceae": "famiglia",
+        "fabaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_rosales_rosaceae": {
+        "spinosissima": "specie",
+        "vulgaris": "specie"
+    },
+    "piante_plantae_magnoliopsida_rosales_rosaceae_vulgaris": {
+        "erba peperina": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_rosales_fabaceae": {
+        "siliquastrum": "specie"
+    },
+    "piante_plantae_magnoliopsida_rosales_fabaceae_siliquastrum": {
+        "albero di Giuda": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_ericales": {
+        "ericaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_ericales_ericaceae": {
+        "arborea": "specie",
+        "uniflora": "specie"
+    },
+    "piante_plantae_magnoliopsida_brassicales": {
+        "brassicaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_brassicales_brassicaceae": {
+        "maritima": "specie"
+    },
+    "piante_plantae_magnoliopsida_dipsacales": {
+        "valerianaceae": "famiglia",
+        "caprifoliaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_dipsacales_valerianaceae": {
+        "ruber": "specie"
+    },
+    "piante_plantae_magnoliopsida_dipsacales_valerianaceae_ruber": {
+        "valeriana rossa": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_dipsacales_caprifoliaceae": {
+        "caprifolium": "specie"
+    },
+    "piante_plantae_magnoliopsida_dipsacales_caprifoliaceae_caprifolium": {
+        "caprifoglio": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_celastrales": {
+        "celastraceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_celastrales_celastraceae": {
+        "europaeus": "specie"
+    },
+    "piante_plantae_magnoliopsida_celastrales_celastraceae_europaeus": {
+        "fusaggine": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_fagales": {
+        "fagaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_euphorbiales": {
+        "euphorbiaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_euphorbiales_euphorbiaceae": {
+        "cyparissias": "specie"
+    },
+    "piante_plantae_magnoliopsida_aquifoliales": {
+        "aquifoliaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_aquifoliales_aquifoliaceae": {
+        "aquifolium": "specie"
+    },
+    "piante_plantae_magnoliopsida_aquifoliales_aquifoliaceae_aquifolium": {
+        "agrifoglio": "nome comune"
+    },
+    "piante_plantae_magnoliopsida_malpighiales": {
+        "hypericaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_malpighiales_hypericaceae": {
+        "hircinum": "specie"
+    },
+    "piante_plantae_magnoliopsida_mirtales": {
+        "onagraceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_mirtales_onagraceae": {
+        "rubricaulis": "specie"
+    },
+    "piante_plantae_magnoliopsida_cucurbitales": {
+        "cucurbitaceae": "famiglia"
+    },
+    "piante_plantae_magnoliopsida_cucurbitales_cucurbitaceae": {
+        "elaterium": "specie"
+    },
+    "piante_plantae_magnoliopsida_cucurbitales_cucurbitaceae_elaterium": {
+        "cocomero asinino": "nome comune"
+    },
+    "piante_plantae_pteridopsida": {
+        "pteridales": "ordine"
+    },
+    "piante_plantae_pteridopsida_pteridales": {
+        "hypolepidaceae": "famiglia"
+    },
+    "piante_plantae_pteridopsida_pteridales_hypolepidaceae": {
+        "aquilinum": "specie"
+    },
+    "piante_plantae_pteridopsida_pteridales_hypolepidaceae_aquilinum": {
+        "felce aquilina": "nome comune"
+    },
+    "paesaggi": {
+        "nido di formica rufa": "nome comune"
+    }
 }

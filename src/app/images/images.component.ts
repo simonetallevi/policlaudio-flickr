@@ -19,6 +19,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
   scrollDistance = 1;
   scrollUpDistance = 2;
   direction = '';
+  tags = [];
 
   constructor(
     private images: ImagesService,
@@ -71,10 +72,10 @@ export class ImagesComponent implements OnInit, OnDestroy {
       });
   }
 
-  loadTiles(){
+  loadTiles($event){
     var _self = this;
-    
-    this.images.search({})
+    var tags = $event.tags;
+    this.images.search({'tags': tags})
       .subscribe(res =>{
         _self.tiles = _self.toTiles(res)
       }, error => {
@@ -116,7 +117,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    this.loadTiles()
+    this.loadTiles([])
   }
 
   ngOnDestroy(): void {

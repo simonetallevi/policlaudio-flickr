@@ -1,3 +1,4 @@
+<tag-filter (selected)="loadTiles($event, tags)"></tag-filter>
 <mat-grid-list [cols]="colsNum || 1" rowHeight="{{rowHeightPx}}px" class="search-results" infinite-scroll [infiniteScrollDistance]="scrollDistance" [infiniteScrollUpDistance]="scrollUpDistance" [infiniteScrollThrottle]="throttle" (scrolled)="onScrollDown()"
     (scrolledUp)="onUp()">
 
