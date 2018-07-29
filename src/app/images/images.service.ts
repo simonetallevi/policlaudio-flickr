@@ -9,7 +9,8 @@ export interface FlickrPhoto {
   id: string,
   url_l: string,
   height_l: number,
-  width_l: number
+  width_l: number,
+  tags: string
 }
 
 export interface FlickrPhotosSearch { 
@@ -43,7 +44,7 @@ export class ImagesService {
       'api_key': this.secret.apiKey,
       'format': 'json',
       'nojsoncallback': '1',
-      'extras': 'url_l',
+      'extras': 'tags,url_t,url_l,views',
       'per_page': 25,
       'page': 0,
       'tag_mode': 'all',

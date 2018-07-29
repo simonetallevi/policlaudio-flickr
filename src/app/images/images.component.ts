@@ -66,6 +66,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
 
     this.images.next({'tags': this.tags})
       .subscribe(res =>{
+        console.log(res)
         _self.tiles = _self.tiles.concat(_self.toTiles(res))
       }, error => {
         console.error(error);
@@ -77,6 +78,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
     this.tags = $event.tags;
     this.images.search({'tags': this.tags})
       .subscribe(res =>{
+        console.log(res)
         _self.tiles = _self.toTiles(res)
       }, error => {
         console.error(error);
@@ -94,6 +96,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
       results.push({
         cols: 1,
         rows: 1,
+        tags: (p.tags ? p.tags.split(" ") : []),
         styles: {
           'background-image': 'url(' + p.url_l +')',
           'background-size' : 'cover',

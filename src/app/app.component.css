@@ -1,15 +1,21 @@
 .main-toolbar {
-    background-color: #FFC107;
     position: fixed;
     top: 0;
     z-index: 100;
 }
 
-.toolbar-title-left {}
+.toolbar-title-left {
+    width: 100%;
+}
 
 .toolbar-title-right {
     position: relative;
     height: 64px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
 }
 
 .toolbar-title-right img {

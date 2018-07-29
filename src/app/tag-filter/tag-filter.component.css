@@ -14,40 +14,42 @@
     min-width: 20px;
     border-radius: 10px;
     text-transform: capitalize;
-    font-weight: 500;
-    -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.75);
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.75);
+    font-weight: 400;
 }
 
 .tag.genere_fotografico {
-    background-color: #2196F3;
+    background-color: #80cbc4;
 }
 
 .tag.regno {
-    background-color: #00BCD4
+    background-color: #4db6ac
 }
 
 .tag.phylum {
-    background-color: #009688
+    background-color: #26a69a
 }
 
 .tag.classe {
-    background-color: #4CAF50
+    color: white;
+    background-color: #009688
 }
 
 .tag.ordine {
-    background-color: #CDDC39
+    color: white;
+    background-color: #00897b
 }
 
 .tag.famiglia {
-    background-color: #FFEB3B
+    color: white;
+    background-color: #00796b
 }
 
 .tag.specie {
-    background-color: #FFC107
+    color: white;
+    background-color: #00695c
 }
 
 .tag.nome_comune {
-    background-color: #FF5722
+    color: white;
+    background-color: #004d40
 }
