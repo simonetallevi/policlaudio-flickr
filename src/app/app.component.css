@@ -1,5 +1,17 @@
-.tile-item {
-    width: 100%;
+.main-toolbar {
+    background-color: #FFC107;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.toolbar-title-left {}
+
+.toolbar-title-right {
+    position: relative;
+    height: 64px;
+}
+
+.toolbar-title-right img {
     height: 100%;
-    background: green;
 }

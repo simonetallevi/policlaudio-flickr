@@ -97,8 +97,11 @@ export class ImagesComponent implements OnInit, OnDestroy {
         styles: {
           'background-image': 'url(' + p.url_l +')',
           'background-size' : 'cover',
-          'background-color': 'red',
-          'background-position': 'center'
+          'background-position': 'center',
+          'border-radius': '10px 10px 10px 10px',
+          '-moz-border-radius': '10px 10px 10px 10px',
+          '-webkit-border-radius': '10px 10px 10px 10px',
+          'border': '0px solid #000000'
         }
       });
     });

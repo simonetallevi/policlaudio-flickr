@@ -1,9 +1,53 @@
 .filter-container {
-    padding: 10px;
+    padding: 20px;
+    margin-top: 67px;
+    min-height: 100px;
+}
+
+.filter-container .filter-selected {
+    min-height: 70px;
 }
 
 .tag {
+    cursor: pointer;
     min-height: 50px;
     min-width: 20px;
     border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: 500;
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.75);
+}
+
+.tag.genere_fotografico {
+    background-color: #2196F3;
+}
+
+.tag.regno {
+    background-color: #00BCD4
+}
+
+.tag.phylum {
+    background-color: #009688
+}
+
+.tag.classe {
+    background-color: #4CAF50
+}
+
+.tag.ordine {
+    background-color: #CDDC39
+}
+
+.tag.famiglia {
+    background-color: #FFEB3B
+}
+
+.tag.specie {
+    background-color: #FFC107
+}
+
+.tag.nome_comune {
+    background-color: #FF5722
 }

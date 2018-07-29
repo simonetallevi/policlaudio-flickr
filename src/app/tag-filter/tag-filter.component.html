@@ -1,15 +1,15 @@
 <div class="filter-container">
-    <div>
-        <mat-chip-list>
-            <mat-chip class="tag" *ngFor="let tag of selectedTags;  index as i" (click)="deselectTag(tag)">
+    <div class="filter-selected">
+        <mat-chip-list [ngClass]="selectedTags.length > 0 ? selectedTags[0].name : 'default'">
+            <mat-chip class="tag" [ngClass]="tag.type" *ngFor="let tag of selectedTags;  index as i" (click)="deselectTag(tag)">
                 {{tag.name}}
                 <mat-icon matChipRemove *ngIf="(selectedTags.length-1) == i">cancel</mat-icon>
             </mat-chip>
         </mat-chip-list>
     </div>
-    <div>
-        <mat-chip-list>
-            <mat-chip class="tag" *ngFor="let tag of tags" (click)="selectTag(tag)">
+    <div class="filter-to-select">
+        <mat-chip-list [ngClass]="selectedTags.length > 0 ? selectedTags[0].name : 'default'">
+            <mat-chip class="tag" [ngClass]="tag.type" *ngFor="let tag of tags" (click)="selectTag(tag)">
                 {{tag.name}}
             </mat-chip>
         </mat-chip-list>
