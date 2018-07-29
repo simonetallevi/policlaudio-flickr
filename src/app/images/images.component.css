@@ -6,3 +6,12 @@
     position: absolute;
     bottom: 0;
 }
+
+.toolbar-container {
+    padding: 20px;
+}
+
+.toolbar-container h1,
+.toolbar-container h3 {
+    margin: 0
+}

@@ -1,11 +1,31 @@
 .filter-container {
-    padding: 20px;
-    margin-top: 67px;
     min-height: 100px;
+    display: block
 }
 
 .filter-container .filter-selected {
     min-height: 70px;
+    white-space: nowrap;
+}
+
+.filter-container .filter-to-select {
+    white-space: nowrap;
+}
+
+.chip-list {
+    display: block;
+    overflow-x: auto;
+}
+
+.chip {
+    display: inline-block;
+    width: auto;
+    margin-left: 4px;
+}
+
+.chip p {
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .tag {
