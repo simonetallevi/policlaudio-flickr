@@ -1,0 +1,10 @@
+.slideshow-dialog,
+.dialog {
+    display: inline-block;
+    width: auto;
+    height: 100%;
+}
+
+.dialog img {
+    height: 100%;
+}

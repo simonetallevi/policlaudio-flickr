@@ -2,7 +2,7 @@ import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
 
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 import { ImagesService, FlickrPhoto, FlickrPhotosSearchResponse } from './images.service'
-import {MatDialog, MAT_DIALOG_DATA} from '@angular/material';
+import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
 
 @Component({
   selector: 'app-images',
@@ -52,11 +52,11 @@ export class ImagesComponent implements OnInit, OnDestroy {
     });
   }
 
-  openSlideShow(tile :object) {
+  openSlideShow(tile) {
     console.log(tile)
     this.dialog.open(SlideshowDialog, {
       data: {
-        url: ""
+        'url': tile.url
       }
     });
   }
@@ -97,6 +97,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
         cols: 1,
         rows: 1,
         tags: (p.tags ? p.tags.split(" ") : []),
+        url: p.url_l,
         styles: {
           'background-image': 'url(' + p.url_l +')',
           'background-size' : 'cover',
@@ -139,7 +140,10 @@ export interface DialogData {
 @Component({
   selector: 'slideshow-dialog',
   templateUrl: 'slideshow.dialog.html',
+  styleUrls: ['./slideshow.dialog.css']
 })
 export class SlideshowDialog {
-  constructor(@Inject(MAT_DIALOG_DATA) public data: DialogData) {}
+  constructor(
+    public dialogRef: MatDialogRef<SlideshowDialog>,
+    @Inject(MAT_DIALOG_DATA) public data: DialogData) {}
 }

@@ -8,6 +8,12 @@ body {
     background: black;
 }
 
+slideshow-dialog,
+.cdk-overlay-pane {
+    height: 100%;
+    display: block;
+}
+
 .material-icons {
     font-family: 'Material Icons';
     font-weight: normal;

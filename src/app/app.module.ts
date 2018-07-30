@@ -8,7 +8,7 @@ import { AppComponent } from './app.component';
 import { Secret } from './config/secret';
 import { MaterialModule } from './/material.module';
 import { ImagesService } from './images/images.service';
-import { ImagesComponent } from './images/images.component';
+import { ImagesComponent, SlideshowDialog} from './images/images.component';
 import { TagFilterComponent } from './tag-filter/tag-filter.component';
 import { TagFilterService } from './tag-filter/tag-filter.service';
 
@@ -16,7 +16,8 @@ import { TagFilterService } from './tag-filter/tag-filter.service';
   declarations: [
     AppComponent,
     ImagesComponent,
-    TagFilterComponent
+    TagFilterComponent,
+    SlideshowDialog
   ],
   imports: [
     BrowserModule,
@@ -24,12 +25,16 @@ import { TagFilterService } from './tag-filter/tag-filter.service';
     HttpClientModule,
     InfiniteScrollModule
   ],
+  entryComponents: [
+    SlideshowDialog
+  ],
   providers: [
     ImagesService,
     TagFilterService,
     Secret,
     BreakpointObserver,
-    MediaMatcher
+    MediaMatcher,
+    SlideshowDialog
   ],
   bootstrap: [AppComponent]
 })
