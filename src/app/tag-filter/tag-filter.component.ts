@@ -60,13 +60,13 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     }
 
     @HostListener('select')
-    selectTag(tag): void{
+    selectTag(el, tag): void{
         this.selectedTags.push(tag);
         var key = this.selectedTags.map(x => { return x.name }).join('_');
         this._loadFilters(key);
         this.selected.emit({ tags: this.selectedTags });
     }
-    deselectTag(tag): void{
+    deselectTag(el, tag): void{
         this.selectedTags = this.selectedTags.slice(0, this.selectedTags.length-1);
         var key = this.selectedTags.map(x => { return x.name }).join('_');
         this._loadFilters(key);

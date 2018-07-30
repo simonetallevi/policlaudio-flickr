@@ -1,10 +1,11 @@
 .filter-container {
-    min-height: 100px;
-    display: block
+    min-height: 90px;
+    display: block;
+    padding-top: 10px;
 }
 
 .filter-container .filter-selected {
-    min-height: 70px;
+    min-height: 45px;
     white-space: nowrap;
 }
 
@@ -20,56 +21,41 @@
 .chip {
     display: inline-block;
     width: auto;
-    margin-left: 4px;
+    margin-left: 5px;
 }
 
 .chip p {
     padding-left: 4px;
     padding-right: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .tag {
+    color: white;
+    background-color: #546e7a;
     cursor: pointer;
-    min-height: 50px;
+    min-height: 40px;
     min-width: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     text-transform: capitalize;
-    font-weight: 400;
+    font-weight: 900;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.tag.genere_fotografico {
-    background-color: #80cbc4;
-}
+.tag.genere_fotografico {}
 
-.tag.regno {
-    background-color: #4db6ac
-}
+.tag.regno {}
 
-.tag.phylum {
-    background-color: #26a69a
-}
+.tag.phylum {}
 
-.tag.classe {
-    color: white;
-    background-color: #009688
-}
+.tag.classe {}
 
-.tag.ordine {
-    color: white;
-    background-color: #00897b
-}
+.tag.ordine {}
 
-.tag.famiglia {
-    color: white;
-    background-color: #00796b
-}
+.tag.famiglia {}
 
-.tag.specie {
-    color: white;
-    background-color: #00695c
-}
+.tag.specie {}
 
-.tag.nome_comune {
-    color: white;
-    background-color: #004d40
-}
+.tag.nome_comune {}

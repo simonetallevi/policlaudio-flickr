@@ -1,5 +1,7 @@
 .search-results {
-    margin: 20px;
+    margin-top: 190px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .tags-container {
@@ -8,10 +10,28 @@
 }
 
 .toolbar-container {
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    top: 0px;
+    width: calc(100% - 40px);
+    z-index: 100;
+    background-color: #ffc107;
+    color: black;
 }
 
 .toolbar-container h1,
 .toolbar-container h3 {
-    margin: 0
+    margin: 0;
+    font-family: Raleway Arial, Helvetica, sans-serif
+}
+
+.toolbar-container h1 {
+    line-height: 20px;
+    font-weight: 900;
+}
+
+.toolbar-container h3 {
+    font-weight: 100;
 }

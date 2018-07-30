@@ -1,15 +1,21 @@
 <div class="filter-container">
     <div class="filter-selected">
-        <div class="chip-list" [ngClass]="selectedTags.length > 0 ? selectedTags[0].name : 'default'">
-            <div class="chip tag" [ngClass]="tag.type" *ngFor="let tag of selectedTags;  index as i" (click)="deselectTag(tag)">
-                <p>{{tag.name}}</p>
+        <div #target class="chip-list" [ngClass]="selectedTags.length > 0 ? selectedTags[0].name : 'default'">
+            <div class="chip tag" [ngClass]="tag.type" *ngFor="let tag of selectedTags;  index as i" (click)="deselectTag(target,tag)">
+                <div>
+                    <p>{{tag.name}}</p>
+                    <i class="material-icons md-18">remove</i>
+                </div>
             </div>
         </div>
     </div>
     <div class="filter-to-select">
         <div class="chip-list" [ngClass]="selectedTags.length > 0 ? selectedTags[0].name : 'default'">
-            <div class="chip tag" [ngClass]="tag.type" *ngFor="let tag of tags" (click)="selectTag(tag)">
-                <p>{{tag.name}}</p>
+            <div class="chip tag" [ngClass]="tag.type" *ngFor="let tag of tags" (click)="selectTag(target,tag)">
+                <div>
+                    <p>{{tag.name}}</p>
+                    <i class="material-icons md-18">add</i>
+                </div>
             </div>
         </div>
     </div>
