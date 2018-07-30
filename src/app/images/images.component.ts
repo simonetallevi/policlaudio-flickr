@@ -104,7 +104,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
           'border-radius': '10px 10px 10px 10px',
           '-moz-border-radius': '10px 10px 10px 10px',
           '-webkit-border-radius': '10px 10px 10px 10px',
-          'border': '0px solid #000000'
+          'border': '2px solid black'
         }
       });
     });

@@ -4,6 +4,10 @@
     margin-right: 5px;
 }
 
+.photo-tile {
+    cursor: pointer;
+}
+
 .tags-container {
     position: absolute;
     bottom: 0;

@@ -33,15 +33,27 @@
 
 .tag {
     color: white;
-    background-color: #546e7a;
+    background-color: #607d8b;
     cursor: pointer;
     min-height: 40px;
     min-width: 20px;
     border-radius: 5px;
     text-transform: capitalize;
-    font-weight: 900;
+    font-weight: 100;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.tag.last-selected {
+    background-color: #455a64;
+}
+
+.tag .tag-name {
+    display: flex;
+}
+
+.tag .tag-name .material-icons {
+    margin-top: 10px;
 }
 
 .tag.genere_fotografico {}

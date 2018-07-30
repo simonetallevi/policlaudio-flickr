@@ -7,7 +7,7 @@ import { TagFilterService } from './tag-filter.service';
 @Component({
   selector: 'tag-filter',
   templateUrl: './tag-filter.component.html',
-  styleUrls: ['./tag-filter.component.css']
+  styleUrls: ['./tag-filter.component.css'],
 })
 export class TagFilterComponent implements OnInit, OnDestroy {
 
@@ -16,12 +16,13 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     tags = [];
     mediaObserve;
     selectedTags = [];
+    reveseSelectedTags = [];
 
     @Output() selected: EventEmitter<object> = new EventEmitter();
 
     constructor(
         private breakpointObserver: BreakpointObserver,
-        private tagFilterService: TagFilterService
+        private tagFilterService: TagFilterService,
     ){
         this.mediaObserve = breakpointObserver.observe([
             Breakpoints.XLarge,
@@ -62,12 +63,14 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     @HostListener('select')
     selectTag(el, tag): void{
         this.selectedTags.push(tag);
+        this.reveseSelectedTags = this.selectedTags.slice().reverse()
         var key = this.selectedTags.map(x => { return x.name }).join('_');
         this._loadFilters(key);
         this.selected.emit({ tags: this.selectedTags });
     }
     deselectTag(el, tag): void{
         this.selectedTags = this.selectedTags.slice(0, this.selectedTags.length-1);
+        this.reveseSelectedTags = this.selectedTags.slice().reverse()
         var key = this.selectedTags.map(x => { return x.name }).join('_');
         this._loadFilters(key);
         this.selected.emit({ tags: this.selectedTags });
