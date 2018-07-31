@@ -72,10 +72,11 @@ export class ImagesService {
 
   search(params: object){
     if(params['tags']){
-        params['tags'] = params['tags'].map(x => { return x.name }).join(',');
+        params['tags'] = params['tags'].join(',');
     }else{
       delete(params['tags'])
     }
+    params['page'] = this.currentPage
     console.log(params)
     var input = this._copy(this.input, params);
     return this.http.get<FlickrPhotosSearchResponse>(

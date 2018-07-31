@@ -71,3 +71,7 @@
 .tag.specie {}
 
 .tag.nome_comune {}
+
+.autocomplete-form-field {
+    width: 100%
+}

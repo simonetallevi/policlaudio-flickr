@@ -10,6 +10,7 @@ import {MatButtonModule,
   MatAutocompleteModule,
   MatInputModule,
   MatIconModule} from '@angular/material';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatGridListModule} from '@angular/material/grid-list';
 
@@ -29,7 +30,9 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatChipsModule,
     MatAutocompleteModule,
     MatInputModule,
-    MatIconModule
+    MatIconModule,
+    FormsModule,
+    ReactiveFormsModule
   ]
 })
 export class MaterialModule { }

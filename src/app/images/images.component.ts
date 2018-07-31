@@ -76,6 +76,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
   loadTiles($event){
     var _self = this;
     this.tags = $event.tags;
+    this.images.reset()
     this.images.search({'tags': this.tags})
       .subscribe(res =>{
         console.log(res)

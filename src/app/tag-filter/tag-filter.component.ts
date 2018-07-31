@@ -1,7 +1,10 @@
 import { Component, OnInit, OnDestroy, Output, EventEmitter, HostListener} from '@angular/core';
 import {FormControl} from '@angular/forms';
-
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
+
+import {Observable} from 'rxjs';
+import {map, startWith} from 'rxjs/operators';
+
 import { TagFilterService } from './tag-filter.service';
 
 @Component({
@@ -17,6 +20,10 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     mediaObserve;
     selectedTags = [];
     reveseSelectedTags = [];
+
+    myControl = new FormControl();
+    options: string[] = [];
+    filteredOptions: Observable<string[]>;
 
     @Output() selected: EventEmitter<object> = new EventEmitter();
 
@@ -53,8 +60,17 @@ export class TagFilterComponent implements OnInit, OnDestroy {
             results =>{
                 this.tags = [];
                 for(var key  in results){
-                    this.tags.push({name:key, type:results[key]});
+                    this.tags.push(key);
                 }
+            }, 
+            error =>{console.log('error'+ error)}, 
+            () => {console.log('completed')});
+    }
+
+    _loadKeys(): void{
+        this.tagFilterService.getAllKeys().subscribe(
+            results =>{
+                this.options = results;
             }, 
             error =>{console.log('error'+ error)}, 
             () => {console.log('completed')});
@@ -63,23 +79,42 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     @HostListener('select')
     selectTag(el, tag): void{
         this.selectedTags.push(tag);
-        this.reveseSelectedTags = this.selectedTags.slice().reverse()
-        var key = this.selectedTags.map(x => { return x.name }).join('_');
+        var key = this.selectedTags.join('_');
+        this.myControl.setValue(key.split("_").join(" "))
         this._loadFilters(key);
         this.selected.emit({ tags: this.selectedTags });
     }
     deselectTag(el, tag): void{
         this.selectedTags = this.selectedTags.slice(0, this.selectedTags.length-1);
-        this.reveseSelectedTags = this.selectedTags.slice().reverse()
-        var key = this.selectedTags.map(x => { return x.name }).join('_');
+        var key = this.selectedTags.join('_');
+        this.myControl.setValue(key.split("_").join(" "))
         this._loadFilters(key);
         this.selected.emit({ tags: this.selectedTags });
     }
 
     ngOnInit(): void {
+        this._loadKeys();
         this._loadFilters('root');
+        this.filteredOptions = this.myControl.valueChanges
+            .pipe(startWith(''),map(value => this._filter(value))
+        );
     }
     
     ngOnDestroy(): void {
+    }
+
+    @HostListener('select')
+    onAutocompleSelected(option): void {
+        console.log(this.myControl.value);
+        this.selectedTags = this.myControl.value.split(" ");
+        var key = this.selectedTags.join('_');
+        this.myControl.setValue(key.split("_").join(" "))
+        this._loadFilters(key);
+        this.selected.emit({ tags: this.selectedTags });
+    }
+
+    private _filter(value: string): string[] {
+        const filterValue = value.toLowerCase()
+        return this.options.filter(option => option.toLowerCase().includes(filterValue));
     }
 }

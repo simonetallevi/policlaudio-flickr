@@ -1,20 +1,28 @@
 <div class="filter-container">
     <div class="filter-selected">
-        <div #target class="chip-list" [ngClass]="reveseSelectedTags.length > 0 ? reveseSelectedTags[0].name : 'default'">
+        <form class="autocomplete-form">
+            <mat-form-field class="autocomplete-form-field">
+                <input class="autocomplete-form-ipnut" type="text" placeholder="Pick one" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
+                <mat-autocomplete class="autocomplete" #auto="matAutocomplete" (optionSelected)="onAutocompleSelected()">
+                    <mat-option class="autocomplete-option" *ngFor="let option of filteredOptions | async" [value]="option">
+                        {{option}}
+                    </mat-option>
+                </mat-autocomplete>
+            </mat-form-field>
+        </form>
+        <!-- <div #target class="chip-list" [ngClass]="reveseSelectedTags.length > 0 ? reveseSelectedTags[0].name : 'default'">
             <div class="chip tag" [ngClass]=" i == 0 ? 'last-selected' : ''" [ngClass]="tag.type" *ngFor="let tag of reveseSelectedTags;  index as i" (click)="deselectTag(target,tag)">
                 <div class="tag-name">
                     <p>{{tag.name}}</p>
-                    <i class="material-icons md-18">remove_circle</i>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="filter-to-select">
         <div class="chip-list" [ngClass]="reveseSelectedTags.length > 0 ? reveseSelectedTags[0].name : 'default'">
-            <div class="chip tag" [ngClass]="tag.type" *ngFor="let tag of tags" (click)="selectTag(target,tag)">
+            <div class="chip tag" *ngFor="let tag of tags" (click)="selectTag(target,tag)">
                 <div class="tag-name">
-                    <p>{{tag.name}}</p>
-                    <i class="material-icons md-18">add_circle</i>
+                    <p>{{tag}}</p>
                 </div>
             </div>
         </div>
