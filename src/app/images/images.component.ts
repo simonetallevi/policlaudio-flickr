@@ -34,10 +34,10 @@ export class ImagesComponent implements OnInit, OnDestroy {
       Breakpoints.XSmall
     ]).subscribe((result : BreakpointState) => {
       if(breakpointObserver.isMatched(Breakpoints.XLarge)){
-        this.colsNum = 8;
+        this.colsNum = 5;
         this.rowHeightPx = 300;
       } else if(breakpointObserver.isMatched(Breakpoints.Large)){
-        this.colsNum = 6;
+        this.colsNum = 5;
         this.rowHeightPx = 200;
       } else if(breakpointObserver.isMatched(Breakpoints.Medium)){
         this.colsNum = 4;
@@ -97,6 +97,9 @@ export class ImagesComponent implements OnInit, OnDestroy {
       results.push({
         cols: 1,
         rows: 1,
+        lastupdate: p.lastupdate,
+        views: p.views,
+        title: p.title,
         tags: (p.tags ? p.tags.split(" ") : []),
         url: p.url_l,
         styles: {
@@ -105,8 +108,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
           'background-position': 'center',
           'border-radius': '10px 10px 10px 10px',
           '-moz-border-radius': '10px 10px 10px 10px',
-          '-webkit-border-radius': '10px 10px 10px 10px',
-          'border': '2px solid black'
+          '-webkit-border-radius': '10px 10px 10px 10px'
         }
       });
     });

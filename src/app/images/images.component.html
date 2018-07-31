@@ -10,7 +10,20 @@
 <mat-grid-list [cols]="colsNum || 1" rowHeight="{{rowHeightPx}}px" class="search-results" infinite-scroll [infiniteScrollDistance]="scrollDistance" [infiniteScrollUpDistance]="scrollUpDistance" [infiniteScrollThrottle]="throttle" (scrolled)="onScrollDown()"
     (scrolledUp)="onUp()">
 
-    <mat-grid-tile class="photo-tile" *ngFor="let tile of tiles" (click)="openSlideShow(tile)" [colspan]="tile.cols" [rowspan]="tile.rows" [ngStyle]="tile.styles">
+    <mat-grid-tile *ngFor="let tile of tiles" (click)="openSlideShow(tile)" [colspan]="tile.cols" [rowspan]="tile.rows">
+        <div class="photo-tile-container">
+            <div class="photo-tile" [ngStyle]="tile.styles"></div>
+            <div class="photo-name">
+                <div class="photo-title">{{tile.title}}</div>
+                <div>
+                    <div class="photo-views">
+                        <span>{{tile.views}}</span>
+                        <mat-icon aria-label="visibility" class="material-icons md-18">visibility</mat-icon>
+                    </div>
+                    <div class="photo-date">{{(tile.lastupdate * 1000) | date : " MMMM d, y"}}</div>
+                </div>
+            </div>
+        </div>
     </mat-grid-tile>
 
 </mat-grid-list>

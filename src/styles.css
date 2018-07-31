@@ -8,9 +8,13 @@ body {
     background: black;
 }
 
+input:focus,
+button:focus {
+    outline: 0;
+}
+
 slideshow-dialog,
 .cdk-overlay-pane {
-    height: 100%;
     display: block;
 }
 
