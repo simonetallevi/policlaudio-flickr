@@ -37,17 +37,17 @@ export class ImagesComponent implements OnInit, OnDestroy {
         this.colsNum = 5;
         this.rowHeightPx = 300;
       } else if(breakpointObserver.isMatched(Breakpoints.Large)){
-        this.colsNum = 5;
-        this.rowHeightPx = 200;
-      } else if(breakpointObserver.isMatched(Breakpoints.Medium)){
         this.colsNum = 4;
-        this.rowHeightPx = 200;
+        this.rowHeightPx = 300;
+      } else if(breakpointObserver.isMatched(Breakpoints.Medium)){
+        this.colsNum = 3;
+        this.rowHeightPx = 300;
       } else if(breakpointObserver.isMatched(Breakpoints.Small)){
-        this.colsNum = 3;
-        this.rowHeightPx = 200;
+        this.colsNum = 2;
+        this.rowHeightPx = 300;
       } else if(breakpointObserver.isMatched(Breakpoints.XSmall)){
-        this.colsNum = 3;
-        this.rowHeightPx = 100;
+        this.colsNum = 2;
+        this.rowHeightPx = 300;
       }
     });
   }

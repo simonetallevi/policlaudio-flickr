@@ -17,7 +17,7 @@
     </div>
     <div class="filter-to-select">
         <div class="chip-list" [ngClass]="reveseSelectedTags.length > 0 ? reveseSelectedTags[0].name : 'default'">
-            <div class="chip tag" *ngFor="let tag of tags" (click)="selectTag(target,tag)">
+            <div class="chip tag" *ngFor="let tag of tags; let i = index" (click)="selectTag(target,tag)">
                 <div class="tag-name">
                     <p>{{tag}}</p>
                 </div>

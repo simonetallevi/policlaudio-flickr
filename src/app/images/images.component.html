@@ -1,11 +1,12 @@
 <div class="toolbar-container">
     <div class="logo-container">
         <div class="logo">
-            <h1>Poli Claudio</h1>
-            <h3>Fotografia macro e naturalistica</h3>
+            <img src="../../assets/logo.png">
         </div>
     </div>
-    <tag-filter (selected)="loadTiles($event, tags)"></tag-filter>
+    <div class="filter-container">
+        <tag-filter (selected)="loadTiles($event, tags)"></tag-filter>
+    </div>
 </div>
 <mat-grid-list [cols]="colsNum || 1" rowHeight="{{rowHeightPx}}px" class="search-results" infinite-scroll [infiniteScrollDistance]="scrollDistance" [infiniteScrollUpDistance]="scrollUpDistance" [infiniteScrollThrottle]="throttle" (scrolled)="onScrollDown()"
     (scrolledUp)="onUp()">

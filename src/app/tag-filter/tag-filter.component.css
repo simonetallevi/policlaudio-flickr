@@ -5,7 +5,7 @@
 }
 
 .filter-container .filter-selected {
-    min-height: 45px;
+    min-height: 48px;
     white-space: nowrap;
 }
 
@@ -21,7 +21,6 @@
 .chip {
     display: inline-block;
     width: auto;
-    margin-left: 5px;
 }
 
 .chip p {
@@ -33,15 +32,16 @@
 
 .tag {
     color: white;
-    background-color: #607d8b;
+    background-color: #ffc107;
     cursor: pointer;
     min-height: 40px;
     min-width: 20px;
     border-radius: 5px;
     text-transform: capitalize;
-    font-weight: 100;
+    font-weight: 400;
     padding-left: 5px;
     padding-right: 5px;
+    margin-right: 10px;
 }
 
 .tag.last-selected {
@@ -56,33 +56,17 @@
     margin-top: 10px;
 }
 
-.tag.genere_fotografico {}
-
-.tag.regno {}
-
-.tag.phylum {}
-
-.tag.classe {}
-
-.tag.ordine {}
-
-.tag.famiglia {}
-
-.tag.specie {}
-
-.tag.nome_comune {}
-
 .autocomplete-container {
     display: flex;
-    background: #607d8b;
-    border-radius: 20px;
-    height: 30px;
+    background: #ECEFF1;
+    border-radius: 5px;
+    height: 33px;
     padding: 3px;
 }
 
 .autocomplete-input {
-    color: white;
-    background: #607d8b;
+    color: #ffc107;
+    background: #ECEFF1;
     flex: 1;
     margin-left: 10px;
     border: 0;
@@ -93,25 +77,25 @@
 
 .autocomplete-input::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: white;
+    color: #263238;
     opacity: 0.6;
     /* Firefox */
 }
 
 .autocomplete-input:-ms-input-placeholder {
     /* Internet Explorer 10-11 */
-    color: white;
+    color: #263238;
     opacity: 0.6;
 }
 
 .autocomplete-input::-ms-input-placeholder {
     /* Microsoft Edge */
-    color: white;
+    color: #263238;
     opacity: 0.6;
 }
 
 .small-button {
-    color: white;
+    color: black;
     position: relative;
     width: 40px;
     min-width: 40px;

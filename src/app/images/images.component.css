@@ -1,7 +1,25 @@
 .search-results {
-    margin-top: 161px;
+    margin-top: 175px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.filter-container {
+    width: 100%;
+}
+
+.logo-container {
+    width: 160px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.logo {
+    height: 92px;
+}
+
+.logo img {
+    height: 100%;
 }
 
 .tags-container {
@@ -10,16 +28,15 @@
 }
 
 .toolbar-container {
+    display: inline-flex;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     position: fixed;
     top: 0px;
-    width: calc(100% - 40px);
     z-index: 100;
-    background-color: #ffc107;
-    color: black;
-    border-bottom: 2px solid black;
+    background-color: black;
+    color: #ffc107;
 }
 
 .toolbar-container h1,
@@ -29,7 +46,7 @@
 }
 
 .toolbar-container h1 {
-    line-height: 20px;
+    line-height: 30px;
     font-weight: 900;
 }
 
@@ -54,7 +71,7 @@
     font-family: Roboto, Arial, Helvetica, sans-serif;
     position: absolute;
     bottom: 0;
-    color: white;
+    color: #ECEFF1;
     width: calc(100% - 10px);
     padding: 5px;
     text-transform: capitalize;
