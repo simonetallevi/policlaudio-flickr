@@ -64,15 +64,15 @@
 
 .autocomplete-container {
     display: flex;
-    background: #ECEFF1;
+    background: white;
     border-radius: 5px;
     height: 33px;
     padding: 3px;
 }
 
 .autocomplete-input {
-    color: #ffc107;
-    background: #ECEFF1;
+    color: #263238;
+    background: white;
     flex: 1;
     margin-left: 10px;
     border: 0;

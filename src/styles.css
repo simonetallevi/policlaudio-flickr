@@ -8,6 +8,11 @@ body {
     background: black;
 }
 
+h1,
+h3 {
+    font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+}
+
 input:focus,
 button:focus {
     outline: 0;
