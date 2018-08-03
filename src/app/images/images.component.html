@@ -1,11 +1,13 @@
 <div class="toolbar-container">
-    <div class="logo-container">
-        <div class="logo">
-            <img src="../../assets/logo.png">
+    <div style="display:flex;">
+        <div class="logo-container">
+            <div class="logo">
+                <img src="../../assets/logo.png">
+            </div>
         </div>
-    </div>
-    <div class="filter-container">
-        <tag-filter (selected)="loadTiles($event, tags)"></tag-filter>
+        <div class="filter-container">
+            <tag-filter (selected)="loadTiles($event, tags)"></tag-filter>
+        </div>
     </div>
 </div>
 <mat-grid-list [cols]="colsNum || 1" rowHeight="{{rowHeightPx}}px" class="search-results" infinite-scroll [infiniteScrollDistance]="scrollDistance" [infiniteScrollUpDistance]="scrollUpDistance" [infiniteScrollThrottle]="throttle" (scrolled)="onScrollDown()"
