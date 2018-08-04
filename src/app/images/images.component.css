@@ -10,17 +10,26 @@
 
 .logo-container {
     position: relative;
-    width: 160px;
-    max-width: 160px;
+    width: 125px;
+    max-width: 125px;
+    min-width: 125px;
     padding-top: 5px;
     padding-right: 10px;
+}
+
+.logo-container .icon {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    font-size: 55px;
+    color: #ffc107;
 }
 
 .logo {
     height: 34px;
     position: absolute;
-    top: 55px;
-    right: 15px;
+    top: 57px;
+    right: 10px;
 }
 
 .logo-title .big {

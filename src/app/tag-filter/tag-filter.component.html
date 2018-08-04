@@ -4,7 +4,13 @@
             <button mat-button class="small-button">
                 <mat-icon aria-label="cancel">cancel</mat-icon>
             </button>
-            <input class="autocomplete-input" type="text" placeholder="Search" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
+            <mat-chip-list #selectedTagsChipList>
+                <mat-chip *ngFor="let tag of selectedTags" [removable]="removable" (removed)=deselectTag(tag)>
+                    {{tag}}
+                    <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+                </mat-chip>
+                <input matInput class="autocomplete-input" type="text" placeholder="Search" aria-label="Number" [matChipInputFor]="selectedTagsChipList" [matChipInputAddOnBlur]="addOnBlur" [formControl]="myControl" [matAutocomplete]="auto">
+            </mat-chip-list>
             <button mat-button class="small-button">
                 <mat-icon aria-label="search">search</mat-icon>
             </button>
@@ -16,7 +22,7 @@
         </div>
     </div>
     <div class="filter-to-select">
-        <div class="chip-list" [ngClass]="reveseSelectedTags.length > 0 ? reveseSelectedTags[0].name : 'default'">
+        <div class="chip-list">
             <div class="chip tag" *ngFor="let tag of tags; let i = index" (click)="selectTag(target,tag)">
                 <div class="tag-name">
                     <p>{{tag}}</p>

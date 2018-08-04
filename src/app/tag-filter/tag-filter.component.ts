@@ -1,5 +1,6 @@
 import { Component, OnInit, OnDestroy, Output, EventEmitter, HostListener} from '@angular/core';
 import {FormControl} from '@angular/forms';
+import {COMMA, ENTER, SPACE} from '@angular/cdk/keycodes';
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 
 import {Observable} from 'rxjs';
@@ -20,6 +21,10 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     mediaObserve;
     selectedTags = [];
     reveseSelectedTags = [];
+    selectable = true;
+    removable = true;
+    addOnBlur = false;
+    separatorKeysCodes: number[] = [ENTER, COMMA];
 
     myControl = new FormControl();
     options: string[] = [];
