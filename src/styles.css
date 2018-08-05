@@ -61,3 +61,44 @@ slideshow-dialog,
 .material-icons.md-48 {
     font-size: 48px;
 }
+
+.mat-chip-list-wrapper {
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    width: calc(100% - 4px);
+    margin: unset !important;
+    padding: 2px;
+}
+
+.mat-form-field-wrapper,
+.mat-form-field-infix {
+    padding: 0 !important;
+}
+
+.mat-form-field-appearance-legacy .mat-form-field-underline {
+    position: absolute;
+    width: calc(100% - 10px);
+    bottom: 1px !important;
+    margin-left: 5px;
+}
+
+.mat-form-field.mat-focused .mat-form-field-ripple {
+    background-color: #ffc107 !important;
+}
+
+.mat-form-field-appearance-legacy .mat-form-field-underline {
+    background-color: white;
+}
+
+
+/* .autocomplete-container .mat-form-field-wrapper {
+    padding-bottom: 0px;
+    position: relative;
+}
+
+.autocomplete-container .mat-form-field-wrapper .mat-form-field-appearance-legacy .mat-form-field-underline {
+    height: 1px;
+    position: absolute;
+    bottom: 0px;
+} */

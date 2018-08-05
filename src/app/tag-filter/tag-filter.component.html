@@ -1,25 +1,25 @@
 <div class="filter-container">
     <div class="filter-selected">
-        <div class="autocomplete-container">
-            <button mat-button class="small-button">
+        <mat-form-field class="autocomplete-container">
+            <!-- <button mat-button class="small-button">
                 <mat-icon aria-label="cancel">cancel</mat-icon>
-            </button>
-            <mat-chip-list #selectedTagsChipList>
-                <mat-chip *ngFor="let tag of selectedTags" [removable]="removable" (removed)=deselectTag(tag)>
+            </button> -->
+            <mat-chip-list #selectedTagsChipList class="selected-chip-list-wrapper">
+                <mat-chip class="selected-tag-chip" *ngFor="let tag of selectedVisibleTags" [removable]="removable" (removed)=deselectTag(tag)>
                     {{tag}}
                     <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
                 </mat-chip>
-                <input matInput class="autocomplete-input" type="text" placeholder="Search" aria-label="Number" [matChipInputFor]="selectedTagsChipList" [matChipInputAddOnBlur]="addOnBlur" [formControl]="myControl" [matAutocomplete]="auto">
+                <input matInput class="autocomplete-input" type="text" aria-label="Number" [matChipInputFor]="selectedTagsChipList" [matChipInputAddOnBlur]="addOnBlur" [formControl]="myControl" [matAutocomplete]="auto" (matChipInputTokenEnd)="add($event)">
             </mat-chip-list>
-            <button mat-button class="small-button">
+            <!-- <button mat-button class="small-button">
                 <mat-icon aria-label="search">search</mat-icon>
-            </button>
+            </button> -->
             <mat-autocomplete class="autocomplete" #auto="matAutocomplete" (optionSelected)="onAutocompleSelected()">
                 <mat-option class="autocomplete-option" *ngFor="let option of filteredOptions | async" [value]="option">
-                    {{option}}
+                    {{option.substr(selectedOption.length, option.length)}}
                 </mat-option>
             </mat-autocomplete>
-        </div>
+        </mat-form-field>
     </div>
     <div class="filter-to-select">
         <div class="chip-list">

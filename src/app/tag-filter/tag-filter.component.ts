@@ -1,6 +1,7 @@
 import { Component, OnInit, OnDestroy, Output, EventEmitter, HostListener} from '@angular/core';
 import {FormControl} from '@angular/forms';
 import {COMMA, ENTER, SPACE} from '@angular/cdk/keycodes';
+import {MatAutocompleteSelectedEvent, MatChipInputEvent} from '@angular/material';
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 
 import {Observable} from 'rxjs';
@@ -15,16 +16,15 @@ import { TagFilterService } from './tag-filter.service';
 })
 export class TagFilterComponent implements OnInit, OnDestroy {
 
-    withAccordium = false;
-    tagSlice = 3;
+    maxVisibleTags = 3;
     tags = [];
     mediaObserve;
+    selectedOption = "";
     selectedTags = [];
-    reveseSelectedTags = [];
+    selectedVisibleTags = [];
     selectable = true;
     removable = true;
-    addOnBlur = false;
-    separatorKeysCodes: number[] = [ENTER, COMMA];
+    addOnBlur = true;
 
     myControl = new FormControl();
     options: string[] = [];
@@ -44,16 +44,17 @@ export class TagFilterComponent implements OnInit, OnDestroy {
             Breakpoints.XSmall
           ]).subscribe((result : BreakpointState) => {
             if(breakpointObserver.isMatched(Breakpoints.XLarge)){
-                this.withAccordium = false;
+                this.maxVisibleTags = 10;
             } else if(breakpointObserver.isMatched(Breakpoints.Large)){
-                this.withAccordium = false;
+                this.maxVisibleTags = 8;
             } else if(breakpointObserver.isMatched(Breakpoints.Medium)){
-                this.withAccordium = false;
+                this.maxVisibleTags = 5;
             } else if(breakpointObserver.isMatched(Breakpoints.Small)){
-                this.withAccordium = true;
+                this.maxVisibleTags = 3;
             } else if(breakpointObserver.isMatched(Breakpoints.XSmall)){
-                this.withAccordium = true;
+                this.maxVisibleTags = 1;
             }
+            this._setSelectedVisibleTags();
           });
     }
 
@@ -81,20 +82,39 @@ export class TagFilterComponent implements OnInit, OnDestroy {
             () => {console.log('completed')});
     }
 
+    add(event: MatChipInputEvent): void {
+        const input = event.input;
+        if (input) {
+            input.value = '';
+        }
+    }
+
     @HostListener('select')
     selectTag(el, tag): void{
         this.selectedTags.push(tag);
+        this._setSelectedVisibleTags();
         var key = this.selectedTags.join('_');
-        this.myControl.setValue(key.split("_").join(" "))
+        this.selectedOption = key.split("_").join(" ");
         this._loadFilters(key);
         this.selected.emit({ tags: this.selectedTags });
     }
     deselectTag(el, tag): void{
         this.selectedTags = this.selectedTags.slice(0, this.selectedTags.length-1);
+        this._setSelectedVisibleTags();
         var key = this.selectedTags.join('_');
-        this.myControl.setValue(key.split("_").join(" "))
+        this.selectedOption = key.split("_").join(" ");
         this._loadFilters(key);
         this.selected.emit({ tags: this.selectedTags });
+    }
+
+    _setSelectedVisibleTags(){
+        if(this.maxVisibleTags >= this.selectedTags.length){
+            this.selectedVisibleTags = this.selectedTags;
+        }else{
+            this.selectedVisibleTags = []
+            this.selectedVisibleTags.push("..."+(this.selectedTags.length - this.maxVisibleTags));
+            this.selectedVisibleTags = this.selectedVisibleTags.concat(this.selectedTags.slice(this.selectedTags.length - this.maxVisibleTags, this.selectedTags.length));
+        }
     }
 
     ngOnInit(): void {
@@ -111,15 +131,19 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     @HostListener('select')
     onAutocompleSelected(option): void {
         console.log(this.myControl.value);
-        this.selectedTags = this.myControl.value.split(" ");
+        this.selectedOption = this.myControl.value;
+        this.selectedTags = this.selectedOption.split(" ");
         var key = this.selectedTags.join('_');
-        this.myControl.setValue(key.split("_").join(" "))
         this._loadFilters(key);
         this.selected.emit({ tags: this.selectedTags });
+        this._setSelectedVisibleTags()
     }
 
     private _filter(value: string): string[] {
-        const filterValue = value.toLowerCase()
+        var filterValue = value.toLowerCase();
+        if(this.selectedTags.length > 0){
+            var filterValue = (this.selectedTags.join(' ')+ ' ' + value).toLowerCase()
+        }
         return this.options.filter(option => option.toLowerCase().includes(filterValue));
     }
 }

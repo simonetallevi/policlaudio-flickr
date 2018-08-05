@@ -20,6 +20,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
   scrollUpDistance = 2;
   direction = '';
   tags = [];
+  visibleLogo = true;
 
   constructor(
     private images: ImagesService,
@@ -34,18 +35,23 @@ export class ImagesComponent implements OnInit, OnDestroy {
       Breakpoints.XSmall
     ]).subscribe((result : BreakpointState) => {
       if(breakpointObserver.isMatched(Breakpoints.XLarge)){
+        this.visibleLogo = true;
         this.colsNum = 5;
         this.rowHeightPx = 300;
       } else if(breakpointObserver.isMatched(Breakpoints.Large)){
+        this.visibleLogo = true;
         this.colsNum = 4;
         this.rowHeightPx = 300;
       } else if(breakpointObserver.isMatched(Breakpoints.Medium)){
+        this.visibleLogo = true;
         this.colsNum = 3;
         this.rowHeightPx = 300;
       } else if(breakpointObserver.isMatched(Breakpoints.Small)){
+        this.visibleLogo = false;
         this.colsNum = 2;
         this.rowHeightPx = 300;
       } else if(breakpointObserver.isMatched(Breakpoints.XSmall)){
+        this.visibleLogo = false;
         this.colsNum = 2;
         this.rowHeightPx = 300;
       }
@@ -88,30 +94,32 @@ export class ImagesComponent implements OnInit, OnDestroy {
 
   toTiles(res : FlickrPhotosSearchResponse){
     var results = [];
-    res.photos.photo.forEach(p =>{
-      if(!p.url_l){
-        return;
-      }
-      //WF=WI*HF/HI
-      
-      results.push({
-        cols: 1,
-        rows: 1,
-        lastupdate: p.lastupdate,
-        views: p.views,
-        title: p.title,
-        tags: (p.tags ? p.tags.split(" ") : []),
-        url: p.url_l,
-        styles: {
-          'background-image': 'url(' + p.url_l +')',
-          'background-size' : 'cover',
-          'background-position': 'center',
-          'border-radius': '10px 10px 10px 10px',
-          '-moz-border-radius': '10px 10px 10px 10px',
-          '-webkit-border-radius': '10px 10px 10px 10px'
+    if(res != null){
+      res.photos.photo.forEach(p =>{
+        if(!p.url_l){
+          return;
         }
+        //WF=WI*HF/HI
+        
+        results.push({
+          cols: 1,
+          rows: 1,
+          lastupdate: p.lastupdate,
+          views: p.views,
+          title: p.title,
+          tags: (p.tags ? p.tags.split(" ") : []),
+          url: p.url_l,
+          styles: {
+            'background-image': 'url(' + p.url_l +')',
+            'background-size' : 'cover',
+            'background-position': 'center',
+            'border-radius': '10px 10px 10px 10px',
+            '-moz-border-radius': '10px 10px 10px 10px',
+            '-webkit-border-radius': '10px 10px 10px 10px'
+          }
+        });
       });
-    });
+    }
     console.log(results);
     return results;
   }

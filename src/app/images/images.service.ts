@@ -74,7 +74,7 @@ export class ImagesService {
     return this.search(params);
   }
 
-  search(params: object){
+  search(params: object): Observable<FlickrPhotosSearchResponse>{
     if(params['tags']){
         params['tags'] = params['tags'].join(',');
     }else{
@@ -84,7 +84,7 @@ export class ImagesService {
     console.log(params)
     var input = this._copy(this.input, params);
     return new Observable((observer) =>{
-            observer.next({photos:{photo:[]}});
+            observer.next(null);
             observer.complete();
         });
     // return this.http.get<FlickrPhotosSearchResponse>(
