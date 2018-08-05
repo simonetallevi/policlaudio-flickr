@@ -37,6 +37,8 @@ export class TagFilterService {
                     .subscribe(result => {
                         this.keys = []
                         for(var key  in result){
+                            if(key == 'root')
+                                continue;
                             this.keys.push(key.split("_").join(" "))
                         }
                         observer.next(this.keys);

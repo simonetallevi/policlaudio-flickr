@@ -22,12 +22,18 @@
         </mat-form-field>
     </div>
     <div class="filter-to-select">
-        <div class="chip-list">
+        <div class="chip-list" #filterSelector>
             <div class="chip tag" *ngFor="let tag of tags; let i = index" (click)="selectTag(target,tag)">
                 <div class="tag-name">
                     <p>{{tag}}</p>
                 </div>
             </div>
+        </div>
+        <div class="filter-shadow-left">
+            <mat-icon>chevron_left</mat-icon>
+        </div>
+        <div class="filter-shadow-right">
+            <mat-icon>chevron_right</mat-icon>
         </div>
     </div>
 </div>
