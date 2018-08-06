@@ -9,7 +9,8 @@ import {MatButtonModule,
   MatChipsModule,
   MatAutocompleteModule,
   MatInputModule,
-  MatIconModule} from '@angular/material';
+  MatIconModule,
+  MatMenuModule} from '@angular/material';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatGridListModule} from '@angular/material/grid-list';
@@ -32,7 +33,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatInputModule,
     MatIconModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatMenuModule
   ]
 })
 export class MaterialModule { }

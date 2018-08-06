@@ -24,11 +24,16 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     selectable = true;
     removable = true;
     addOnBlur = true;
+    scrollInterval = null;
+    scrollLeft = false;
+    scrollRight = true;
 
     myControl = new FormControl();
     options: string[] = [];
     filteredOptions: Observable<string[]>;
     filterSelector;
+    innerWidth;
+    maxScrollSize = 0;
 
     @ViewChild('filterSelector') el:ElementRef;
     @Output() selected: EventEmitter<object> = new EventEmitter();
@@ -66,6 +71,10 @@ export class TagFilterComponent implements OnInit, OnDestroy {
             input.value = '';
         }
     }
+    @HostListener('window:resize', ['$event'])
+    onResize(event) {
+        this._calcMaxScrollSize();
+    }
 
     @HostListener('select')
     selectTag(el, tag): void{
@@ -85,11 +94,31 @@ export class TagFilterComponent implements OnInit, OnDestroy {
         this.selected.emit({ tags: this.selectedTags });
     }
 
+    scroll(dir){
+        console.log(this.filterSelector)
+        if(this.scrollInterval){
+            clearInterval(this.scrollInterval);
+        }
+        const stepSize = [5,5,10,10,15,15,20,20,15,15,10,10,5,5];
+        var scrollSize = stepSize.reduce((a, b) => a + b);
+        var count = 0;
+        this.scrollInterval = setInterval(()=> {
+            var step = -stepSize[count];
+            if(dir == 'left'){
+                step = stepSize[count];
+            }
+            scrollSize -= stepSize[count];
+            this.filterSelector.scrollLeft += step;
+            this._scrollButtonsVisibilities();
+            if(scrollSize <= 0){
+                clearInterval(this.scrollInterval);
+            }
+            count++;
+        },20); 
+    }
+
     ngAfterViewInit() {
         this.filterSelector = this.el.nativeElement;
-        this.el.nativeElement.addEventListener('scroll', function(){
-            console.log("scroll");
-        });
     }
 
     ngOnInit(): void {
@@ -121,7 +150,34 @@ export class TagFilterComponent implements OnInit, OnDestroy {
         }
     }
 
+    private _scrollButtonsVisibilities(){
+        if(this.maxScrollSize <= 0){
+            this.scrollRight = false;
+            this.scrollLeft = false;
+        }else{
+            if(this.filterSelector.scrollLeft == 0){
+                this.scrollLeft = false;
+            }else{
+                this.scrollLeft = true;
+            }
+            if(this.filterSelector.scrollLeft >= this.maxScrollSize){
+                this.scrollRight = false;
+            }else{
+                this.scrollRight = true;
+            }
+        }
+    }
+
+    private _calcMaxScrollSize(): void{
+        this.maxScrollSize = this.filterSelector.scrollWidth - this.filterSelector.offsetWidth;
+        console.log("max-scroll ", this.maxScrollSize);
+        this._scrollButtonsVisibilities();
+    }
+
     private _loadFilters(tagName: String): void{
+        var self = this;
+        this.scrollRight = false;
+        this.scrollLeft = false;
         if(!tagName){
             tagName = 'root';
         }
@@ -131,6 +187,9 @@ export class TagFilterComponent implements OnInit, OnDestroy {
                 for(var key  in results){
                     this.tags.push(key);
                 }
+                setTimeout(() => {
+                    self._calcMaxScrollSize();
+                }, 500)
             }, 
             error =>{console.log('error'+ error)}, 
             () => {console.log('completed')});
@@ -147,7 +206,6 @@ export class TagFilterComponent implements OnInit, OnDestroy {
             error =>{console.log('error'+ error)}, 
             () => {console.log('completed')});
     }
-
 
     private _filter(value: string): string[] {
         var filterValue = value.trim().toLowerCase();

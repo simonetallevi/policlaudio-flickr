@@ -1,9 +1,6 @@
 <div class="filter-container">
     <div class="filter-selected">
         <mat-form-field class="autocomplete-container">
-            <!-- <button mat-button class="small-button">
-                <mat-icon aria-label="cancel">cancel</mat-icon>
-            </button> -->
             <mat-chip-list #selectedTagsChipList class="selected-chip-list-wrapper">
                 <mat-chip class="selected-tag-chip" *ngFor="let tag of selectedVisibleTags" [removable]="removable" (removed)=deselectTag(tag)>
                     {{tag}}
@@ -11,9 +8,6 @@
                 </mat-chip>
                 <input matInput class="autocomplete-input" type="text" aria-label="Number" [matChipInputFor]="selectedTagsChipList" [matChipInputAddOnBlur]="addOnBlur" [formControl]="myControl" [matAutocomplete]="auto" (matChipInputTokenEnd)="add($event)">
             </mat-chip-list>
-            <!-- <button mat-button class="small-button">
-                <mat-icon aria-label="search">search</mat-icon>
-            </button> -->
             <mat-autocomplete class="autocomplete" #auto="matAutocomplete" (optionSelected)="onAutocompleSelected()">
                 <mat-option class="autocomplete-option" *ngFor="let option of filteredOptions | async" [value]="option">
                     {{option.substr(selectedOption.length, option.length)}}
@@ -29,11 +23,11 @@
                 </div>
             </div>
         </div>
-        <div class="filter-shadow-left">
+        <button *ngIf="scrollLeft" (click)="scroll('right')" mat-button class="small-button left filter-shadow-left">
             <mat-icon>chevron_left</mat-icon>
-        </div>
-        <div class="filter-shadow-right">
+        </button>
+        <button *ngIf="scrollRight" (click)="scroll('left')" mat-button class="small-button right filter-shadow-right">
             <mat-icon>chevron_right</mat-icon>
-        </div>
+        </button>
     </div>
 </div>
