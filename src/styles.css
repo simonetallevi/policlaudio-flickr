@@ -96,6 +96,19 @@ slideshow-dialog,
     margin: 2px !important;
 }
 
+.cdk-overlay-dark-backdrop {
+    background-color: rgba(0, 0, 0, .588);
+}
+
+.mat-dialog-container {
+    padding: 0 !important;
+    background-color: rgba(0, 0, 0, .588);
+}
+
+slideshow-dialog.ng-star-inserted {
+    background-color: transparent !important;
+}
+
 
 /* .autocomplete-container .mat-form-field-wrapper {
     padding-bottom: 0px;

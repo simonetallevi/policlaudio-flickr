@@ -6,28 +6,43 @@ import { ArrayType } from '@angular/compiler/src/output/output_ast';
 import { Secret } from '../config/secret';
 
 
-export interface FlickrPhoto { 
-  id: string,
-  url_l: string,
-  height_l: number,
-  width_l: number,
-  tags: string,
-  title: string,
-  views:number,
-  lastupdate: number
+export class FlickrPhoto { 
+  id: string;
+  url_l: string;
+  height_l: number;
+  width_l: number;
+  tags: string;
+  title: string;
+  views:number;
+  lastupdate: number;
+
+  constructor(url: string) {
+    this.url_l = url;
+    this.title = "image-title";
+    this.views = 2;
+    this.lastupdate = 2000000;
+  }
 }
 
-export interface FlickrPhotosSearch { 
-  page: number,
-  pages: number,
-  perpage: number,
-  total: string,
-  photo: Array<FlickrPhoto>
+export class FlickrPhotosSearch { 
+  page: number;
+  pages: number;
+  perpage: number;
+  total: string;
+  photo: Array<FlickrPhoto>;
+  
+  constructor(photo: Array<FlickrPhoto>) {
+    this.photo = photo;
+  }
 }
 
-export interface FlickrPhotosSearchResponse { 
-  photos: FlickrPhotosSearch,
-  stat: string
+export class FlickrPhotosSearchResponse { 
+  photos: FlickrPhotosSearch;
+  stat: string;
+
+  constructor(photos: FlickrPhotosSearch) {
+    this.photos = photos;
+  }
 }
 
 @Injectable()
@@ -84,7 +99,14 @@ export class ImagesService {
     console.log(params)
     var input = this._copy(this.input, params);
     return new Observable((observer) =>{
-            observer.next(null);
+            var res = new FlickrPhotosSearchResponse(
+              new FlickrPhotosSearch(
+                [new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg"),
+                new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg"),
+                new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg")]
+              )
+            )
+            observer.next(res);
             observer.complete();
         });
     // return this.http.get<FlickrPhotosSearchResponse>(

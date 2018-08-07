@@ -15,15 +15,13 @@
 .filter-container .filter-to-select {
     white-space: nowrap;
     position: absolute;
-    top: 75px;
+    top: 68px;
     width: 100%;
 }
 
 .chip-list {
     display: block;
     overflow-x: auto;
-    padding-right: 28px;
-    padding-left: 28px;
 }
 
 .chip {

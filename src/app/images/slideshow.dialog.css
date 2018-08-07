@@ -1,5 +1,6 @@
 .slideshow-dialog,
 .dialog {
+    background-color: transparent;
     display: inline-block;
     width: auto;
     height: 100%;
@@ -7,4 +8,5 @@
 
 .dialog img {
     height: 100%;
+    width: 100%;
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
+import { Component, OnInit, OnDestroy, Inject, HostListener} from '@angular/core';
 
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 import { ImagesService, FlickrPhoto, FlickrPhotosSearchResponse } from './images.service'
@@ -154,7 +154,19 @@ export interface DialogData {
   styleUrls: ['./slideshow.dialog.css']
 })
 export class SlideshowDialog {
+  margin = 20;
+  maxWidth = window.innerWidth - this.margin;
+  maxHeight = window.innerHeight - this.margin;
+
   constructor(
     public dialogRef: MatDialogRef<SlideshowDialog>,
-    @Inject(MAT_DIALOG_DATA) public data: DialogData) {}
+    @Inject(MAT_DIALOG_DATA) public data: DialogData) {    }
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event) {
+    console.log(event);
+    this.maxWidth = event.target.innerWidth - this.margin;
+    this.maxHeight = event.target.innerHeigth - this.margin;
+  }
+  ngOnInit() {}
 }
