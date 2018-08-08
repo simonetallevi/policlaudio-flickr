@@ -1,12 +1,49 @@
-.slideshow-dialog,
 .dialog {
-    background-color: transparent;
     display: inline-block;
-    width: auto;
     height: 100%;
 }
 
 .dialog img {
     height: 100%;
     width: 100%;
+}
+
+.image-conainer {}
+
+.icon-container {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+
+.command {
+    position: absolute;
+    padding: 0;
+    top: 0px;
+    height: calc(100% - 4px);
+    background: transparent;
+    width: 40px;
+    min-width: 40px;
+}
+
+.command.next {
+    right: 0px;
+}
+
+.command.previous {
+    left: 0px;
+}
+
+.command.next mat-icon {
+    position: absolute;
+    top: 8px;
+    left: 0;
+}
+
+.command.previous mat-icon {
+    position: absolute;
+    top: 8px;
+    right: 0;
 }

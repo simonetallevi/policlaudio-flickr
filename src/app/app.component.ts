@@ -1,6 +1,8 @@
 import 'hammerjs';
 
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { NgxSpinnerService } from 'ngx-spinner';
+
 
 @Component({
   selector: 'app-root',
@@ -11,7 +13,16 @@ export class AppComponent implements OnInit {
   
   title = 'app';
 
-  constructor(){ 
+  constructor(
+    private spinner: NgxSpinnerService
+  ){ }
+
+  showSpinner(){
+    this.spinner.show();
+  }
+
+  hideSpinner(){
+    this.spinner.hide()
   }
 
   ngOnInit(): void {

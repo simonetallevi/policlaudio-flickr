@@ -15,7 +15,7 @@
 <mat-grid-list [cols]="colsNum || 1" rowHeight="{{rowHeightPx}}px" class="search-results" infinite-scroll [infiniteScrollDistance]="scrollDistance" [infiniteScrollUpDistance]="scrollUpDistance" [infiniteScrollThrottle]="throttle" (scrolled)="onScrollDown()"
     (scrolledUp)="onUp()">
 
-    <mat-grid-tile *ngFor="let tile of tiles" (click)="openSlideShow(tile)" [colspan]="tile.cols" [rowspan]="tile.rows">
+    <mat-grid-tile *ngFor="let tile of tiles; let i = index" (click)="openSlideShow(i, tile)" [colspan]="tile.cols" [rowspan]="tile.rows">
         <div class="photo-tile-container">
             <div class="photo-tile" [ngStyle]="tile.styles"></div>
             <div class="photo-name">

@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy, Inject, HostListener} from '@angular/core';
+import { Component, OnInit, OnDestroy, Inject, HostListener, EventEmitter, Output} from '@angular/core';
 
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 import { ImagesService, FlickrPhoto, FlickrPhotosSearchResponse } from './images.service'
@@ -21,6 +21,9 @@ export class ImagesComponent implements OnInit, OnDestroy {
   direction = '';
   tags = [];
   visibleLogo = true;
+
+  @Output() onSpinnerShow: EventEmitter<void> = new EventEmitter<void>()
+  @Output() onSpinnerHide: EventEmitter<void> = new EventEmitter<void>()
 
   constructor(
     private images: ImagesService,
@@ -52,43 +55,62 @@ export class ImagesComponent implements OnInit, OnDestroy {
         this.rowHeightPx = 300;
       } else if(breakpointObserver.isMatched(Breakpoints.XSmall)){
         this.visibleLogo = false;
-        this.colsNum = 2;
+        this.colsNum = 1;
         this.rowHeightPx = 300;
       }
     });
   }
 
-  openSlideShow(tile) {
-    console.log(tile)
-    this.dialog.open(SlideshowDialog, {
+  openSlideShow(index) {
+    console.log(this.tiles[index])
+    let dialog = this.dialog.open(SlideshowDialog, {
       data: {
-        'url': tile.url
+        'tiles': this.tiles,
+        'index': index
       }
+    });
+    const sub = dialog.componentInstance.onLoadMore.subscribe(() => {
+      this.loadNextTiles()
+        .then(() => {
+          dialog.componentInstance.data.tiles = this.tiles;
+        })
+        .catch();
+    });
+    dialog.afterClosed().subscribe(() => {
+      console.log("load more unsubscribe");
+      dialog.componentInstance.onLoadMore.unsubscribe();
     });
   }
 
-  loadNextTiles(){
-    var _self = this;
-
-    this.images.next({'tags': this.tags})
-      .subscribe(res =>{
-        console.log(res)
-        _self.tiles = _self.tiles.concat(_self.toTiles(res))
-      }, error => {
-        console.error(error);
-      });
+  loadNextTiles(): Promise<any>{
+    this.onSpinnerShow.emit();
+    return new Promise((resolve,reject) =>{
+      this.images.next({'tags': this.tags})
+        .subscribe(res =>{
+          console.log(res)
+          this.tiles = this.tiles.concat(this.toTiles(res));
+          resolve();
+          this.onSpinnerHide.emit();
+        }, error => {
+          console.error(error);
+          reject();
+          this.onSpinnerHide.emit();
+        });
+    });
   }
 
   loadTiles($event){
-    var _self = this;
     this.tags = $event.tags;
+    this.onSpinnerShow.emit();
     this.images.reset()
     this.images.search({'tags': this.tags})
       .subscribe(res =>{
-        console.log(res)
-        _self.tiles = _self.toTiles(res)
+        console.log(res);
+        this.tiles = this.toTiles(res);
+        this.onSpinnerHide.emit();
       }, error => {
         console.error(error);
+        this.onSpinnerHide.emit();
       });
   }
 
@@ -145,7 +167,8 @@ export class ImagesComponent implements OnInit, OnDestroy {
 }
 
 export interface DialogData {
-  url;
+  tiles,
+  index;
 }
 
 @Component({
@@ -154,19 +177,41 @@ export interface DialogData {
   styleUrls: ['./slideshow.dialog.css']
 })
 export class SlideshowDialog {
-  margin = 20;
+  margin = 80;
   maxWidth = window.innerWidth - this.margin;
   maxHeight = window.innerHeight - this.margin;
+  currentTile;
+  currentIndex;
+
+  onLoadMore = new EventEmitter();
 
   constructor(
     public dialogRef: MatDialogRef<SlideshowDialog>,
-    @Inject(MAT_DIALOG_DATA) public data: DialogData) {    }
+    @Inject(MAT_DIALOG_DATA) public data: DialogData) {}
 
   @HostListener('window:resize', ['$event'])
   onResize(event) {
-    console.log(event);
     this.maxWidth = event.target.innerWidth - this.margin;
     this.maxHeight = event.target.innerHeigth - this.margin;
   }
-  ngOnInit() {}
+  
+  next(){
+    if((this.currentIndex + 1) < this.data.tiles.length){
+      this.currentIndex += 1;
+      console.log(this.currentIndex)
+      this.currentTile = this.data.tiles[this.currentIndex];
+    }else{
+      this._onLoadMoreImages();
+    }
+  }
+
+  ngOnInit() {
+    this.currentIndex = this.data.index;
+    this.currentTile = this.data.tiles[this.currentIndex];
+    console.log(this.currentIndex)
+  }
+
+  private _onLoadMoreImages() {
+    this.onLoadMore.emit();
+  }
 }
