@@ -1,13 +1,13 @@
 <div class="dialog">
-    <button class="command previous" (click)="previous()" mat-button>
+    <button *ngIf="maxWidth" class="command previous" (click)="previous()" mat-button>
         <div class="icon-container">
             <mat-icon>chevron_left</mat-icon>
         </div>
     </button>
     <div class="image-conainer" *ngIf="maxWidth" [ngStyle]="{'max-width.px': maxWidth, 'max-height.px': maxHeight}">
-        <img [src]="currentTile.url" />
+        <img [src]="currentTile.url" [ngStyle]="{'max-width.px': maxWidth, 'max-height.px': maxHeight}" />
     </div>
-    <button class="command next" (click)="next()" mat-button>
+    <button *ngIf="maxWidth" class="command next" (click)="next()" mat-button>
         <div class="icon-container">
             <mat-icon>chevron_right</mat-icon>
         </div>

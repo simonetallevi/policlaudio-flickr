@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy, Inject, HostListener, EventEmitter, Output} from '@angular/core';
+import { Component, OnInit, OnDestroy, Inject, HostListener, EventEmitter, Output, ElementRef, AfterViewInit} from '@angular/core';
 
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 import { ImagesService, FlickrPhoto, FlickrPhotosSearchResponse } from './images.service'
@@ -176,29 +176,31 @@ export interface DialogData {
   templateUrl: 'slideshow.dialog.html',
   styleUrls: ['./slideshow.dialog.css']
 })
-export class SlideshowDialog {
+export class SlideshowDialog implements AfterViewInit{
   margin = 80;
   maxWidth = window.innerWidth - this.margin;
-  maxHeight = window.innerHeight - this.margin;
+  maxHeight = window.innerHeight - this.margin/2;
   currentTile;
   currentIndex;
+  currentWidth;
 
   onLoadMore = new EventEmitter();
 
   constructor(
     public dialogRef: MatDialogRef<SlideshowDialog>,
-    @Inject(MAT_DIALOG_DATA) public data: DialogData) {}
+    @Inject(MAT_DIALOG_DATA) public data: DialogData,
+    private el:ElementRef) {}
 
   @HostListener('window:resize', ['$event'])
   onResize(event) {
     this.maxWidth = event.target.innerWidth - this.margin;
-    this.maxHeight = event.target.innerHeigth - this.margin;
+    this.maxHeight = event.target.innerHeigth - this.margin/2;
   }
   
   next(){
     if((this.currentIndex + 1) < this.data.tiles.length){
       this.currentIndex += 1;
-      console.log(this.currentIndex)
+      // console.log(this.currentIndex)
       this.currentTile = this.data.tiles[this.currentIndex];
     }else{
       this._onLoadMoreImages();
@@ -208,7 +210,11 @@ export class SlideshowDialog {
   ngOnInit() {
     this.currentIndex = this.data.index;
     this.currentTile = this.data.tiles[this.currentIndex];
-    console.log(this.currentIndex)
+    // console.log(this.currentIndex)
+  }
+
+  ngAfterViewInit(){
+    this.currentWidth = this.el.nativeElement.offsetWidth;
   }
 
   private _onLoadMoreImages() {
