@@ -10,7 +10,7 @@
 
 .icon-container {
     position: relative;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     width: 40px;
     height: 40px;
     color: white;
@@ -22,8 +22,48 @@
     top: 0px;
     height: calc(100% - 4px);
     background: transparent;
+}
+
+.command.small {
     width: 40px;
     min-width: 40px;
+}
+
+.command.small .icon-container {
+    width: 40px;
+    height: 40px;
+}
+
+.command.large {
+    width: 60px;
+    min-width: 60px;
+}
+
+.command.large .icon-container {
+    width: 60px;
+    height: 60px;
+}
+
+.command.next.large mat-icon,
+.command.previous.large mat-icon {
+    position: absolute;
+    top: 19px;
+}
+
+.command.next.small mat-icon,
+.command.previous.small mat-icon {
+    position: absolute;
+    top: 8px;
+}
+
+.command.next.large mat-icon,
+.command.next.small mat-icon {
+    left: 0px;
+}
+
+.command.previous.large mat-icon,
+.command.previous.small mat-icon {
+    right: 0px;
 }
 
 .command.next {
@@ -32,16 +72,4 @@
 
 .command.previous {
     left: 0px;
-}
-
-.command.next mat-icon {
-    position: absolute;
-    top: 8px;
-    left: 0;
-}
-
-.command.previous mat-icon {
-    position: absolute;
-    top: 8px;
-    right: 0;
 }

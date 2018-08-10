@@ -178,23 +178,53 @@ export interface DialogData {
 })
 export class SlideshowDialog implements AfterViewInit{
   margin = 80;
-  maxWidth = window.innerWidth - this.margin;
-  maxHeight = window.innerHeight - this.margin/2;
+  maxWidth;
+  maxHeight;
   currentTile;
   currentIndex;
-  currentWidth;
+  largeCommandButtons = false;
 
   onLoadMore = new EventEmitter();
 
   constructor(
     public dialogRef: MatDialogRef<SlideshowDialog>,
     @Inject(MAT_DIALOG_DATA) public data: DialogData,
-    private el:ElementRef) {}
+    private el:ElementRef,
+    private breakpointObserver: BreakpointObserver) {
+      breakpointObserver.observe([
+        Breakpoints.XLarge,
+        Breakpoints.Large,
+        Breakpoints.Medium,
+        Breakpoints.Small,
+        Breakpoints.XSmall
+      ]).subscribe((result : BreakpointState) => {
+        if(breakpointObserver.isMatched(Breakpoints.XLarge)){
+          this.largeCommandButtons = true;
+          this.margin = 300
+          this._resize()
+        } else if(breakpointObserver.isMatched(Breakpoints.Large)){
+          this.largeCommandButtons = true;
+          this.margin = 200
+          this._resize()
+        } else if(breakpointObserver.isMatched(Breakpoints.Medium)){
+          this.largeCommandButtons = true;
+          this.margin = 150
+          this._resize()
+        } else if(breakpointObserver.isMatched(Breakpoints.Small)){
+          this.largeCommandButtons = false;
+          this.margin = 80
+          this._resize()
+        } else if(breakpointObserver.isMatched(Breakpoints.XSmall)){
+          this.largeCommandButtons = false;
+          this.margin = 80
+          this._resize()
+        }
+      });
+    }
 
   @HostListener('window:resize', ['$event'])
   onResize(event) {
-    this.maxWidth = event.target.innerWidth - this.margin;
-    this.maxHeight = event.target.innerHeigth - this.margin/2;
+    this._resize()
   }
   
   next(){
@@ -213,11 +243,14 @@ export class SlideshowDialog implements AfterViewInit{
     // console.log(this.currentIndex)
   }
 
-  ngAfterViewInit(){
-    this.currentWidth = this.el.nativeElement.offsetWidth;
-  }
+  ngAfterViewInit(){}
 
   private _onLoadMoreImages() {
     this.onLoadMore.emit();
+  }
+
+  private _resize(){
+    this.maxWidth = window.innerWidth - this.margin;
+    this.maxHeight = window.innerHeight - 40;
   }
 }
