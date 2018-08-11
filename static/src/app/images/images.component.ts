@@ -4,8 +4,6 @@ import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/l
 import { ImagesService, FlickrPhoto, FlickrPhotosSearchResponse } from './images.service'
 import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
 
-import { NgxSpinnerService } from 'ngx-spinner';
-
 @Component({
   selector: 'app-images',
   templateUrl: './images.component.html',
@@ -30,7 +28,6 @@ export class ImagesComponent implements OnInit, OnDestroy {
   @Output() onSpinnerHide: EventEmitter<void> = new EventEmitter<void>()
 
   constructor(
-    private spinner: NgxSpinnerService,
     private images: ImagesService,
     private breakpointObserver: BreakpointObserver,
     private dialog: MatDialog
