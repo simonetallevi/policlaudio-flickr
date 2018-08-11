@@ -48,3 +48,8 @@ src/app/config/secret.ts
 static/angular_material_schematics-5AlBgf/
 node_modules/
 static/node_modules/
+/src/main/webapp/
+build
+!/src/main/webapp/WEB-INF/
+!/src/main/webapp/config/
+/.gradle/

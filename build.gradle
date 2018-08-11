@@ -50,8 +50,8 @@ dependencies {
 appengine {  // App Engine tasks configuration
     run {      // local (dev_appserver) configuration (standard environments only)
         port = 8080
-        jvmFlags = ['-Xdebug', '-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005', "-Dappengine.fullscan.seconds=5"]
-        //jvmFlags = ["-Dappengine.fullscan.seconds=2"]
+        //jvmFlags = ['-Xdebug', '-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005', "-Dappengine.fullscan.seconds=5"]
+        jvmFlags = ["-Dappengine.fullscan.seconds=2"]
     }
 
     deploy {   // deploy configuration
