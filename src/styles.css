@@ -65,10 +65,12 @@ slideshow-dialog,
 .mat-chip-list-wrapper {
     position: relative;
     background-color: white;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     width: calc(100% - 4px);
     margin: unset !important;
     padding: 2px;
+    height: 36px;
 }
 
 .mat-form-field-wrapper,

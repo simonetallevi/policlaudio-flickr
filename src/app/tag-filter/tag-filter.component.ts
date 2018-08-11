@@ -77,6 +77,11 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     }
 
     @HostListener('select')
+    search(): void{
+        this.selected.emit({ tags: this.selectedTags });
+    }
+
+    @HostListener('select')
     selectTag(el, tag): void{
         this.selectedTags.push(tag);
         this._setSelectedVisibleTags();

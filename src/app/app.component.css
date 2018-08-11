@@ -14,12 +14,12 @@
     max-width: 125px;
     min-width: 125px;
     padding-top: 5px;
-    padding-right: 10px;
+    padding-left: 5px;
 }
 
 .logo-container .icon {
     position: absolute;
-    left: 0px;
+    left: 5px;
     bottom: -1px;
     font-size: 35px;
     color: #ffc107;

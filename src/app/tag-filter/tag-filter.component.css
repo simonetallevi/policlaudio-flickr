@@ -1,7 +1,6 @@
 .filter-container {
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
     width: 100%;
     position: relative;
 }
@@ -15,7 +14,7 @@
 .filter-container .filter-to-select {
     white-space: nowrap;
     position: absolute;
-    top: 68px;
+    top: 60px;
     width: 100%;
 }
 
@@ -103,10 +102,10 @@ input.mat-chip-input {
 
 .small-button {
     color: black;
-    width: 30px;
-    min-width: 30px;
+    width: 40px;
+    min-width: 40px;
     padding: 0;
-    height: 30px;
+    height: 40px;
 }
 
 .small-button.right mat-icon {
@@ -119,6 +118,14 @@ input.mat-chip-input {
     position: absolute;
     top: 8px;
     right: 12px;
+}
+
+.small-button.search {
+    margin-top: 14px;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #ffc107;
 }
 
 .selected-chip-list-wrapper {
