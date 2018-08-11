@@ -64,6 +64,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
   openSlideShow(index) {
     console.log(this.tiles[index])
     let dialog = this.dialog.open(SlideshowDialog, {
+      disableClose:true,
       data: {
         'tiles': this.tiles,
         'index': index
@@ -182,6 +183,7 @@ export class SlideshowDialog implements AfterViewInit{
   maxHeight;
   currentTile;
   currentIndex;
+  commandVisibility = 'hidden';
   largeCommandButtons = false;
 
   onLoadMore = new EventEmitter();
@@ -212,11 +214,11 @@ export class SlideshowDialog implements AfterViewInit{
           this._resize()
         } else if(breakpointObserver.isMatched(Breakpoints.Small)){
           this.largeCommandButtons = false;
-          this.margin = 80
+          this.margin = 90
           this._resize()
         } else if(breakpointObserver.isMatched(Breakpoints.XSmall)){
           this.largeCommandButtons = false;
-          this.margin = 80
+          this.margin = 90
           this._resize()
         }
       });
@@ -230,20 +232,35 @@ export class SlideshowDialog implements AfterViewInit{
   next(){
     if((this.currentIndex + 1) < this.data.tiles.length){
       this.currentIndex += 1;
-      // console.log(this.currentIndex)
       this.currentTile = this.data.tiles[this.currentIndex];
     }else{
       this._onLoadMoreImages();
     }
   }
 
+  previous(){
+    if((this.currentIndex - 1) >= 0){
+      this.currentIndex -= 1;
+      this.currentTile = this.data.tiles[this.currentIndex];
+    }
+  }
+
+  close(){
+    this.dialogRef.close()
+  }
+
   ngOnInit() {
+    this.commandVisibility = 'hidden';
     this.currentIndex = this.data.index;
     this.currentTile = this.data.tiles[this.currentIndex];
     // console.log(this.currentIndex)
   }
 
-  ngAfterViewInit(){}
+  ngAfterViewInit(){
+    setTimeout(()=>{
+      this.commandVisibility = 'visible';
+    }, 600);
+  }
 
   private _onLoadMoreImages() {
     this.onLoadMore.emit();

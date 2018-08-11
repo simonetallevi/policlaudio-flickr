@@ -1,13 +1,18 @@
 <div class="dialog">
-    <button [ngClass]="largeCommandButtons ? 'large' : 'small'" *ngIf="maxWidth" class="command previous" (click)="previous()" mat-button>
+    <button [ngClass]="[largeCommandButtons ? 'large' : 'small', commandVisibility]" class="command close" (click)="close()" mat-button>
+        <div class="icon-container">
+            <mat-icon>close</mat-icon>
+        </div>
+    </button>
+    <button [ngClass]="[largeCommandButtons ? 'large' : 'small', commandVisibility]" class="command previous" (click)="previous()" mat-button>
         <div class="icon-container">
             <mat-icon>chevron_left</mat-icon>
         </div>
     </button>
-    <div class="image-conainer" *ngIf="maxWidth" [ngStyle]="{'max-width.px': maxWidth, 'max-height.px': maxHeight}">
+    <div class="image-conainer" [ngStyle]="{'max-width.px': maxWidth, 'max-height.px': maxHeight}">
         <img [src]="currentTile.url" [ngStyle]="{'max-width.px': maxWidth, 'max-height.px': maxHeight}" />
     </div>
-    <button [ngClass]="largeCommandButtons ? 'large' : 'small'" *ngIf="maxWidth" class="command next" (click)="next()" mat-button>
+    <button [ngClass]="[largeCommandButtons ? 'large' : 'small', commandVisibility]" class="command next" (click)="next()" mat-button>
         <div class="icon-container">
             <mat-icon>chevron_right</mat-icon>
         </div>
