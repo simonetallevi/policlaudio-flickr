@@ -1,0 +1,11 @@
+<app-images (onSpinnerShow)='showSpinner()' (onSpinnerHide)='hideSpinner()'></app-images>
+<footer class="footer" *ngIf="visibleLogo">
+    <div class="logo-container">
+        <div class="logo-title">
+            <h1><span class="big">C</span>laudio</h1>
+            <h1 style="margin-left: 35px;"><span class="big">P</span>oli</h1>
+        </div>
+        <i aria-label="visibility" class="icon material-icons">camera_alt</i>
+    </div>
+</footer>
+<ngx-spinner bdColor="rgba(0, 0, 0, 0.8)" size="default" color="#ffc107" type="ball-elastic-dots"></ngx-spinner>

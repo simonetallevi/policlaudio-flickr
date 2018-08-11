@@ -1,0 +1,34 @@
+<div class="toolbar-container">
+    <div style="display:flex;">
+        <div class="logo-container" *ngIf="visibleLogo">
+            <div class="logo-title">
+                <h1><span class="big">C</span>laudio</h1>
+                <h1 style="margin-left: 58px;"><span class="big">P</span>oli</h1>
+            </div>
+            <i aria-label="visibility" class="icon material-icons">camera_alt</i>
+        </div>
+        <div class="filter-container">
+            <tag-filter (selected)="loadTiles($event)"></tag-filter>
+        </div>
+    </div>
+</div>
+<mat-grid-list [cols]="colsNum || 1" rowHeight="{{rowHeightPx}}px" class="search-results" infinite-scroll [infiniteScrollDistance]="scrollDistance" [infiniteScrollUpDistance]="scrollUpDistance" [infiniteScrollThrottle]="throttle" (scrolled)="onScrollDown()"
+    (scrolledUp)="onUp()">
+
+    <mat-grid-tile *ngFor="let tile of tiles; let i = index" (click)="openSlideShow(i, tile)" [colspan]="tile.cols" [rowspan]="tile.rows">
+        <div class="photo-tile-container">
+            <div class="photo-tile" [ngStyle]="tile.styles"></div>
+            <div class="photo-name">
+                <div class="photo-title">{{tile.title}}</div>
+                <div>
+                    <div class="photo-views">
+                        <span>{{tile.views}}</span>
+                        <mat-icon aria-label="visibility" class="material-icons md-18">visibility</mat-icon>
+                    </div>
+                    <div class="photo-date">{{(tile.lastupdate * 1000) | date : " MMMM d, y"}}</div>
+                </div>
+            </div>
+        </div>
+    </mat-grid-tile>
+
+</mat-grid-list>
