@@ -126,6 +126,10 @@ export class TagFilterComponent implements OnInit, OnDestroy {
         this.filterSelector = this.el.nativeElement;
     }
 
+    onScroll():void {
+        this._scrollButtonsVisibilities();
+    }
+
     ngOnInit(): void {
         this._loadKeys();
         this._loadFilters('root');

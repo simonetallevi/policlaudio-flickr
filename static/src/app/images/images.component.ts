@@ -24,8 +24,9 @@ export class ImagesComponent implements OnInit, OnDestroy {
   hasMore = true;
   loading = false;
 
-  @Output() onSpinnerShow: EventEmitter<void> = new EventEmitter<void>()
-  @Output() onSpinnerHide: EventEmitter<void> = new EventEmitter<void>()
+  onLoaded= new EventEmitter();
+  @Output() onSpinnerShow = new EventEmitter<void>()
+  @Output() onSpinnerHide = new EventEmitter<void>()
 
   constructor(
     private images: ImagesService,
@@ -69,13 +70,19 @@ export class ImagesComponent implements OnInit, OnDestroy {
       disableClose:true,
       data: {
         'tiles': this.tiles,
-        'index': index
+        'index': index,
+        'hasMore': true,
+        'onLoaded': this.onLoaded
       }
     });
     const sub = dialog.componentInstance.onLoadMore.subscribe(() => {
       this.loadNextTiles()
         .then(() => {
           dialog.componentInstance.data.tiles = this.tiles;
+          dialog.componentInstance.data.hasMore = this.hasMore;
+          if(this.hasMore){
+            this.onLoaded.emit();
+          }
         })
         .catch();
     });
@@ -94,7 +101,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
     return new Promise((resolve,reject) =>{
       this.images.next({'tags': this.tags})
         .subscribe(res =>{
-          console.log(res)
+          // console.log(res)
           if(res.photos.page == res.photos.pages){
             this.hasMore = false;
           }
@@ -118,7 +125,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
     this.images.reset()
     this.images.search({'tags': this.tags})
       .subscribe(res =>{
-        console.log(res);
+        // console.log(res);
         if(res.photos.page == res.photos.pages){
           console.log("no more photo");
           this.hasMore = false;
@@ -135,7 +142,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
     var results = [];
     if(res != null){
       res.photos.photo.forEach(p =>{
-        if(!p.url_m || !p.url_l){
+        if(!p.url_s || !p.url_m || !p.url_l){
           return;
         }
         //WF=WI*HF/HI
@@ -148,7 +155,8 @@ export class ImagesComponent implements OnInit, OnDestroy {
           title: p.title,
           tags: (p.tags ? p.tags.split(" ") : []),
           url_l: p.url_l,
-          url: p.url_m,
+          url_m: p.url_m,
+          url_s: p.url_s,
           styles: {
             'background-image': 'url(' + p.url_m +')',
             'background-size' : 'cover',
@@ -186,7 +194,9 @@ export class ImagesComponent implements OnInit, OnDestroy {
 
 export interface DialogData {
   tiles,
-  index;
+  index,
+  hasMore,
+  onLoaded;
 }
 
 @Component({
@@ -199,9 +209,10 @@ export class SlideshowDialog implements AfterViewInit{
   maxWidth;
   maxHeight;
   currentTile;
-  currentIndex;
+  currentIndex = 0;
   commandVisibility = 'hidden';
   largeCommandButtons = false;
+  smallScreen = false;
 
   onLoadMore = new EventEmitter();
 
@@ -219,22 +230,27 @@ export class SlideshowDialog implements AfterViewInit{
       ]).subscribe((result : BreakpointState) => {
         if(breakpointObserver.isMatched(Breakpoints.XLarge)){
           this.largeCommandButtons = true;
+          this.smallScreen = false;
           this.margin = 300
           this._resize()
         } else if(breakpointObserver.isMatched(Breakpoints.Large)){
           this.largeCommandButtons = true;
+          this.smallScreen = false;
           this.margin = 200
           this._resize()
         } else if(breakpointObserver.isMatched(Breakpoints.Medium)){
           this.largeCommandButtons = true;
+          this.smallScreen = false;
           this.margin = 150
           this._resize()
         } else if(breakpointObserver.isMatched(Breakpoints.Small)){
           this.largeCommandButtons = false;
+          this.smallScreen = true;
           this.margin = 90
           this._resize()
         } else if(breakpointObserver.isMatched(Breakpoints.XSmall)){
           this.largeCommandButtons = false;
+          this.smallScreen = true;
           this.margin = 90
           this._resize()
         }
@@ -249,6 +265,7 @@ export class SlideshowDialog implements AfterViewInit{
   next(){
     if((this.currentIndex + 1) < this.data.tiles.length){
       this.currentIndex += 1;
+      this.data.index = this.currentIndex;
       this.currentTile = this.data.tiles[this.currentIndex];
     }else{
       this._onLoadMoreImages();
@@ -258,6 +275,7 @@ export class SlideshowDialog implements AfterViewInit{
   previous(){
     if((this.currentIndex - 1) >= 0){
       this.currentIndex -= 1;
+      this.data.index = this.currentIndex;
       this.currentTile = this.data.tiles[this.currentIndex];
     }
   }
@@ -270,7 +288,10 @@ export class SlideshowDialog implements AfterViewInit{
     this.commandVisibility = 'hidden';
     this.currentIndex = this.data.index;
     this.currentTile = this.data.tiles[this.currentIndex];
-    // console.log(this.currentIndex)
+    this.data.onLoaded.subscribe(() => {
+      console.log("loaded");
+      this.next();
+    });
   }
 
   ngAfterViewInit(){

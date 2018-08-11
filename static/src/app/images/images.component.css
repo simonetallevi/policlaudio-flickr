@@ -108,7 +108,7 @@
 
 .photo-views {
     text-align: right;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .photo-views span {
@@ -122,6 +122,6 @@
 }
 
 .photo-date {
-    font-size: 10px;
-    font-weight: 100;
+    font-size: 12px;
+    font-weight: 400;
 }

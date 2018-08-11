@@ -21,4 +21,8 @@ cp -R static/dist/* $webappdir
 
 echo "COPIED"
 
+gradle clean build appengineDeploy
+
+echo "DEPLOYED"
+
 echo "DONE"

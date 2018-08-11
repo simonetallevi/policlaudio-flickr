@@ -8,6 +8,10 @@ body {
     background: black;
 }
 
+body.disable-scroll {
+    overflow: hidden;
+}
+
 h1,
 h3 {
     font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
@@ -112,9 +116,8 @@ slideshow-dialog.ng-star-inserted {
     background-color: transparent !important;
 }
 
-ngx-spinner .back-overlay {
-    position: fixed;
-    top: 0;
+.black-overlay[_ngcontent-c2] {
+    position: fixed !important;
 }
 
 
