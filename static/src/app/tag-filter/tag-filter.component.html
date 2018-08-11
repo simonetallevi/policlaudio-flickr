@@ -19,7 +19,7 @@
         </button>
     </div>
     <div class="filter-to-select">
-        <div class="chip-list" #filterSelector (scroll)="onScroll($event)">
+        <div class="chip-list" #filterSelector (scroll)="onScroll()">
             <div class="chip tag" *ngFor="let tag of tags; let i = index" (click)="selectTag(target,tag)">
                 <div class="tag-name">
                     <p>{{tag}}</p>
