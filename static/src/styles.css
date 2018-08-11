@@ -112,6 +112,11 @@ slideshow-dialog.ng-star-inserted {
     background-color: transparent !important;
 }
 
+ngx-spinner .back-overlay {
+    position: fixed;
+    top: 0;
+}
+
 
 /* .autocomplete-container .mat-form-field-wrapper {
     padding-bottom: 0px;

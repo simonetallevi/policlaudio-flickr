@@ -4,6 +4,8 @@ import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/l
 import { ImagesService, FlickrPhoto, FlickrPhotosSearchResponse } from './images.service'
 import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
 
+import { NgxSpinnerService } from 'ngx-spinner';
+
 @Component({
   selector: 'app-images',
   templateUrl: './images.component.html',
@@ -21,11 +23,14 @@ export class ImagesComponent implements OnInit, OnDestroy {
   direction = '';
   tags = [];
   visibleLogo = true;
+  hasMore = true;
+  loading = false;
 
   @Output() onSpinnerShow: EventEmitter<void> = new EventEmitter<void>()
   @Output() onSpinnerHide: EventEmitter<void> = new EventEmitter<void>()
 
   constructor(
+    private spinner: NgxSpinnerService,
     private images: ImagesService,
     private breakpointObserver: BreakpointObserver,
     private dialog: MatDialog
@@ -84,15 +89,24 @@ export class ImagesComponent implements OnInit, OnDestroy {
   }
 
   loadNextTiles(): Promise<any>{
+    if(!this.hasMore || this.loading){
+      return;
+    }
+    this.loading = true;
     this.onSpinnerShow.emit();
     return new Promise((resolve,reject) =>{
       this.images.next({'tags': this.tags})
         .subscribe(res =>{
           console.log(res)
+          if(res.photos.page == res.photos.pages){
+            this.hasMore = false;
+          }
           this.tiles = this.tiles.concat(this.toTiles(res));
           resolve();
           this.onSpinnerHide.emit();
+          this.loading = false;
         }, error => {
+          this.loading = false;
           console.error(error);
           reject();
           this.onSpinnerHide.emit();
@@ -101,12 +115,17 @@ export class ImagesComponent implements OnInit, OnDestroy {
   }
 
   loadTiles($event){
+    this.hasMore = true;
     this.tags = $event.tags;
     this.onSpinnerShow.emit();
     this.images.reset()
     this.images.search({'tags': this.tags})
       .subscribe(res =>{
         console.log(res);
+        if(res.photos.page == res.photos.pages){
+          console.log("no more photo");
+          this.hasMore = false;
+        }
         this.tiles = this.toTiles(res);
         this.onSpinnerHide.emit();
       }, error => {
@@ -119,7 +138,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
     var results = [];
     if(res != null){
       res.photos.photo.forEach(p =>{
-        if(!p.url_l){
+        if(!p.url_m || !p.url_l){
           return;
         }
         //WF=WI*HF/HI
@@ -131,9 +150,10 @@ export class ImagesComponent implements OnInit, OnDestroy {
           views: p.views,
           title: p.title,
           tags: (p.tags ? p.tags.split(" ") : []),
-          url: p.url_l,
+          url_l: p.url_l,
+          url: p.url_m,
           styles: {
-            'background-image': 'url(' + p.url_l +')',
+            'background-image': 'url(' + p.url_m +')',
             'background-size' : 'cover',
             'background-position': 'center',
             'border-radius': '10px 10px 10px 10px',

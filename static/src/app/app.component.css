@@ -37,3 +37,8 @@
     font-family: Raleway Arial, Helvetica, sans-serif;
     font-weight: 100;
 }
+
+.spinner {
+    position: fixed;
+    top: 0;
+}
