@@ -46,4 +46,4 @@ Thumbs.db
 src/app/config/secret.ts
 /policlaudio-flickr.iml
 static/angular_material_schematics-5AlBgf/
-/node_modules/
+static/node_modules/
