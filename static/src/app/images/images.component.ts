@@ -1,8 +1,10 @@
-import { Component, OnInit, OnDestroy, Inject, HostListener, EventEmitter, Output, ElementRef, AfterViewInit} from '@angular/core';
+import { Component, OnInit, OnDestroy, Inject, HostListener, EventEmitter, 
+  Output, ElementRef, AfterViewInit, Renderer2} from '@angular/core';
 
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
-import { ImagesService, FlickrPhoto, FlickrPhotosSearchResponse } from './images.service'
+import { ImagesService, FlickrPhotosSearchResponse } from './images.service'
 import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
+import { NgxSpinnerService } from 'ngx-spinner';
 
 @Component({
   selector: 'app-images',
@@ -25,10 +27,10 @@ export class ImagesComponent implements OnInit, OnDestroy {
   loading = false;
 
   onLoaded= new EventEmitter();
-  @Output() onSpinnerShow = new EventEmitter<void>()
-  @Output() onSpinnerHide = new EventEmitter<void>()
 
   constructor(
+    private spinner: NgxSpinnerService,
+    private renderer: Renderer2,
     private images: ImagesService,
     private breakpointObserver: BreakpointObserver,
     private dialog: MatDialog
@@ -64,6 +66,16 @@ export class ImagesComponent implements OnInit, OnDestroy {
     });
   }
 
+  showSpinner(){
+    this.spinner.show();
+    this.renderer.addClass(document.body, 'disable-scroll');
+  }
+
+  hideSpinner(){
+    this.spinner.hide()
+    this.renderer.removeClass(document.body, 'disable-scroll');
+  }
+
   openSlideShow(index) {
     console.log(this.tiles[index])
     let dialog = this.dialog.open(SlideshowDialog, {
@@ -97,7 +109,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
       return;
     }
     this.loading = true;
-    this.onSpinnerShow.emit();
+    this.showSpinner();
     return new Promise((resolve,reject) =>{
       this.images.next({'tags': this.tags})
         .subscribe(res =>{
@@ -107,13 +119,13 @@ export class ImagesComponent implements OnInit, OnDestroy {
           }
           this.tiles = this.tiles.concat(this.toTiles(res));
           resolve();
-          this.onSpinnerHide.emit();
+          this.hideSpinner();
           this.loading = false;
         }, error => {
           this.loading = false;
           console.error(error);
           reject();
-          this.onSpinnerHide.emit();
+          this.hideSpinner();
         });
     });
   }
@@ -121,7 +133,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
   loadTiles($event){
     this.hasMore = true;
     this.tags = $event.tags;
-    this.onSpinnerShow.emit();
+    this.showSpinner();
     this.images.reset()
     this.images.search({'tags': this.tags})
       .subscribe(res =>{
@@ -131,10 +143,10 @@ export class ImagesComponent implements OnInit, OnDestroy {
           this.hasMore = false;
         }
         this.tiles = this.toTiles(res);
-        this.onSpinnerHide.emit();
+        this.hideSpinner();
       }, error => {
         console.error(error);
-        this.onSpinnerHide.emit();
+        this.hideSpinner();
       });
   }
 
@@ -183,7 +195,6 @@ export class ImagesComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    this.loadTiles([])
   }
 
   ngOnDestroy(): void {

@@ -1,7 +1,8 @@
-import { Component, OnInit, OnDestroy, Output, EventEmitter, HostListener, ElementRef,Renderer2,ViewChild} from '@angular/core';
+import { Component, OnInit, OnDestroy, Output, EventEmitter, HostListener, ElementRef,ViewChild} from '@angular/core';
 import { FormControl} from '@angular/forms';
 import { MatChipInputEvent} from '@angular/material';
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
+import { ActivatedRoute, Router } from '@angular/router';
 
 import {Observable} from 'rxjs';
 import {map, startWith} from 'rxjs/operators';
@@ -41,7 +42,8 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     constructor(
         private breakpointObserver: BreakpointObserver,
         private tagFilterService: TagFilterService,
-        private rd: Renderer2
+        private route: ActivatedRoute,
+        private router: Router
     ){
         this.mediaObserve = breakpointObserver.observe([
             Breakpoints.XLarge,
@@ -63,6 +65,12 @@ export class TagFilterComponent implements OnInit, OnDestroy {
             }
             this._setSelectedVisibleTags();
           });
+
+          this.route.params.forEach(el => {
+              if(el['tags']){
+                this.selectedTags = el['tags'].split("_");
+              }
+          })
     }
 
     add(event: MatChipInputEvent): void {
@@ -84,19 +92,33 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     @HostListener('select')
     selectTag(el, tag): void{
         this.selectedTags.push(tag);
-        this._setSelectedVisibleTags();
-        var key = this.selectedTags.join('_');
-        this.selectedOption = key.split("_").join(" ");
-        this._loadFilters(key);
-        this.selected.emit({ tags: this.selectedTags });
+        this._selectTag(this.selectedTags);
     }
     deselectTag(el, tag): void{
         this.selectedTags = this.selectedTags.slice(0, this.selectedTags.length-1);
-        this._setSelectedVisibleTags();
-        var key = this.selectedTags.join('_');
-        this.selectedOption = key.split("_").join(" ");
-        this._loadFilters(key);
-        this.selected.emit({ tags: this.selectedTags });
+        this._selectTag(this.selectedTags);
+    }
+
+    private _selectTag(selected){
+        if(selected){
+            this._setSelectedVisibleTags();
+            var key = selected.join('_');
+            this.selectedOption = key.split("_").join(" ");
+            this._loadFilters(key);
+            this.selected.emit({ tags: selected });
+            this._routing(key);
+        }else{
+            this._loadFilters('root');
+            this.selected.emit({ tags: selected });
+        }
+    }
+
+    private _routing(key){
+        if(key){
+            this.router.navigate(['/search/'+key]);
+        }else{
+            this.router.navigate(['']);
+        }
     }
 
     scroll(dir){
@@ -131,8 +153,8 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     }
 
     ngOnInit(): void {
+        this._selectTag(this.selectedTags);
         this._loadKeys();
-        this._loadFilters('root');
     }
     
     ngOnDestroy(): void {

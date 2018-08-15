@@ -1,4 +1,4 @@
-<app-images (onSpinnerShow)='showSpinner()' (onSpinnerHide)='hideSpinner()'></app-images>
+<router-outlet></router-outlet>
 <footer class="footer" *ngIf="visibleLogo">
     <div class="logo-container">
         <div class="logo-title">
@@ -8,4 +8,3 @@
         <i aria-label="visibility" class="icon material-icons">camera_alt</i>
     </div>
 </footer>
-<ngx-spinner class="spinner" bdColor="rgba(0, 0, 0, 0.8)" size="default" color="#ffc107" type="ball-elastic-dots"></ngx-spinner>

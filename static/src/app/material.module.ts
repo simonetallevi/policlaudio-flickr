@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { RouterModule }    from '@angular/router';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, 
@@ -11,13 +12,15 @@ import {MatButtonModule,
   MatInputModule,
   MatIconModule,
   MatMenuModule} from '@angular/material';
+import { AppRoutingModule } from './app-routing.module';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatGridListModule} from '@angular/material/grid-list';
 
 @NgModule({
   imports: [
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule
   ],
   exports: [
     BrowserAnimationsModule,
@@ -34,7 +37,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatIconModule,
     FormsModule,
     ReactiveFormsModule,
-    MatMenuModule
+    MatMenuModule,
+    RouterModule
   ]
 })
 export class MaterialModule { }

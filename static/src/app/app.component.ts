@@ -1,9 +1,8 @@
 import 'hammerjs';
 
-import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
-import { Component, OnInit, OnDestroy,Renderer2} from '@angular/core';
-import { NgxSpinnerService } from 'ngx-spinner';
-
+import { BreakpointObserver, Breakpoints, 
+          BreakpointState }             from '@angular/cdk/layout';
+import { Component, OnInit}             from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -16,8 +15,6 @@ export class AppComponent implements OnInit {
   visibleLogo= false;
 
   constructor(
-    private spinner: NgxSpinnerService,
-    private renderer: Renderer2,
     private breakpointObserver: BreakpointObserver,
   ){
     breakpointObserver.observe([
@@ -39,16 +36,6 @@ export class AppComponent implements OnInit {
         this.visibleLogo = true;
       }
     });
-  }
-
-  showSpinner(){
-    this.spinner.show();
-    this.renderer.addClass(document.body, 'disable-scroll');
-  }
-
-  hideSpinner(){
-    this.spinner.hide()
-    this.renderer.removeClass(document.body, 'disable-scroll');
   }
 
   ngOnInit(): void {
