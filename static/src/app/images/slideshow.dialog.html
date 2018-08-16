@@ -9,8 +9,23 @@
             <mat-icon>chevron_left</mat-icon>
         </div>
     </button>
-    <div class="image-conainer" [ngStyle]="{'max-width.px': maxWidth, 'max-height.px': maxHeight}">
-        <img [src]="smallScreen ? currentTile.url_m : currentTile.url_l" [ngStyle]="{'max-width.px': maxWidth, 'max-height.px': maxHeight}" />
+    <div class="image-conainer" [ngStyle]="{'max-width.px': currentImgWith}">
+        <img #dialogimage [src]="smallScreen ? currentTile.url_m : currentTile.url_l" [ngStyle]="{'max-width.px': maxWidth, 'max-height.px': maxHeight}" />
+        <div class="info-container">
+            <div>
+                <div class="photo-title">{{currentTile.title}}</div>
+                <div class="photo-tags">
+                    <div *ngFor="let tag of currentTile.tags">&nbsp;#{{tag}}</div>
+                </div>
+            </div>
+            <div>
+                <div class="photo-views">
+                    <span>{{currentTile.views}}</span>
+                    <mat-icon aria-label="visibility" class="material-icons md-18">visibility</mat-icon>
+                </div>
+                <div class="photo-date">{{(currentTile.lastupdate * 1000) | date : " MMMM d, y"}}</div>
+            </div>
+        </div>
     </div>
     <button *ngIf="data.hasMore" [ngClass]="[largeCommandButtons ? 'large' : 'small', commandVisibility]" class="command next" (click)="next()" mat-button>
         <div class="icon-container">

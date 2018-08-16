@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy, Inject, HostListener, EventEmitter, 
-  Output, ElementRef, AfterViewInit, Renderer2} from '@angular/core';
+  Output, ElementRef, AfterViewInit, Renderer2, ViewChild} from '@angular/core';
 
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 import { ImagesService, FlickrPhotosSearchResponse } from './images.service'
@@ -138,7 +138,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
     this.images.reset()
     this.images.search({'tags': this.tags})
       .subscribe(res =>{
-        // console.log(res);
+        console.log(res);
         if(res.photos.page == res.photos.pages){
           console.log("no more photo");
           this.hasMore = false;
@@ -217,6 +217,7 @@ export interface DialogData {
 })
 export class SlideshowDialog implements AfterViewInit, OnInit, OnDestroy{
   margin = 80;
+  currentImgWith = 100;
   maxWidth;
   maxHeight;
   currentTile;
@@ -227,6 +228,8 @@ export class SlideshowDialog implements AfterViewInit, OnInit, OnDestroy{
   smallScreen = false;
 
   onLoadMore = new EventEmitter();
+
+  @ViewChild('dialogimage')image;
 
   constructor(
     public dialogRef: MatDialogRef<SlideshowDialog>,
@@ -311,6 +314,8 @@ export class SlideshowDialog implements AfterViewInit, OnInit, OnDestroy{
   }
 
   ngAfterViewInit(){
+    console.log("ciao", this.image.nativeElement);
+    this.currentImgWith = this.image.nativeElement.clientWidth;
     setTimeout(()=>{
       this.commandVisibility = 'visible';
     }, 600);
@@ -322,6 +327,6 @@ export class SlideshowDialog implements AfterViewInit, OnInit, OnDestroy{
 
   private _resize(){
     this.maxWidth = window.innerWidth - this.margin;
-    this.maxHeight = window.innerHeight - 40;
+    this.maxHeight = window.innerHeight - 80;
   }
 }

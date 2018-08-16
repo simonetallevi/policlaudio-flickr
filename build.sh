@@ -26,7 +26,7 @@ echo "COPIED"
 echo "index.html to index.jsp"
 echo "<%@ page contentType=\"text/html;charset=UTF-8\" language=\"java\" %>" >> "${webappdir}index.jsp"
 cat "${webappdir}index.html" >> "${webappdir}index.jsp"
-rm "${webappdir}index.html"
+rm "${webappdir}index.html" 
 
 gradle clean build appengineDeploy
 

@@ -5,7 +5,7 @@
 
 .icon-container {
     position: relative;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 1);
     width: 40px;
     height: 40px;
     color: black;
@@ -112,4 +112,47 @@
     top: 5px;
     right: 5px;
     z-index: 100;
+}
+
+.info-container {
+    color: black;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    width: calc(100% -10px);
+    padding: 5px;
+    text-transform: capitalize;
+    background-color: white;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.photo-title {
+    font-weight: 200;
+}
+
+.photo-tags {
+    font-size: 12px;
+    font-weight: 400;
+    padding-right: 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-transform: none;
+}
+
+.photo-views {
+    text-align: right;
+    font-weight: 400;
+}
+
+.photo-views mat-icon {
+    font-size: 16px;
+    right: 4px;
+}
+
+.photo-date {
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 400;
 }
