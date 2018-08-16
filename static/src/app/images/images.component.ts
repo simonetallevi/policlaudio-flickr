@@ -131,6 +131,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
   }
 
   loadTiles($event){
+    window.scroll(0,0);
     this.hasMore = true;
     this.tags = $event.tags;
     this.showSpinner();
