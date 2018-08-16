@@ -19,7 +19,7 @@
   </system-properties>
 
   <static-files>
-    <include path="/*" ></include>
+    <include path="/*"/>
   </static-files>
 
 </appengine-web-app>

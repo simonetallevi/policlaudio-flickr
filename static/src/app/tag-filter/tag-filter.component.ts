@@ -2,7 +2,7 @@ import { Component, OnInit, OnDestroy, Output, EventEmitter, HostListener, Eleme
 import { FormControl} from '@angular/forms';
 import { MatChipInputEvent} from '@angular/material';
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, NavigationEnd} from '@angular/router';
 
 import {Observable} from 'rxjs';
 import {map, startWith} from 'rxjs/operators';
@@ -18,6 +18,7 @@ export class TagFilterComponent implements OnInit, OnDestroy {
 
     maxVisibleTags = 3;
     tags = [];
+    routerEvent;
     mediaObserve;
     selectedOption = "";
     selectedTags = [];
@@ -66,11 +67,12 @@ export class TagFilterComponent implements OnInit, OnDestroy {
             this._setSelectedVisibleTags();
           });
 
-          this.route.params.forEach(el => {
-              if(el['tags']){
-                this.selectedTags = el['tags'].split("_");
-              }
-          })
+        this.routerEvent = router.events.subscribe((val) => {
+            if(val instanceof NavigationEnd){
+                this._getSelectdTagFromUrl();
+                this._selectTag(this.selectedTags);
+            }
+        });
     }
 
     add(event: MatChipInputEvent): void {
@@ -99,6 +101,14 @@ export class TagFilterComponent implements OnInit, OnDestroy {
         this._selectTag(this.selectedTags);
     }
 
+    private _getSelectdTagFromUrl(){
+        this.route.params.forEach(el => {
+            if(el['tags']){
+                this.selectedTags = atob(el['tags']).split("_");
+            }
+        });
+    }
+
     private _selectTag(selected){
         if(selected){
             this._setSelectedVisibleTags();
@@ -115,14 +125,14 @@ export class TagFilterComponent implements OnInit, OnDestroy {
 
     private _routing(key){
         if(key){
-            this.router.navigate(['/search/'+key]);
+            this.router.navigate(['/search/'+btoa(key)]);
         }else{
             this.router.navigate(['']);
         }
     }
 
     scroll(dir){
-        console.log(this.filterSelector)
+        // console.log(this.filterSelector)
         if(this.scrollInterval){
             clearInterval(this.scrollInterval);
         }
@@ -153,11 +163,12 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     }
 
     ngOnInit(): void {
-        this._selectTag(this.selectedTags);
         this._loadKeys();
     }
     
     ngOnDestroy(): void {
+        this.mediaObserve.unsubscribe();
+        this.routerEvent.unsubscribe();
     }
 
     @HostListener('select')

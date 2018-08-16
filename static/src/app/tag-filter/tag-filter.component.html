@@ -2,7 +2,7 @@
     <div class="filter-selected">
         <mat-form-field class="autocomplete-container" [floatLabel]="'never'">
             <mat-chip-list #selectedTagsChipList class="selected-chip-list-wrapper">
-                <mat-chip class="selected-tag-chip" *ngFor="let tag of selectedVisibleTags" [removable]="removable" (removed)=deselectTag(tag)>
+                <mat-chip class="selected-tag-chip" *ngFor="let tag of selectedVisibleTags" [removable]="removable" (click)="deselectTag(tag)" (removed)="deselectTag(tag)">
                     {{tag}}
                     <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
                 </mat-chip>

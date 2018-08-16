@@ -4,6 +4,8 @@ import { ImagesComponent }      from './images/images.component';
 
 const appRoutes: Routes = [
   { path: '', component: ImagesComponent },
+  { path: 'search/', redirectTo: ''},
+  { path: 'search', redirectTo: ''},
   { path: 'search/:tags', component: ImagesComponent }
 ];
 
@@ -12,7 +14,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(
       appRoutes,
       {
-        enableTracing: true
+        enableTracing: false
       }
     )
   ],

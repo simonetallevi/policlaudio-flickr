@@ -102,7 +102,7 @@ export class ImagesService {
       delete(params['tags'])
     }
     params['page'] = this.currentPage
-    console.log(params)
+    // console.log(params)
     var input = this._copy(this.input, params);
     // return new Observable((observer) =>{
     //         var res = new FlickrPhotosSearchResponse(

@@ -77,7 +77,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
   }
 
   openSlideShow(index) {
-    console.log(this.tiles[index])
+    // console.log(this.tiles[index])
     let dialog = this.dialog.open(SlideshowDialog, {
       disableClose:true,
       data: {
@@ -180,7 +180,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
         });
       });
     }
-    console.log(results);
+    // console.log(results);
     return results;
   }
 
@@ -190,8 +190,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
   }
   
   onUp(): void {
-    console.log('scrolled up!');
-    this.direction = 'down'
+    this.direction = 'up'
   }
 
   ngOnInit(): void {
@@ -215,11 +214,12 @@ export interface DialogData {
   templateUrl: 'slideshow.dialog.html',
   styleUrls: ['./slideshow.dialog.css']
 })
-export class SlideshowDialog implements AfterViewInit{
+export class SlideshowDialog implements AfterViewInit, OnInit, OnDestroy{
   margin = 80;
   maxWidth;
   maxHeight;
   currentTile;
+  mediaObserve = null;
   currentIndex = 0;
   commandVisibility = 'hidden';
   largeCommandButtons = false;
@@ -232,7 +232,7 @@ export class SlideshowDialog implements AfterViewInit{
     @Inject(MAT_DIALOG_DATA) public data: DialogData,
     private el:ElementRef,
     private breakpointObserver: BreakpointObserver) {
-      breakpointObserver.observe([
+      this.mediaObserve = breakpointObserver.observe([
         Breakpoints.XLarge,
         Breakpoints.Large,
         Breakpoints.Medium,
@@ -303,6 +303,10 @@ export class SlideshowDialog implements AfterViewInit{
       console.log("loaded");
       this.next();
     });
+  }
+
+  ngOnDestroy(){
+    this.mediaObserve.unsubscribe();
   }
 
   ngAfterViewInit(){
