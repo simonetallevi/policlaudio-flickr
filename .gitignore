@@ -1,7 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
+/static/dist
 /dist-server
 /tmp
 /out-tsc
@@ -45,4 +45,11 @@ Thumbs.db
 
 src/app/config/secret.ts
 /policlaudio-flickr.iml
-/angular_material_schematics-5AlBgf/
+static/angular_material_schematics-5AlBgf/
+node_modules/
+static/node_modules/
+/src/main/webapp/
+build
+!/src/main/webapp/WEB-INF/
+!/src/main/webapp/config/
+/.gradle/

@@ -1,0 +1,158 @@
+.dialog {
+    display: inline-block;
+    height: 100%;
+}
+
+.icon-container {
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+    width: 40px;
+    height: 40px;
+    color: black;
+    border-radius: 5px;
+}
+
+.command.hidden {
+    display: hidden;
+    opacity: 0;
+}
+
+.command.visible {
+    display: visible;
+    opacity: 1;
+    transition-duration: 600ms;
+    transition-property: all;
+}
+
+.command {
+    position: absolute;
+    padding: 0;
+    top: 0px;
+    height: calc(100% - 4px);
+    background: transparent;
+}
+
+.command.small {
+    width: 40px;
+    min-width: 40px;
+}
+
+.command.small .icon-container {
+    width: 40px;
+    height: 40px;
+}
+
+.command.large {
+    width: 60px;
+    min-width: 60px;
+}
+
+.command.large .icon-container {
+    width: 60px;
+    height: 60px;
+}
+
+.command.next.large mat-icon,
+.command.previous.large mat-icon {
+    position: absolute;
+    top: 19px;
+}
+
+.command.next.small mat-icon,
+.command.previous.small mat-icon {
+    position: absolute;
+    top: 8px;
+}
+
+.command.next.large mat-icon {
+    left: 19px;
+}
+
+.command.next.small mat-icon {
+    left: 8px;
+}
+
+.command.previous.large mat-icon {
+    right: 19px;
+}
+
+.command.previous.small mat-icon {
+    right: 8px;
+}
+
+.command.next {
+    right: 5px;
+}
+
+.command.previous {
+    left: 5px;
+}
+
+.command.close.large {
+    height: 60px;
+}
+
+.command.close.small {
+    height: 40px;
+}
+
+.command.close.large mat-icon {
+    position: absolute;
+    top: 19px;
+    left: 19px;
+}
+
+.command.close.small mat-icon {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.command.close {
+    top: 5px;
+    right: 5px;
+    z-index: 100;
+}
+
+.info-container {
+    color: black;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    width: calc(100% -10px);
+    padding: 5px;
+    text-transform: capitalize;
+    background-color: white;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.photo-title {
+    font-weight: 200;
+}
+
+.photo-tags {
+    font-size: 12px;
+    font-weight: 400;
+    padding-right: 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-transform: none;
+}
+
+.photo-views {
+    text-align: right;
+    font-weight: 400;
+}
+
+.photo-views mat-icon {
+    font-size: 16px;
+    right: 4px;
+}
+
+.photo-date {
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 400;
+}

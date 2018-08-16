@@ -1,0 +1,38 @@
+<html lang="en" ng-app="Config">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- when using the mode "code", it's important to specify charset utf-8 -->
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+    <link href="lib/jsoneditor.min.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+
+    <script src="lib/jsoneditor.min.js"></script>
+
+    <!-- Angular Dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js"></script>
+    <!--<script src="/assets/libs/angular-local-storage.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+
+    <script src="app.js"></script>
+
+    <title>Config</title>
+
+</head>
+<body>
+
+<div ng-controller="MainCtrl as Main">
+    <div layout="row"  style="padding: 20px">
+        <select ng-model="Main.selectedConfig">
+            <option ng-repeat="action in Main.actions" value="{{action}}">{{action}}</option>
+        </select>
+    </div>
+    <config settings="Main.selectedConfig" app-id="Main.appId"></config>
+</div>
+</body>
+</html>
