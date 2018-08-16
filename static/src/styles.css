@@ -116,7 +116,7 @@ slideshow-dialog.ng-star-inserted {
     background-color: transparent !important;
 }
 
-.black-overlay[_ngcontent-c2] {
+.black-overlay {
     position: fixed !important;
 }
 
