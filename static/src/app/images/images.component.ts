@@ -295,6 +295,10 @@ export class SlideshowDialog implements AfterViewInit, OnInit, OnDestroy{
     }
   }
 
+  onImageLoaded(){
+    this.currentImgWith = this.image.nativeElement.clientWidth;
+  }
+
   close(){
     this.dialogRef.close()
   }
@@ -304,7 +308,6 @@ export class SlideshowDialog implements AfterViewInit, OnInit, OnDestroy{
     this.currentIndex = this.data.index;
     this.currentTile = this.data.tiles[this.currentIndex];
     this.data.onLoaded.subscribe(() => {
-      console.log("loaded");
       this.next();
     });
   }
@@ -314,8 +317,6 @@ export class SlideshowDialog implements AfterViewInit, OnInit, OnDestroy{
   }
 
   ngAfterViewInit(){
-    console.log("ciao", this.image.nativeElement);
-    this.currentImgWith = this.image.nativeElement.clientWidth;
     setTimeout(()=>{
       this.commandVisibility = 'visible';
     }, 600);

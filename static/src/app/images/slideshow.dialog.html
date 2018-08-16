@@ -10,7 +10,7 @@
         </div>
     </button>
     <div class="image-conainer" [ngStyle]="{'max-width.px': currentImgWith}">
-        <img #dialogimage [src]="smallScreen ? currentTile.url_m : currentTile.url_l" [ngStyle]="{'max-width.px': maxWidth, 'max-height.px': maxHeight}" />
+        <img #dialogimage (load)="onImageLoaded()" [src]="smallScreen ? currentTile.url_m : currentTile.url_l" [ngStyle]="{'max-width.px': maxWidth, 'max-height.px': maxHeight}" />
         <div class="info-container">
             <div>
                 <div class="photo-title">{{currentTile.title}}</div>
