@@ -9,7 +9,7 @@
             <mat-icon>chevron_left</mat-icon>
         </div>
     </button>
-    <div class="image-conainer" [ngStyle]="{'max-width.px': currentImgWith}">
+    <div class="image-conainer" [hidden]="!currentImgWith" [ngStyle]="{'max-width.px': currentImgWith}">
         <img #dialogimage (load)="onImageLoaded()" [src]="smallScreen ? currentTile.url_m : currentTile.url_l" [ngStyle]="{'max-width.px': maxWidth, 'max-height.px': maxHeight}" />
         <div class="info-container">
             <div>
