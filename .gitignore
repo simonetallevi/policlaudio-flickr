@@ -53,3 +53,4 @@ build
 !/src/main/webapp/WEB-INF/
 !/src/main/webapp/config/
 /.gradle/
+/.gradle/4.4.1/fileHashes/fileHashes.bin
