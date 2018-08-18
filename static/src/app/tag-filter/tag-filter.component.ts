@@ -38,7 +38,6 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     maxScrollSize = 0;
 
     @ViewChild('filterSelector') el:ElementRef;
-    @Output() selected: EventEmitter<object> = new EventEmitter();
 
     constructor(
         private breakpointObserver: BreakpointObserver,
@@ -65,12 +64,13 @@ export class TagFilterComponent implements OnInit, OnDestroy {
                 this.maxVisibleTags = 1;
             }
             this._setSelectedVisibleTags();
-          });
+        });
 
-        this.routerEvent = router.events.subscribe((val) => {
+        this.routerEvent = router.events.subscribe((val) =>{
             if(val instanceof NavigationEnd){
                 this._getSelectdTagFromUrl();
                 this._selectTag(this.selectedTags);
+                this.tagFilterService.search(this.selectedTags);
             }
         });
     }
@@ -86,12 +86,10 @@ export class TagFilterComponent implements OnInit, OnDestroy {
         this._calcMaxScrollSize();
     }
 
-    @HostListener('select')
     search(): void{
-        this.selected.emit({ tags: this.selectedTags });
+        this.tagFilterService.search(this.selectedTags);
     }
 
-    @HostListener('select')
     selectTag(el, tag): void{
         this.selectedTags.push(tag);
         this._selectTag(this.selectedTags);
@@ -115,11 +113,9 @@ export class TagFilterComponent implements OnInit, OnDestroy {
             var key = selected.join('_');
             this.selectedOption = key.split("_").join(" ");
             this._loadFilters(key);
-            this.selected.emit({ tags: selected });
             this._routing(key);
         }else{
             this._loadFilters('root');
-            this.selected.emit({ tags: selected });
         }
     }
 
@@ -171,14 +167,13 @@ export class TagFilterComponent implements OnInit, OnDestroy {
         this.routerEvent.unsubscribe();
     }
 
-    @HostListener('select')
     onAutocompleSelected(): void {
         console.log(this.myControl.value);
         this.selectedOption = this.myControl.value;
         this.selectedTags = this.selectedOption.split(" ");
         var key = this.selectedTags.join('_');
         this._loadFilters(key);
-        this.selected.emit({ tags: this.selectedTags });
+        this.tagFilterService.search(this.selectedTags);
         this._setSelectedVisibleTags()
     }
 
@@ -256,4 +251,15 @@ export class TagFilterComponent implements OnInit, OnDestroy {
         }
         return this.options.filter(option => option.toLowerCase().includes(filterValue));
     }
+}
+
+import { NgModule,ModuleWithProviders } from '@angular/core';
+@NgModule({})
+export class TagFilterSharedModule {
+    static forRoot(): ModuleWithProviders {
+    return {
+      ngModule: TagFilterSharedModule,
+      providers: [ TagFilterService ]
+    }
+  }
 }

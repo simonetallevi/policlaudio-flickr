@@ -11,7 +11,8 @@ import {MatButtonModule,
   MatAutocompleteModule,
   MatInputModule,
   MatIconModule,
-  MatMenuModule} from '@angular/material';
+  MatMenuModule,
+  MatSidenavModule} from '@angular/material';
 import { AppRoutingModule } from './app-routing.module';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatToolbarModule} from '@angular/material/toolbar';
@@ -38,7 +39,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     FormsModule,
     ReactiveFormsModule,
     MatMenuModule,
-    RouterModule
+    RouterModule,
+    MatSidenavModule
   ]
 })
 export class MaterialModule { }

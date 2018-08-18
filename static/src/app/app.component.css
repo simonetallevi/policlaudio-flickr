@@ -1,6 +1,76 @@
+.filter-container {
+    width: 100%;
+}
+
+.toolbar-container .logo-container {
+    position: relative;
+    width: 125px;
+    max-width: 125px;
+    min-width: 125px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.toolbar-container .logo-container .icon {
+    position: absolute;
+    left: 0px;
+    bottom: -6px;
+    font-size: 55px;
+    color: #ffc107;
+}
+
+.toolbar-container .logo {
+    height: 34px;
+    position: absolute;
+    top: 57px;
+    right: 10px;
+}
+
+.toolbar-container .logo-title .big {
+    font-size: 50px;
+    line-height: 45px;
+}
+
+.toolbar-container .logo img {
+    height: 100%;
+}
+
+.tags-container {
+    position: absolute;
+    bottom: 0;
+}
+
+.toolbar-container {
+    height: 104px;
+    width: calc(100% - 10px);
+    max-width: calc(100% - 10px);
+    padding-left: 5px;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    background-color: black;
+    color: white;
+}
+
+.toolbar-container h1,
+.toolbar-container h3 {
+    margin: 0;
+    font-family: Raleway Arial, Helvetica, sans-serif
+}
+
+.toolbar-container h1 {
+    line-height: 30px;
+    font-weight: 100;
+}
+
+.toolbar-container h3 {
+    font-weight: 100;
+}
+
 .footer {
     position: fixed;
     display: flex;
+    justify-content: space-between;
     bottom: 0;
     width: 100%;
     height: 65px;
@@ -8,7 +78,7 @@
     color: white;
 }
 
-.logo-container {
+.footer .logo-container {
     position: relative;
     width: 125px;
     max-width: 125px;
@@ -17,7 +87,7 @@
     padding-left: 5px;
 }
 
-.logo-container .icon {
+.footer .logo-container .icon {
     position: absolute;
     left: 5px;
     bottom: -1px;
@@ -25,7 +95,7 @@
     color: #ffc107;
 }
 
-.logo-title .big {
+.footer .logo-title .big {
     font-size: 30px;
     line-height: 30px;
 }
@@ -36,4 +106,43 @@
     font-size: 20px;
     font-family: Raleway Arial, Helvetica, sans-serif;
     font-weight: 100;
+}
+
+.footer .contacts,
+.toolbar-container .contacts {
+    position: absolute;
+    top: 14px;
+    min-width: 60px;
+    width: 50px;
+    padding: 0;
+    height: 40px;
+}
+
+.toolbar-container .contacts {
+    left: 60px;
+    color: white;
+}
+
+.footer .contacts {
+    left: 22px;
+    color: white;
+}
+
+.toolbar-container .contacts-container,
+.footer .contacts-container {
+    position: relative;
+}
+
+.toolbar-container .contacts-container {
+    width: 200px;
+}
+
+.footer .contacts-container {
+    width: 100px;
+}
+
+.contacts mat-icon {
+    font-size: 40px;
+    height: 40px;
+    width: 40px;
 }

@@ -120,6 +120,10 @@ slideshow-dialog.ng-star-inserted {
     position: fixed !important;
 }
 
+.mat-drawer-container {
+    background-color: transparent !important;
+}
+
 
 /* .autocomplete-container .mat-form-field-wrapper {
     padding-bottom: 0px;

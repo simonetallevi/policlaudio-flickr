@@ -5,13 +5,12 @@ import { BreakpointObserver, MediaMatcher } from '@angular/cdk/layout';
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { NgxSpinnerModule } from 'ngx-spinner';
 
-import { AppComponent } from './app.component';
+import { AppComponent, AppSharedModule } from './app.component';
 import { Secret } from './config/secret';
 import { MaterialModule } from './/material.module';
 import { ImagesService } from './images/images.service';
 import { ImagesComponent, SlideshowDialog} from './images/images.component';
-import { TagFilterComponent } from './tag-filter/tag-filter.component';
-import { TagFilterService } from './tag-filter/tag-filter.service';
+import { TagFilterComponent, TagFilterSharedModule} from './tag-filter/tag-filter.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +20,8 @@ import { TagFilterService } from './tag-filter/tag-filter.service';
     SlideshowDialog
   ],
   imports: [
+    AppSharedModule.forRoot(),
+    TagFilterSharedModule.forRoot(),
     BrowserModule,
     MaterialModule,
     HttpClientModule,
@@ -32,7 +33,6 @@ import { TagFilterService } from './tag-filter/tag-filter.service';
   ],
   providers: [
     ImagesService,
-    TagFilterService,
     Secret,
     BreakpointObserver,
     MediaMatcher,

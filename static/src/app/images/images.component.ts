@@ -1,10 +1,11 @@
 import { Component, OnInit, OnDestroy, Inject, HostListener, EventEmitter, 
-  Output, ElementRef, AfterViewInit, Renderer2, ViewChild} from '@angular/core';
+  Output, ElementRef, AfterViewInit, ViewChild} from '@angular/core';
 
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 import { ImagesService, FlickrPhotosSearchResponse } from './images.service'
 import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
-import { NgxSpinnerService } from 'ngx-spinner';
+import { TagFilterService } from '../tag-filter/tag-filter.service';
+import { AppService } from '../app.service';
 
 @Component({
   selector: 'app-images',
@@ -25,13 +26,14 @@ export class ImagesComponent implements OnInit, OnDestroy {
   visibleLogo = true;
   hasMore = true;
   loading = false;
+  searchEvent;
 
-  onLoaded= new EventEmitter();
+  onLoaded = new EventEmitter();
 
   constructor(
-    private spinner: NgxSpinnerService,
-    private renderer: Renderer2,
+    private app: AppService,
     private images: ImagesService,
+    private tagFilter: TagFilterService,
     private breakpointObserver: BreakpointObserver,
     private dialog: MatDialog
   ) {
@@ -43,37 +45,25 @@ export class ImagesComponent implements OnInit, OnDestroy {
       Breakpoints.XSmall
     ]).subscribe((result : BreakpointState) => {
       if(breakpointObserver.isMatched(Breakpoints.XLarge)){
-        this.visibleLogo = true;
         this.colsNum = 5;
         this.rowHeightPx = 300;
       } else if(breakpointObserver.isMatched(Breakpoints.Large)){
-        this.visibleLogo = true;
         this.colsNum = 4;
         this.rowHeightPx = 300;
       } else if(breakpointObserver.isMatched(Breakpoints.Medium)){
-        this.visibleLogo = true;
         this.colsNum = 3;
         this.rowHeightPx = 300;
       } else if(breakpointObserver.isMatched(Breakpoints.Small)){
-        this.visibleLogo = false;
         this.colsNum = 2;
         this.rowHeightPx = 300;
       } else if(breakpointObserver.isMatched(Breakpoints.XSmall)){
-        this.visibleLogo = false;
         this.colsNum = 1;
         this.rowHeightPx = 300;
       }
     });
-  }
-
-  showSpinner(){
-    this.spinner.show();
-    this.renderer.addClass(document.body, 'disable-scroll');
-  }
-
-  hideSpinner(){
-    this.spinner.hide()
-    this.renderer.removeClass(document.body, 'disable-scroll');
+    this.searchEvent = this.tagFilter.onSearch.subscribe(tags =>{
+      this.loadTiles(tags);
+    });
   }
 
   openSlideShow(index) {
@@ -109,7 +99,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
       return;
     }
     this.loading = true;
-    this.showSpinner();
+    this.app.spinner(true);
     return new Promise((resolve,reject) =>{
       this.images.next({'tags': this.tags})
         .subscribe(res =>{
@@ -119,22 +109,22 @@ export class ImagesComponent implements OnInit, OnDestroy {
           }
           this.tiles = this.tiles.concat(this.toTiles(res));
           resolve();
-          this.hideSpinner();
+          this.app.spinner(false);
           this.loading = false;
         }, error => {
           this.loading = false;
           console.error(error);
           reject();
-          this.hideSpinner();
+          this.app.spinner(false);
         });
     });
   }
 
-  loadTiles($event){
+  loadTiles(events){
     window.scroll(0,0);
     this.hasMore = true;
-    this.tags = $event.tags;
-    this.showSpinner();
+    this.tags = events.tags;
+    this.app.spinner(true);
     this.images.reset()
     this.images.search({'tags': this.tags})
       .subscribe(res =>{
@@ -144,10 +134,10 @@ export class ImagesComponent implements OnInit, OnDestroy {
           this.hasMore = false;
         }
         this.tiles = this.toTiles(res);
-        this.hideSpinner();
+        this.app.spinner(false);
       }, error => {
         console.error(error);
-        this.hideSpinner();
+        this.app.spinner(false);
       });
   }
 
@@ -195,9 +185,12 @@ export class ImagesComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
+    console.log("images ngOnInit");
   }
 
   ngOnDestroy(): void {
+    console.log("images ngOnDestroy");
+    this.searchEvent.unsubscribe();
     this.mediaObserve.unsubscribe();
   }
 

@@ -1,17 +1,3 @@
-<div class="toolbar-container">
-    <div style="display:flex;">
-        <div class="logo-container" *ngIf="visibleLogo">
-            <div class="logo-title">
-                <h1><span class="big">C</span>laudio</h1>
-                <h1 style="margin-left: 58px;"><span class="big">P</span>oli</h1>
-            </div>
-            <i aria-label="visibility" class="icon material-icons">camera_alt</i>
-        </div>
-        <div class="filter-container">
-            <tag-filter (selected)="loadTiles($event)"></tag-filter>
-        </div>
-    </div>
-</div>
 <mat-grid-list [cols]="colsNum || 1" rowHeight="{{rowHeightPx}}px" class="search-results" infinite-scroll [infiniteScrollDistance]="scrollDistance" [infiniteScrollUpDistance]="scrollUpDistance" [infiniteScrollThrottle]="throttle" (scrolled)="onScrollDown()"
     (scrolledUp)="onUp()">
 
@@ -30,6 +16,4 @@
             </div>
         </div>
     </mat-grid-tile>
-
 </mat-grid-list>
-<ngx-spinner class="spinner" bdColor="rgba(0, 0, 0, 0.8)" size="default" color="#ffc107" type="ball-elastic-dots"></ngx-spinner>

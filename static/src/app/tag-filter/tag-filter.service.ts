@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, EventEmitter } from '@angular/core';
 import { Observable } from 'rxjs/Observable'; 
 import { HttpClient } from '@angular/common/http';
 
@@ -7,10 +7,15 @@ export class TagFilterService {
 
     filters = null;
     keys = null;
+    onSearch = new EventEmitter()
 
     constructor(
         private http: HttpClient
-    ){
+    ){}
+
+    search(tags: Array<String>){
+        console.log("tag-filter search");
+        this.onSearch.emit({tags: tags});
     }
 
     getFilters (key) : Observable<Object>{
