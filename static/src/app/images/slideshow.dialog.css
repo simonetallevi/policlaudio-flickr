@@ -12,6 +12,39 @@
     border-radius: 5px;
 }
 
+.image-conainer.visible {
+    opacity: 1;
+    display: visible;
+}
+
+.image-conainer.hidden {
+    opacity: 0;
+    display: hidden;
+}
+
+.image-loader-conainer {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+
+.image-loader-conainer.visible {
+    opacity: 1;
+    display: visible;
+}
+
+.image-loader-conainer.hidden {
+    opacity: 0;
+    display: hidden;
+    transition-duration: 300ms;
+    transition-property: all;
+}
+
+svg path,
+svg rect {
+    fill: #ffc107;
+}
+
 .command.hidden {
     display: hidden;
     opacity: 0;
@@ -20,7 +53,7 @@
 .command.visible {
     display: visible;
     opacity: 1;
-    transition-duration: 600ms;
+    transition-duration: 400ms;
     transition-property: all;
 }
 
@@ -121,7 +154,6 @@
     padding: 5px;
     text-transform: capitalize;
     background-color: white;
-    border-top: 2px solid black;
     display: flex;
     justify-content: space-between;
     border-bottom-left-radius: 5px;

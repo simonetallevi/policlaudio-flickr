@@ -217,7 +217,7 @@ export interface DialogData {
 })
 export class SlideshowDialog implements AfterViewInit, OnInit, OnDestroy{
   margin = 80;
-  currentImgWith = 100;
+  currentImgWith = 0;
   maxWidth;
   maxHeight;
   currentTile;
@@ -235,8 +235,7 @@ export class SlideshowDialog implements AfterViewInit, OnInit, OnDestroy{
     public dialogRef: MatDialogRef<SlideshowDialog>,
     @Inject(MAT_DIALOG_DATA) public data: DialogData,
     private el:ElementRef,
-    private breakpointObserver: BreakpointObserver,
-    private spinner: NgxSpinnerService) {
+    private breakpointObserver: BreakpointObserver) {
       this.mediaObserve = breakpointObserver.observe([
         Breakpoints.XLarge,
         Breakpoints.Large,
@@ -279,8 +278,8 @@ export class SlideshowDialog implements AfterViewInit, OnInit, OnDestroy{
   }
   
   next(){
+    this.currentImgWith = 0;
     if((this.currentIndex + 1) < this.data.tiles.length){
-      this.spinner.show();
       this.currentIndex += 1;
       this.data.index = this.currentIndex;
       this.currentTile = this.data.tiles[this.currentIndex];
@@ -290,6 +289,7 @@ export class SlideshowDialog implements AfterViewInit, OnInit, OnDestroy{
   }
 
   previous(){
+    this.currentImgWith = 0;
     if((this.currentIndex - 1) >= 0){
       this.currentIndex -= 1;
       this.data.index = this.currentIndex;
@@ -299,16 +299,17 @@ export class SlideshowDialog implements AfterViewInit, OnInit, OnDestroy{
 
   onImageLoaded(){
     this.currentImgWith = this.image.nativeElement.clientWidth;
-    this.commandVisibility = 'visible';
-    this.spinner.hide();
-  }
+    setTimeout(()=>{
+      this.commandVisibility = 'visible';
+    }, 600);
+}
 
   close(){
     this.dialogRef.close()
   }
 
   ngOnInit() {
-    this.currentImgWith = null;
+    this.currentImgWith = 0;
     this.commandVisibility = 'hidden';
     this.currentIndex = this.data.index;
     this.currentTile = this.data.tiles[this.currentIndex];
@@ -322,7 +323,6 @@ export class SlideshowDialog implements AfterViewInit, OnInit, OnDestroy{
   }
 
   ngAfterViewInit(){
-    this.spinner.show();
   }
 
   private _onLoadMoreImages() {

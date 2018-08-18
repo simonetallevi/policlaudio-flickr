@@ -109,7 +109,7 @@ slideshow-dialog,
 .mat-dialog-container {
     overflow: visible !important;
     padding: 0 !important;
-    background-color: rgba(0, 0, 0, .388) !important;
+    background-color: transparent !important;
 }
 
 slideshow-dialog.ng-star-inserted {
