@@ -18,22 +18,21 @@
     margin: 0px;
 }
 
-.photo-name.hidden {
+.info-container.hidden {
     transform: translate(0px, 90px);
     transition: all;
     transition-timing-function: ease-out;
     transition-duration: 300ms;
 }
 
-.photo-name.visible {
+.info-container.visible {
     transition: all;
     transition-timing-function: ease-in;
     transition-duration: 400ms;
-    display: flex;
     transform: translate(0px, 0px);
 }
 
-.photo-name {
+.info-container {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     position: absolute;
     bottom: 0;
@@ -43,6 +42,9 @@
     text-transform: capitalize;
     min-height: 50px;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.photo-info {
     display: flex;
     justify-content: space-between;
 }
@@ -78,5 +80,6 @@
 .photo-date {
     white-space: nowrap;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 200;
+    text-align: right;
 }

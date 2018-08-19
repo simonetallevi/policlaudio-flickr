@@ -4,7 +4,28 @@
     <mat-grid-tile *ngFor="let tile of tiles; let i = index" (click)="openSlideShow(i, tile)" [colspan]="tile.cols" [rowspan]="tile.rows">
         <div class="photo-tile-container" (mouseover)="onMouseOver(i, tile)" (mouseout)="onMouseOut(i, tile)">
             <div class="photo-tile" [ngStyle]="tile.styles"></div>
-            <div class="photo-name" [ngClass]="tile.nameVisibility" *ngIf="!isMobile">
+
+            <div class="info-container" [ngClass]="tile.nameVisibility" *ngIf="!isMobile">
+                <div class="photo-info">
+                    <div>
+                        <div class="photo-title">{{tile.title}}</div>
+                        <div class="photo-tags">
+                            <div *ngFor="let tag of tile.tags">&nbsp;#{{tag}}</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="photo-views">
+                            <span>{{tile.views}}</span>
+                            <mat-icon aria-label="visibility" class="material-icons md-18">visibility</mat-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo-date">
+                    <div class="date">{{(tile.lastupdate * 1000) | date : " MMMM d, y"}}</div>
+                </div>
+            </div>
+
+            <!-- <div class="photo-name" [ngClass]="tile.nameVisibility" *ngIf="!isMobile">
                 <div>
                     <div class="photo-title">{{tile.title}}</div>
                     <div class="photo-tags">
@@ -18,7 +39,7 @@
                     </div>
                     <div class="photo-date">{{(tile.lastupdate * 1000) | date : " MMMM d, y"}}</div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </mat-grid-tile>
 </mat-grid-list>

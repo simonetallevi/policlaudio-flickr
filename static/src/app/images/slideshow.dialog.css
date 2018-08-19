@@ -154,10 +154,13 @@ svg rect {
     padding: 5px;
     text-transform: capitalize;
     background-color: white;
-    display: flex;
-    justify-content: space-between;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+.photo-info {
+    display: flex;
+    justify-content: space-between;
 }
 
 .photo-title {
@@ -186,5 +189,6 @@ svg rect {
 .photo-date {
     white-space: nowrap;
     font-size: 12px;
-    font-weight: 400;
+    text-align: right;
+    font-weight: 200;
 }
