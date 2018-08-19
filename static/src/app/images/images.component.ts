@@ -1,6 +1,7 @@
 import { Component, OnInit, OnDestroy, Inject, HostListener, EventEmitter, 
   Output, ElementRef, AfterViewInit, ViewChild} from '@angular/core';
 
+import { DeviceDetectorService } from 'ngx-device-detector';
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 import { ImagesService, FlickrPhotosSearchResponse } from './images.service'
 import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
@@ -27,6 +28,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
   hasMore = true;
   loading = false;
   searchEvent;
+  isMobile= false;
 
   onLoaded = new EventEmitter();
 
@@ -35,7 +37,8 @@ export class ImagesComponent implements OnInit, OnDestroy {
     private images: ImagesService,
     private tagFilter: TagFilterService,
     private breakpointObserver: BreakpointObserver,
-    private dialog: MatDialog
+    private dialog: MatDialog,
+    private deviceService: DeviceDetectorService
   ) {
     this.mediaObserve = breakpointObserver.observe([
       Breakpoints.XLarge,
@@ -64,6 +67,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
     this.searchEvent = this.tagFilter.onSearch.subscribe(tags =>{
       this.loadTiles(tags);
     });
+    this.isMobile = deviceService.isMobile();
   }
 
   openSlideShow(index) {
@@ -151,7 +155,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
         //WF=WI*HF/HI
         
         results.push({
-          nameVisibility: 'hidden',
+          nameVisibility: this.isMobile ? 'visible' : 'hidden',
           cols: 1,
           rows: 1,
           lastupdate: p.lastupdate,
@@ -177,11 +181,15 @@ export class ImagesComponent implements OnInit, OnDestroy {
   }
 
   onMouseOver(i, tile): void{
-    tile.nameVisibility = 'visible';
+    if(!this.isMobile){
+      tile.nameVisibility = 'visible';
+    }
   }
 
   onMouseOut(i, tile): void{
-    tile.nameVisibility = 'hidden';
+    if(!this.isMobile){
+      tile.nameVisibility = 'hidden';
+    }
   }
 
   onScrollDown(): void {

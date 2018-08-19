@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BreakpointObserver, MediaMatcher } from '@angular/cdk/layout';
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { DeviceDetectorModule } from 'ngx-device-detector';
 
 import { AppComponent, AppSharedModule } from './app.component';
 import { Secret } from './config/secret';
@@ -26,7 +27,8 @@ import { TagFilterComponent, TagFilterSharedModule} from './tag-filter/tag-filte
     MaterialModule,
     HttpClientModule,
     InfiniteScrollModule,
-    NgxSpinnerModule
+    NgxSpinnerModule,
+    DeviceDetectorModule.forRoot()
   ],
   entryComponents: [
     SlideshowDialog
