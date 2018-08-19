@@ -14,6 +14,7 @@ cd $basedir
 echo "CLEARED"
 
 cd "static"
+gsutil rsync -a public-read -r -d assets gs://poli-claudio.appspot.com/
 ng build --prod --build-optimizer
 cd $basedir
 
