@@ -2,10 +2,15 @@
     (scrolledUp)="onUp()">
 
     <mat-grid-tile *ngFor="let tile of tiles; let i = index" (click)="openSlideShow(i, tile)" [colspan]="tile.cols" [rowspan]="tile.rows">
-        <div class="photo-tile-container">
+        <div class="photo-tile-container" (mouseover)="onMouseOver(i, tile)" (mouseout)="onMouseOut(i, tile)">
             <div class="photo-tile" [ngStyle]="tile.styles"></div>
-            <div class="photo-name">
-                <div class="photo-title">{{tile.title}}</div>
+            <div class="photo-name" [ngClass]="tile.nameVisibility">
+                <div>
+                    <div class="photo-title">{{tile.title}}</div>
+                    <div class="photo-tags">
+                        <div *ngFor="let tag of tile.tags">&nbsp;#{{tag}}</div>
+                    </div>
+                </div>
                 <div>
                     <div class="photo-views">
                         <span>{{tile.views}}</span>

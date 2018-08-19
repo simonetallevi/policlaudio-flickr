@@ -151,6 +151,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
         //WF=WI*HF/HI
         
         results.push({
+          nameVisibility: 'hidden',
           cols: 1,
           rows: 1,
           lastupdate: p.lastupdate,
@@ -164,15 +165,23 @@ export class ImagesComponent implements OnInit, OnDestroy {
             'background-image': 'url(' + p.url_m +')',
             'background-size' : 'cover',
             'background-position': 'center',
-            'border-radius': '10px 10px 10px 10px',
-            '-moz-border-radius': '10px 10px 10px 10px',
-            '-webkit-border-radius': '10px 10px 10px 10px'
+            'border-radius': '0px 0px 0px 0px',
+            '-moz-border-radius': '0px 0px 0px 0px',
+            '-webkit-border-radius': '0px 0px 0px 0px'
           }
         });
       });
     }
     // console.log(results);
     return results;
+  }
+
+  onMouseOver(i, tile): void{
+    tile.nameVisibility = 'visible';
+  }
+
+  onMouseOut(i, tile): void{
+    tile.nameVisibility = 'hidden';
   }
 
   onScrollDown(): void {
