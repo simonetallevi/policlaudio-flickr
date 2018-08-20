@@ -105,20 +105,20 @@ export class ImagesService {
     params['page'] = this.currentPage
     // console.log(params)
     var input = this._copy(this.input, params);
-    return new Observable((observer) =>{
-            var res = new FlickrPhotosSearchResponse(
-              new FlickrPhotosSearch(
-                [new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg"),
-                new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg"),
-                new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg")]
-              )
-            )
-            observer.next(res);
-            observer.complete();
-        });
-    // return this.http.get<FlickrPhotosSearchResponse>(
-    //   'https://api.flickr.com/services/rest/',{
-    //     params:input
-    // });
+    // return new Observable((observer) =>{
+    //         var res = new FlickrPhotosSearchResponse(
+    //           new FlickrPhotosSearch(
+    //             [new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg"),
+    //             new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg"),
+    //             new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg")]
+    //           )
+    //         )
+    //         observer.next(res);
+    //         observer.complete();
+    //     });
+    return this.http.get<FlickrPhotosSearchResponse>(
+      'https://api.flickr.com/services/rest/',{
+        params:input
+    });
   }
 }

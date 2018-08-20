@@ -51,3 +51,9 @@ static/node_modules/
 build
 /.gradle/
 /.gradle/4.4.1/fileHashes/fileHashes.bin
+/src/main/webapp/3rdpartylicenses.txt
+/src/main/webapp/index.jsp
+/src/main/webapp/styles.*.css
+/src/main/webapp/runtime.*.js
+/src/main/webapp/polyfills.*.js
+/src/main/webapp/main.*.js
