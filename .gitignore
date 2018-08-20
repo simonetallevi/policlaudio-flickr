@@ -54,3 +54,5 @@ build
 !/src/main/webapp/config/
 /.gradle/
 /.gradle/4.4.1/fileHashes/fileHashes.bin
+!/src/main/webapp/sw.js
+!/src/main/webapp/manifest.json

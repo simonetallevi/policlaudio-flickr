@@ -7,20 +7,21 @@ webappdir="src/main/webapp/"
 
 cd $webappdir
 
-ls | grep "config\|WEB-INF" --invert-match | xargs rm -R
+ls | grep "config\|WEB-INF\|sw.js\|manifest.json" --invert-match | xargs rm -R
 
 cd $basedir
 
 echo "CLEARED"
 
 cd "static"
-gsutil rsync -a public-read -r -d assets gs://poli-claudio.appspot.com/
+gsutil rsync -a public-read -r -d dist/assets gs://poli-claudio.appspot.com/
 ng build --prod --build-optimizer
 cd $basedir
 
 echo "BUILT"
 
-cp -R static/dist/* ${webappdir}
+rm -r static/dist/assets
+cp static/dist/* ${webappdir}
 
 echo "COPIED"
 
