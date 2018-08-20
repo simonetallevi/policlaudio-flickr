@@ -17,7 +17,7 @@ export class TagFilterService {
         this.headers.append('Content-Type', 'application/json');
         this.headers.append('Access-Control-Allow-Headers', 'Content-Type');
         this.headers.append('Access-Control-Allow-Methods', 'GET,HEAD');
-        this.headers.append('Access-Control-Allow-Origin', '*');
+        this.headers.append('Access-Control-Allow-Origin', window.location.origin);
         console.log(this.headers);
     }
 
