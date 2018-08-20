@@ -8,13 +8,14 @@ webappdir="src/main/webapp/"
 cd $webappdir
 
 ls | grep "config\|WEB-INF\|sw.js\|manifest.json" --invert-match | xargs rm -R
+gsutil cors set WEB-INF/cors.json gs://poli-claudio.appspot.com
 
 cd $basedir
 
 echo "CLEARED"
 
 cd "static"
-gsutil rsync -a public-read -r -d dist/assets gs://poli-claudio.appspot.com/
+gsutil rsync -a public-read -r src/assets gs://poli-claudio.appspot.com/
 ng build --prod --build-optimizer
 cd $basedir
 
