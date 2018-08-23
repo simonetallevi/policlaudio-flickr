@@ -1,5 +1,6 @@
 import 'hammerjs';
 
+import { Router, NavigationEnd, NavigationStart} from '@angular/router';
 import { BreakpointObserver, Breakpoints, 
           BreakpointState }             from '@angular/cdk/layout';
 import { Component, OnInit, OnDestroy, ViewChild, Renderer2}             from '@angular/core';
@@ -17,13 +18,15 @@ export class AppComponent implements OnInit, OnDestroy{
   visibleLogo= false;
   observer;
   onSpinnerEvent;
-  onSidenavEvent;
+  routerEvent;
+  enableFilters = true;
 
   @ViewChild('sidenav')sidenav;
 
   constructor(
     private spinner: NgxSpinnerService,
     private renderer: Renderer2,
+    private router: Router,
     private breakpointObserver: BreakpointObserver,
     private app: AppService 
   ){
@@ -47,11 +50,6 @@ export class AppComponent implements OnInit, OnDestroy{
       }
     });
 
-    this.onSidenavEvent = app.onSidenavToggle.subscribe(toOpen => {
-      console.log("sidenav");
-      this.toggleSidenav();
-    });
-
     this.onSpinnerEvent = app.onSpinnerToggle.subscribe(toStart => {
       console.log("spinner", toStart);
       if(toStart){
@@ -62,6 +60,14 @@ export class AppComponent implements OnInit, OnDestroy{
         this.renderer.removeClass(document.body, 'disable-scroll');
       }
     });
+
+    this.routerEvent = router.events.subscribe((val) =>{
+      if(val instanceof NavigationEnd && (val.url == "/" || val.url.startsWith("/search"))){
+        this.enableFilters = true;
+      }else{
+        this.enableFilters = false;
+      }
+  });
   }
 
   ngOnInit(): void {
@@ -69,12 +75,16 @@ export class AppComponent implements OnInit, OnDestroy{
 
   ngOnDestroy(): void {
     this.observer.unsubscribe();
-    this.onSidenavEvent.unsubscribe();
     this.onSpinnerEvent.unsubscribe();
+    this.routerEvent.unsubscribe();
   }
 
-  toggleSidenav(): void {
-    this.sidenav.toggle();
+  goToAbout(): void{
+    this.router.navigate(['about']);
+  }
+
+  goToHome(): void{
+    this.router.navigate(['']);
   }
 }
 

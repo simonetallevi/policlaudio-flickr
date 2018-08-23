@@ -45,29 +45,29 @@ export class TagFilterComponent implements OnInit, OnDestroy {
         private route: ActivatedRoute,
         private router: Router
     ){
-        this.mediaObserve = breakpointObserver.observe([
+        this.mediaObserve = this.breakpointObserver.observe([
             Breakpoints.XLarge,
             Breakpoints.Large,
             Breakpoints.Medium,
             Breakpoints.Small,
             Breakpoints.XSmall
           ]).subscribe((result : BreakpointState) => {
-            if(breakpointObserver.isMatched(Breakpoints.XLarge)){
+            if(this.breakpointObserver.isMatched(Breakpoints.XLarge)){
                 this.maxVisibleTags = 10;
-            } else if(breakpointObserver.isMatched(Breakpoints.Large)){
+            } else if(this.breakpointObserver.isMatched(Breakpoints.Large)){
                 this.maxVisibleTags = 8;
-            } else if(breakpointObserver.isMatched(Breakpoints.Medium)){
+            } else if(this.breakpointObserver.isMatched(Breakpoints.Medium)){
                 this.maxVisibleTags = 5;
-            } else if(breakpointObserver.isMatched(Breakpoints.Small)){
+            } else if(this.breakpointObserver.isMatched(Breakpoints.Small)){
                 this.maxVisibleTags = 3;
-            } else if(breakpointObserver.isMatched(Breakpoints.XSmall)){
+            } else if(this.breakpointObserver.isMatched(Breakpoints.XSmall)){
                 this.maxVisibleTags = 1;
             }
             this._setSelectedVisibleTags();
         });
 
-        this.routerEvent = router.events.subscribe((val) =>{
-            if(val instanceof NavigationEnd){
+        this.routerEvent = this.router.events.subscribe((val) =>{
+            if(val instanceof NavigationEnd && (val.url == "/" || val.url.startsWith("/search"))){
                 this._getSelectdTagFromUrl();
                 this._selectTag(this.selectedTags);
                 this.tagFilterService.search(this.selectedTags);
@@ -163,8 +163,8 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     }
     
     ngOnDestroy(): void {
-        this.mediaObserve.unsubscribe();
-        this.routerEvent.unsubscribe();
+        // this.mediaObserve.unsubscribe();
+        // this.routerEvent.unsubscribe();
     }
 
     onAutocompleSelected(): void {
@@ -226,10 +226,10 @@ export class TagFilterComponent implements OnInit, OnDestroy {
                 }
                 setTimeout(() => {
                     self._calcMaxScrollSize();
-                }, 500)
+                }, 1000)
             }, 
             error =>{console.log('error'+ error)}, 
-            () => {console.log('completed')});
+            () => {console.log('_loadFilters completed')});
     }
 
     private _loadKeys(): void{
@@ -241,7 +241,7 @@ export class TagFilterComponent implements OnInit, OnDestroy {
         );
             }, 
             error =>{console.log('error'+ error)}, 
-            () => {console.log('completed')});
+            () => {console.log('_loadKeys completed')});
     }
 
     private _filter(value: string): string[] {

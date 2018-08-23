@@ -9,6 +9,7 @@
     min-width: 125px;
     padding-top: 5px;
     padding-right: 10px;
+    cursor: pointer;
 }
 
 .toolbar-container .logo-container .icon {
@@ -85,6 +86,7 @@
     min-width: 125px;
     padding-top: 5px;
     padding-left: 5px;
+    cursor: pointer;
 }
 
 .footer .logo-container .icon {

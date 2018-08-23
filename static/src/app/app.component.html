@@ -1,6 +1,6 @@
 <div class="toolbar-container">
     <div style="display:flex;">
-        <div class="logo-container" *ngIf="!visibleLogo">
+        <div class="logo-container" *ngIf="!visibleLogo" (click)="goToHome()">
             <div class="logo-title">
                 <h1><span class="big">C</span>laudio</h1>
                 <h1 style="margin-left: 58px;"><span class="big">P</span>oli</h1>
@@ -8,10 +8,10 @@
             <i aria-label="visibility" class="icon material-icons">camera_alt</i>
         </div>
         <div class="filter-container">
-            <tag-filter></tag-filter>
+            <tag-filter [hidden]="!enableFilters"></tag-filter>
         </div>
         <div class="contacts-container" *ngIf="!visibleLogo">
-            <button mat-button class="contacts">
+            <button mat-button class="contacts" (click)="goToAbout()">
                 <mat-icon>mail</mat-icon>
             </button>
         </div>
@@ -19,7 +19,7 @@
 </div>
 <router-outlet></router-outlet>
 <footer class="footer" *ngIf="visibleLogo">
-    <div class="logo-container">
+    <div class="logo-container" (click)="goToHome()">
         <div class="logo-title">
             <h1><span class="big">C</span>laudio</h1>
             <h1 style="margin-left: 35px;"><span class="big">P</span>oli</h1>
@@ -27,7 +27,7 @@
         <i aria-label="visibility" class="icon material-icons">camera_alt</i>
     </div>
     <div class="contacts-container">
-        <button mat-button class="contacts">
+        <button mat-button class="contacts" (click)="goToAbout()">
             <mat-icon>mail</mat-icon>
         </button>
     </div>

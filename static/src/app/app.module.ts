@@ -12,13 +12,15 @@ import { MaterialModule } from './/material.module';
 import { ImagesService } from './images/images.service';
 import { ImagesComponent, SlideshowDialog} from './images/images.component';
 import { TagFilterComponent, TagFilterSharedModule} from './tag-filter/tag-filter.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ImagesComponent,
     TagFilterComponent,
-    SlideshowDialog
+    SlideshowDialog,
+    AboutComponent
   ],
   imports: [
     AppSharedModule.forRoot(),
