@@ -57,3 +57,5 @@ build
 /src/main/webapp/runtime.*.js
 /src/main/webapp/polyfills.*.js
 /src/main/webapp/main.*.js
+/src/test/resources/setup.properties
+/test-images/
