@@ -29,16 +29,16 @@ def get_json_key(values):
   trim = []
   for value in values:
     if value != '':
-      trim.append(value)
+      trim.append(value.replace(" ", "_"))
 
-  s = '_'.join(trim)
+  s = '#'.join(trim)
   # s.encode('ascii','ignore').decode("unicode-escape")
   return s
 
 
 def append(obj, value, type):
   if value != '':
-    obj[value] = type
+    obj[value.replace(" ", "_")] = type
 
 
 if __name__ == "__main__":
@@ -119,7 +119,7 @@ if __name__ == "__main__":
                 for nome in nomi:
                   append(results[specieKey], nome[0], 'nomecomune')
                   nomeComuneKey = get_json_key([genere[0], phylum[0], classe[0], ordine[0], famiglia[0], g[0], s[0], nome[0]])
-                  results[nomeComuneKey] = {}
+                  # results[nomeComuneKey] = {"#":"#"}
 
 
   trimmedResults = {}

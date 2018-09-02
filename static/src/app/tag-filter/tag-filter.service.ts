@@ -53,7 +53,7 @@ export class TagFilterService {
                         for(var key  in result){
                             if(key == 'root')
                                 continue;
-                            this.keys.push(key.split("_").join(" "))
+                            this.keys.push(key.split("#").join(" "))
                         }
                         observer.next(this.keys);
                         observer.complete();

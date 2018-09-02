@@ -102,7 +102,7 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     private _getSelectdTagFromUrl(){
         this.route.params.forEach(el => {
             if(el['tags']){
-                this.selectedTags = atob(el['tags']).split("_");
+                this.selectedTags = atob(el['tags']).split("#");
             }
         });
     }
@@ -110,8 +110,8 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     private _selectTag(selected){
         if(selected){
             this._setSelectedVisibleTags();
-            var key = selected.join('_');
-            this.selectedOption = key.split("_").join(" ");
+            var key = selected.join('#');
+            this.selectedOption = key.split("#").join(" ");
             this._loadFilters(key);
             this._routing(key);
         }else{
@@ -171,7 +171,7 @@ export class TagFilterComponent implements OnInit, OnDestroy {
         console.log(this.myControl.value);
         this.selectedOption = this.myControl.value;
         this.selectedTags = this.selectedOption.split(" ");
-        var key = this.selectedTags.join('_');
+        var key = this.selectedTags.join('#');
         this._loadFilters(key);
         this.tagFilterService.search(this.selectedTags);
         this._setSelectedVisibleTags()
