@@ -36,8 +36,8 @@
 }
 
 .tag {
-    color: white;
-    background-color: #ffc107;
+    color: black;
+    background-color: #e0e0e0;
     cursor: pointer;
     min-height: 40px;
     min-width: 20px;

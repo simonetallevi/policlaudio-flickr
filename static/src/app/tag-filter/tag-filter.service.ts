@@ -9,6 +9,7 @@ export class TagFilterService {
     keys = null;
     onSearch = new EventEmitter();
     headers;
+    baseUrl = "assets/"
 
     constructor(
         private http: HttpClient
@@ -29,7 +30,7 @@ export class TagFilterService {
     getFilters (key) : Observable<Object>{
         if(this.filters == null){
             return new Observable((observer) =>{
-                this.http.get<Object> ('https://storage.googleapis.com/poli-claudio.appspot.com/filter.tags.json',{headers: this.headers})
+                this.http.get<Object> (this.baseUrl+'filter.tags.json',{headers: this.headers})
                     .subscribe(result => {
                         this.filters = result;
                         observer.next(this.filters[key]);
@@ -46,7 +47,7 @@ export class TagFilterService {
     getAllKeys () : Observable<string[]>{
         if(this.keys == null){
             return new Observable((observer) =>{
-                this.http.get<Object> ('https://storage.googleapis.com/poli-claudio.appspot.com/filter.tags.json', {headers: this.headers})
+                this.http.get<Object> (this.baseUrl+'filter.tags.json', {headers: this.headers})
                     .subscribe(result => {
                         this.keys = []
                         for(var key  in result){
