@@ -2,6 +2,11 @@ import { Injectable, EventEmitter } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
+export class Key {
+    value: string;
+    key: string;
+}
+
 export class Tag {
     type: string;
     value: string;
@@ -79,18 +84,12 @@ export class TagFilterService {
         });
     }
 
-    getAllKeys () : Observable<Array<Array<Tag>>>{
+    getAllKeys () : Observable<Array<Key>>{
         if(this.keys == null){
             return new Observable((observer) =>{
-                this.http.get<Object> (this.baseUrl+'filter.tags.json', {headers: this.headers})
+                this.http.get<Array<Key>> (this.baseUrl+'filter.tags.key.json', {headers: this.headers})
                     .subscribe(result => {
-                        this.keys = []
-                        for(var key  in result){
-                            if(key == 'root')
-                                continue;
-                            var kk = key.split("_");
-                            this.keys.push([].concat(Tag.fromArrayString(kk)));
-                        }
+                        this.keys = result
                         observer.next(this.keys);
                         observer.complete();
                     })

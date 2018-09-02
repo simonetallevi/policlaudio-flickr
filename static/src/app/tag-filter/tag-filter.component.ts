@@ -6,7 +6,7 @@ import { ActivatedRoute, Router, NavigationEnd, Params} from '@angular/router';
 
 import {map} from 'rxjs/operators';
 
-import { TagFilterService, Tag } from './tag-filter.service';
+import { TagFilterService, Tag, Key} from './tag-filter.service';
 
 @Component({
   selector: 'tag-filter',
@@ -30,8 +30,8 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     scrollRight = true;
 
     myControl = new FormControl();
-    options: Array<Array<Tag>> = [];
-    filteredOptions: Array<Array<Tag>> = [];
+    options: Array<Key> = [];
+    filteredOptions: Array<Key> = [];
     filterSelector;
     innerWidth;
     maxScrollSize = 0;
@@ -250,7 +250,7 @@ export class TagFilterComponent implements OnInit, OnDestroy {
             results =>{
                 this.options = results;
                 this.myControl.valueChanges
-                    .pipe(map(value => this._filter(value)))
+                    .pipe(map(opotion=> this._filter(opotion)))
                     .subscribe(
                         (res) =>{
                             this.filteredOptions = res;
@@ -261,32 +261,18 @@ export class TagFilterComponent implements OnInit, OnDestroy {
             () => {console.log('_loadKeys completed')});
     }
 
-    private _filter(value: any) : Array<Array<Tag>>{
+    private _filter(value: any) : Array<Key>{
+        console.log(value)
         if(value instanceof Array){
             var array = value;
-            value = array.map((v:Tag) => v.toString()).join(" ")
+            value = array.map((v:Key) => v.value).join(' ').toLowerCase();
         }
-        var trimmed = value.trim().toLowerCase();
-        var filterValues = trimmed.split(' ');
-        if(this.selectedTags.length > 0){
-            filterValues = filterValues.concat(this.selectedTags.map(tag => tag.toString()));
-        }
-        var results = this.options.filter((option: Array<Tag>) => {
-            var optionStr = option.map(tag => tag.toString()).join(' ').toLocaleLowerCase();
-            if(trimmed.length > 0){
-                for(var k in filterValues){
-                    const v = filterValues[k];
-                    if(optionStr.indexOf(v) == -1){
-                        return false;
-                    }
-                }
-            }
-            return option;
+        var filterValues = this.selectedTags.map(tag => tag.value).join(' ') + ' ' + value;
+        var count = 0;
+        console.log(filterValues);
+        return this.options.filter((option: Key) => {
+            return option.value.indexOf(filterValues) >= 0 && count++ < 10;
         });
-        if(results.length == 0){
-            results.push([new Tag('NO-RESULTS', 'no results found!')]);
-        }
-        return results;
     }
 }
 

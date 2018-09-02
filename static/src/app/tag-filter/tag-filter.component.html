@@ -9,8 +9,8 @@
                 <input matInput placeholder="" class="autocomplete-input" type="text" aria-label="Number" [matChipInputFor]="selectedTagsChipList" [matChipInputAddOnBlur]="addOnBlur" [formControl]="myControl" [matAutocomplete]="auto" (matChipInputTokenEnd)="add($event)">
             </mat-chip-list>
             <mat-autocomplete class="autocomplete" #auto="matAutocomplete" (optionSelected)="onAutocompleSelected()">
-                <mat-option class="autocomplete-option" *ngFor="let option of filteredOptions" [value]="option">
-                    <span *ngFor="let o of option">{{o.value}} </span>
+                <mat-option class="autocomplete-option" *ngFor="let option of filteredOptions async" [value]="option">
+                    {{option.value}}
                 </mat-option>
             </mat-autocomplete>
         </mat-form-field>

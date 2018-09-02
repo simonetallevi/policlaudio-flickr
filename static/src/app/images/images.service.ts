@@ -97,33 +97,33 @@ export class ImagesService {
   }
 
   search(params: object): Observable<FlickrPhotosSearchResponse>{
+    console.log(params);
     if(params['tags']){
-        params['tags'] = params['tags'].join(',');
+        params['tags'] = params['tags'].map(tag => tag.toString()).join(',');
     }else{
       delete(params['tags'])
     }
     params['page'] = this.currentPage
-    // console.log(params)
     var input = this._copy(this.input, params);
-    return new Observable((observer) =>{
-        var res = new FlickrPhotosSearchResponse(
-          new FlickrPhotosSearch(
-            [new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg"),
-            new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg"),
-            new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg")]
-          )
-        )
+    // return new Observable((observer) =>{
+    //     var res = new FlickrPhotosSearchResponse(
+    //       new FlickrPhotosSearch(
+    //         [new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg"),
+    //         new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg"),
+    //         new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg")]
+    //       )
+    //     )
 
-        if(this.currentPage < 2){
-          observer.next(res);
-        }else{
-          observer.next();
-        }
-        observer.complete();
-    });
-    // return this.http.get<FlickrPhotosSearchResponse>(
-    //   'https://api.flickr.com/services/rest/',{
-    //     params:input
+    //     if(this.currentPage < 2){
+    //       observer.next(res);
+    //     }else{
+    //       observer.next();
+    //     }
+    //     observer.complete();
     // });
+    return this.http.get<FlickrPhotosSearchResponse>(
+      'https://api.flickr.com/services/rest/',{
+        params:input
+    });
   }
 }
