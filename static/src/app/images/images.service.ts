@@ -22,7 +22,7 @@ export class FlickrPhoto {
     this.url_l = url;
     this.url_m = url;
     this.url_s = url;
-    this.tags = "animalia arthropoda insecta coleoptera silphidae nicrophorus investigator animali"
+    this.tags = "regno=animalia phylum=arthropoda classe=insecta ordine=coleoptera famiglia=silphidae generefotografico=nicrophorus specie=investigator genere=animali"
     this.title = "image-title";
     this.views = 2;
     this.lastupdate = 2000000;
@@ -105,20 +105,20 @@ export class ImagesService {
     params['page'] = this.currentPage
     // console.log(params)
     var input = this._copy(this.input, params);
-    // return new Observable((observer) =>{
-    //         var res = new FlickrPhotosSearchResponse(
-    //           new FlickrPhotosSearch(
-    //             [new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg"),
-    //             new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg"),
-    //             new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg")]
-    //           )
-    //         )
-    //         observer.next(res);
-    //         observer.complete();
-    //     });
-    return this.http.get<FlickrPhotosSearchResponse>(
-      'https://api.flickr.com/services/rest/',{
-        params:input
-    });
+    return new Observable((observer) =>{
+            var res = new FlickrPhotosSearchResponse(
+              new FlickrPhotosSearch(
+                [new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg"),
+                new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg"),
+                new FlickrPhoto("../assets/img1.jpg"),new FlickrPhoto("../assets/img2.jpg")]
+              )
+            )
+            observer.next(res);
+            observer.complete();
+        });
+    // return this.http.get<FlickrPhotosSearchResponse>(
+    //   'https://api.flickr.com/services/rest/',{
+    //     params:input
+    // });
   }
 }

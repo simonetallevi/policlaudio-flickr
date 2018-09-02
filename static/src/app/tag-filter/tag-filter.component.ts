@@ -7,7 +7,7 @@ import { ActivatedRoute, Router, NavigationEnd} from '@angular/router';
 import {Observable} from 'rxjs';
 import {map, startWith} from 'rxjs/operators';
 
-import { TagFilterService } from './tag-filter.service';
+import { TagFilterService, Tag } from './tag-filter.service';
 
 @Component({
   selector: 'tag-filter',
@@ -17,12 +17,12 @@ import { TagFilterService } from './tag-filter.service';
 export class TagFilterComponent implements OnInit, OnDestroy {
 
     maxVisibleTags = 3;
-    tags = [];
+    tags: Array<Tag> = [];
     routerEvent;
     mediaObserve;
-    selectedOption = "";
-    selectedTags = [];
-    selectedVisibleTags = [];
+    selectedOption: Array<Tag> = [];
+    selectedTags: Array<Tag> = [];
+    selectedVisibleTags: Array<Tag> = [];
     selectable = true;
     removable = true;
     addOnBlur = true;
@@ -31,8 +31,8 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     scrollRight = true;
 
     myControl = new FormControl();
-    options: string[] = [];
-    filteredOptions: Observable<string[]>;
+    options: Array<Array<Tag>> = [];
+    filteredOptions: Array<Array<Tag>> = [];
     filterSelector;
     innerWidth;
     maxScrollSize = 0;
@@ -69,7 +69,7 @@ export class TagFilterComponent implements OnInit, OnDestroy {
         this.routerEvent = this.router.events.subscribe((val) =>{
             if(val instanceof NavigationEnd && (val.url == "/" || val.url.startsWith("/search"))){
                 this._getSelectdTagFromUrl();
-                this._selectTag(this.selectedTags);
+                this._selectTag(this.selectedTags, false);
                 this.tagFilterService.search(this.selectedTags);
             }
         });
@@ -90,32 +90,36 @@ export class TagFilterComponent implements OnInit, OnDestroy {
         this.tagFilterService.search(this.selectedTags);
     }
 
-    selectTag(el, tag): void{
+    selectTag(el, tag: Tag): void{
         this.selectedTags.push(tag);
-        this._selectTag(this.selectedTags);
+        this._selectTag(this.selectedTags, false);
     }
-    deselectTag(el, tag): void{
+    deselectTag(el, tag: Tag): void{
         this.selectedTags = this.selectedTags.slice(0, this.selectedTags.length-1);
-        this._selectTag(this.selectedTags);
+        this._selectTag(this.selectedTags, true);
     }
 
     private _getSelectdTagFromUrl(){
         this.route.params.forEach(el => {
             if(el['tags']){
-                this.selectedTags = atob(el['tags']).split("_");
+                var tags = atob(el['tags']).split("_");
+                this.selectedTags = [];
+                tags.forEach(function(t){
+                    this.selectedTags.push(Tag.fromString(t))
+                });
             }
         });
     }
 
-    private _selectTag(selected){
+    private _selectTag(selected: Array<Tag>, deselect: Boolean){
         if(selected){
             this._setSelectedVisibleTags();
-            var key = selected.join('_');
-            this.selectedOption = key.split("_").join(" ");
-            this._loadFilters(key);
+            var key = selected.map(tag => tag.toString()).join('_');
+            this.selectedOption = selected;
+            this._loadFilters(key, deselect);
             this._routing(key);
         }else{
-            this._loadFilters('root');
+            this._loadFilters('root', deselect);
         }
     }
 
@@ -168,11 +172,14 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     }
 
     onAutocompleSelected(): void {
-        console.log(this.myControl.value);
+        if(this.myControl.value instanceof String 
+            || this.myControl.value[0].type == 'NO-RESULTS'){
+            return;
+        }
         this.selectedOption = this.myControl.value;
-        this.selectedTags = this.selectedOption.split(" ");
-        var key = this.selectedTags.join('_');
-        this._loadFilters(key);
+        this.selectedTags = this.selectedOption;
+        var key = this.selectedTags.map(tag => tag.toString()).join('_');
+        this._loadFilters(key, false);
         this.tagFilterService.search(this.selectedTags);
         this._setSelectedVisibleTags()
     }
@@ -182,7 +189,7 @@ export class TagFilterComponent implements OnInit, OnDestroy {
             this.selectedVisibleTags = this.selectedTags;
         }else{
             this.selectedVisibleTags = []
-            this.selectedVisibleTags.push("..."+(this.selectedTags.length - this.maxVisibleTags));
+            this.selectedVisibleTags.push(new Tag("cluster", "..."+(this.selectedTags.length - this.maxVisibleTags)));
             this.selectedVisibleTags = this.selectedVisibleTags.concat(this.selectedTags.slice(this.selectedTags.length - this.maxVisibleTags, this.selectedTags.length));
         }
     }
@@ -211,7 +218,7 @@ export class TagFilterComponent implements OnInit, OnDestroy {
         this._scrollButtonsVisibilities();
     }
 
-    private _loadFilters(tagName: String): void{
+    private _loadFilters(tagName: String, deselect: Boolean): void{
         var self = this;
         this.scrollRight = false;
         this.scrollLeft = false;
@@ -220,9 +227,14 @@ export class TagFilterComponent implements OnInit, OnDestroy {
         }
         this.tagFilterService.getFilters(tagName).subscribe(
             results =>{
-                this.tags = [];
-                for(var key  in results){
-                    this.tags.push(key);
+                this.tags = results;
+                if(this.tags && this.tags.length == 1){
+                    if(!deselect){
+                        this.selectTag(null, this.tags[0]);
+                    }else{
+                        this.deselectTag(null, this.tags[0]);
+                    }
+
                 }
                 setTimeout(() => {
                     self._calcMaxScrollSize();
@@ -236,20 +248,44 @@ export class TagFilterComponent implements OnInit, OnDestroy {
         this.tagFilterService.getAllKeys().subscribe(
             results =>{
                 this.options = results;
-                this.filteredOptions = this.myControl.valueChanges
-                    .pipe(startWith(''),map(value => this._filter(value))
-        );
+                this.myControl.valueChanges
+                    .pipe(map(value => this._filter(value)))
+                    .subscribe(
+                        (res) =>{
+                            this.filteredOptions = res;
+                        }
+                    );
             }, 
             error =>{console.log('error'+ error)}, 
             () => {console.log('_loadKeys completed')});
     }
 
-    private _filter(value: string): string[] {
-        var filterValue = value.trim().toLowerCase();
-        if(this.selectedTags.length > 0){
-            var filterValue = (this.selectedTags.join(' ')+ ' ' + value).toLowerCase()
+    private _filter(value: any) : Array<Array<Tag>>{
+        if(value instanceof Array){
+            var array = value;
+            value = array.map((v:Tag) => v.toString()).join(" ")
         }
-        return this.options.filter(option => option.toLowerCase().includes(filterValue));
+        var trimmed = value.trim().toLowerCase();
+        var filterValues = trimmed.split(' ');
+        if(this.selectedTags.length > 0){
+            filterValues = filterValues.concat(this.selectedTags.map(tag => tag.toString()));
+        }
+        var results = this.options.filter((option: Array<Tag>) => {
+            var optionStr = option.map(tag => tag.toString()).join(' ').toLocaleLowerCase();
+            if(trimmed.length > 0){
+                for(var k in filterValues){
+                    const v = filterValues[k];
+                    if(optionStr.indexOf(v) == -1){
+                        return false;
+                    }
+                }
+            }
+            return option;
+        });
+        if(results.length == 0){
+            results.push([new Tag('NO-RESULTS', 'no results found!')]);
+        }
+        return results;
     }
 }
 

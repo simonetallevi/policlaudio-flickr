@@ -51,7 +51,7 @@ if __name__ == "__main__":
     append(results['root'], genere[0], 'genere_fotografico')
     regni = db.engine().execute("""select distinct regno from photo where genere_fotografico = %s """,
                                 [genere[0]]).fetchall()
-    genereKey = get_json_key([genere[0]])
+    genereKey = get_json_key("genere=",[genere[0]])
     results[genereKey] = {}
 
     for regno in regni:
@@ -60,7 +60,7 @@ if __name__ == "__main__":
         """select distinct phylum from photo
         where genere_fotografico = %s and regno = %s """,
         [genere[0], regno[0]]).fetchall()
-      regnoKey = get_json_key([genere[0], regno[0]])
+      regnoKey = get_json_key("genere=",[genere[0], "regno=",regno[0]])
       results[regnoKey] = {}
 
       for phylum in phylums:
@@ -69,7 +69,7 @@ if __name__ == "__main__":
           """select distinct classe from photo
           where genere_fotografico = %s and regno = %s and phylum = %s """,
           [genere[0], regno[0], phylum[0]]).fetchall()
-        phylumKey = get_json_key([genere[0], regno[0], phylum[0]])
+        phylumKey = get_json_key("genere=",[genere[0], regno[0], phylum[0]])
         results[phylumKey] = {}
 
         for classe in classes:
@@ -79,7 +79,7 @@ if __name__ == "__main__":
             where genere_fotografico = %s and regno = %s
             and phylum = %s and classe = %s """,
             [genere[0], regno[0], phylum[0], classe[0]]).fetchall()
-          classeKey = get_json_key([genere[0], regno[0], phylum[0], classe[0]])
+          classeKey = get_json_key("genere=",[genere[0], regno[0], phylum[0], classe[0]])
           results[classeKey] = {}
 
           for ordine in ordini:
@@ -89,7 +89,7 @@ if __name__ == "__main__":
               where genere_fotografico = %s and regno = %s
               and phylum = %s and classe = %s and ordine = %s """,
               [genere[0], regno[0], phylum[0], classe[0], ordine[0]]).fetchall()
-            ordineKey = get_json_key([genere[0], regno[0], phylum[0], classe[0], ordine[0]])
+            ordineKey = get_json_key("genere=",[genere[0], regno[0], phylum[0], classe[0], ordine[0]])
             results[ordineKey] = {}
 
             for famiglia in famiglie:
@@ -99,7 +99,7 @@ if __name__ == "__main__":
                 and phylum = %s and classe = %s and ordine = %s and famiglia = %s """,
                                            [genere[0], regno[0], phylum[0], classe[0], ordine[0],
                                             famiglia[0]]).fetchall()
-              famigliaKey = get_json_key([genere[0], regno[0], phylum[0], classe[0], ordine[0], famiglia[0]])
+              famigliaKey = get_json_key("genere=",[genere[0], regno[0], phylum[0], classe[0], ordine[0], famiglia[0]])
               results[famigliaKey] = {}
 
               for s in specie:
@@ -109,7 +109,7 @@ if __name__ == "__main__":
                 and classe = %s and ordine = %s and famiglia = %s and specie = %s """,
                                            [genere[0], regno[0], phylum[0], classe[0], ordine[0], famiglia[0],
                                             s[0]]).fetchall()
-                specieKey = get_json_key([genere[0], regno[0], phylum[0], classe[0], ordine[0], famiglia[0], s[0]])
+                specieKey = get_json_key("genere=",[genere[0], regno[0], phylum[0], classe[0], ordine[0], famiglia[0], s[0]])
                 results[specieKey] = {}
                 for nome in nomi:
                   append(results[specieKey], nome[0], 'nome comune')

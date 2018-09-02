@@ -2,13 +2,43 @@ import { Injectable, EventEmitter } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
+export class Tag {
+    type: string;
+    value: string;
+
+    constructor(type: string, value: string){
+        this.type = type;
+        this.value = value;
+    }
+
+    toString(){
+        return this.type+"="+this.value;
+    }
+
+    static fromString(value: String): Tag{
+        var ss = value.split("=");
+        return new Tag(ss[0], ss[1]);
+    }
+
+    static fromArrayString(values: Array<String>): Array<Tag>{
+        var res: Array<Tag> = [];
+        values.forEach(function(value){
+            var ss = value.split("=");
+            res.push(new Tag(ss[0], ss[1]));
+        })
+        return res;
+    }
+}
+
 @Injectable()
 export class TagFilterService {
 
-    filters = null;
+    filters: Map<string, Array<Tag>>;
     keys = null;
     onSearch = new EventEmitter();
     headers;
+    baseUrl = "assets/";
+    // baseUrl = "https://storage.googleapis.com/poli-claudio.appspot.com/";
 
     constructor(
         private http: HttpClient
@@ -21,38 +51,45 @@ export class TagFilterService {
         console.log(this.headers);
     }
 
-    search(tags: Array<String>){
+    search(tags: Array<Tag>){
         console.log("tag-filter search");
         this.onSearch.emit({tags: tags});
     }
 
-    getFilters (key) : Observable<Object>{
+    getFilters (tagName) : Observable<Array<Tag>>{
         if(this.filters == null){
             return new Observable((observer) =>{
-                this.http.get<Object> ('https://storage.googleapis.com/poli-claudio.appspot.com/filter.tags.json',{headers: this.headers})
-                    .subscribe(result => {
-                        this.filters = result;
-                        observer.next(this.filters[key]);
+                this.http.get<Object> (this.baseUrl+'filter.tags.json', {headers: this.headers})
+                    .subscribe(results => {
+                        this.filters = new Map();
+                        for(var key  in results){
+                            if(!this.filters[key]){
+                                this.filters[key] = [];
+                            }
+                            this.filters[key] = this.filters[key].concat(Tag.fromArrayString(results[key]));
+                        }
+                        observer.next(this.filters[tagName]);
                         observer.complete();
                     })
             });
         }
         return new Observable((observer) =>{
-            observer.next(this.filters[key]);
+            observer.next(this.filters[tagName]);
             observer.complete();
         });
     }
 
-    getAllKeys () : Observable<string[]>{
+    getAllKeys () : Observable<Array<Array<Tag>>>{
         if(this.keys == null){
             return new Observable((observer) =>{
-                this.http.get<Object> ('https://storage.googleapis.com/poli-claudio.appspot.com/filter.tags.json', {headers: this.headers})
+                this.http.get<Object> (this.baseUrl+'filter.tags.json', {headers: this.headers})
                     .subscribe(result => {
                         this.keys = []
                         for(var key  in result){
                             if(key == 'root')
                                 continue;
-                            this.keys.push(key.split("_").join(" "))
+                            var kk = key.split("_");
+                            this.keys.push([].concat(Tag.fromArrayString(kk)));
                         }
                         observer.next(this.keys);
                         observer.complete();

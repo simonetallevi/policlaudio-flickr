@@ -3,14 +3,14 @@
         <mat-form-field class="autocomplete-container" [floatLabel]="'never'">
             <mat-chip-list #selectedTagsChipList class="selected-chip-list-wrapper">
                 <mat-chip class="selected-tag-chip" *ngFor="let tag of selectedVisibleTags" [removable]="removable" (click)="deselectTag(tag)" (removed)="deselectTag(tag)">
-                    {{tag}}
+                    {{tag.value}}
                     <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
                 </mat-chip>
                 <input matInput placeholder="" class="autocomplete-input" type="text" aria-label="Number" [matChipInputFor]="selectedTagsChipList" [matChipInputAddOnBlur]="addOnBlur" [formControl]="myControl" [matAutocomplete]="auto" (matChipInputTokenEnd)="add($event)">
             </mat-chip-list>
             <mat-autocomplete class="autocomplete" #auto="matAutocomplete" (optionSelected)="onAutocompleSelected()">
-                <mat-option class="autocomplete-option" *ngFor="let option of filteredOptions | async" [value]="option">
-                    {{option.substr(selectedOption.length, option.length)}}
+                <mat-option class="autocomplete-option" *ngFor="let option of filteredOptions" [value]="option">
+                    <span *ngFor="let o of option">{{o.value}} </span>
                 </mat-option>
             </mat-autocomplete>
         </mat-form-field>
@@ -22,7 +22,7 @@
         <div class="chip-list" #filterSelector (scroll)="onScroll()">
             <div class="chip tag" *ngFor="let tag of tags; let i = index" (click)="selectTag(target,tag)">
                 <div class="tag-name">
-                    <p>{{tag}}</p>
+                    <p>{{tag.value}}</p>
                 </div>
             </div>
         </div>

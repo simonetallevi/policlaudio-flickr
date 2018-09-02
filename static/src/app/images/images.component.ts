@@ -5,7 +5,7 @@ import { DeviceDetectorService } from 'ngx-device-detector';
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 import { ImagesService, FlickrPhotosSearchResponse } from './images.service'
 import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
-import { TagFilterService } from '../tag-filter/tag-filter.service';
+import { TagFilterService, Tag } from '../tag-filter/tag-filter.service';
 import { AppService } from '../app.service';
 
 @Component({
@@ -161,7 +161,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
           lastupdate: p.lastupdate,
           views: p.views,
           title: p.title,
-          tags: (p.tags ? p.tags.split(" ") : []),
+          tags: (p.tags ? Tag.fromArrayString(p.tags.split(" ")) : []),
           url_l: p.url_l,
           url_m: p.url_m,
           url_s: p.url_s,
