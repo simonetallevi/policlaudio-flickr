@@ -1,0 +1,1372 @@
+id,genere_fotografico,regno,phylum,classe,ordine,famiglia,genere,specie,nome_comune,data,luogo,creation
+P1010190,animali,animalia,chordata,aves,coraciformes,alcedimidae,alcedo,atthis,"martin pescatore",14-3-07,"Stagno Urbani Fano",0
+P1120872,animali,animalia,arthropoda,insecta,lepidoptera,papilionidae,papilio,machaon,macaone,15-4-07,"Monti del Furlo",0
+P1040432,animali,animalia,arthropoda,arachnida,araneae,thomisidae,synema,globosum,,31-5-07,"Monti del Furlo",0
+P1360319,animali,animalia,arthropoda,insecta,lepidoptera,tortricidae,olethreutes,arcuella,,6-6-10,"Monte Catria",0
+P1360289,animali,animalia,arthropoda,insecta,lepidoptera,amphisbtidae,hypercallia,citrinalis,,5-6-10,"Monti del Furlo",0
+P1360846,animali,animalia,arthropoda,insecta,lepidoptera,papilionidae,parnassius,apollo,,24-7-10,"Monti Sibillini",0
+P1360534,animali,animalia,arthropoda,insecta,diptera,stratiomydae,clitellaria,ephippium,,26-6-10,"Foreste Casentinesi",0
+P1250687,animali,animalia,arthropoda,insecta,diptera,tachinidae,trichopodo,pennipes,,6-5-09,"Stagno Urbani Fano",0
+P1350775,animali,animalia,arthropoda,insecta,odonata,gomphidae,gomphus,vulgatissimus,,8-5-10,"Gola del Furlo",0
+P1360552,animali,animalia,arthropoda,insecta,odonata,calopterygidae,calopteryx,virgo,,26-6-10,"Foreste Casentinesi",0
+P1170949,funghi,fungi,,basidiomycetes,gomphales,ramariaceae,ramaria,,manina,28-9-08,"Foreste Casentinesi",0
+P1180582,funghi,fungi,,basidiomycetes,agaricales,coprinaceae,coprinus,comatus,,18-10-08,"Foreste Casentinesi",0
+P1180205,funghi,fungi,,basidiomycetes,agaricales,coprinaceae,coprinus,picaceus,,5-10-08,"Monti del Furlo",0
+P1150150,funghi,fungi,,basidiomycetes,polyporales,ganodermataceae,ganoderma,lucidum,,28-6-08,"Foreste Casentinesi",0
+P1140905,funghi,fungi,,basidiomycetes,russulales,russulaceae,russula,aurea,,25-6-08,"Foreste Casentinesi",0
+P1150118,funghi,fungi,,basidiomycetes,boletales,boletaceae,boletus,reticulatus,,27-6-08,"Foreste Casentinesi",0
+P1360037,piante,plantae,,liliopsida,orchidales,orchidaceae,orchis,tridentata,,16-5-10,"Monti del Furlo",0
+P1360036,piante,plantae,,liliopsida,orchidales,orchidaceae,ophrys,holoserica,,16-5-10,"Monti del Furlo",0
+P1260080,piante,plantae,,liliopsida,orchidales,orchidaceae,ophrys,apifera,,11-5-09,"Fiume Metauro Fano",0
+P1150595,piante,plantae,,liliopsida,orchidales,orchidaceae,ophrys,sphegodes,,4-5-08,"Monte Catria",0
+P1210368,animali,animalia,chordata,aves,pelecaniformes,phalacrocoracidae,phalacrocorax,carbo,cormorano,12-2-09,"Fiiume Metauro Fano",0
+P1230522,animali,animalia,chordata,aves,anseriformes,anatidae,aythya,nyroca,"moretta tabaccata",26-3-09,"Stagno Urbani Fano",0
+P1370076,animali,animalia,chordata,aves,pelecaniformes,ardeidae,egretta,garzetta,garzetta,31-7-10,"Stagno Urbani Fano",0
+P1200667,animali,animalia,chordata,aves,gruiformes,rallidae,fulica,atra,folaghe,11-1-09,"Stagno Urbani Fano",0
+P1220790,animali,animalia,chordata,aves,podicipediformes,podicipedidae,tachybaptus,ruficollis,tuffetto,15-3-09,"Stagno Urbani Fano",0
+P1180661,animali,animalia,chordata,amphibia,caudata,salamandridae,salamandrina,tergiditata,"salamandrina dagli occhiali",18-10-08,"Foreste Casentinesi",0
+P1180635,animali,animalia,chordata,amphibia,caudata,salamandridae,salamandra,salamandra,"salamandra pezzata",18-10-08,"Foreste Casentinesi",0
+P1370490,animali,animalia,arthropoda,insecta,odonata,aeshnidae,aeshna,cyanea,,29-8-10,"Monti del Furlo",0
+P1160919,animali,animalia,arthropoda,insecta,hymenoptera,sphecidae,ammophila,sabulosa,,27-8-08,"Monti del Furlo",0
+P1370351,animali,animalia,arthropoda,insecta,hymenoptera,sphecidae,ammophila,sabulosa,,28-8-10,"Monti del Furlo",0
+P1370366,animali,animalia,arthropoda,insecta,hymenoptera,sphecidae,sceliphron,cementarium,"vespa vasaio",28-8-10,"Monti del Furlo",0
+P1370357,animali,animalia,arthropoda,insecta,hymenoptera,sphecidae,sceliphron,curvatum,,28-8-10,"Monti del Furlo",0
+P1050346,animali,animalia,arthropoda,insecta,lepidoptera,arctiidae,coscinia,striata,,13-6-07,"Monti del Furlo",0
+P1050274,animali,animalia,arthropoda,insecta,lepidoptera,pyralidae,oncocera,semirubella,,13-6-07,"Monti del Furlo",0
+P1050154,animali,animalia,arthropoda,insecta,lepidoptera,hesperiidae,heteropterus,morpheus,,13-6-07,"Gola del Furlo",0
+P1030142,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,melitaea,didyma,,6-5-07,"Monti del Furlo",0
+P1020067,animali,animalia,arthropoda,insecta,lepidoptera,pieridae,anthocharis,cardamines,"Aurora (maschio)",17-4-07,"Monti del Furlo",0
+P1030751,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,melitaea,cinxia,,20-5-07,"Monti del Furlo",0
+P1050017,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,argynnis,niobe,,10-6-07,"Monte Catria",0
+P1050088,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,issoria,lathonia,,10-6-07,"Monte Catria",0
+P1030707,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,rhodostrophia,calabra,,20-5-07,"Monti del Furlo",0
+P1030754,animali,animalia,arthropoda,insecta,lepidoptera,pieridae,pontia,daplidice,,20-5-07,"Monti del Furlo",0
+P1040579,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,melitaea,aurelia,,2-6-07,"Monti del Furlo",0
+P1040614,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,callistege,mi,,2-6-07,"Monti del Furlo",0
+P1040129,animali,animalia,arthropoda,insecta,lepidoptera,sphingidae,agrius,convolvuli,"sfinge del convolvolo",29-5-07,"Monte Conero",0
+P1070577,animali,animalia,arthropoda,insecta,hymenoptera,ichneumonidae,,,,5-9-07,"Gola del Furlo",0
+P1240196,animali,animalia,arthropoda,insecta,hymenoptera,,,,,11-4-09,"Gola del Furlo",0
+P1110946,animali,animalia,arthropoda,insecta,hymenoptera,chrysididae,chrysis,ignita,"criside di fuoco",1-5-08,"Monti del Furlo",0
+P1230901,animali,animalia,arthropoda,insecta,hymenoptera,,,,,30-3-09,"Stagno Urbani Fano",0
+P1070522,animali,animalia,arthropoda,insecta,hymenoptera,,,,,2-9-07,"Monti del Furlo",0
+P1050254,animali,animalia,arthropoda,arachnida,opiliones,,,,,13-6-07,"Monti del Furlo",0
+P1250261,animali,animalia,arthropoda,arachnida,scorpiones,euscorpiidae,euscorpius,,scorpione,1-5-09,"Monti del Furlo",0
+P1250291,animali,animalia,chordata,mammalia,carnivora,canidae,canis,lupus,lupo,1-5-09,"Monti del Furlo",0
+P1250303,animali,animalia,chordata,mammalia,carnivora,canidae,canis,lupus,lupo,1-5-09,"Monti del Furlo",0
+P1240896,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",25-4-09,"Foreste Casentinesi",0
+P1000294,animali,animalia,chordata,mammalia,artiodactyla,cervidae,dama,dama,daino,18-10-06,"Monti del Furlo",0
+P1000246,animali,animalia,arthropoda,insecta,odonata,aeshnidae,aeshna,cyanea,,15-10-06,"Monti del Furlo",0
+P1000592,animali,animalia,chordata,mammalia,artiodactyla,bovidae,capra,,"capra rinselvatichita",26-11-06,"Monti del Furlo",0
+P1260603,animali,animalia,chordata,mammalia,logomorpha,leporidae,lepus,europaeus,lepre,17-5-09,"Monti del Furlo",0
+P1280185,animali,animalia,arthropoda,insecta,odonata,libellulidae,libellula,depressa,,24-6-09,"Monti del Furlo",0
+P1170861,animali,animalia,chordata,reptilia,squamata,viperidae,vipera,aspis,"vipera comune",23-9-08,"Monti del Furlo",0
+P1170853,animali,animalia,chordata,reptilia,squamata,viperidae,vipera,aspis,"vipera comune",23-9-08,"Monti del Furlo",0
+P1170632,animali,animalia,chordata,amphibia,anura,ranidae,pelophylax,esculentus,"rana verde",22-9-08,"Stagno Urbani Fano",0
+P1050294,animali,animalia,chordata,mammalia,carnivora,canidae,canis,lupus,lupo,11-3-06,"Monti del Furlo",0
+P1350042,animali,animalia,chordata,amphibia,anura,hylidae,hyla,arborea,raganella,8-4-10,"Stagno Urbani Fano",0
+P1180081,animali,animalia,arthropoda,insecta,coleoptera,scarabeidae,sisyphus,schaefferi,,28-9-08,"Foreste Casentinesi",0
+P1180098,animali,animalia,arthropoda,insecta,coleoptera,scarabeidae,,,,28-9-08,"Foreste Casentinesi",0
+P1350481,animali,animalia,arthropoda,insecta,coleoptera,chrysomelidae,,,,27-4-10,"Monti delle Cesane",0
+P1130524,animali,animalia,arthropoda,insecta,coleoptera,scarabeidae,oryctes,nasicornis,"scarabeo rinoceronte",2-6-08,"Stagno Urbani Fano",0
+P1090608,animali,animalia,chordata,mammalia,artiodactyla,suidae,sus,scrofa,cinghiale,20-12-07,"Monti del Furlo",0
+P1350565,animali,animalia,chordata,mammalia,artiodactyla,suidae,sus,scrofa,cinghiale,29-4-10,"Foreste Casentinesi",0
+P1110658,animali,animalia,chordata,mammalia,artiodactyla,bovidae,ovis,musimon,muflone,25-4-08,"Monte Catria",0
+P1190914,animali,animalia,chordata,mammalia,artiodactyla,cervidae,capreolus,capreolus,capriolo,14-12-08,"Monti del Furlo",0
+P1340482,animali,animalia,chordata,mammalia,artiodactyla,cervidae,dama,dama,daino,13-3-10,"Monti del Furlo",0
+P1150350,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,limenitis,reducta,,9-7-08,"Monti del Furlo",0
+P1360335,animali,animalia,arthropoda,arachnida,araneae,thomisidae,thomisus,onustus,"ragno granchio",12-6-10,"Monti del Furlo",0
+P13603352,animali,animalia,arthropoda,arachnida,araneae,thomisidae,thomisus,onustus,"ragno granchio",12-6-10,"Monti del Furlo",0
+P1150087,animali,animalia,chordata,reptilia,squamata,colubridae,coluber,viridiflavus,biacco,27-6-08,"Foreste Casentinesi",0
+P1160601,animali,animalia,arthropoda,arachnida,araneae,thomisidae,thomisus,onustus,"ragno granchio",10-8-08,"Monte Catria",0
+P1360112,animali,animalia,arthropoda,arachnida,araneae,salticidae,heliophanus,cupreus,,23-5-10,"Monti del Furlo",0
+P1370528,funghi,fungi,,basidiomycetes,phallales,clatraceae,clathrus,ruber,"clatro reticolato",4-9-10,"Monti del Furlo",0
+P1370129,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,polyommatus,icarus,,7-8-10,"Monti del Furlo",0
+P1240596,animali,animalia,arthropoda,insecta,diptera,tipulidae,,,,18-4-2009,"Monti del Furlo",1493998257
+P1250637,animali,animalia,arthropoda,insecta,diptera,sciomyzidae,trypetoptera,punctulata,,6-5-09,"Stagno Urbani Fano",0
+P1240679,animali,animalia,arthropoda,insecta,diptera,,,,,22-4-09,"Stagno Urbani Fano",0
+P1240518,animali,animalia,arthropoda,insecta,coleoptera,curculionidae,,,,18-4-09,"Stagno Urbani Fano",0
+P1240768,animali,animalia,arthropoda,insecta,coleoptera,chrysomelidae,gonioctena,fornicata,,22-4-09,"Stagno Urbani Fano",0
+P1240500,animali,animalia,arthropoda,insecta,diptera,syrphidae,,,,18-4-09,"Stagno Urbani Fano",0
+P1270714,animali,animalia,arthropoda,insecta,diptera,syrphidae,,,,2-6-09,"Monti del Furlo",0
+P1010257,animali,animalia,arthropoda,insecta,diptera,syrphidae,,,,17-3-07,"Stagno Urbani Fano",0
+P1170313,animali,animalia,arthropoda,insecta,odonata,libellulidae,libellula,depressa,,17-5-09,"Monti del Furlo",0
+P1280361,animali,animalia,arthropoda,insecta,diptera,conopidae,,,,27-6-09,"Monti del Furlo",0
+P1260777,animali,animalia,arthropoda,insecta,odonata,lestidae,lestes,virens,,23-5-09,"Stagno Urbani Fano",0
+P1260531,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,melitaea,trivia,,17-5-09,"Monti del Furlo",0
+P1060739,animali,animalia,arthropoda,insecta,lepidoptera,pieridae,pieris,brassicae,"cavolaia maggiore",21-7-07,"Monte Catria",0
+P1060046,animali,animalia,arthropoda,insecta,lepidoptera,pieridae,colias,crocea,,27-6-07,"Monti del Furlo",0
+P1050544,animali,animalia,arthropoda,insecta,lepidoptera,satyridae,coenonympha,arcania,,20-6-07,"Monti del Furlo",0
+P1050358,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,nymphalis,io,,17-6-07,"Monte Catria",0
+P1050986,animali,animalia,arthropoda,insecta,odonata,gomphidae,onychogomphus,uncatus,,27-6-07,"Monti del Furlo",0
+P1120315,animali,animalia,arthropoda,insecta,lepidoptera,pterophoridae,pterophorus,pentadactylus,,8-5-08,"Stagno Urbani Fano",0
+P1370566,animali,animalia,arthropoda,insecta,diptera,tabanidae,haematopota,pluvialis,"tafano della pioggia",12-9-10,"Monti del Furlo",0
+P1370583,animali,animalia,arthropoda,insecta,hemiptera,dictyopharidae,dictyophara,europaea,,12-9-10,"Monti del Furlo",0
+P1360269,animali,animalia,arthropoda,insecta,coleoptera,cleridae,trichodes,alvearius,,2-6-10,"Monti del Furlo",0
+P1360267,animali,animalia,arthropoda,insecta,coleoptera,chrysomelidae,lachnaea,sexpuntata,,2-6-10,"Monti del Furlo",0
+P1190223,animali,animalia,arthropoda,insecta,hemiptera,membracidae,stictocephalus,bisonia,,8-11-08,"Stagno Urbani Fano",0
+P1140378,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,limenitis,reducta,bruco,15-6-08,"Monti del Furlo",0
+P1270784,animali,animalia,arthropoda,insecta,diptera,bombyliidae,,,,2-6-09,"Monte Catria",0
+P1050768,animali,animalia,chordata,reptilia,squamata,colubridae,natrix,natrix,"biscia dal collare",1-4-06,"Monti del Furlo",0
+P1370190,animali,animalia,chordata,aves,falconiformes,accipitridae,aquila,chrysaetos,"aquila reale",14-8-10,"Monti del Furlo",0
+P1370207,animali,animalia,arthropoda,insecta,coleoptera,meloidae,mylabris,variabilis,,15-8-10,"Monti del Furlo",0
+P1370266,animali,animalia,arthropoda,insecta,coleoptera,tenebrionidae,,,,21-8-10,"Monti del Furlo",0
+P1370218,animali,animalia,arthropoda,insecta,diptera,asilidae,,,,18-8-10,"Monti del Furlo",0
+P1010711,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,callophrys,rubi,,7-4-07,"Monti del Furlo",0
+P1330311,paesaggi,,,,,,,,,7-2-10,"Monti del Furlo",0
+P1320012,paesaggi,,,,,,,,,6-1-10,"Monti del Furlo",0
+P1320050,paesaggi,,,,,,,,,6-1-10,"Monti del Furlo",0
+P1320782,paesaggi,,,,,,,,,23-1-10,"Monti del Furlo",0
+P1320805,paesaggi,,,,,,,,,23-1-10,"Monti del Furlo",0
+P1200339,paesaggi,,,,,,,,,4-1-09,"Monti del Furlo",0
+P1200334,paesaggi,,,,,,,,,4-1-09,"Monti del Furlo",0
+P1200305,paesaggi,,,,,,,,,4-1-09,"Monti del Furlo",0
+P1200285,paesaggi,,,,,,,,,4-1-09,"Monti del Furlo",0
+P1060288,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,rosalia,alpina,,8-7-07,"Foreste Casentinesi",0
+P1360644,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,agapanthia,villosoviridescens,,4-7-10,"Stagno Urbani Fano",0
+P1360673,animali,animalia,arthropoda,insecta,coleoptera,curculionidae,lixus,,,11-7-10,"Monte Catria",0
+P1360682,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,musaria,"affinis nigrohirta",,11-7-10,"Monte Catria",0
+P1280739,animali,animalia,arthropoda,insecta,neuroptera,mantispidae,mantispa,styriaca,,19-7-09,"Bosco di Tecchie",0
+P1230190,animali,animalia,arthropoda,insecta,coleoptera,carabidae,cicindela,campestris,,18-3-09,"Monti del Furlo",0
+P1120860,animali,animalia,arthropoda,insecta,lepidoptera,arctiidae,arctia,villica,,18-5-08,"Monti del Furlo",0
+P1370651,animali,animalia,arthropoda,arachnida,araneae,linyphidae,,,,2-10-10,"Foreste Casentinesi",0
+P1300263,paesaggi,,,,,,,,,19-11-09,"Monti del Furlo",0
+P1160271,animali,animalia,arthropoda,insecta,neuroptera,chrysopidae,chrysopa,,,2-8-08,"Monti del Furlo",0
+P1160048,animali,animalia,arthropoda,insecta,lepidoptera,arctiidae,euplagia,quadripunctaria,,27-7-08,"Monti del Furlo",0
+P1260256,animali,animalia,arthropoda,insecta,lepidoptera,sphingidae,mimas,tiliae,"sfinge del tiglio",13-5-09,Fano,0
+P1120377,animali,animalia,arthropoda,insecta,lepidoptera,papilionidae,papilio,machaon,(bruco),28-9-06,"Monti del Furlo",0
+P1090948,animali,animalia,arthropoda,insecta,hemiptera,cicadidae,lyristes,plebejus,cicala,5-7-06,"Monti del Furlo",0
+P1010393,animali,animalia,arthropoda,insecta,diptera,tachinidae,tachine,fera,,31-3-07,"Monti del Furlo",0
+P1160077,animali,animalia,arthropoda,insecta,lepidoptera,sesiidae,sesia,vespiformis,,27-7-08,"Monti del Furlo",0
+P1070612,animali,animalia,chordata,reptilia,squamata,colubridae,natrix,tessellata,,17-5-06,"Monti del Furlo",0
+P1140798,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,odezia,atrata,,22-6-08,"Monte Catria",0
+P1130958,animali,animalia,chordata,aves,pelecaniformes,ardeidae,ixobrychus,minutus,tarabusino,9-6-08,"Stagno Urbani Fano",0
+P1200467,animali,animalia,chordata,aves,anseriformes,anatidae,anas,platyrhynchos,"germano reale",10-1-09,"Stagno Urbani Fano",0
+P1190567,animali,animalia,chordata,aves,gruiformes,rallidae,gallinula,chloropus,"gallinella d'acqua",19-11-08,"Stagno Urbani Fano",0
+P1070378,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,rhodometra,sacraria,,28-8-07,"Stagno Urbani Fano",0
+P1170172,animali,animalia,arthropoda,insecta,hemiptera,coreidae,leptoglossus,occidentalis,,5-9-08,"Monti del Furlo",0
+P1020504,animali,animalia,arthropoda,insecta,hemiptera,coreidae,coreus,marginatus,,21-4-07,"Stagno Urbani Fano",0
+P1010380,animali,animalia,arthropoda,insecta,lepidoptera,satyridae,pararge,aegeria,,31-3-07,"Stagno Urbani Fano",0
+P1080648,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,,,,30-9-07,"Monti del Furlo",0
+P1370708,funghi,fungi,,basidiomycetes,agaricales,amanitaceae,amanita,phalloides,,9-10-10,"Monti del Furlo",0
+P1370668,funghi,fungi,,basidiomycetes,agaricales,amanitaceae,amanita,muscaria,,2-10-10,"Foreste Casentinesi",0
+P1370700,funghi,fungi,,ascomycetes,pezizales,helvellaceae,helvella,lacunosa,,9-10-10,"Monti del Furlo",0
+P1370697,funghi,fungi,,basidiomycetes,phallales,geastraceae,geastrum,fimbriatum,,9-10-10,"Monti del Furlo",0
+P1230801,animali,animalia,arthropoda,insecta,hymenoptera,apidae,eucera,longicornis,,30-3-09,"Stagno Urbani Fano",0
+P1030335,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,pseudopanthera,macularia,,13-5-07,"Monte Nerone",0
+P1120773,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,melitaea,didyma,,18-5-08,"Monti del Furlo",0
+P1250284,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,melitaea,didyma,bruco,1-5-09,"Monti del Furlo",0
+P1240057,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,nymphalis,c-album,"vanessa c-bianco",5-4-09,"Gola del Furlo",0
+P1070078,animali,animalia,arthropoda,insecta,lepidoptera,sphingidae,macroglossum,stellatarum,,9-8-07,"Foreste Casentinesi",0
+P1070967,animali,animalia,arthropoda,insecta,odonata,libellulidae,crocothemis,erythraea,,13-9-07,"Stagno Urbani Fano",0
+P1150992,animali,animalia,arthropoda,insecta,odonata,libellulidae,orthetrum,brunneum,,25-7-08,"Monti del Furlo ",0
+P1030135,animali,animalia,arthropoda,insecta,coleoptera,chrysomelidae,,,,5-5-07,"Monti del Furlo",0
+P1280242,animali,animalia,arthropoda,insecta,coleoptera,,,,,24-6-09,"Monti del Furlo",0
+P1060867,animali,animalia,chordata,reptilia,squamata,colubridae,elaphe,quatuorlineata,cervone,1-5-06,"Gola del Furlo",0
+P1250896,animali,animalia,chordata,reptilia,squamata,colubridae,elaphe,quatuorlineata,cervone,9-5-09,"Monti del Furlo",0
+P1080426,animali,animalia,chordata,reptilia,squamata,colubridae,coluber,viridiflavus,biacco,6-6-06,"Monti del Furlo",0
+P1100504,animali,animalia,chordata,amphibia,anura,ranidae,,,"rana rossa",30-7-06,"Monte Nerone",0
+P1070866,animali,animalia,chordata,amphibia,anura,ranidae,,,"rana verde",27-5-06,"Monti del Furlo",0
+P1340503,animali,animalia,chordata,aves,passeriformes,phylloscopidae,phylloscopus,,luÃ¬,14-3-10,"Stagno Urbani Fano",0
+P1080069,animali,animalia,chordata,reptilia,squamata,anguidae,anguis,fragilis,orbettino,27-5-06,"Monti del Furlo",0
+P1070775,animali,animalia,chordata,reptilia,squamata,lacertidae,lacerta,viridis,ramarro,21-5-06,"Monti del Furlo",0
+P1360613,animali,animalia,chordata,reptilia,squamata,lacertidae,lacerta,viridis,ramarro,27-6-10,"Monti del Furlo",0
+P1060095,animali,animalia,arthropoda,insecta,coleoptera,dytiscidae,dytiscus,marginalis,ditisco,9-4-06,"Monti del Furlo",0
+P1080369,animali,animalia,arthropoda,insecta,odonata,libellulidae,libellula,depressa,(metamorfosi),6-6-06,"Monti del Furlo",0
+P1080370,animali,animalia,arthropoda,insecta,odonata,libellulidae,libellula,depressa,(metamorfosi),6-6-06,"Monti del Furlo",0
+P1060268,animali,animalia,chordata,amphibia,caudata,salamandridae,triturus,vulgaris,"tritoni punteggiati",16-4-06,"Monti del Furlo",0
+P1280235,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,aromia,moscata,,24-6-09,"Monti del Furlo",0
+P1280105,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,purpuricenus,kaehleri,,21-6-09,"Monti del Furlo",0
+P1090026,animali,animalia,chordata,mammalia,carnivora,canidae,vulpes,vulpes,volpe,17-6-06,"Monte Catria",0
+P1090086,animali,animalia,chordata,mammalia,carnivora,canidae,vulpes,vulpes,volpe,17-6-06,"Monte Catria",0
+P1090087,animali,animalia,chordata,mammalia,carnivora,canidae,vulpes,vulpes,volpe,17-6-06,"Monte Catria",0
+P1040881,paesaggi,,,,,,,,,8-2-06,"Monti del Furlo",0
+P1040877,paesaggi,,,,,,,,,8-2-06,"Monti del Furlo",0
+P1040882,paesaggi,,,,,,,,,7-1-06,"Monti del Furlo",0
+P1040900,animali,animalia,chordata,mammalia,artiodactyla,cervidae,capreolus,capreolus,capriolo,9-1-06,"Monti del Furlo",0
+P1240132,animali,animalia,chordata,reptilia,squamata,lacertidae,podarcis,muralis,"lucertola muraiola",8-4-09,"Stagno Urbani Fano",0
+P1160825,animali,animalia,chordata,reptilia,squamata,lacertidae,podarcis,sicula,"lucertola campestre",4-4-09,"Stagno Urbani Fano",0
+P1360528,animali,animalia,arthropoda,insecta,coleoptera,scarabeidae,melolontha,melolontha,maggiolino,26-6-10,"Foreste Casentinesi",0
+P1370653,funghi,fungi,,basidiomycetes,phallales,phallaceae,phallus,impudicus,satirione,2-10-10,"Foreste Casentinesi",0
+P1290792,animali,animalia,arthropoda,arachnida,araneae,lycosidae,,,"ragno lupo (con prole)",13-9-09,"Monti del Furlo",0
+P1210081,animali,animalia,chordata,amphibia,anura,bufonidae,bufo,bufo,"rospo comune",9-2-09,"Casa Archilei Fano",0
+P1080526,animali,animalia,arthropoda,arachnida,araneae,lycosidae,,,"ragno lupo",23-9-07,"Monti del Furlo",0
+P1110013,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,catocala,elocata,,27-8-06,"Parchiule (PU)",0
+P1140159,animali,animalia,chordata,aves,pelecaniformes,threskiornithidae,platalea,leucorodia,spatola,14-6-08,"Stagno Urbani Fano",0
+P1180876,animali,animalia,arthropoda,insecta,phasmida,phasmatidae,bacillus,rossius,"insetto stecco",25-10-08,"Monti del Furlo",0
+P1180547,animali,animalia,arthropoda,insecta,mantodea,mantidae,mantis,religiosa,"mantide religiosa",15-10-08,"Monti del Furlo",0
+P1160348,animali,animalia,arthropoda,insecta,hemiptera,,,,(muta),5-8-08,"Monti del Furlo",0
+P1160693,animali,animalia,arthropoda,diplopoda,julida,julidae,julius,,,16-8-08,"Monti del Furlo",0
+P1350560,animali,animalia,arthropoda,arachnida,acari,trombidiidae,trombidium,,,29-4-10,"Foreste Casentinesi",0
+P1130492,animali,animalia,arthropoda,insecta,lepidoptera,sphingidae,hyles,lineata,"sfinge lineata",2-6-08,"Stagno Urbani Fano",0
+P1060820,animali,animalia,arthropoda,insecta,lepidoptera,lymantriidae,lymantria,monacha,,22-7-07,"Monti del Furlo",0
+P1040938,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,aglais,urticae,"vanessa dell'ortica",10-6-07,"Monte Catria",0
+P1080942,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,chrysodeixis,chalcites,,9-10-07,Fano,0
+P1370549,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,triodia,sylvina,,7-9-10,"Monte Nerone",0
+P1160680,animali,animalia,arthropoda,insecta,hemiptera,pentatomidae,graphosoma,italicum,,16-8-08,"Monti del Furlo",0
+P1180402,animali,animalia,arthropoda,insecta,hymenoptera,formicidae,,,,11-10-08,"Monti del Furlo",0
+P1350615,animali,animalia,arthropoda,insecta,odonata,aeshnidae,aeshna,isosceles,,1-5-10,"Stagno Urbani Fano",0
+P1170959,animali,animalia,arthropoda,insecta,trichoptera,,,,,28-9-08,"Foreste Casentinesi",0
+P1160564,animali,animalia,arthropoda,insecta,orthoptera,,,,,10-8-08,"Monte Catria",0
+P1260780,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,rhagium,bifasciatum,,24-5-09,"Foreste Casentinesi",0
+P1260631,piante,plantae,,liliopsida,orchidales,orchidaceae,ophrys,bertolonii,,17-5-09,"Monti del Furlo",0
+P1290047,piante,plantae,,magnoliopsida,solanales,solanaceae,datura,stramonium,stramonio,8-8-09,"Stagno Urbani Fano",0
+P1350385,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,vanessa,atalanta,,19-4-10,"Stagno Urbani Fano",0
+P1250052,piante,plantae,,magnoliopsida,ranunculales,ranunculaceae,ranunculus,,,29-4-09,"Stagno Urbani Fano",0
+P1250535,piante,plantae,,magnoliopsida,ranunculales,ranunculaceae,ranunculus,,,6-5-09,"Stagno Urbani Fano",0
+P1050400,piante,plantae,,liliopsida,liliales,liliaceae,lilium,martagon,"giglio martagone",17-6-07,"Monte Catria",0
+P1040756,piante,plantae,,magnoliopsida,malvales,malvaceae,,,malva,9-6-07,"Monti del Furlo",0
+P1050566,piante,plantae,,magnoliopsida,asterales,asteraceae,,,,20-6-07,"Monti del Furlo",0
+P1360166,piante,plantae,,liliopsida,liliales,liliaceae,paris,quadrifolia,"uva di volpe",30-05-2010,"Foreste casentinesi",0
+P1240843,animali,animalia,arthropoda,insecta,coleoptera,staphylimidae,paederus,riparius,,22-04-09,"Gola del Furlo",0
+P1040893,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,emmelia,trabealis,,09-06-07,"Monti del Furlo",0
+P1240070,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,minucia,lunaris,,05-04-09,"Monti del Furlo",0
+P1120916,animali,animalia,arthropoda,chilopoda,scolopendromorpha,scolopendridae,scolopendra,cingulata,,18-05-08,"Monti del Furlo",0
+P1240259,animali,animalia,arthropoda,insecta,coleoptera,coccinellidae,adalia,decempunctata,,11-04-09,"Monti del Furlo",0
+P1370764,animali,animalia,arthropoda,insecta,coleoptera,coccinellidae,halyzia,sedecimguttata,,06-11-10,"Foreste casentinesi",0
+P1220926,animali,animalia,chordata,amphibia,anura,bufonidae,bufo,viridis,"rospo smeraldino",17-03-09,"Stagno Urbani Fano",0
+P1240188,animali,animalia,arthropoda,insecta,hymenoptera,ichneumonidae,pimpla,,,08-04-09,"Stagno Urbani Fano",0
+P1240066,funghi,fungi,,pezizomycetes,pezizales,pezizaceae,peziza,badia,,05-04-09,"Bosco di Tecchie",0
+P1350428,funghi,fungi,,ascomycetes,pezizales,morchellaceae,morchella,,spugnola,25-04-10,"Monti del Furlo",0
+P1300286,funghi,fungi,,basidiomycetes,agaricales,pleurotaceae,pleurotus,ostreatus,,22-11-09,"Foreste casentinesi",0
+P1110891,animali,animalia,chordata,aves,falconiformes,accipitridae,buteo,buteo,poiana,09-09-06,"Monti del Furlo",0
+P1230346,animali,animalia,chordata,aves,passeriformes,muscicapidae,erihacus,rubecula,pettirosso,22-03-09,"Stagno Urbani Fano",0
+P1220973,animali,animalia,chordata,aves,passeriformes,turdidae,turdus,merula,merlo,17-03-09,"Stagno Urbani Fano",0
+P1370677,funghi,fungi,,basidiomycetes,agaricales,cortinariaceae,cortinarius,,,03-10-10,"Monti del Furlo",0
+P1370670,funghi,fungi,,basidiomycetes,agaricales,cortinariaceae,cortinarius,,,03-10-10,"Monti del Furlo",0
+P1370643,funghi,fungi,,basidiomycetes,agaricales,strophariaceae,stropharia,pseudocyanea,,02-10-10,"Foreste Casentinesi",0
+P1370604,funghi,fungi,,agaricomycetes,agaricales,lycoperdaceae,lycoperdon,,,18-09-10,"Monti del Furlo",0
+P1070836,animali,animalia,chordata,mammalia,rodentia,gliridae,glis,glis,ghiro,08-09-07,"Foreste casentinesi",0
+P1350434,piante,plantae,,magnoliopsida,ranunculales,ranunculaceae,anemone,memorosa,"anemone bianco",25-04-10,"Monti del Furlo",0
+P1160509,paesaggi,,,,,,,,,18-10-08,"Foreste casentinesi",0
+P1270729,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,autographa,gamma,,02-06-09,"Monti del Furlo",0
+P1360142,animali,animalia,arthropoda,insecta,coleoptera,coccinellidae,adalia,bipunctata,,23-05-10,"Monti del Furlo",0
+P1160666,animali,animalia,arthropoda,insecta,coleoptera,chrysomelidae,chrysolina,,,16-08-08,"Foreste casentinesi",0
+P1290807,animali,animalia,arthropoda,insecta,coleoptera,chrysomelidae,chrysolina,herbacea,,13-09-09,"Monti del Furlo",0
+P1170489,animali,animalia,arthropoda,insecta,coleoptera,chrysomelidae,chrysolina,sanguinolenta,,13-06-09,"Stagno Urbani Fano",0
+P1180351,animali,animalia,arthropoda,insecta,orthoptera,acrididae,anacridium,aegyptum,"locusta egiziana",10-10-08,"Stagno Urbani Fano",0
+P1360759,animali,animalia,arthropoda,insecta,hymenoptera,ichneumonidae,,,,17-07-10,"Monte Catria",0
+P1360532,animali,animalia,arthropoda,insecta,plecoptera,perlodidae,,,,26-06-10,"Foreste casentinesi",0
+P1370222,animali,animalia,chordata,mammalia,chiroptera,rhinolophidae,,,pipistrello,18-08-10,"Monti del Furlo",0
+P1090895,piante,plantae,,magnoliopsida,ranunculales,ranunculaceae,helleborus,foetidus,"elleboro puzzolente",12-01-08,"Monti del Furlo",0
+P1140618,funghi,fungi,,basidiomycetes,agaricales,amanitaceae,amanita,strobiliformis,"amanita solitaria",21-06-08,"Monti del Furlo",0
+P1370332,funghi,fungi,,agaricomycetes,agaricales,lycoperdaceae,lycoperdon,caelatum,,22-08-10,"Monte Catria",0
+P1370641,funghi,fungi,,basidiomycetes,phallales,gomphaceae,clavariadelphus,pistillaris,"mazza d'Ercole",02-10-10,"Foreste casentinesi",0
+P1340197,funghi,fungi,,basidiomycetes,polyporales,fomitopsidaceae,fomitopsis,pinicola,"ungulina marginata",28-02-10,"Monti del Furlo",0
+P1370736,funghi,fungi,,basidiomycetes,agaricales,hygrophoraceae,hygrocybe,conica,,17-10-10,"Monti del Furlo",0
+P1370695,funghi,fungi,,basidiomycetes,boletales,gomphidiaceae,gomphidius,glutinosus,chiodetto,09-10-10,"Monti del Furlo",0
+P1300118,funghi,fungi,,basidiomycetes,agaricales,amanitaceae,amanita,ovoidea,farinaccio,24-10-09,"Monti del Furlo",0
+P1360101,animali,animalia,arthropoda,insecta,hemiptera,membracidae,centrotus,cornutus,,23-05-10,"Monti del Furlo",0
+P1360609,animali,animalia,arthropoda,insecta,hemiptera,,,,,27-06-10,"Monti del Furlo",0
+P1360599,animali,animalia,arthropoda,insecta,coleoptera,buprestidae,,,,27-06-10,"Monti del Furlo",0
+P1360544,animali,animalia,arthropoda,insecta,coleoptera,curculionidae,,,,26-06-10,"Foreste casentinesi",0
+P1360116,animali,animalia,arthropoda,insecta,coleoptera,curculionidae,sitona,,,23-05-10,"Monti del Furlo",0
+P1360636,animali,animalia,arthropoda,insecta,diptera,,,,,04-07-10,"Monte Catria",0
+P1360989,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,tyta,luctuosa,,27-07-10,"Monti del Furlo",0
+P1360979,animali,animalia,arthropoda,insecta,lepidoptera,pyralidae,synaphe,punctalis,,27-07-10,"Monti del Furlo",0
+P1370103,animali,animalia,arthropoda,insecta,orthoptera,,,,,01-08-10,"Monte Catria",0
+P1360798,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,stenurella,melanura,,24-07-10,"Monti del Furlo",0
+P1370496,funghi,fungi,,basidiomycetes,agaricales,amanitaceae,amanita,"phalloides var. alba",,29-08-10,"Monti del Furlo",0
+P1370329,funghi,fungi,,basidiomycetes,agaricales,agaricaceae,macrolepiota,procera,"mazza da tamburo",22-08-10,"Monte Catria",0
+P1370150,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,chlorophorus,glabromaculatus,,07-08-10,"Monti del Furlo",0
+P1100938,animali,animalia,chordata,aves,passeriformes,motacillidae,motacilla,,cutrettola,15-04-08,"Stagno Urbani Fano",0
+P1060328,animali,animalia,chordata,mammalia,insectivora,erinaceidae,erinaceus,europaeus,riccio,08-07-07,"Foreste casentinesi",0
+P1260386,piante,plantae,,magnoliopsida,lamiales,boraginaceae,myosotis,arvensis,"nom ti scordar di me",17-05-09,"Stagno Urbani Fano",0
+P1280799,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,noctua,pronuba,,"29-07-09 ","Stagno Urbani Fano",0
+P1160947,animali,animalia,chordata,aves,falconiformes,accipitridae,aquila,chrysaetos,"aquila reale",27-08-08,"Monti del Furlo",0
+P1290882,animali,animalia,chordata,aves,charadriiformes,laridae,larus,michahellis,"gabbiano reale",26-09-09,"Fano Spiaggia Levante",0
+P1140051,animali,animalia,chordata,aves,pelecaniformes,ardeidae,ardea,cinerea,"airone cenerino",09-06-08,"Stagno Urbani Fano",0
+P1130870,animali,animalia,chordata,aves,pelecaniformes,ardeidae,egretta,alba,"airone bianco",09-06-08,"Stagno Urbani Fano",0
+P1100929,animali,animalia,chordata,aves,pelecaniformes,ardeidae,ardea,purpurea,"airone rosso",15-04-08,"Stagno Urbani Fano",0
+P1370801,paesaggi,,,,,,,,,27-11-10,"Foreste casentinesi",0
+P1260331,animali,animalia,arthropoda,insecta,lepidoptera,,alabonia,geoffrella,,17-05-09,"Stagno Urbani Fano",0
+P1150454,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,aromia,moscata,,09-07-08,"Monti del Furlo",0
+P1360539,animali,animalia,arthropoda,insecta,coleoptera,coccinellidae,calvia,quatuordecimguttata,,26-06-10,"Foreste casentinesi",0
+P1360548,animali,animalia,arthropoda,insecta,coleoptera,coccinellidae,sospita,vigintiguttata,,26-06-10,"Alpi Orobie",0
+P1220180,animali,animalia,arthropoda,insecta,coleoptera,coccinellidae,coccinella,septempunctata,coccinella,28-02-09,"Monti del Furlo",0
+P1290913,animali,animalia,arthropoda,insecta,coleoptera,coccinellidae,henosepilachna,elaterii,,26-09-09,"Fano Spiaggia Levante",0
+P1170320,animali,animalia,mollusca,bivalvia,unionoida,unionidae,unio,pictorum,,14-09-08,"Gola del Furlo",0
+P1290616,funghi,fungi,,basidiomycetes,polyporales,ganodermataceae,ganoderma,lucidum,,08-09-09,"Lago Trasimeno",0
+P1050869,piante,plantae,,magnoliopsida,saxifragales,crassulaceae,sempervivum,tectorum,,24-06-07,"Monte Nerone",0
+P1090332,funghi,fungi,,hymenomycetes,auriculariales,auriculariaceae,auricularia,"auricula judae",,27-10-07,"Monti del Furlo",0
+P1190035,animali,animalia,arthropoda,diplopoda,polydesmidae,polydesmidae,polydesmus,collaris,,02-11-08,"Foreste Casentinesi",0
+P1160765,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,prionus,coriarius,,17-08-08,"Bosco di Tecchie",0
+P1130913,animali,animalia,arthropoda,malacostraca,decapoda,astacidae,austropotamobius,pallipes,,08-07-07,"Foreste casentinesi",0
+P1070121,animali,animalia,arthropoda,malacostraca,decapoda,potamidae,potamon,fluviatile,,10-08-07,"Monti del Furlo",0
+P1130445,animali,animalia,mollusca,gastropoda,pulmonata,helicidae,cepaea,nemoralis,,01-06-08,"Stagno Urbani Fano",0
+P1290836,animali,animalia,arthropoda,insecta,lepidoptera,crambidae,cynaeda,dentalis,,13-09-09,"Monti del Furlo",0
+P1360262,animali,animalia,mollusca,gastropoda,pulmonata,hygromiidae,monacha,,,02-06-10,"Monti del Furlo",0
+P1290682,animali,animalia,mollusca,gastropoda,pulmonata,agriolimacidae,deroceras,reticulatum,limaccia,11-09-09,"Foreste casentinesi",0
+P1100645,piante,plantae,,magnoliopsida,scrophulariales,orobanchaceae,lathraea,squamaria,,06-04-08,"Monti del Furlo",0
+P1360584,animali,animalia,chordata,aves,galliformes,phasianidae,alectoris,rufa,"pernice rossa",27-06-10,"Monti del Furlo",0
+P1300754,paesaggi,,,,,,,,,25-11-09,"Monti del Furlo",0
+P1160311,animali,animalia,arthropoda,arachnida,araneae,agelenidae,agelena,labyrinthica,,03-08-08,"Monti del Furlo",0
+P1030642,animali,animalia,arthropoda,arachnida,araneae,araneidae,cyclosa,conica,,19-05-07,"Monti del Furlo",0
+P1030921,piante,plantae,,magnoliopsida,scrophulariales,orobanchaceae,orobanche,coerulescens,,26-05-07,"Monti del Furlo",0
+P1170391,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,camptogramma,bilineata,,14-09-08,"Monti del Furlo",0
+P1030885,animali,animalia,arthropoda,insecta,hemiptera,cercopidae,cercopis,vulnerata,,26-05.07,"Monti del Furlo",0
+P1100807,piante,plantae,,liliopsida,orchidales,orchidaceae,anacamptis,morio,,13-04-08,"Monti del Furlo",0
+P1100796,piante,plantae,,liliopsida,orchidales,orchidaceae,orchis,provincialis,,13-04-08,"Monti del Furlo",0
+P1400683,animali,animalia,arthropoda,insecta,coleoptera,coccinellidae,calvia,quatuordecimguttata,,2-6-2012,"Foreste Casentinesi",1339017132
+P1100727,piante,plantae,,magnoliopsida,fabales,fabaceae,lathyrus,cicera,cicerchia,13-04-08,"Monti del Furlo",0
+P1360560,piante,plantae,,magnoliopsida,campanulales,campanulaceae,campanula,,,26-06-10,"Foreste casentinesi",0
+P1080873,funghi,fungi,,basidiomycetes,agaricales,tricholomataceae,collybia,mucida,,07-10-07,"Foreste casentinesi",0
+P1360066,funghi,fungi,,basidiomycetes,agaricales,tricholomataceae,calocybe,gambosa,"fungo di San Giorgio",22-05-10,"Monte Catria",0
+P1110621,piante,plantae,,liliopsida,liliales,iridaceae,crocus,vernus,,25-04-08,"Monte Catria",0
+P1320026,paesaggi,,,,,,,,,06-01-10,"Monti del Furlo",0
+P1090020,animali,animalia,arthropoda,insecta,coleoptera,,,,,13-10-07,"Monti del Furlo",0
+P1360689,animali,animalia,arthropoda,insecta,coleoptera,,,,,11-07-10,"Monte Catria",0
+P1350765,animali,animalia,arthropoda,insecta,coleoptera,,,,,08-05-10,"Monte Catria",0
+P1160613,animali,animalia,arthropoda,insecta,hymenoptera,,,,,10-08-08,"Monte Catria",0
+P1150240,animali,animalia,arthropoda,insecta,coleoptera,pyrochroidae,pyrochroa,coccinea,,28-06-08,"Foreste Casentinesi",0
+P1010769,animali,animalia,chordata,reptilia,squamata,colubridae,elaphe,longissima,"colubro di esculapio",22-08-05,"Monti del Furlo",0
+P1060967,animali,animalia,chordata,reptilia,squamata,colubridae,elaphe,longissima,"colubro di esculapio giovane",07-05-06,"Monti del Furlo",0
+P1060615,animali,animalia,arthropoda,insecta,ephemeroptera,heptageniidae,,,effimera,29-04-06,"Monti del Furlo",0
+P1060547,animali,animalia,arthropoda,insecta,mecoptera,panorpidae,panorpa,communis,"mosca scorpione (maschio)",23-04-06,"Monti del Furlo",0
+P1100114,animali,animalia,arthropoda,arachnida,araneae,clubionidae,cheirachantium,,cheiracanzio,10-07-06,"Monti del Furlo",0
+P1380532,animali,animalia,arthropoda,insecta,neuroptera,myrmeleontidae,myrmeleon,formicarius,formicaleone,13-5-2011,"Monti del Furlo",1306270774
+P1360064,animali,animalia,arthropoda,insecta,dermaptera,forficulidae,forficula,auricularia,forbicina,22-05-10,"Gola del Furlo",0
+P1100827,piante,plantae,,magnoliopsida,asterales,asteraceae,carlina,acaulis,,19-08-06,"Monte Catria",0
+P1090747,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,catocala,nymphaea,,02-07-06,"Monti del Furlo",0
+P1090665,animali,animalia,arthropoda,insecta,lepidoptera,lasiocampidae,malacosoma,castrensis,,25-06-06,"Monti del Furlo",0
+P1130711,piante,plantae,,liliopsida,orchidales,orchidaceae,anacamptis,pyramidalis,,08-06-08,"Monti del Furlo",0
+P1070193,piante,plantae,,liliopsida,orchidales,orchidaceae,limodorum,abortivum,,14-05-06,"Monti del Furlo",0
+P1070137,piante,plantae,,liliopsida,orchidales,orchidaceae,neottia,nidus-avis,,10-05-06,"Monti del Furlo",0
+P1060066,piante,plantae,,magnoliopsida,ranunculales,ranunculaceae,helleborus,viridis,,08-04-06,"Monti del Furlo",0
+P1120047,piante,plantae,,magnoliopsida,primulales,primulaceae,cyclamen,repandum,ciclamino,10-09-06,"Foreste casentinesi",0
+P1060929,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,dorcadion,etruscum,,07-05-06,"Monti del Furlo",0
+P1080665,animali,animalia,arthropoda,insecta,coleoptera,curculionidae,otiorhynchus,,,11-06-06,"Monti del Furlo",0
+P1070185,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,herophila,tristis,,11-05-06,"Monti del Furlo",0
+P1070226,animali,animalia,mollusca,gastropoda,pulmonata,helicidae,helix,pomatia,,14-05-06,"Monti del Furlo",0
+P1100525,animali,animalia,chordata,aves,charadriiformes,recurvirostridae,himantopus,himantopus,"cavaliere d'Italia",01-04-08,"Stagno Urbani Fano",0
+P1400634,piante,plantae,,liliopsida,orchidales,orchidaceae,cephalanthera,damasonium,,26-5-2012,"Bosco di Tecchie",1339017375
+P1220677,animali,animalia,chordata,aves,passeriformes,motacillidae,motacilla,alba,"ballerina bianca",13-03-09,"Stagno Urbani Fano",0
+P1190378,animali,animalia,chordata,aves,charadriiformes,scolopacidae,gallinago,gallinago,beccaccino,11-11-08,"Stagno Urbani Fano",0
+P1220058,animali,animalia,chordata,aves,passeriformes,paridae,parus,major,cinciallegra,24-02-09,"Stagno Urbani Fano",0
+P1210108,animali,animalia,chordata,aves,passeriformes,paridae,parus,caeruleus,cinciarella,12-02-09,"Stagno Urbani Fano",0
+P1360013,animali,animalia,chordata,aves,passeriformes,paridae,parus,ater,"cincia mora",16-05-10,"Monti del Furlo",0
+P1210320,animali,animalia,chordata,aves,anseriformes,anatidae,anas,crecca,alzavola,12-02-09,"Stagno Urbani Fano",0
+P1230718,animali,animalia,chordata,aves,anseriformes,anatidae,anas,acuta,codone,26-03-09,"Stagno Urbani Fano",0
+P1230621,animali,animalia,chordata,aves,anseriformes,anatidae,anas,querquedula,marzaiola,26-03-09,"Stagno Urbani Fano",0
+P1230115,animali,animalia,chordata,aves,anseriformes,anatidae,anas,clypeata,mestoloni,17-03-09,"Stagno Urbani Fano",0
+P1230938,animali,animalia,chordata,aves,falconiformes,accipitridae,circus,aeruginosus,"falco di palude",30-03-09,"Stagno Urbani Fano",0
+P1210277,animali,animalia,chordata,aves,passeriformes,fringillidae,fringilla,coelebs,fringuello,12-02-09,"Stagno Urbani Fano",0
+P1210242,animali,animalia,chordata,aves,passeriformes,fringillidae,carduelis,chloris,verdone,12-02-09,"Stagno Urbani Fano",0
+P1000671,paesaggi,,,,,,,,,30-12-06,"Monti del Furlo",0
+P1030061,animali,animalia,arthropoda,arachnida,araneae,sparassidae,micrommata,virescens,,01-05-07,"Monti del Furlo",0
+P1260908,animali,animalia,arthropoda,arachnida,araneae,thomisidae,diaea,dorsata,,24-05-09,"Alpi Orobie",0
+P1080022,animali,animalia,arthropoda,arachnida,araneae,pisauridae,pisaura,mirabilis,,27-05-06,"Monti del Furlo",0
+P1030699,animali,animalia,arthropoda,arachnida,araneae,thomisidae,xysticus,,,20-05-07,"Monti del Furlo",0
+P1250815,piante,plantae,,magnoliopsida,apiales,apiaceae,conium,maculatum,"cicuta (particolare)",09-05-09,"Gola del Furlo",0
+P1270860,piante,plantae,,magnoliopsida,apiales,apiaceae,conium,maculatum,cicuta,10-06-09,"Gola del Furlo",0
+P1170312,animali,animalia,chordata,aves,caprimulgiformes,caprimulgidae,caprimulgus,europaeus,succiacapre,13-09-08,"Monti del Furlo",0
+P1290235,animali,animalia,chordata,aves,charadriiformes,scolopacidae,tringa,glareola,"piro-piro boschereccio",30-08-09,"Stagno Urbani Fano",0
+P1290470,animali,animalia,chordata,aves,pelecaniformes,ardeidae,nycticorax,nycticorax,nitticora,30-08-08,"Stagno Urbani Fano",0
+P1010219,animali,animalia,chordata,aves,gruiformes,rallidae,rallus,aquaticus,porciglione,14-03-07,"Stagno Urbani Fano",0
+P1260946,piante,plantae,,magnoliopsida,ranunculales,ranunculaceae,aquilegia,vulgaris,aquilegia,24-05-09,"Foreste casentinesi",0
+P1350406,animali,animalia,chordata,aves,pelecaniformes,ardeidae,ardeola,ralloides,"sgarza ciuffetto",10-04-10,"Stagno Urbani Fano",0
+P1290263,animali,animalia,chordata,aves,charadriiformes,charadriidae,charadrius,bubius,"corriere piccolo",30-08-09,"Stagno Urbani Fano",0
+P1160868,animali,animalia,arthropoda,insecta,coleoptera,lucanidae,dorcus,parallelipipedus,,24-08-08,"Monti del Furlo",0
+P1260935,animali,animalia,arthropoda,insecta,coleoptera,lucanidae,sinodendron,cylindricum,,24-05-09,"Foreste casentinesi",0
+P1170026,animali,animalia,arthropoda,insecta,hymenoptera,,,,,29-04-08,"Monti del Furlo",0
+P1240601,animali,animalia,arthropoda,insecta,hymenoptera,argidae,arge,ochropus,,18-4-09,"Stagno Urbani Fano",0
+P1170197,animali,animalia,arthropoda,insecta,diptera,asilidae,,,,07-09-08,"Foreste casentinesi",0
+P1240540,animali,animalia,arthropoda,insecta,diptera,,,,,18-04-09,"Stagno Urbani Fano",0
+P1040434,animali,animalia,arthropoda,arachnida,araneae,araneidae,agalenatea,redii,,31-05-07,"Monti del Furlo",0
+P1050462,animali,animalia,arthropoda,arachnida,araneae,uloboridae,uloborus,,,20-06-07,"Monti del Furlo",0
+P1100856,animali,animalia,arthropoda,arachnida,araneae,araneidae,argiope,bruennichi,"argiope fasciata",23-08-06,"Monti del Furlo",0
+P1050765,animali,animalia,arthropoda,insecta,coleoptera,meloidae,lytta,vesicatoria,"mosca di Spagna",24-06-07,"Monte Nerone",0
+P1080210,animali,animalia,chordata,aves,columbiformes,columbidae,streptopelia,turtur,"tortora selvatica",2-6-2006,"Monti del Furlo",1296594250
+P1210422,animali,animalia,chordata,aves,columbiformes,columbidae,streptopelia,decaocto,"tortora dal collare orientale",2-2-2009,Fano,1296595531
+P1060810,animali,animalia,chordata,aves,coraciformes,upupidae,upupa,epops,upupa,22-7-2007,"Monti del Furlo",1296596685
+P1370891,animali,animalia,chordata,aves,anseriformes,anatidae,aythya,ferina,moriglione,26-1-2011,"Stagno Urbani Fano",1296596968
+P1180904,animali,animalia,chordata,aves,falconiformes,falconidae,falco,tinnunculus,gheppio,26-10-2008,"Monti del Furlo",1296597283
+P1210668,animali,animalia,chordata,aves,passeriformes,troglodytidae,troglodytes,troglodytes,scricciolo,16-2-2009,"Stagno Urbani Fano",1296597528
+P1370927,animali,animalia,nematoda,,,,,,,29-1-2011,"Monti del Furlo",1296597680
+P1010958,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,idaea,aversata,,16-4-2007,"Monti del Furlo",1296598081
+P1060760,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,thecla,quercus,,21-7-2007,"Monte Catria",1296598272
+P1030782,animali,animalia,arthropoda,insecta,odonata,lestidae,lestes,virens,,25-5-2007,"Stagno Urbani Fano",1296598494
+P1370841,paesaggi,,,,,,,,,16-1-2011,"Monti del Furlo",1296598620
+P1300194,paesaggi,,,,,,,,,1-11-2009,"Foreste Casentinesi",1296599172
+P1340790,paesaggi,,,,,,,,,28-3-2010,"Stagno Urbani Fano",1296599324
+P1050570,piante,plantae,,magnoliopsida,ranunculales,ranunculaceae,hepatica,nobilis,,26-3-2006,"Monti del Furlo",1296599989
+P1020891,piante,plantae,,liliopsida,orchidales,orchidaceae,aceras,anthropophorum,,28-4-2007,"Monti del Furlo",1296600172
+P1080078,piante,plantae,,magnoliopsida,scrophulariales,orobanchaceae,orobanche,variegata,,28-5-2006,"Monte Nerone",1296600351
+P1160836,piante,plantae,,magnoliopsida,violales,violaceae,viola,tricolor,,4-4-2009,Fano,1296600513
+P1060989,piante,plantae,,liliopsida,orchidales,orchidaceae,cephalanthera,longifolia,,7-5-2006,"Monti del Furlo",1296600674
+P1180892,animali,animalia,chordata,aves,passeriformes,turdidae,phoenicurus,ochruros,"codirosso spazzacamino",22-3-2009,"Monti del Furlo",1296669172
+P0000002,paesaggi,,,,,,,,,12-3-2005,"Monti del Furlo",1296669355
+P0000001,animali,animalia,arthropoda,insecta,odonata,aeshnidae,anax,imperator,,19-5-2005,"Monti del Furlo",1296669639
+P1050691,piante,plantae,,magnoliopsida,asterales,asteraceae,tussilago,farfara,farfara,26-3-2006,"Monti del Furlo",1296669947
+P1180274,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,phlogophora,meticulosa,,7-10-2008,Fano,1296768344
+P1180834,animali,animalia,arthropoda,insecta,lepidoptera,pyralidae,aphomia,sociella,,26-10-2008,"Monti del Furlo",1296768516
+P1240400,animali,animalia,arthropoda,insecta,lepidoptera,yponomeutidae,plutella,xilostella,,12-4-2009,"Stagno Urbani Fano",1296768726
+P1180990,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,operophtera,brumata,,2-11-2008,"Foreste Casentinesi",1296768970
+P1020757,animali,animalia,arthropoda,arachnida,araneae,salticidae,philaeus,"chrysops (femmina)",,28-4-2007,"Monti del Furlo",1296769250
+P1130128,animali,animalia,arthropoda,arachnida,araneae,salticidae,philaeus,"chrysops (maschio)",,25-5-2008,"Monti del Furlo",1296769444
+P1120850,animali,animalia,arthropoda,arachnida,araneae,salticidae,,,,18-5-2008,"Monti del Furlo",1296769599
+P1130237,piante,plantae,,liliopsida,asparagales,ruscaceae,plygonatum,odoratum,"sigillo di salomone",28-5-2008,"Monte Catria",1296770111
+P1120941,piante,plantae,,magnoliopsida,lamiales,lamiaceae,salvia,pratensis,,18-5-2008,"Monti del Furlo",1296770331
+P1280619,animali,animalia,arthropoda,arachnida,araneae,araneidae,araniella,cucurbitina,,15-7-2009,"Monti del Furlo",1296770490
+P1040307,animali,animalia,arthropoda,insecta,odonata,coenagrionidae,pyrrhosoma,nymphula,,31-5-2007,"Monti del Furlo",1296770690
+P1100587,animali,animalia,arthropoda,insecta,hemiptera,pentatomidae,carpocoris,pudicus,,5-8-2006,"Monti del Furlo",1296770864
+P1080711,piante,plantae,,magnoliopsida,fabales,,genista,,ginestra,11-6-2006,"Monti del Furlo",1296771138
+P1130076,piante,plantae,,magnoliopsida,violales,cistaceae,cistus,,,25-5-2008,"Monti del Furlo",1296771348
+P1120556,animali,animalia,arthropoda,insecta,lepidoptera,pieridae,aporia,"crataegi (crisalide)","pieride del biancospino",11-5-2008,"Monti del Furlo",1296772697
+P1120639,animali,animalia,arthropoda,insecta,lepidoptera,pieridae,aporia,"crataegi (schiusa)","pieride del biancospino",17-5-2008,"Monti del Furlo",1296772918
+P1120711,animali,animalia,arthropoda,insecta,lepidoptera,pieridae,aporia,"crataegi (sfarfallamento)","pieride del biancospino",17-5-2008,"Monti del Furlo",1296773346
+P1040708,animali,animalia,chordata,aves,passeriformes,muscicapidae,oenanthe,oenanthe,culbianco,3-6-2007,"Monte Catria",1296977145
+P1050417,animali,animalia,arthropoda,insecta,orthoptera,tettigoniidae,saga,pedo,,17-6-2007,"Monti del Furlo",1296977487
+P1140704,animali,animalia,arthropoda,insecta,orthoptera,tettigoniidae,tettigonia,viridissima,,21-6-2008,"Monti del Furlo",1296977734
+P1180200,animali,animalia,arthropoda,insecta,orthoptera,acrididae,acrida,ungarica,,2-10-2008,"Stagno Urbani Fano",1296978007
+P1200791,animali,animalia,chordata,aves,passeriformes,turdidae,turdus,viscivorus,tordela,5-2-2009,"Monti del Furlo",1296978297
+P1280004,animali,animalia,arthropoda,insecta,diptera,,,,,14-6-2009,"Monti del Furlo",1296978503
+P1280007,animali,animalia,arthropoda,insecta,hemiptera,,,,,14-6-2009,"Monti del Furlo",1296978675
+P1280055,animali,animalia,arthropoda,insecta,lepidoptera,ctenuchidae,syntomis,phegea,,14-6-2009,"Monti del Furlo",1296978889
+P1230783,animali,animalia,arthropoda,insecta,coleoptera,hydrophilidae,hydrophilus,piceus,,30-3-2009,"Stagno Urbani Fano",1296979159
+P1020939,animali,animalia,arthropoda,insecta,lepidoptera,satyridae,coenonympha,pamphilus,,1-5-2007,"Monti del Furlo",1296979416
+P1040585,animali,animalia,arthropoda,insecta,lepidoptera,satyridae,maniola,jurtina,,2-6-2007,"Monti del Furlo",1296979628
+P1040664,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,vanessa,cardui,"vanessa del cardo",3-6-2007,"Monti del Furlo",1296979853
+P1090471,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,nymphalis,c-album,"vanessa c-bianco",4-11-2007,"Monti del Furlo",1296980609
+P1300153,animali,animalia,arthropoda,insecta,odonata,aeshnidae,aeshna,juncea,,26-10-2009,"Stagno Urbani Fano",1296980842
+P1300171,animali,animalia,arthropoda,insecta,odonata,aeshnidae,aeshna,juncea,,26-10-2009,"Stagno Urbani Fano",1296981025
+P1300041,animali,animalia,arthropoda,insecta,diptera,asilidae,,,,4-10-2009,"Foreste Casentinesi",1296981203
+P1370715,funghi,fungi,,basidiomycetes,agaricales,marasmiaceae,armillaria,mellea,famigliola,9-10-2010,"Monti del Furlo",1296989061
+P1370717,funghi,fungi,,basidiomycetes,agaricales,tricholomataceae,lepista,nebularis,"fungo della nebbia",9-10-2010,"Monti del Furlo",1296989418
+P1370729,funghi,fungi,,basidiomycetes,boletales,boletaceae,boletus,satanas,"porcino malefico",10-10-2010,"Monti del Furlo",1296989646
+P1370812,funghi,fungi,,basidiomycetes,cantharellales,cantharellaceae,cantharellus,cibarius,galletto,12-12-2010,"Foreste Casentinesi",1296989975
+P1040827,animali,animalia,arthropoda,insecta,lepidoptera,crambidae,chrysocrambus,linetella,,9-6-2007,"Monti del Furlo",1296990251
+P1050121,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,acontia,lucida,,10-6-2007,"Monti del Furlo",1296990910
+P1160204,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,catocala,sponsa,,2-8-2008,"Monti del Furlo",1296991211
+P1030442,animali,animalia,arthropoda,insecta,lepidoptera,nemeobiidae,hamearis,lucina,,16-5-2007,"Monti del Furlo",1296991499
+P1240368,animali,animalia,arthropoda,insecta,hymenoptera,vespidae,vespula,germanica,,12-4-2009,"Stagno Urbani Fano",1296991771
+P1050046,animali,animalia,arthropoda,insecta,hymenoptera,ichneumonidae,enicospilus,,,10-6-2007,"Monte Catria",1296991950
+P1000332,animali,animalia,arthropoda,insecta,coleoptera,staphylimidae,staphylinus,olens,,19-10-2006,"Monti del Furlo",1297184272
+P1000196,animali,animalia,arthropoda,insecta,mantodea,mantidae,mantis,religiosa,"mantide religiosa",30-6-2006,"Monti del Furlo",1297184715
+P1090579,animali,animalia,arthropoda,insecta,lepidoptera,sphingidae,macroglossum,stellatarum,,24-6-2006,"Monte Catria",1297184955
+P1240108,animali,animalia,arthropoda,insecta,lepidoptera,micropterygidae,micropteryx,caltella,,8-4-2009,"Stagno Urbani Fano",1297185335
+P1040654,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,euclidia,glyphica,,3-6-2007,"Monti del Furlo",1297462003
+P1040446,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,scopula,ornata,,31-5-2007,"Monti del Furlo",1297462136
+P1050317,animali,animalia,arthropoda,insecta,lepidoptera,adelidae,nemophora,metallica,,13-6-2007,"Monti del Furlo",1297462278
+P1290936,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,cacyreus,marshall,,26-9-2009,Fano,1297462454
+P1040683,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,melanargia,galathea,,20-6-2007,"Monti del Furlo",1297462777
+P1020651,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,chiasmia,clathrata,,25-4-2007,"Monte Catria",1297463119
+P1020438,animali,animalia,arthropoda,insecta,coleoptera,chrysomelidae,timarcha,tenebricosa,,20-4-2007,"Stagno Urbani Fano",1297463540
+P1040862,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,mythimna,vitellina,,9-6-2007,"Monti del Furlo",1297978483
+P1060275,animali,animalia,arthropoda,insecta,lepidoptera,,,,,29-6-2007,"Monti del Furlo",1297978672
+P1090075,animali,animalia,arthropoda,insecta,lepidoptera,,,,,14-10-2007,"Monti del Furlo",1297978821
+P1230826,animali,animalia,arthropoda,insecta,diptera,,,,,30-3-2009,"Stagno Urbani Fano",1297979058
+P1370928,animali,animalia,nematoda,,,,,,,29-1-2011,"Monti del Furlo",1297979264
+P1040724,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,idaea,rusticata,,8-6-2007,Fano,1297979971
+P1080771,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,xathorhoe,montanata,,7-10-2007,"Foreste Casentinesi",1297980107
+P1180327,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,,,,7-10-2008,Fano,1297980315
+P1110957,animali,animalia,arthropoda,insecta,diptera,,,,,1-5-2008,"Monte Catria",1297980536
+P1130105,animali,animalia,arthropoda,insecta,lepidoptera,hesperiidae,spialia,sertorius,,25-5-2008,"Monti del Furlo",1297980753
+P1370944,animali,animalia,chordata,mammalia,carnivora,canidae,canis,lupus,lupo,20-2-2011,"Monti del Furlo",1298235652
+P1370945,animali,animalia,chordata,mammalia,carnivora,canidae,canis,lupus,lupo,20-2-2011,"Monti del Furlo",1298235761
+P1000329,animali,animalia,chordata,aves,falconiformes,accipitridae,gyps,fulvus,grifone,18-10-2006,"Monti del Furlo",1298235940
+P1010422,animali,animalia,arthropoda,insecta,diptera,syrphidae,syrphus,ribesii,,31-3-2007,"Monti del Furlo",1298236122
+P1010428,animali,animalia,arthropoda,insecta,diptera,syrphidae,,,,31-3-2007,"Monti del Furlo",1298236231
+P1010502,animali,animalia,arthropoda,insecta,diptera,sarcophagidae,sarcophaga,carnaria,,2-4-2007,"Monti del Furlo",1298236459
+P1280952,animali,animalia,chordata,reptilia,squamata,colubridae,coluber,viridiflavus,biacco,30-7-2009,"Foreste Casentinesi",1298236662
+P1120157,animali,animalia,arthropoda,insecta,hemiptera,rhopalidae,chorosoma,schillingii,,21-9-2006,"Monti del Furlo",1298236848
+P1280522,animali,animalia,chordata,aves,strigiformes,strigidae,strix,aluco,allocco,28-6-2009,"Monti del Furlo",1298237006
+P1270899,animali,animalia,arthropoda,insecta,diptera,stratiomydae,stratiomys,longicornis,,10-6-2009,"Monti del Furlo",1298237125
+P1260136,animali,animalia,arthropoda,arachnida,,,,,,11-5-2009,"Stagno Urbani Fano",1298237226
+P1030251,animali,animalia,arthropoda,insecta,coleoptera,,,,,10-5-2007,"Stagno Urbani Fano",1298237333
+P1080053,animali,animalia,arthropoda,insecta,coleoptera,dytiscidae,,,,27-5-2006,"Monti del Furlo",1298237605
+P1040960,animali,animalia,arthropoda,insecta,coleoptera,chrysomelidae,exosoma,lusitanicum,,10-6-2007,"Monte Catria",1298414317
+P1040490,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,rutpela,maculata,,1-6-2007,"Monti del Furlo",1298414448
+P1060535,animali,animalia,arthropoda,insecta,hymenoptera,cimbicidae,cimbex,luteus,,23-4-2006,"Monti del Furlo",1298414711
+P1360145,animali,animalia,arthropoda,insecta,coleoptera,attelabidae,attelabus,nitens,,23-5-2010,"Monti del Furlo",1298414888
+P1040396,animali,animalia,arthropoda,insecta,coleoptera,curculionidae,,,,31-5-2007,"Monti del Furlo",1298415022
+P1120185,animali,animalia,arthropoda,insecta,coleoptera,chrysomelidae,chrysolina,grossa,,21-9-2006,"Monti del Furlo",1298415262
+P1040951,animali,animalia,arthropoda,insecta,coleoptera,curculionidae,larinus,,,10-6-2007,"Monte Catria",1298415457
+P1100429,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,lasiommata,maera,,26-7-2006,"Monti del Furlo",1298416230
+P1370852,animali,animalia,chordata,aves,pelecaniformes,phalacrocoracidae,phalacrocorax,carbo,cormorano,24-1-2011,"Stagno Urbani Fano",1298416383
+P1230988,animali,animalia,arthropoda,insecta,diptera,,,,,3-4-2009,"Stagno Urbani Fano",1298416514
+P1280258,animali,animalia,arthropoda,insecta,diptera,,,,,24-6-2009,"Monti del Furlo",1298416650
+P1020825,animali,animalia,arthropoda,insecta,lepidoptera,pieridae,leptidea,sinapis,,28-4-2007,"Monti del Furlo",1299186503
+P1020881,animali,animalia,arthropoda,insecta,lepidoptera,zygaenidae,zygaena,filipendulae,,28-4-2007,"Monti del Furlo",1299186852
+P1030020,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,aricia,agestis,,1-5-2007,"Monti del Furlo",1299187217
+P1030105,animali,animalia,arthropoda,insecta,diptera,asilidae,,,,5-5-2007,"Monti del Furlo",1299187444
+P1030445,animali,animalia,arthropoda,insecta,coleoptera,cetonidae,cetonia,aurata,,16-5-2007,"Monti del Furlo",1299187715
+P1070442,animali,animalia,arthropoda,insecta,hymenoptera,vespidae,vespa,crabro,calabrone,1-9-2007,"Monti del Furlo",1299187959
+P1230052,animali,animalia,chordata,aves,passeriformes,prunellidae,prunella,modularis,"passera scopaiola",17-3-2009,"Stagno Urbani Fano",1299188193
+P1030023,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,aricia,agestis,,1-5-2007,"Monti del Furlo",1300224854
+P1120878,animali,animalia,arthropoda,insecta,lepidoptera,elachistidae,ethmia,aurifluella,,18-5-2008,"Monti del Furlo",1300225012
+P1370959,animali,animalia,arthropoda,insecta,trichoptera,,,,,6-3-2011,"Monti del Furlo",1300225158
+P1360861,animali,animalia,arthropoda,insecta,coleoptera,curculionidae,,,,24-7-2010,"Monti Sibillini",1300225326
+P1070779,animali,animalia,chordata,reptilia,squamata,colubridae,natrix,natrix,"biscia dal collare",7-9-2007,"Foreste Casentinesi",1300225605
+P1070547,animali,animalia,arthropoda,insecta,hemiptera,,,,,2-9-2007,"Monti del Furlo",1300225771
+P1070245,animali,animalia,arthropoda,insecta,coleoptera,buprestidae,dicerca,aenea,,26-8-2007,"Monti del Furlo",1300226134
+P1100236,animali,animalia,arthropoda,insecta,lepidoptera,pieridae,pieris,napi,"pieridi del navone",15-3-2008,"Monti del Furlo",1300226458
+P1020704,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,ematurga,"atomaria (femmina)",,28-4-2007,"Monti del Furlo",1300226647
+P1020998,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,scopula,rubiginata,,1-5-2007,"Monti del Furlo",1300226941
+P1020659,piante,plantae,,liliopsida,orchidales,orchidaceae,dactylorhiza,sambucina,,25-4-2007,"Monte Catria",1300227329
+P1370951,paesaggi,,,,,,,,,27-2-2011,"Monti del Furlo",1300227495
+P1230167,animali,animalia,arthropoda,insecta,diptera,,,,,18-3-2009,"Monti del Furlo",1300227607
+P1380813,animali,animalia,arthropoda,insecta,lepidoptera,pyralidae,pyrausta,purpuralis,,22-5-2011,"Monte Catria",1306270921
+P1140518,animali,animalia,arthropoda,insecta,diptera,sciomyzidae,coremacera,marginata,,18-6-2008,"Stagno Urbani Fano",1300228399
+P1370134,animali,animalia,arthropoda,insecta,lepidoptera,,,,,7-8-2010,"Monti del Furlo",1300228516
+P1150579,animali,animalia,arthropoda,insecta,diptera,tabanidae,atylotus,,,10-7-2008,"Monti del Furlo",1300228673
+P1150165,animali,animalia,arthropoda,insecta,diptera,,,,,28-6-2008,"Foreste Casentinesi",1300228826
+P1240672,animali,animalia,arthropoda,insecta,coleoptera,,,,,22-4-2009,"Stagno Urbani Fano",1300229081
+P1240448,animali,animalia,chordata,reptilia,testudines,emydidae,emys,orbicularis,"testuggine palustre",16-4-2009,"Stagno Urbani Fano",1300229743
+P1140561,animali,animalia,chordata,aves,passeriformes,remizidae,remiz,pendulinus,pendolino,18-6-2008,"Stagno Urbani Fano",1300230564
+P1150477,animali,animalia,arthropoda,insecta,odonata,cordulegastridae,cordulegaster,boltonii,,9-7-2008,"Monti del Furlo",1300230805
+P1030799,animali,animalia,arthropoda,insecta,odonata,,,,,25-5-2007,"Stagno Urbani Fano",1300920937
+P1040040,animali,animalia,arthropoda,insecta,coleoptera,,,,,28-5-2007,"Monti del Furlo",1300921128
+P1040799,animali,animalia,arthropoda,insecta,diptera,,,,,9-6-2007,"Monti del Furlo",1300921301
+P1060232,animali,animalia,arthropoda,insecta,neuroptera,myrmeleontidae,palpares,libelluloides,,29-6-2007,"Monti del Furlo",1300922184
+P1170147,animali,animalia,arthropoda,arachnida,araneae,araneidae,araneus,diadematus,"epeira crociata",31-8-2008,"Monti del Furlo",1301430527
+P1150208,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,saperda,scalaris,,28-6-2008,"Foreste Casentinesi",1301430877
+P1360646,animali,animalia,arthropoda,insecta,diptera,tabanidae,tabanus,bovinus,"tafano bovino",11-7-2010,"Monte Catria",1301431091
+P1120816,animali,animalia,arthropoda,insecta,coleoptera,buprestidae,anthaxia,hungarica,,18-5-2008,"Monti del Furlo",1301431550
+P1140356,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,stenopterus,rufus,,15-6-2008,"Monti del Furlo",1301432312
+P1100263,piante,plantae,,magnoliopsida,caryophyllales,caryophyllaceae,dianthus,,,22-7-2006,"Monti del Furlo",1301433477
+P1370974,animali,animalia,arthropoda,insecta,ephemeroptera,,,,,12-3-2011,"Monti del Furlo",1301433804
+P1150501,animali,animalia,arthropoda,insecta,coleoptera,lucanidae,lucanus,cervus,"cervo volante",9-7-2009,"Monti del Furlo",1301434058
+P1380233,animali,animalia,arthropoda,arachnida,araneae,araneidae,araneus,diadematus,"epeira crociata (nidiata)",27-4-2011,"Monti del Furlo",1318733009
+P1050197,animali,animalia,arthropoda,insecta,lepidoptera,pterophoridae,platyptlia,,,13-6-2007,"Monti del Furlo",1302035295
+P1050292,animali,animalia,arthropoda,insecta,lepidoptera,zygaenidae,zygaena,carniolica,,13-6-2007,"Monti del Furlo",1302035506
+P1050469,animali,animalia,arthropoda,insecta,lepidoptera,arctiidae,dysauxes,ancilla,,20-6-2007,"Monti del Furlo",1302035719
+P1050520,animali,animalia,arthropoda,insecta,lepidoptera,hesperiidae,thymelicus,sylvestris,,20-6-2007,"Monti del Furlo",1302036066
+P1050310,animali,animalia,arthropoda,arachnida,araneae,thomisidae,synema,globosum,,13-6-2007,"Monti del Furlo",1302036465
+P1380016,animali,animalia,arthropoda,insecta,hymenoptera,vespidae,polistes,gallicus,,2-4-2011,"Monti del Furlo",1302036891
+P1380011,animali,animalia,arthropoda,insecta,hemiptera,coreidae,syromastes,rhombeus,,2-4-2011,"Gola del Furlo",1302037132
+P1150786,animali,animalia,arthropoda,insecta,coleoptera,scarabeidae,mimela,junii,,17-7-2008,"Monti del Furlo",1302037434
+P1120186,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,ematurga,"atomaria (maschio)",,3-5-2008,"Monti del Furlo",1302037708
+P1060521,animali,animalia,arthropoda,insecta,lepidoptera,crambidae,sitochroa,palealis,,14-7-2007,"Monte Catria",1302037956
+P1360556,animali,animalia,arthropoda,insecta,lepidoptera,adelidae,nemophora,degeerella,,26-6-2010,"Foreste Casentinesi",1302210890
+P1150203,animali,animalia,arthropoda,insecta,lepidoptera,crambidae,anania,hortulata,,26-6-2008,"Foreste Casentinesi",1302211068
+P1360074,animali,animalia,arthropoda,insecta,coleoptera,silphidae,dendroxena,quadrimaculata,,22-5-2010,"Monte Catria",1302211220
+P1250461,animali,animalia,arthropoda,insecta,diptera,,,,,6-5-2009,"Stagno Urbani Fano",1302211452
+P1230965,animali,animalia,arthropoda,insecta,hemiptera,pentatomidae,eurydema,oleracea,,3-4-2009,"Stagno Urbani Fano",1302211582
+P1380024,animali,animalia,arthropoda,insecta,hemiptera,pyrrhocoridae,pyrrhocoris,apterus,,3-4-2011,"Monti del Furlo",1302211683
+P1380035,animali,animalia,arthropoda,arachnida,araneae,sparassidae,micrommata,virescens,,3-4-2011,"Monti del Furlo",1302211983
+P1380032,animali,animalia,arthropoda,insecta,coleoptera,coccinellidae,subcoccinella,vigintiquatorpunctata,,3-4-2011,"Monti del Furlo",1302212066
+P1370785,animali,animalia,arthropoda,insecta,lepidoptera,,,,,23-11-2010,Fano,1302212190
+P1370790,animali,animalia,arthropoda,insecta,lepidoptera,,,,,23-11-2010,Fano,1302212276
+P1270991,animali,animalia,arthropoda,insecta,lepidoptera,zygaenidae,adscita,,,14-6-2009,"Monti del Furlo",1302212439
+P1280045,animali,animalia,arthropoda,arachnida,araneae,araneidae,aculepeira,armida,,14-6-2009,"Monti del Furlo",1302212761
+P1280287,animali,animalia,arthropoda,insecta,coleoptera,curculionidae,liparus,dirus,,27-6-2009,"Monti del Furlo",1302212911
+P1350790,animali,animalia,arthropoda,insecta,hymenoptera,apidae,xylocopa,,,8-5-2010,"Monti del Furlo",1302213067
+P1270633,animali,animalia,arthropoda,insecta,coleoptera,,,,,2-6-2009,"Monte Catria",1302213195
+P1380115,piante,plantae,,magnoliopsida,gentianales,apocynaceae,vinca,major,"vinca maggiore",10-4-2011,"Monti del Furlo",1302637831
+P1380101,animali,animalia,arthropoda,insecta,lepidoptera,papilionidae,iphiclides,podalirius,podalirio,10-4-2011,"Monti del Furlo",1302638087
+P1380091,animali,animalia,chordata,aves,pelecaniformes,ardeidae,ardea,cinerea,"airone cenerino",9-4-2011,"Stagno Urbani Fano",1302638329
+P1380092,animali,animalia,chordata,aves,pelecaniformes,ardeidae,ardea,cinerea,"airone cenerino",9-4-2011,"Stagno Urbani Fano",1302638501
+P1380094,animali,animalia,chordata,aves,pelecaniformes,ardeidae,ardea,cinerea,"airone cenerino",9-4-2011,"Stagno Urbani Fano",1302638653
+P1380075,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,lycaena,phlaeas,,9-4-2011,"Stagno Urbani Fano",1302639306
+P1280257,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,,,,24-6-2009,"Monti del Furlo",1302639500
+P1250557,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,agapanthia,cardui,,6-5-2009,"Stagno Urbani Fano",1302639739
+P1050839,animali,animalia,arthropoda,insecta,diptera,,,,,24-6-2007,"Monte Nerone",1303326805
+P1050218,animali,animalia,arthropoda,insecta,hemiptera,,,,,13-6-2007,"Monti del Furlo",1303327198
+P1050589,animali,animalia,arthropoda,insecta,lepidoptera,satyridae,brintesia,circe,,20-6-2007,"Monti del Furlo",1303328902
+P1280216,animali,animalia,arthropoda,insecta,coleoptera,meloidae,epicauta,rufidorsum,,24-6-2009,"Monti del Furlo",1303329395
+P1380846,animali,animalia,arthropoda,insecta,lepidoptera,tortricidae,clepsis,consimiliana,,22-5-2011,"Monte Catria",1319362956
+P1380243,animali,animalia,arthropoda,insecta,diptera,,,,,27-4-2011,"Stagno Urbani Fano",1303935869
+P1380200,animali,animalia,arthropoda,insecta,diptera,syrphidae,,,,24-4-2011,"Stagno Urbani Fano",1303935984
+P1380249,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,,,,27-4-2011,"Stagno Urbani Fano",1303936128
+P1380193,animali,animalia,arthropoda,insecta,coleoptera,pyrrhocoridae,pyrochroa,serraticornis,,24-4-2011,"Stagno Urbani Fano",1303936201
+P1380156,animali,animalia,arthropoda,insecta,diptera,platystomatidae,platystoma,seminationis,,24-4-2011,"Stagno Urbani Fano",1303936361
+P1380130,animali,animalia,chordata,aves,falconiformes,accipitridae,circus,pygargus,"albanella minore",23-4-2011,"Monti del Furlo",1303936684
+P1380134,animali,animalia,arthropoda,insecta,diptera,,,,,24-4-2011,"Monte Conero",1303936799
+P1380125,animali,animalia,arthropoda,insecta,coleoptera,lucanidae,platycerus,caraboides,,17-4-2011,"Monti del Furlo",1303936890
+P1360680,animali,animalia,arthropoda,insecta,diptera,,,,,11-7-2010,"Monti del Furlo",1303937001
+P1130637,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,,,,6-6-2008,"Monti del Furlo",1303937129
+P1130663,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,siona,lineata,,6-6-2008,"Monti del Furlo",1303937248
+P1180748,funghi,fungi,,basidiomycetes,russulales,russulaceae,lactarius,deliciosus,sanguinello,22-10-2008,"Monti del Furlo",1303937547
+P1100100,funghi,fungi,,tremellomycetes,tremellales,tremellaceae,tremella,foliacea,,3-2-2008,"Monti del Furlo",1303937738
+P1280168,animali,animalia,arthropoda,insecta,lepidoptera,sesiidae,synanthedon,tipuliformes,,24-6-2009,"Monti del Furlo",1303937940
+P1280711,animali,animalia,arthropoda,insecta,coleoptera,,,,,19-7-2009,"Monti del Furlo",1303938121
+P1230019,animali,animalia,arthropoda,insecta,diptera,,,,,17-3-2009,"Stagno Urbani Fano",1303938256
+P1360161,funghi,fungi,,basidiomycetes,polyporales,polyporaceae,fomes,fomentarius,,30-5-2010,"Foreste Casentinesi",1303938466
+P1250018,animali,animalia,arthropoda,insecta,coleoptera,scarabeidae,tropinota,hirta,,29-4-2009,"Monti del Furlo",1303939013
+P1460129,paesaggi,,,,,,,,,30-11-2014,"Foreste Casentinesi",1480154061
+P1070101,funghi,fungi,,basidiomycetes,polyporales,polyporaceae,trametes,versicolor,,9-8-2007,"Foreste Casentinesi",1303939671
+P1370953,animali,animalia,arthropoda,insecta,diptera,,,,,6-3-2011,"Monti del Furlo",1303939822
+P1080562,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,,,,23-9-2007,"Monti del Furlo",1303939965
+P1180852,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,,,,25-10-2008,"Monti del Furlo",1303940114
+P1050482,animali,animalia,arthropoda,insecta,odonata,calopterygidae,calopteryx,haemorrhoidalis,,20-6-2007,"Monti del Furlo",1304245384
+P1160494,animali,animalia,arthropoda,insecta,odonata,libellulidae,sympetrum,,,8-8-2008,"Monti del Furlo",1304245662
+P1260401,animali,animalia,arthropoda,insecta,odonata,coenagrionidae,ischnura,elegans,,17-5-2009,"Stagno Urbani Fano",1304245838
+P1100392,animali,animalia,arthropoda,insecta,odonata,libellulidae,crocothemis,erythraea,,26-7-2006,"Monti del Furlo",1304246299
+P1380290,piante,plantae,,magnoliopsida,lamiales,lamiaceae,ajuga,reptans,bugola,1-5-2011,"Monti del Furlo",1304541481
+P1380283,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,,,,1-5-2011,"Monti del Furlo",1304541748
+P1380285,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,glaucopsyche,alexis,,1-5-2011,"Monti del Furlo",1304541936
+P2013057,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,melanchra,persicariae,,14-4-2013,Mondolfo,1373219675
+P1380335,animali,animalia,arthropoda,insecta,raphidioptera,,,,,1-5-2011,"Monti del Furlo",1304542378
+P1380322,animali,animalia,arthropoda,insecta,diptera,stratiomydae,,,,1-5-2011,"Monti del Furlo",1304543020
+P1380324,animali,animalia,arthropoda,insecta,diptera,,,,,1-5-2011,"Monti del Furlo",1304543224
+P1380310,animali,animalia,arthropoda,insecta,hymenoptera,apidae,,,,1-5-2011,"Monti del Furlo",1304543636
+P1380403,paesaggi,,,,,,,,,8-5-2011,"Foreste Casentinesi",1305406514
+P1380494,piante,plantae,,magnoliopsida,nymphaeales,nymphaeaceae,nymphaea,,,11-5-2011,"Stagno Urbani Fano",1305407644
+P1380486,animali,animalia,arthropoda,insecta,hemiptera,coreidae,coreus,marginatus,,11-5-2011,"Stagno Urbani Fano",1305408413
+P1380499,animali,animalia,chordata,aves,passeriformes,aegithalidae,aegithalus,caudatus,codibugnolo,11-5-2011,"Stagno Urbani Fano",1305408923
+P1380436,animali,animalia,arthropoda,insecta,coleoptera,,,,,8-5-2011,"Foreste Casentinesi",1305409492
+P1180697,animali,animalia,arthropoda,insecta,coleoptera,carabidae,carabus,granulatus,,18-10-2008,"Foreste Casentinesi",1305410100
+P1350531,animali,animalia,arthropoda,insecta,coleoptera,carabidae,pterostichus,"bicolor amorei",,29-4-2010,"Foreste Casentinesi",1305410307
+P1350545,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",29-4-2010,"Foreste Casentinesi",1305410664
+P1380595,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",17-5-2011,"Foreste Casentinesi",1306011938
+P1380607,animali,animalia,chordata,mammalia,artiodactyla,cervidae,capreolus,capreolus,capriolo,17-5-2011,"Foreste Casentinesi",1306012379
+P1380604,animali,animalia,chordata,mammalia,artiodactyla,cervidae,capreolus,capreolus,capriolo,17-5-2011,"Foreste Casentinesi",1306012586
+P1380383,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,euphydryas,provincialis,,7-5-2011,"Monti del Furlo",1306268691
+P1380842,piante,plantae,,magnoliopsida,campanulales,campanulaceae,,,,22-5-2011,"Monte Catria",1306268803
+P1380827,piante,plantae,,magnoliopsida,lamiales,boraginaceae,anchusa,,,22-5-2011,"Monte Catria",1306268945
+P1070682,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,leptotes,pirithous,,6-9-2007,"Foreste Casentinesi",1306269104
+P1380717,animali,animalia,arthropoda,insecta,hemiptera,pentatomidae,zicrona,coerulea,,19-5-2011,"Foreste Casentinesi",1306269206
+P1380387,animali,animalia,arthropoda,insecta,lepidoptera,incurvariidae,adela,viridella,,7-5-2011,"Monti del Furlo",1306269333
+P1380528,animali,animalia,arthropoda,insecta,coleoptera,oedemeridae,oedemera,nobilis,,13-5-2011,"Monti del Furlo",1306269529
+P1380589,animali,animalia,arthropoda,insecta,coleoptera,buprestidae,ptosima,flavoguttata,,16-5-2011,"Monti del Furlo",1306269993
+P1070236,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,polyommatus,corydon,,26-8-2007,"Monti del Furlo",1306270141
+P1380666,animali,animalia,arthropoda,insecta,hymenoptera,tenthredinae,,,,18-5-2011,"Foreste Casentinesi",1306270249
+P1380552,animali,animalia,arthropoda,insecta,diptera,,,,,16-5-2011,"Gola del Furlo",1306270368
+P1380736,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,cataclysme,riguata,,20-5-2011,"Monti del Furlo",1306271062
+P1380501,animali,animalia,chordata,reptilia,squamata,colubridae,coluber,viridiflavus,biacco,13-5-2011,"Monti del Furlo",1306271332
+P1240664,animali,animalia,arthropoda,insecta,lepidoptera,satyridae,pararge,,,22-4-2009,"Stagno Urbani Fano",1306271532
+P1240733,animali,animalia,arthropoda,insecta,lepidoptera,pieridae,,,,22-4-2009,"Stagno Urbani Fano",1306271649
+P1180781,piante,plantae,,magnoliopsida,asterales,asteraceae,taraxacum,officinale,"dente di leone",25-10-2008,"Gola del Furlo",1306616805
+P1170646,piante,plantae,,magnoliopsida,solanales,solanaceae,solanum,nigrum,"erba morella",22-9-2008,"Stagno Urbani Fano",1306617134
+P1380787,animali,animalia,arthropoda,insecta,hymenoptera,chrysididae,chrysis,,,15-5-2011,"Monte Catria",1306617365
+P1380798,animali,animalia,arthropoda,insecta,hymenoptera,apidae,nomada,,,15-5-2011,"Monte Catria",1306617602
+P1380707,piante,plantae,,liliopsida,orchidales,orchidaceae,listera,ovata,,19-5-2011,"Foreste Casentinesi",1306871819
+P1380712,piante,plantae,,liliopsida,orchidales,orchidaceae,orchis,simia,,19-5-2011,"Foreste Casentinesi",1306872010
+P1380761,piante,plantae,,liliopsida,orchidales,orchidaceae,orchis,ustulata,,20-5-2011,"Monti del Furlo",1306872216
+P1380860,animali,animalia,chordata,aves,falconiformes,accipitridae,pernis,apivorus,"falco pecchiaiolo",29-5-2011,"Monti del Furlo",1306872504
+P1380911,animali,animalia,arthropoda,insecta,blattodea,blattellidae,ectobius,,,29-5-2011,"Monti del Furlo",1306874272
+P1380904,animali,animalia,arthropoda,insecta,lepidoptera,,,,,29-5-2011,"Monti del Furlo",1306874393
+P1380899,animali,animalia,arthropoda,insecta,lepidoptera,,,,,29-5-2011,"Monti del Furlo",1306874499
+P1380750,animali,animalia,arthropoda,insecta,diptera,,,,,20-5-2011,"Monti del Furlo",1306874660
+P1380756,animali,animalia,arthropoda,insecta,lepidoptera,pterophoridae,,,,20-5-2011,"Monti del Furlo",1306875014
+P1380873,animali,animalia,arthropoda,insecta,lepidoptera,,,,,29-5-2011,"Monti del Furlo",1306875224
+P1500962,animali,animalia,arthropoda,insecta,coleoptera,,,,,12-5-2017,"Monti del Furlo",1495553129
+P1380897,animali,animalia,arthropoda,insecta,orthoptera,,,,,29-5-2011,"Monti del Furlo",1307821671
+P1380937,animali,animalia,arthropoda,insecta,hemiptera,miridae,calocoris,roseomaculatus,,2-6-2011,"Monte Catria",1307821909
+P1380938,animali,animalia,arthropoda,insecta,lepidoptera,,,,,2-6-2011,"Monte Catria",1307822405
+P1230104,animali,animalia,arthropoda,insecta,hemiptera,gerridae,gerris,lacustris,,17-3-2009,"Stagno Urbani Fano",1307822684
+P1340071,animali,animalia,arthropoda,insecta,hemiptera,notonectidae,notonecta,glauca,notonetta,27-2-2010,"Monti del Furlo",1307822921
+P1240533,animali,animalia,arthropoda,insecta,hemiptera,miridae,stenodema,laevigatum,,18-4-2009,"Stagno Urbani Fano",1307823197
+P1360697,animali,animalia,arthropoda,insecta,hemiptera,miridae,lygus,lineolaris,,11-7-2010,"Monte Catria",1307824316
+P1380916,piante,plantae,,liliopsida,orchidales,orchidaceae,dactylorhiza,maculata,,2-6-2011,"Monte Catria",1307825227
+P1260503,animali,animalia,arthropoda,insecta,diptera,,,,,17-5-2009,"Stagno Urbani Fano",1307825401
+P1380610,animali,animalia,chordata,mammalia,artiodactyla,suidae,sus,scrofa,cinghiale,17-5-2011,"Foreste Casentinesi",1307825552
+P1260177,animali,animalia,arthropoda,insecta,diptera,,,,,11-5-2009,"Stagno Urbani Fano",1307825660
+P1350462,animali,animalia,arthropoda,insecta,diptera,bombyliidae,,,,26-4-2010,"Monti del Furlo",1307825970
+P1390032,animali,animalia,chordata,aves,coraciformes,alcedimidae,alcedo,atthis,"martin pescatore",11-6-2011,"Stagno Urbani Fano",1307993426
+P1380999,animali,animalia,chordata,aves,charadriiformes,sternidae,chlidonias,hybridus,"mignattino piombato",11-6-2011,"Stagno Urbani Fano",1307993710
+P1390012,animali,animalia,arthropoda,insecta,coleoptera,coccinellidae,propylea,quatuordecimpunctata,,11-6-2011,"Stagno Urbani Fano",1307993932
+P1390046,animali,animalia,arthropoda,insecta,orthoptera,,,,,12-6-2011,"Monti del Furlo",1307994163
+P1390049,animali,animalia,arthropoda,insecta,coleoptera,chrysomelidae,chryptocephalus,bimaculatus,,12-6-2011,"Monti del Furlo",1307994419
+P1390044,animali,animalia,arthropoda,insecta,coleoptera,chrysomelidae,chryptocephalus,bipunctatus,,12-6-2011,"Monti del Furlo",1307994526
+P1370802,piante,plantae,,liliopsida,asparagales,amaryllidaceae,narcissus,dubius,,8-12-2010,"Gola del Furlo",1307994866
+P1380959,piante,plantae,,magnoliopsida,asterales,asteraceae,centaurea,,,2-6-2011,"Monte Catria",1307995280
+P1380947,animali,animalia,arthropoda,insecta,hemiptera,,,,,2-6-2011,"Monte Catria",1307995448
+P1390053,animali,animalia,arthropoda,insecta,coleoptera,lampyridae,,,,12-6-2011,"Monti del Furlo",1307996317
+P1380646,animali,animalia,arthropoda,insecta,diptera,,,,,18-5-2011,"Foreste Casentinesi",1307996590
+P1000028,animali,animalia,arthropoda,insecta,odonata,libellulidae,sympetrum,,,1-10-2006,"Monti del Furlo",1309293142
+P1390293,piante,plantae,,magnoliopsida,malvales,malvaceae,,,,25-6-2011,"Monte Catria",1309293344
+P1390292,piante,plantae,,magnoliopsida,asterales,asteraceae,leucanthemum,vulgare,"margherita dei campi",25-6-2011,"Monte Catria",1309293603
+P1390257,piante,plantae,,liliopsida,liliales,liliaceae,lilium,bulbiferum,"giglio rosso",25-6-2011,"Monte Catria",1309293828
+P1390230,piante,plantae,,magnoliopsida,asterales,asteraceae,hieracium,,,25-6-2011,"Monte Catria",1309294225
+P1390180,piante,plantae,,magnoliopsida,asterales,asteraceae,silybum,marianum,"cardo mariano",25-6-2011,"Monte Catria",1309294406
+P1390154,animali,animalia,arthropoda,insecta,odonata,aeshnidae,aeshna,isosceles,,18-6-2011,"Stagno Urbani Fano",1309294555
+P1390088,animali,animalia,arthropoda,insecta,odonata,calopterygidae,calopteryx,splendens,,14-6-2011,"Gola del Furlo",1309294713
+P1390084,animali,animalia,arthropoda,insecta,coleoptera,elateridae,,,,14-6-2011,"Gola del Furlo",1309294885
+P1010752,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,lamia,textor,,9-4-2007,"Monti del Furlo",1309295050
+P1030094,animali,animalia,arthropoda,insecta,neuroptera,ascalaphidae,libelloides,coccajus,,5-5-2007,"Monti del Furlo",1309295215
+P1020468,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,cupido,decoloratus,,20-4-2007,"Stagno Urbani Fano",1309295381
+P1030626,animali,animalia,arthropoda,insecta,hemiptera,reduviidae,rhinocoris,iracundus,,19-5-2007,"Monti del Furlo",1309295564
+P1040153,animali,animalia,arthropoda,insecta,lepidoptera,satyridae,pararge,petropolitana,,29-5-2007,"Monte Conero",1309295874
+P1060626,animali,animalia,arthropoda,insecta,hemiptera,cercopidae,cercopis,arcuata,,29-4-2006,"Monti del Furlo",1309296058
+P1090630,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,argynnis,paphia,,25-6-2006,"Monti del Furlo",1309296376
+P1070947,animali,animalia,arthropoda,insecta,odonata,,,,,13-9-2007,"Stagno Urbani Fano",1309632698
+P1070983,animali,animalia,arthropoda,insecta,lepidoptera,satyridae,pararge,megera,,27-5-2006,"Monti del Furlo",1309632923
+P1020199,animali,animalia,arthropoda,insecta,hemiptera,cicadellidae,,,,19-4-2007,"Monti del Furlo",1309633154
+P1070054,animali,animalia,arthropoda,insecta,coleoptera,geotrupidae,geotrupes,vernalis,,9-8-2007,"Foreste Casentinesi",1309637427
+P1390302,animali,animalia,arthropoda,insecta,odonata,,,,,26-6-2011,"Monte Nerone",1309637575
+P1300231,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,hecatera,dysodea,,15-11-2009,"Monti del Furlo",1309637815
+P1010914,funghi,fungi,,basidiomycetes,agaricales,agaricaceae,agaricus,campestris,,25-8-2005,"Monti del Furlo",1309638310
+P1050008,animali,animalia,arthropoda,insecta,coleoptera,meloidae,meloe,proscarabeus,,10-6-2007,"Monte Catria",1310070589
+P1140333,animali,animalia,arthropoda,arachnida,araneae,thomisidae,thomisus,onustus,,15-6-2008,"Monti del Furlo",1310070823
+P1280302,animali,animalia,arthropoda,arachnida,araneae,thomisidae,thomisus,onustus,,27-6-2009,"Monti del Furlo",1310070958
+P1390431,piante,plantae,,magnoliopsida,caryophyllales,caryophyllaceae,dianthus,,,3-7-2011,"Monti del Furlo",1310071978
+P1390433,animali,animalia,arthropoda,insecta,odonata,,,,,3-7-2011,"Monti del Furlo",1310072107
+P1380670,animali,animalia,arthropoda,insecta,lepidoptera,arctiidae,phragmatobia,fuliginosa,,18-5-2011,"Foreste Casentinesi",1310072359
+P1390422,animali,animalia,arthropoda,insecta,hymenoptera,,,,,3-7-2011,"Monti del Furlo",1310072456
+P1390442,animali,animalia,arthropoda,insecta,coleoptera,curculionidae,lixus,pulverulentus,,3-7-2011,"Monti del Furlo",1310072567
+P1390130,animali,animalia,arthropoda,insecta,coleoptera,silphidae,silpha,carinata,,15-6-2011,"Foreste Casentinesi",1310072734
+P1370957,animali,animalia,arthropoda,insecta,diptera,trichoceridae,trichocera,hiemalis,,6-3-2011,"Monti del Furlo",1310073048
+P1390749,animali,animalia,chordata,aves,phoenicopteriformes,phoenicopteridae,phoenicopterus,roseus,"fenicottero rosa",8-9-2011,"Sardegna, Isola di San Pietro",1316637654
+P1390628,animali,animalia,arthropoda,insecta,lepidoptera,erebidae,utetheisa,pulchella,,8-9-2011,"Sardegna, Sant'Antioco",1511800684
+P1390621,animali,animalia,arthropoda,insecta,coleoptera,carabidae,calomera,littoralis,,8-9-2011,"Sardegna, Sant'Antioco",1501853147
+P1390745,animali,animalia,chordata,aves,phoenicopteriformes,phoenicopteridae,phoenicopterus,ruber,"fenicottero rosa",8-9-2011,"Sardegna, Isola di San Pietro",1318724673
+P1190710,animali,animalia,chordata,aves,pelecaniformes,ardeidae,egretta,alba,"airone bianco",30-11-2008,"Stagno Urbani Fano",1318725002
+P1290907,animali,animalia,chordata,aves,charadriiformes,laridae,larus,ridibundus,"gabbiano comune",26-9-2009,"Fano Spiaggia Levante",1318725414
+P1390843,animali,animalia,chordata,reptilia,squamata,gekkonidae,tarentola,mauritanica,"tarantola muraiola",11-9-2011,"Sardegna, Sant'Antioco",1318725732
+P1390896,paesaggi,,,,,,,,,9-10-2011,"Monti del Furlo",1318725900
+P1230899,animali,animalia,arthropoda,insecta,coleoptera,chrysomelidae,oulema,melanopus,,30-3-2009,"Stagno Urbani Fano",1318726378
+P1070629,animali,animalia,arthropoda,arachnida,araneae,araneidae,araneus,angolatus,,17-5-2006,"Monti del Furlo",1318726664
+P1030370,animali,animalia,arthropoda,insecta,lepidoptera,sphingidae,macroglossum,stellatarum,bruco,13-5-2007,"Monte Nerone",1318726950
+P1120573,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,,,,11-5-2008,"Monti del Furlo",1318727239
+P1390187,animali,animalia,arthropoda,insecta,coleoptera,coccinellidae,hyppodamia,variegata,,25-6-2011,"Monte Catria",1318727463
+P1390290,piante,plantae,,magnoliopsida,asterales,asteraceae,,,,25-6-2011,"Monte Catria",1318727746
+P1390276,animali,animalia,chordata,aves,passeriformes,muscicapidae,oenanthe,oenanthe,culbianco,25-6-2011,"Monte Catria",1318728043
+P1360042,animali,animalia,arthropoda,chilopoda,scutigeromorpha,scutigeridae,scutigera,coleoptrata,,15-6-2011,Fano,1318728422
+P1380637,animali,animalia,arthropoda,insecta,mecoptera,panorpidae,panorpa,communis,"mosca scorpione (femmina)",18-5-11,"Foreste Casentinesi",1318728768
+P1390548,animali,animalia,chordata,mammalia,rodentia,sciuridae,sciurus,vulgaris,scoiattolo,5-9-2011,"Monti del Furlo",1318729028
+P1090478,animali,animalia,arthropoda,insecta,lepidoptera,pieridae,gonepteryx,rhamni,cedronella,24-6-2006,"Monti del Furlo",1318729300
+P1190466,animali,animalia,arthropoda,arachnida,araneae,theridiidae,,,,15-11-2008,Fano,1318729542
+P1390459,animali,animalia,arthropoda,insecta,hymenoptera,formicidae,,,,3-7-2011,"Monti del Furlo",1318729711
+P1390475,piante,plantae,,magnoliopsida,asterales,asteraceae,,,,10-7-2011,"Monti del Furlo",1318729906
+P1160773,animali,animalia,arthropoda,insecta,diptera,asilidae,asilus,crabroniformis,,20-8-2008,"Monti del Furlo",1324150724
+P1190242,animali,animalia,arthropoda,insecta,lepidoptera,crambidae,hydriris,ornatalis,,8-11-08,"Stagno Urbani Fano",1318730472
+P1370184,animali,animalia,arthropoda,insecta,trichoptera,,,,,8-8-2010,"Monte Nerone, grotte",1318733254
+P1390573,animali,animalia,arthropoda,insecta,coleoptera,,,,,7-9-2011,"Sardegna, Sant'Antioco",1318733461
+P1390584,animali,animalia,arthropoda,insecta,coleoptera,,,,,7-9-2011,"Sardegna, Sant'Antioco",1318733602
+P1390588,animali,animalia,arthropoda,insecta,odonata,aeshnidae,anax,imperator,,7-9-2011,"Sardegna, Sant'Antioco",1318733804
+P1250592,piante,plantae,,magnoliopsida,asterales,asteraceae,,,,6-5-2009,"Monti del Furlo",1318734067
+P1030374,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,erannis,defoliaria,,13-5-2007,"Monti del Furlo",1319363198
+P1230080,animali,animalia,chordata,aves,passeriformes,passeridae,passer,domesticus,"passero comune",17-3-2009,"Stagno Urbani Fano",1319363408
+P1030184,animali,animalia,arthropoda,insecta,lepidoptera,zygaenidae,,,,6-5-2007,"Monti del Furlo",1319363592
+P1030397,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,argynnis,paphia,(bruco),13-5-2007,"Monte Nerone",1319363917
+P1360709,animali,animalia,arthropoda,insecta,hymenoptera,,,,,11-7-2010,"Monte Catria",1319364085
+P1130265,piante,plantae,,magnoliopsida,rosales,rosaceae,rosa,spinosissima,,28-5-2008,"Monte Catria",1319364382
+P1390076,animali,animalia,arthropoda,insecta,hymenoptera,ichneumonidae,amblyteles,armatorius,,12-6-2011,"Monti del Furlo",1319364542
+P1020910,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,aplocera,plagiata,,1-5-2007,"Monti del Furlo",1319364825
+P1020349,animali,animalia,arthropoda,insecta,lepidoptera,tortricidae,clepsis,rurinana,,27-4-2007,Fano,1319365280
+P1020676,animali,animalia,arthropoda,arachnida,araneae,salticidae,,,,27-4-2007,Fano,1319365600
+P1070796,funghi,fungi,,agaricomycetes,auriculariales,exidiaceae,guepinia,helvelloides,,7-9-2007,"Foreste Casentinesi",1319367167
+P1190064,funghi,fungi,,basidiomycetes,agaricales,amanitaceae,amanitopsis,fulva,,2-11-2008,"Foreste Casentinesi",1320163706
+P1360197,animali,animalia,arthropoda,insecta,coleoptera,elateridae,,,,30-5-2010,"Foreste Casentinesi",1320163917
+P1370663,funghi,fungi,,basidiomycetes,agaricales,tricholomataceae,laccaria,affinis,,2-10-2010,"Monti del Furlo",1320164121
+P1380620,animali,animalia,arthropoda,arachnida,araneae,,,,,18-5-2011,"Foreste Casentinesi",1320164256
+P1050868,piante,plantae,,magnoliopsida,violales,violaceae,viola,odorata,,2-4-2006,"Monti del Furlo",1320164520
+P1390068,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,,,bruco,12-6-2011,"Monti del Furlo",1320164834
+P1080685,piante,plantae,,magnoliopsida,solanales,convolvulaceae,convolvolus,cantabrica,vilucchio,11-6-2006,"Monti del Furlo",1320165219
+P1180706,funghi,fungi,,basidiomycetes,agaricales,bolbitiaceae,agrocybe,aegerita,piopparello,19-10-2008,"Monti del Furlo",1320165558
+P1090120,animali,animalia,arthropoda,insecta,lepidoptera,zygaenidae,zygaena,purpuralis,,18-6-2006,"Monte Catria",1320165777
+P1180978,funghi,fungi,,basidiomycetes,agaricales,bolbitiaceae,bolbitius,vitellinus,,2-11-2008,"Foreste Casentinesi",1320166077
+P1050754,animali,animalia,chordata,mammalia,logomorpha,leporidae,lepus,europaeus,lepre,26-3-2006,"Monti del Furlo",1321118096
+P1100596,piante,plantae,,magnoliopsida,asterales,asteraceae,arctium,lappa,bardana,5-8-2006,"Monti del Furlo",1321118392
+P1090971,piante,plantae,,magnoliopsida,fabales,fabaceae,lathyrus,,,5-7-2006,"Monti del Furlo",1321118660
+P1400112,funghi,fungi,,basidiomycetes,polyporales,polyporaceae,,,,6-11-2011,"Monti del Furlo",1321118846
+P1030629,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,,,(bruco),19-5-2007,"Monti del Furlo",1321119291
+P1100885,animali,animalia,arthropoda,insecta,lepidoptera,satyridae,hipparchia,statilinus,,26-8-2006,"Monti del Furlo",1321119699
+P107034800,paesaggi,,,,,,,,,14-5-2006,"Monti del Furlo",1321119987
+P1360595,animali,animalia,arthropoda,insecta,hemiptera,,,,,27-6-2010,"Monte Catria",1321120150
+P1170953,funghi,fungi,,basidiomycetes,agaricales,tricholomataceae,mycena,renati,,28-9-2008,"Foreste Casentinesi",1321120383
+P1060734,animali,animalia,arthropoda,insecta,lepidoptera,pieridae,,,bruco,1-5-2006,"Monti del Furlo",1321120576
+P1230943,funghi,fungi,,tremellomycetes,tremellales,tremellaceae,tremella,mesenterica,,3-4-2009,"Stagno Urbani Fano",1322409461
+P1360248,piante,plantae,,liliopsida,orchidales,orchidaceae,himantoglossum,adriaticum,,2-6-2010,"Monti del Furlo",1322409752
+P1360249,piante,plantae,,liliopsida,orchidales,orchidaceae,himantoglossum,adriaticum,(particolare),2-6-2010,"Monti del Furlo",1322409955
+P1370676,funghi,fungi,,basidiomycetes,agaricales,agaricaceae,lepiota,cristata,,3-10-2010,"Monti del Furlo",1322410636
+P1370629,funghi,fungi,,basidiomycetes,boletales,gomphidiaceae,gomphidius,viscidus,,25-9-2010,"Monti del Furlo",1322410916
+P1360157,funghi,fungi,amoebozoa,myxogastria,physarales,physaraceae,fuligo,,,30-5-2010,"Foreste Casentinesi",1322411064
+P1360554,funghi,fungi,,agaricomycetes,polyporales,polyporaceae,polyporus,tuberaster,,26-6-2010,"Foreste Casentinesi",1322411376
+P1370683,funghi,fungi,,basidiomycetes,agaricales,cortinariaceae,cortinarius,,,3-10-2010,"Monti del Furlo",1322411789
+P1020112,funghi,fungi,,basidiomycetes,boletales,boletaceae,boletus,luridus,,28-8-2005,"Monti del Furlo",1322412030
+P1370807,funghi,fungi,,pezizomycetes,pezizales,pezizaceae,peziza,aurantia,,12-12-2010,"Foreste Casentinesi",1322412248
+P1370701,funghi,fungi,,basidiomycetes,agaricales,tricholomataceae,tricholoma,nudum,,9-10-2010,"Monti del Furlo",1322412448
+P1370250,piante,plantae,,magnoliopsida,solanales,convolvulaceae,calystegia,sepium,"vilucchio bianco",21-8-2010,"Stagno Urbani Fano",1322412765
+P1490649,piante,plantae,,magnoliopsida,ranunculales,ranunculaceae,delphinium,fissum,"speronella lacerata",17-7-2016,"Monte Catria",1475854988
+P1150723,animali,animalia,arthropoda,insecta,mantodea,empusidae,empusa,pennata,,17-7-08,"Monti del Furlo",1324150997
+P1080715,animali,animalia,arthropoda,insecta,lepidoptera,arctiidae,lithosia,quadra,,6-10-2007,"Monti del Furlo",1326657408
+P1160113,animali,animalia,arthropoda,insecta,hemiptera,,,,,30-7-2008,"Monte Catria",1324151575
+P1380709,piante,plantae,,liliopsida,orchidales,orchidaceae,listera,ovata,(particolare),19-5-2011,"Foreste Casentinesi",1324151825
+P1150619,animali,animalia,arthropoda,insecta,lepidoptera,papilionidae,iphiclides,podalirius,podalirio,10-7-2008,"Monti del Furlo",1324152092
+P1150129,funghi,fungi,,basidiomycetes,russulales,russulaceae,russula,,,27-6-2008,"Foreste Casentinesi",1324152340
+P1130587,piante,plantae,,liliopsida,orchidales,orchidaceae,gymnadenia,conopsea,,6-6-2008,"Monti del Furlo",1324152596
+P1130588,piante,plantae,,liliopsida,orchidales,orchidaceae,gymnadenia,conopsea,(particolare),6-6-2008,"Monti del Furlo",1324152769
+P1230132,animali,animalia,arthropoda,insecta,hymenoptera,apidae,,,,17-3-2009,"Monti del Furlo",1324153063
+P1070141,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,vanessa,atalanta,,10-8-2007,"Monti del Furlo",1324153347
+P1240287,animali,animalia,arthropoda,insecta,hemiptera,pentatomidae,eurydema,dominulus,,14-4-2009,"Monti del Furlo",1324153675
+P1370186,animali,animalia,arthropoda,insecta,lepidoptera,satyridae,hipparchia,briseis,,8-8-2010,"Monte Nerone",1324153978
+P1020736,animali,animalia,arthropoda,insecta,hemiptera,coreidae,gonocerus,juniperi,,28-4-2007,"Monti del Furlo",1324154145
+P1170672,animali,animalia,arthropoda,insecta,hymenoptera,,,,,22-9-2008,"Monte Catria",1324154327
+P1150664,animali,animalia,arthropoda,insecta,diptera,tabanidae,tabanus,bovinus,,10-7-2008,"Monti del Furlo",1324154534
+P1010911,funghi,fungi,,basidiomycetes,boletales,suillaceae,suillus,granulatus,pinarello,25-8-2005,"Monti del Furlo",1326644642
+P1300751,funghi,fungi,,basidiomycetes,agaricales,tricholomataceae,tricholoma,terreum,moretta,25-11-2009,"Monti del Furlo",1326645156
+P1010945,animali,animalia,arthropoda,insecta,odonata,coenagrionidae,,,,16-4-2007,"Stagno Urbani Fano",1326645495
+P1010962,animali,animalia,arthropoda,insecta,odonata,coenagrionidae,,,,16-4-07,"Stagno Urbani Fano",1326645668
+P1020236,animali,animalia,arthropoda,insecta,diptera,,,,,19-4-2007,"Monti del Furlo",1326646034
+P1250131,piante,plantae,,magnoliopsida,violales,cistaceae,cistus,,,1-5-2009,"Monti del Furlo",1326646213
+P1140793,animali,animalia,arthropoda,insecta,lepidoptera,,,,,22-6-2008,"Monti del Furlo",1326646417
+P1080605,funghi,fungi,,basidiomycetes,agaricales,strophariaceae,hypholoma,fasciculare,"falso chiodino",29-9-2007,"Monti del Furlo",1326647180
+P1500924,piante,plantae,,liliopsida,orchidales,orchidaceae,orchis,purpurea,,30-4-2017,"Monti del Furlo",1493912583
+P1140700,animali,animalia,arthropoda,insecta,orthoptera,,,,,21-6-2008,"Monti del Furlo",1326647681
+P1410341,animali,animalia,arthropoda,insecta,orthoptera,acrididae,calliptamus,,,2-9-2012,"Monti del Furlo",1347084194
+P1240591,animali,animalia,arthropoda,insecta,diptera,stratiomydae,,,,18-4-2009,"Stagno Urbani Fano",1326648518
+P1150554,animali,animalia,arthropoda,insecta,orthoptera,,,,,10-7-2008,"Monti del Furlo",1326648762
+P1150681,animali,animalia,arthropoda,insecta,orthoptera,,,,,13-7-2008,"Monti del Furlo",1326648982
+P1240477,animali,animalia,arthropoda,insecta,diptera,,,,,18-4-2009,"Stagno Urbani Fano",1326649283
+P1240608,animali,animalia,arthropoda,insecta,diptera,scathophagidae,scathophaga,stercoraria,,18-4-2009,"Stagno Urbani Fano",1326649638
+P1200354,paesaggi,,,,,,,,,4-1-2009,"Monti del Furlo",1326649819
+P1240687,animali,animalia,arthropoda,insecta,hymenoptera,apidae,bombus,pasquorum,,22-4-2009,"Monti del Furlo",1326650169
+P1070615,animali,animalia,arthropoda,insecta,odonata,libellulidae,orthetrum,,,5-9-2007,"Monti del Furlo",1326651252
+P1150738,animali,animalia,arthropoda,insecta,mantodea,empusidae,empusa,pennata,,17-7-2008,"Monti del Furlo",1326657671
+P1390832,animali,animalia,chordata,aves,charadriiformes,scolopacidae,arenaria,interpres,voltapietre,9-9-2011,"Sardegna, Porto Pino",1327200678
+P1250033,animali,animalia,arthropoda,arachnida,araneae,,,,,29-4-2009,"Stagno Urbani Fano",1327200856
+P1040731,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,,,,9-6-2007,"Monti del Furlo",1327201027
+P1380261,animali,animalia,chordata,aves,charadriiformes,scolopacidae,actitis,hypoleucos,"piro piro piccolo",27-4-2011,"Stagno Urbani Fano",1327201185
+P1240362,animali,animalia,arthropoda,insecta,diptera,,,,,12-4-2009,"Foreste Casentinesi",1327201489
+P1400131,animali,animalia,chordata,aves,passeriformes,turdidae,turdus,pilaris,cesena,14-1-2012,"Monti del Furlo",1327201795
+P1020118,piante,plantae,,magnoliopsida,rosales,fabaceae,cercis,siliquastrum,"albero di Giuda",17-4-2007,"Monti del Furlo",1337472511
+P1070187,animali,animalia,arthropoda,insecta,odonata,libellulidae,sympetrum,,,12-8-2007,"Monti del Furlo",1337472904
+P1090250,animali,animalia,arthropoda,insecta,coleoptera,tenebrionidae,,,,21-10-2007,Fano,1337473079
+P1100374,animali,animalia,chordata,aves,passeriformes,phylloscopidae,phylloscopus,collybita,"luÃ¬ piccolo",26-3-2008,"Stagno Urbani Fano",1337473357
+P1100393,animali,animalia,chordata,aves,passeriformes,fringillidae,carduelis,spinus,lucherino,29-3-2008,"Monti del Furlo",1337473615
+P1100601,animali,animalia,chordata,aves,passeriformes,motacillidae,motacilla,alba,"ballerina bianca",1-4-2008,"Stagno Urbani Fano",1337473839
+P1150107,funghi,fungi,,basidiomycetes,agaricales,amanitaceae,amanita,rubescens,"amanita vinosa",27-6-2008,"Foreste Casentinesi",1337474173
+P1190835,funghi,fungi,,basidiomycetes,agaricales,amanitaceae,volvariella,speciosa,,7-12-2008,"Stagno Urbani Fano",1337474461
+P1220979,animali,animalia,chordata,aves,passeriformes,muscicapidae,saxicola,torquatus,saltimpalo,17-3-2009,"Stagno Urbani Fano",1337474762
+P1230365,animali,animalia,chordata,aves,passeriformes,turdidae,phoenicurus,phoenicurus,codirosso,22-3-2009,"Stagno Urbani Fano",1337475008
+P1380268,piante,plantae,,liliopsida,liliales,liliaceae,allium,neapolitanum,,3-4-2011,"Monti del Furlo",1337475327
+P1390500,animali,animalia,chordata,aves,passeriformes,laniidae,lanius,collurio,"averla piccola",30-7-2011,"Monte Catria",1337475742
+P1400258,animali,animalia,chordata,aves,passeriformes,sylviidae,sylvia,atricapilla,capinera,9-4-2012,Fano,1337475975
+P1400287,animali,animalia,chordata,aves,falconiformes,falconidae,falco,peregrinus,"falco pellegrino",18-4-2012,"Monte Conero",1337476174
+P1400329,animali,animalia,chordata,aves,falconiformes,falconidae,falco,peregrinus,"falco pellegrino",18-4-2012,"Monte Conero",1337476365
+P1400369,piante,plantae,,liliopsida,liliales,iridaceae,iris,germanica,giaggiolo,20-4-2012,"Monti del Furlo",1337476649
+P1400393,animali,animalia,arthropoda,insecta,hymenoptera,apidae,,,,21-4-2012,"Bosco di Tecchie",1337476826
+P1400422,piante,plantae,,magnoliopsida,fabales,fabaceae,coronilla,emerus,,21-4-2012,"Bosco di Tecchie",1337477024
+P1400441,piante,plantae,,magnoliopsida,ericales,ericaceae,erica,arborea,,21-4-2012,"Bosco di Tecchie",1337477267
+P1400448,piante,plantae,,magnoliopsida,ericales,ericaceae,erica,arborea,,21-4-2012,"Bosco di Tecchie",1337477429
+P1400479,animali,animalia,chordata,aves,anseriformes,anatidae,cignus,olor,cigno,28-4-2012,"lago Vicini",1337477619
+P1400577,piante,plantae,,liliopsida,liliales,liliaceae,muscari,comosum,,12-5-2012,"Monti del Furlo",1337477836
+P1400601,animali,animalia,chordata,aves,passeriformes,corvidae,corvus,"corone cornix","cornacchia grigia",19-5-2012,"Monti del Furlo",1337478050
+P1030875,animali,animalia,arthropoda,insecta,diptera,tipulidae,tipula,maxima,,26-5-2007,"Bosco di Tecchie",1339017621
+P1110400,piante,plantae,,liliopsida,liliales,iridaceae,iris,pseudacorus,"giaggiolo acquatico",24-4-2008,"Stagno Urbani Fano",1339017847
+P1400613,animali,animalia,arthropoda,insecta,lepidoptera,,,,bruco,26-5-2012,"Bosco di Tecchie",1339018020
+P1400701,animali,animalia,arthropoda,insecta,hymenoptera,,,,,2-6-2012,"Foreste Casentinesi",1339018175
+P1400715,funghi,fungi,,agaricomycetes,polyporales,polyporaceae,polyporus,sulphureus,"gallina dei boschi",2-6-2012,"Foreste Casentinesi",1339018406
+P1400771,animali,animalia,arthropoda,insecta,diptera,,,,,2-6-2012,"Foreste Casentinesi",1339018514
+P1040341,animali,animalia,chordata,reptilia,squamata,colubridae,elaphe,longissima,"colubro di esculapio giovane",31-5-2007,"Monti del Furlo",1339018761
+P1000226,animali,animalia,chordata,aves,passeriformes,hirundinidae,hirundo,rustica,rondine,2-7-2005,"Monti del Furlo",1339795208
+P1000122,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,polygonia,egea,,15-7-2005,"Monti del Furlo",1339795483
+P1000442,animali,animalia,arthropoda,insecta,hemiptera,notonectidae,notonecta,glauca,notonetta,12-7-2005,"Monti del Furlo",1339795827
+P1010314,piante,plantae,,magnoliopsida,lamiales,boraginaceae,pulmonaria,apennina,,18-3-2007,"Bosco di Tecchie",1339796046
+P1400819,animali,animalia,arthropoda,insecta,lepidoptera,papilionidae,parnassius,mnemosyne,,10-6-2012,"Monte Catria",1339796263
+P1020800,animali,animalia,chordata,aves,passeriformes,hirundinidae,riparia,riparia,topino,28-8-2005,"Monti del Furlo",1339796494
+P1400643,piante,plantae,,magnoliopsida,caryophyllales,caryophyllaceae,,,,26-5-12,"Bosco di Tecchie",1339796662
+P1510513,paesaggi,,,,,,,,,11-6-2017,"Monti del Furlo",1497278504
+P1510092,piante,plantae,,magnoliopsida,brassicales,brassicaceae,cakile,maritima,,20-5-2017,"Parco del San Bartolo",1497357385
+P1080227,animali,animalia,arthropoda,insecta,lepidoptera,satyridae,coenonympha,arcania,,2-6-2006,"Monti del Furlo",1339797783
+P1400809,animali,animalia,arthropoda,insecta,coleoptera,,,,,10-6-2012,"Monte Catria",1339797923
+P1400830,animali,animalia,arthropoda,insecta,lepidoptera,pyralidae,aphomia,sociella,,10-6-2012,"Monte Catria",1339798120
+P1400852,animali,animalia,arthropoda,insecta,lepidoptera,crambidae,scoparia,basistrigalis,,10-6-2012,"Monte Catria",1339798219
+P1020820,animali,animalia,arthropoda,insecta,lepidoptera,,,,bruco,23-9-2005,"Monti del Furlo",1339798393
+P1400842,piante,plantae,,magnoliopsida,fabales,fabaceae,onobrychis,viciaefolia,"fieno santo",10-6-2012,"Monte Catria",1339798601
+P1090298,piante,plantae,,magnoliopsida,dipsacales,valerianaceae,centranthus,ruber,"valeriana rossa",21-6-2006,"Monti del Furlo",1341174992
+P1080717,piante,plantae,,liliopsida,orchidales,orchidaceae,orchis,coriophora,,11-6-2006,"Monti del Furlo",1341175222
+P1110078,animali,animalia,arthropoda,insecta,lepidoptera,sphingidae,macroglossum,"stellatarum (bruco)",,3-9-2006,"Monte Nerone",1341175564
+P1120317,animali,animalia,chordata,reptilia,squamata,colubridae,natrix,natrix,"biscia dal collare",28-9-2006,"Monti del Furlo",1341175801
+P1400963,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,cerambyx,cerdo,"cerambice della quercia",24-6-2012,Fano,1341176170
+P1400861,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,cerambyx,cerdo,"cerambice della quercia",24-6-2012,Fano,1341176590
+P1420502,animali,animalia,arthropoda,insecta,orthoptera,gryllotalpidae,gryllotalpa,gryllotalpa,grillotalpa,22-6-2013,Mondolfo,1373219456
+P1410014,animali,animalia,arthropoda,insecta,lepidoptera,pieridae,aporia,crataegi,"pieride del biancospino",24-6-2012,"Monte Catria",1341177158
+P1400986,animali,animalia,arthropoda,insecta,lepidoptera,,,,,24-6-2012,"Monte Catria",1342357306
+P1410098,piante,plantae,,liliopsida,liliales,liliaceae,allium,sphaerocephalon,,14-7-2012,"Monti del Furlo",1342357468
+P1400988,animali,animalia,arthropoda,insecta,lepidoptera,,,,,24-6-2012,"Monte Catria",1342357570
+P1410089,piante,plantae,,pteridopsida,pteridales,hypolepidaceae,pteridium,aquilinum,"felce aquilina",14-7-2012,"Monti del Furlo",1342357822
+P1400992,animali,animalia,arthropoda,insecta,lepidoptera,,,,,24-6-2012,"Monte Catria",1342357945
+P1080336,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,cucullia,"verbasci (bruco)",,3-6-2006,"Monti del Furlo",1342358142
+P1130549,animali,animalia,chordata,amphibia,anura,bufonidae,bufo,viridis,"rospo smeraldino",2-6-2008,"Stagno Urbani Fano",1342358474
+P1030280,animali,animalia,arthropoda,insecta,coleoptera,,,,,10-5-2007,"Stagno Urbani Fano",1342358602
+P1040947,animali,animalia,arthropoda,insecta,diptera,,,,,10-6-2007,"Monte Catria",1342358715
+P1090109,animali,animalia,arthropoda,insecta,lepidoptera,,,,,15-10-2007,Fano,1342358836
+P1250598,animali,animalia,arthropoda,insecta,lepidoptera,lymantriidae,lymantria,dispar,,26-6-2012,Fano,1342358955
+P1400535,animali,animalia,chordata,reptilia,squamata,lacertidae,podarcis,sicula,"lucertola campestre",28-4-2012,"Monti delle Cesane",1342359112
+P1290745,animali,animalia,arthropoda,insecta,hymenoptera,vespidae,vespa,crabro,"calabroni (nido)",12-9-2009,"Foreste Casentinesi",1342359311
+P1410186,piante,plantae,,magnoliopsida,apiales,apiaceae,eryngium,campestre,calcatreppola,22-7-2012,"Monti del Furlo",1343489178
+P1410081,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,purpuricenus,kaehleri,,14-7-2012,"Monti del Furlo",1342359573
+P1150941,animali,animalia,arthropoda,insecta,phasmida,phasmatidae,bacillus,rossius,"insetto stecco",20-7-2008,"Monti del Furlo",1342930782
+P1400654,animali,animalia,arthropoda,insecta,coleoptera,elateridae,ampedus,,,2-6-2012,"Foreste Casentinesi",1342930945
+P1150415,animali,animalia,arthropoda,insecta,hymenoptera,gasteruptiidae,,,,9-7-2008,"Monti del Furlo",1342931222
+P1400749,animali,animalia,arthropoda,insecta,coleoptera,coccinellidae,halyzia,sedecimguttata,,2-6-2012,"Foreste Casentinesi",1342931365
+P1400700,animali,animalia,arthropoda,insecta,lepidoptera,,,,,2-6-2012,"Foreste Casentinesi",1342931501
+P1360343,animali,animalia,arthropoda,insecta,diptera,lonchaeidae,,,,12-6-2010,"Monti del Furlo",1342931606
+P1150647,animali,animalia,arthropoda,insecta,hymenoptera,,,,,10-7-2008,"Monti del Furlo",1342931893
+P1070869,animali,animalia,arthropoda,insecta,hymenoptera,vespidae,vespa,crabro,calabrone,12-9-2007,"Monti del Furlo",1342932034
+P1410175,animali,animalia,arthropoda,insecta,lepidoptera,pyralidae,,,,22-7-2012,"Monti del Furlo",1343489283
+P1410122,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,,,,22-7-2012,"Monti del Furlo",1343489371
+P1410131,piante,plantae,,magnoliopsida,asterales,asteraceae,centaurea,,,22-7-2012,"Monti del Furlo",1343489473
+P1400676,animali,animalia,arthropoda,insecta,coleoptera,,,,,2-6-2012,"Foreste Casentinesi",1344159407
+P1400787,animali,animalia,arthropoda,insecta,coleoptera,malachidae,,,,2-6-2012,"Foreste Casentinesi",1344159488
+P1120290,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,aplocera,plagiata,,24-9-2006,"Monti del Furlo",1344159669
+P1410199,animali,animalia,arthropoda,insecta,hemiptera,pentatomidae,codophila,varia,,4-8-2012,"Monti del Furlo",1344159756
+P1410220,animali,animalia,arthropoda,insecta,orthoptera,tettigoniidae,tettigonia,viridissima,,4-8-2012,"Monti del Furlo",1344159859
+P1410208,piante,plantae,,magnoliopsida,asterales,asteraceae,achillea,,,4-8-2012,"Monti del Furlo",1344159970
+P1410311,animali,animalia,arthropoda,insecta,lepidoptera,,,,,14-8-2012,"Monti del Furlo",1345380852
+P1400630,animali,animalia,arthropoda,arachnida,araneae,araneidae,araniella,cucurbitina,,26-5-2012,"Bosco di Tecchie",1345381083
+P1410281,animali,animalia,arthropoda,insecta,hymenoptera,apidae,,,,12-8-2012,"Monte Catria",1345381261
+P1400638,piante,plantae,,liliopsida,orchidales,orchidaceae,neottia,nidus-avis,,26-5-2012,"Bosco di Tecchie",1345381559
+P1410300,animali,animalia,arthropoda,insecta,lepidoptera,hesperiidae,hesperia,comma,,14-8-2012,"Monti del Furlo",1345381752
+P1410295,animali,animalia,arthropoda,insecta,coleoptera,chrysomelidae,,,,14-8-2012,"Monti del Furlo",1345381862
+P1410252,piante,plantae,,magnoliopsida,apiales,apiaceae,eryngium,campestre,calcatreppola,12-8-2012,"Monte Catria",1345382166
+P1410277,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,polyommatus,corydon,,12-8-2012,"Monti del Furlo",1345382310
+P1410240,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,melitaea,phoebe,,12-8-2012,"Monte Catria",1345382482
+P1000001,paesaggi,,,,,,,,,25-1-2005,"Gola del Furlo",1346498811
+P1070328,animali,animalia,mollusca,gastropoda,pulmonata,agriolimacidae,,,,14-5-2006,"Monti del Furlo",1346504975
+P1000002,piante,plantae,,liliopsida,asparagales,amaryllidaceae,galanthus,nivalis,bucaneve,19-3-2006,"Monti del Furlo",1346505194
+P1410361,funghi,fungi,,basidiomycetes,boletales,boletaceae,coleboletus,radicans,,2-9-2012,"Monti del Furlo",1347084321
+P1370660,funghi,fungi,,basidiomycetes,agaricales,physalacriaceae,xerula,melanotricha,,2-10-2010,"Foreste Casentinesi",1347084488
+P1370661,funghi,fungi,,basidiomycetes,agaricales,tricholomataceae,megacollybia,platyphylla,,2-10-2010,"Foreste Casentinesi",1347084561
+P1370731,funghi,fungi,,basidiomycetes,agaricales,agaricaceae,echinoderma,asperum,"lepiota aspera",10-10-2010,"Monti del Furlo",1347084670
+P1390312,animali,animalia,arthropoda,insecta,diptera,,,,,26-6-2011,"Monti del Furlo",1347084853
+P1050538,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,argynnis,paphia,,2-6-2007,"Monti del Furlo",1347085022
+P1410344,animali,animalia,arthropoda,insecta,hemiptera,pentatomidae,eurydema,ornata,,2-9-2012,"Monti del Furlo",1347085131
+P1410351,animali,animalia,arthropoda,insecta,diptera,tachinidae,,,,2-9-2012,"Monti del Furlo",1347085206
+P1410828,funghi,fungi,,basidiomycetes,gomphales,ramariaceae,ramaria,,manina,6-10-2012,"Monti del Furlo",1349579945
+P1410434,animali,animalia,chordata,reptilia,squamata,lacertidae,podarcis,tiliguerta,,17-9-2012,"Isola del Giglio",1349580130
+P1410830,funghi,fungi,,basidiomycetes,agaricales,marasmiaceae,armillaria,mellea,famigliola,6-10-2012,"Monti del Furlo",1349580340
+P1410372,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,polyommatus,bellargus,,15-9-2012,"Monti del Furlo",1349580611
+P1410757,funghi,fungi,,basidiomycetes,agaricales,amanitaceae,amanita,pantherina,,29-9-2012,"Foreste Casentinesi",1349580840
+P1410680,animali,animalia,chordata,mammalia,artiodactyla,bovidae,capra,ibex,"stambecco alpino",22-9-2012,"Alpi Orobie",1349581008
+P1410681,animali,animalia,chordata,mammalia,artiodactyla,bovidae,capra,ibex,"stambecco alpino",22-9-2012,"Alpi Orobie",1349581209
+P1410778,funghi,fungi,,basidiomycetes,agaricales,amanitaceae,amanita,muscaria,,30-9-2012,"Foreste Casentinesi",1349581346
+P1410411,animali,animalia,arthropoda,insecta,odonata,libellulidae,sympetrum,fonscolombei,,17-9-2012,"Isola del Giglio",1349581465
+P1410617,animali,animalia,chordata,aves,passeriformes,corvidae,garrulus,glandarius,ghiandaia,20-9-2012,"parco reg. della Maremma",1349581662
+P1410810,paesaggi,,,,,,,,,30-9-2012,"Foreste Casentinesi",1349581743
+P1410588,animali,animalia,arthropoda,insecta,coleoptera,tenebrionidae,pimelia,,,20-9-2012,"parco reg. della Maremma",1350217743
+P1410727,funghi,fungi,,basidiomycetes,russulales,russulaceae,russula,,,28-9-2012,"Foreste Casentinesi",1350217852
+P1410773,funghi,fungi,,agaricomycetes,agaricales,lycoperdaceae,lycoperdon,pyriforme,,30-9-2012,"Foreste Casentinesi",1350218077
+P1410692,animali,animalia,arthropoda,insecta,orthoptera,,,,,22-9-2012,"Alpi Orobie",1350218187
+P1410866,funghi,fungi,,basidiomycetes,russulales,russulaceae,russula,,,7-10-2012,"Bosco di Tecchie",1350218287
+P1410453,animali,animalia,chordata,aves,falconiformes,accipitridae,,,,17-9-2012,"Isola del Giglio",1350218413
+P1410889,funghi,fungi,,basidiomycetes,agaricales,amanitaceae,amanita,phalloides,,7-10-2012,"Bosco di Tecchie",1350218570
+P1410459,animali,animalia,chordata,reptilia,squamata,lacertidae,lacerta,"sicula tyrrenica",,17-9-2012,"Isola del Giglio",1350218761
+P1410776,funghi,fungi,,agaricomycetes,agaricales,strophariaceae,pholiota,gummosa,,30-9-2012,"Foreste Casentinesi",1350218937
+P1410702,animali,animalia,mollusca,gastropoda,pulmonata,arionidae,arion,rufus,,23-9-2012,"Dazio (SO)",1350219204
+P1410819,funghi,fungi,,basidiomycetes,agaricales,amanitaceae,amanita,rubescens,"amanita vinosa",30-9-2012,"Foreste Casentinesi",1350219373
+P1410837,funghi,fungi,,basidiomycetes,agaricales,amanitaceae,amanita,pantherina,,6-10-2012,"Monti del Furlo",1350219541
+P1410653,funghi,fungi,,basidiomycetes,boletales,boletaceae,boletus,cavipes,,22-9-2012,"Alpi Orobie",1350219719
+P1190011,paesaggi,,,,,,,,,2-11-2008,"Foreste Casentinesi",1351419242
+P1430073,animali,animalia,arthropoda,insecta,hemiptera,,,,,21-9-2013,"Monti del Furlo",1379850273
+P1270871,animali,animalia,arthropoda,insecta,coleoptera,buprestidae,agrilus,,,10-6-2009,"Monti del Furlo",1351419486
+P1190443,animali,animalia,chordata,aves,passeriformes,sturnidae,sturnus,vulgaris,storno,15-11-2008,Fano,1351419653
+P1410895,animali,animalia,chordata,aves,falconiformes,accipitridae,accipiter,nisus,sparviere,27-10-2012,"Gola del Furlo",1351419800
+P1180618,animali,animalia,chordata,amphibia,caudata,salamandridae,salamandrina,tergiditata,"salamandrina dagli occhiali",18-10-2008,"Foreste Casentinesi",1351419980
+P1120363,animali,animalia,chordata,aves,coraciformes,meropidae,merops,apiaster,gruccione,8-5-2008,"Stagno Urbani Fano",1362842670
+P1420009,animali,animalia,chordata,mammalia,artiodactyla,cervidae,dama,dama,daino,24-2-2013,"Monti del Furlo",1363430346
+P1420035,piante,plantae,,magnoliopsida,ranunculales,ranunculaceae,eranthis,hyemalis,,10-3-2013,"Monti del Furlo",1363430515
+P1420079,paesaggi,,,,,,,,,31-3-2013,"Monti del Furlo",1367088235
+P1420146,animali,animalia,chordata,aves,cuculiformes,cuculidae,cuculus,canorus,cuculo,25-4-2013,"Monti del Furlo",1367088394
+P1420267,piante,plantae,,liliopsida,orchidales,orchidaceae,anacamptis,morio,,8-5-2013,"Monti del Furlo",1368097319
+P1420210,animali,animalia,chordata,aves,passeriformes,certhiidae,certhia,brachydactyla,rampichino,1-5-2013,"Foreste Casentinesi",1368097531
+P1420290,piante,plantae,,liliopsida,orchidales,orchidaceae,ophrys,tenthredinifera,,8-5-2013,"Monti del Furlo",1368097669
+P1420212,funghi,fungi,,ascomycetes,pezizales,helvellaceae,gyromitra,esculenta,,1-5-2013,"Foreste Casentinesi",1368954829
+P1420319,animali,animalia,arthropoda,arachnida,araneae,araneidae,cyclosa,conica,,9-5-2013,"Monti del Furlo",1368955119
+P1420324,piante,plantae,,liliopsida,orchidales,orchidaceae,ophrys,insectifera,,9-5-2013,"Monti del Furlo",1368955289
+P1440855,piante,plantae,,pteridopsida,pteridales,hypolepidaceae,pteridium,aquilinum,"felce aquilina",24-5-2014,"Foreste Casentinesi",1401097455
+P1420393,piante,plantae,,liliopsida,liliales,liliaceae,muscari,comosum,,12-5-2013,"Monti del Furlo",1368955681
+P1420546,animali,animalia,arthropoda,insecta,orthoptera,tettigoniidae,tettigonia,viridissima,,20-7-2013,"Monti del Furlo",1375605710
+P1420563,animali,animalia,arthropoda,insecta,orthoptera,tettigoniidae,saga,pedo,,20-7-2013,"Monti del Furlo",1375605840
+P1420579,animali,animalia,arthropoda,insecta,orthoptera,,,,,21-7-2013,"Monti del Furlo",1375605941
+P1420608,animali,animalia,arthropoda,insecta,coleoptera,buprestidae,anthaxia,,,21-7-2013,"Monti del Furlo",1375606048
+P1120324,animali,animalia,arthropoda,insecta,odonata,lestidae,lestes,viridis,,28-9-2006,"Monti del Furlo",1377947703
+P1100169,animali,animalia,arthropoda,insecta,odonata,cordulegastridae,cordulegaster,boltonii,,15-7-2006,"Monti del Furlo",1377947899
+P1260433,animali,animalia,arthropoda,insecta,odonata,aeshnidae,anax,parthenope,,17-5-2009,"Stagno Urbani Fano",1378915086
+P1420864,animali,animalia,chordata,aves,pelecaniformes,ardeidae,egretta,garzetta,garzette,6-9-2013,"lago Salso Manfredonia",1378915454
+P1420760,animali,animalia,arthropoda,insecta,orthoptera,,,,,5-9-2013,"Parco naz. del Gargano",1378915599
+P1100421,animali,animalia,arthropoda,insecta,odonata,calopterygidae,calopteryx,haemorrhoidalis,,26-7-2006,"Monti del Furlo",1378915803
+P1420676,animali,animalia,chordata,aves,charadriiformes,,,,,3-9-2013,"Parco naz. del Gargano",1378915928
+P1420810,funghi,fungi,,basidiomycetes,russulales,hericiaceae,hericium,clathroides,,6-9-2013,"Foresta Umbra",1378916096
+P1300138,animali,animalia,arthropoda,insecta,odonata,lestidae,,,,26-10-2009,"Stagno Urbani Fano",1378916242
+P1420714,animali,animalia,chordata,aves,columbiformes,columbidae,columba,palumbus,colombaccio,4-9-2013,"Foresta Umbra",1378916500
+P1420833,animali,animalia,chordata,aves,ciconiiformes,ciconiidae,ciconia,ciconia,"cicogna bianca",6-9-2013,"lago Salso Manfredonia",1378916746
+P1420904,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,leptura,aurulenta,,7-9-2013,"Foresta Umbra",1378916883
+P1430020,funghi,fungi,,agaricomycetes,polyporales,polyporaceae,polyporus,picipes,,13-9-2013,"Foreste Casentinesi",1379238711
+P1430015,animali,animalia,arthropoda,insecta,hymenoptera,,,,,13-9-2013,"Foreste Casentinesi",1379238822
+P1420993,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",12-9-2013,"Foreste Casentinesi",1379238996
+P1420943,funghi,fungi,,basidiomycetes,gomphales,ramariaceae,,,,12-9-2013,"Foreste Casentinesi",1379239095
+P1420968,animali,animalia,arthropoda,insecta,hemiptera,,,,,12-9-2013,"Foreste Casentinesi",1379239190
+P1420978,animali,animalia,chordata,mammalia,rodentia,gliridae,glis,glis,ghiro,12-9-2013,"Foreste Casentinesi",1379239336
+P1420962,paesaggi,,,,,,,,,12-9-2013,"Foreste Casentinesi",1379239410
+P1430072,paesaggi,,,,,,,,,21-9-2013,"Monti del Furlo",1379850348
+P1430102,animali,animalia,arthropoda,insecta,orthoptera,phaneropteridae,tylopsis,liliifolia,,21-9-2013,"Monti del Furlo",1379850437
+P1430115,piante,plantae,,magnoliopsida,fabales,fabaceae,ononis,spinosa,arrestabue,21-9-2013,"Monti del Furlo",1379850552
+P1430057,paesaggi,,,,,,,,,21-9-2013,"Monti del Furlo",1379850611
+P2013293,animali,animalia,chordata,mammalia,rodentia,cricetidae,arvicola,,,28-9-2013,Mondolfo,1381668206
+P1430153,funghi,fungi,,basidiomycetes,phallales,phallaceae,mutinus,caninus,,12-10-2013,"Monti del Furlo",1381668348
+P1430830,animali,animalia,chordata,aves,falconiformes,falconidae,falco,peregrinus,"falco pellegrino",16-10-2013,"piazza xx settembre Fano",1381956206
+P1430831,animali,animalia,chordata,aves,falconiformes,falconidae,falco,peregrinus,"falco pellegrino",16-10-2013,"piazza xx settembre Fano",1381956298
+P1430162,animali,animalia,chordata,aves,passeriformes,corvidae,coloeus,monedula,taccola,17-10-2013,"piazza xx settembre Fano",1382165982
+P1420199,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,dorcadion,etruscum,,28-4-2013,"Monti del Furlo",1383433267
+P1430218,funghi,fungi,,basidiomycetes,boletales,boletaceae,boletus,erythropus,,20-10-2013,"Foreste Casentinesi",1383433431
+P1420654,animali,animalia,arthropoda,insecta,lepidoptera,arctiidae,eilema,,,2-9-2013,"Parco naz. del Gargano",1383433538
+P1430228,funghi,fungi,,basidiomycetes,phallales,gomphaceae,clavariadelphus,pistillaris,"mazza d'Ercole",20-10-2013,"Foreste Casentinesi",1383433731
+P1420310,animali,animalia,chordata,aves,pelecaniformes,ardeidae,nycticorax,nycticorax,nitticora,9-5-2013,"Gola del Furlo",1383433882
+P1420337,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,herophila,tristis,,9-5-2013,"Monti del Furlo",1383434013
+P1420423,animali,animalia,arthropoda,insecta,coleoptera,buprestidae,capnodis,tenebrionis,,18-5-2013,"Monti delle Cesane",1383434122
+P1420695,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,selenia,lunularia,,4-9-2013,"Parco naz. del Gargano",1383434204
+P1500668,paesaggi,,,,,,,,,21-10-2016,"Foreste Casentinesi",1480154145
+P1420873,animali,animalia,chordata,aves,passeriformes,muscicapidae,muscicapa,striata,pigliamosche,7-9-2013,"Foresta Umbra",1383434534
+P1430306,funghi,fungi,,basidiomycetes,agaricales,bolbitiaceae,bolbitius,titubans,,1-11-2013,"Monti del Furlo",1383434673
+P1430200,funghi,fungi,,basidiomycetes,russulales,russulaceae,lactarius,,,20-10-2013,"Foreste Casentinesi",1383434804
+P1430221,funghi,fungi,amoebozoa,myxogastria,physarales,physaraceae,fuligo,septica,,20-10-2013,"Foreste Casentinesi",1383434879
+P1430240,funghi,fungi,,basidiomycetes,agaricales,tricholomataceae,collybia,mucida,,27-10-2013,"Foreste Casentinesi",1383435022
+P1430301,animali,animalia,chordata,mammalia,rodentia,sciuridae,sciurus,vulgaris,scoiattolo,27-10-2013,"Foreste Casentinesi",1383435162
+P1430213,paesaggi,,,,,,,,,20-10-2013,"Foreste Casentinesi",1383435233
+P1430911,animali,animalia,chordata,aves,falconiformes,accipitridae,buteo,buteo,poiana,10-11-2013,Mondolfo,1384080793
+P1430317,piante,plantae,,magnoliopsida,celastrales,celastraceae,euonymus,europaeus,fusaggine,9-11-2013,"Gola del Furlo",1384080982
+P1450411,animali,animalia,arthropoda,arachnida,araneae,araneidae,araneus,diadematus,"epeira crociata",29-6-2014,"Monti del Furlo",1405177523
+P1450377,animali,animalia,arthropoda,insecta,odonata,,,,,29-6-2014,"Monti del Furlo",1405177299
+P1450421,animali,animalia,arthropoda,insecta,coleoptera,curculionidae,,,,29-6-2014,"Monti del Furlo",1405177398
+P1020777,animali,animalia,arthropoda,insecta,hemiptera,nepidae,nepa,cinerea,"scorpione d'acqua",17-9-2005,"Monte Nerone",1390764268
+P1010026,animali,animalia,chordata,mammalia,artiodactyla,cervidae,capreolus,capreolus,capriolo,1-8-2005,"Monti del Furlo",1390764553
+P1120339,animali,animalia,arthropoda,insecta,mantodea,mantidae,mantis,religiosa,"mantide religiosa",28-9-2006,"Monti del Furlo",1390765003
+P1010027,animali,animalia,chordata,reptilia,squamata,colubridae,natrix,natrix,"biscia dal collare",1-8-2005,"Monti del Furlo",1390765840
+P1430521,paesaggi,,,,,,,,,23-2-2014,"Monti del Furlo",1393184717
+P1430534,paesaggi,,,,,,,,,23-2-2014,"Monti del Furlo",1393184778
+P1430497,paesaggi,,,,,,,,,23-2-2014,"Monti del Furlo",1393227502
+P1430357,animali,animalia,chordata,aves,columbiformes,columbidae,streptopelia,decaocto,"tortora dal collare orientale",5-12-2013,"Fano ex ENAM",1393227756
+P1430577,piante,plantae,,magnoliopsida,ranunculales,ranunculaceae,anemone,coronaria,,15-3-2014,"Monti del Furlo",1395133572
+P1430613,animali,animalia,chordata,mammalia,carnivora,canidae,vulpes,vulpes,volpe,15-3-2014,"Monti del Furlo",1395133712
+P1430597,animali,animalia,chordata,mammalia,carnivora,canidae,vulpes,vulpes,volpe,15-3-2014,"Monti del Furlo",1395133863
+P1430603,animali,animalia,chordata,mammalia,carnivora,canidae,vulpes,vulpes,volpe,15-3-2014,"Monti del Furlo",1395133998
+P1430617,paesaggi,,,,,,,,,15-3-2014,"Monti del Furlo",1395134077
+P1430688,animali,animalia,arthropoda,insecta,lepidoptera,yponomeutidae,plutella,xylostella,,6-4-2014,"Monti del Furlo",1397947424
+P1430760,piante,plantae,,liliopsida,orchidales,orchidaceae,dactylorhiza,sambucina,,13-4-2014,"Monte Catria",1397947588
+P1430707,piante,plantae,,magnoliopsida,primulales,primulaceae,primula,veris,,13-4-2014,"Monte Catria",1397947735
+P1430717,piante,plantae,,magnoliopsida,fagales,fagaceae,fagus,,,13-4-2014,"Monte Catria",1397947802
+P1430719,paesaggi,,,,,,,,,13-4-2014,"Monte Catria",1397947862
+P1430816,animali,animalia,arthropoda,insecta,coleoptera,chrysomelidae,chrysolina,americana,,15-4-2014,"palazzo Montevecchio Fano",1397948074
+P1430924,animali,animalia,chordata,aves,anseriformes,anatidae,anas,penelope,fischione,16-4-2014,"Stagno Urbani Fano",1397948207
+P1430957,animali,animalia,arthropoda,insecta,mantodea,empusidae,empusa,pennata,,20-4-2014,"Monti del Furlo",1398099741
+P1430975,piante,plantae,,magnoliopsida,euphorbiales,euphorbiaceae,euphorbia,cyparissias,,20-4-2014,"Monti del Furlo",1398099937
+P1430990,animali,animalia,arthropoda,insecta,diptera,,,,,20-4-2014,"Monti del Furlo",1398100057
+P1430933,animali,animalia,arthropoda,arachnida,araneae,lycosidae,pirata,piraticus,,20-4-2014,"Monti del Furlo",1398100226
+P1430995,paesaggi,,,,,,,,,20-4-2014,"Monti del Furlo",1398100281
+P1440038,animali,animalia,arthropoda,insecta,lepidoptera,pieridae,gonepteryx,cleopatra,,26-4-2014,"Monte Conero",1399151113
+P1440046,piante,plantae,,magnoliopsida,asterales,asteraceae,,,,26-4-2014,"Monte Conero",1399151222
+P1440051,piante,plantae,,liliopsida,liliales,liliaceae,allium,roseum,,26-4-2014,"Monte Conero",1399151340
+P1440639,animali,animalia,arthropoda,insecta,lepidoptera,pieridae,anthocharis,cardamines,"Aurora (maschio)",1-5-2014,"Monti del Furlo",1399151474
+P1450033,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",24-5-2014,"Foreste Casentinesi",1401097607
+P1440984,animali,animalia,chordata,aves,piciformes,picidae,dendrocopos,major,"picchio rosso maggiore",24-5-2014,"Foreste Casentinesi",1401097844
+P1440983,animali,animalia,chordata,aves,piciformes,picidae,dendrocopos,major,"picchio rosso maggiore",24-5-2014,"Foreste Casentinesi",1401097988
+P1440733,piante,plantae,,liliopsida,liliales,liliaceae,allium,ursinum,"aglio orsino",18-5-2014,"Monte Catria",1401098184
+P1440672,animali,animalia,arthropoda,insecta,lepidoptera,pieridae,anthocharis,cardamines,"aurora (femmina) ",4-5-2014,"Monti del Furlo",1401098404
+P1440664,piante,plantae,,magnoliopsida,asterales,asteraceae,,,,4-5-2014,"Monti del Furlo",1401098510
+p1440652,piante,plantae,,liliopsida,orchidales,orchidaceae,ophrys,bertolonii,,1-5-2014,"Monti del Furlo",1401098625
+P1430734,piante,plantae,,magnoliopsida,aquifoliales,aquifoliaceae,ilex,aquifolium,agrifoglio,13-4-2014,"Monte Catria",1401550051
+P1440729,piante,plantae,,liliopsida,arales,araceae,arum,maculatum,"gigaro scuro",18-5-2014,"Monte Catria",1401550229
+P1440752,animali,animalia,arthropoda,arachnida,,,,,,18-5-2014,"Monte Catria",1401550311
+P1450122,piante,plantae,,liliopsida,asparagales,amaryllidaceae,narcissus,poeticus,narciso,8-6-2014,"Monte Catria",1402830369
+P1450277,animali,animalia,arthropoda,insecta,coleoptera,buprestidae,,,,15-6-2014,"Monti del Furlo",1403343525
+P1450235,animali,animalia,arthropoda,insecta,lepidoptera,hesperiidae,,,,15-6-2014,"Monti del Furlo",1403343611
+P1450297,animali,animalia,arthropoda,insecta,diptera,asilidae,,,,15-6-2014,"Monti del Furlo",1403343689
+P1450352,animali,animalia,mollusca,gastropoda,heterobranchia,hygromiidae,monacha,cantiana,,15-6-2014,"Monti del Furlo",1403344105
+P1450288,piante,plantae,,magnoliopsida,scrophulariales,orobanchaceae,,,,15-6-2014,"Monti del Furlo",1403344205
+P1500674,animali,animalia,chordata,aves,falconiformes,falconidae,falco,peregrinus,"falco pellegrino",19-6-2014,"piazza xx settembre Fano",1403344398
+P1500507,animali,animalia,chordata,aves,falconiformes,falconidae,falco,peregrinus,"falco pellegrino",19-6-2014,"piazza xx settembre Fano",1403344538
+P1500562,animali,animalia,chordata,aves,falconiformes,falconidae,falco,peregrinus,"falco pellegrino",19-6-2014,"piazza xx settembre Fano",1403344648
+P1530213,animali,animalia,arthropoda,insecta,lepidoptera,erebidae,dysgonia,algira,,10-7-2014,"piazza xx settembre Fano",1501168566
+P1510405,animali,animalia,chordata,aves,falconiformes,falconidae,falco,peregrinus,"falco pellegrino",24-6-2014,"piazza xx settembre Fano",1405177727
+P1450588,funghi,fungi,,basidiomycetes,russulales,russulaceae,russula,olivacea,,19-7-2014,"Foreste Casentinesi",1406735097
+P1450583,animali,animalia,arthropoda,insecta,lepidoptera,,,,,19-7-2014,"Foreste Casentinesi",1406735189
+P1450558,paesaggi,,,,,,,,,19-7-2014,"Foreste Casentinesi",1406735260
+P1560099,animali,animalia,arthropoda,insecta,lepidoptera,lasiocampidae,lasiocampa,quercus,"bombice della quercia",30-8-2014,Mondolfo,1409436995
+P1560098,animali,animalia,chordata,aves,pelecaniformes,ardeidae,ardea,cinerea,"airone cenerino",25-8-2014,"Rocca Malatestiana Fano",1409509532
+P1450642,animali,animalia,arthropoda,insecta,lepidoptera,lasiocampidae,lasiocampa,quercus,"bombice della quercia",30-8-2014,Mondolfo,1409509084
+P1450614,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,,,,17-8-2014,"Monti del Furlo",1409509255
+P1450727,paesaggi,,,,,,,,,5-9-2014,"Foreste Casentinesi",1410010695
+P1450743,paesaggi,,,,,,,,"nido di formica rufa",5-9-2014,"Foreste Casentinesi",1410010907
+P1450741,funghi,fungi,,basidiomycetes,boletales,boletaceae,butyriboletus,subappendiculatus,,5-9-2014,"Foreste Casentinesi",1410011151
+P1450676,piante,plantae,,magnoliopsida,malvales,malvaceae,,,,3-9-2014,"Foreste Casentinesi",1410011333
+P1450662,funghi,fungi,,agaricomycetes,agaricales,lycoperdaceae,lycoperdon,echinatum,,3-9-2014,"Foreste Casentinesi",1410011506
+P1450736,paesaggi,,,,,,,,,5-9-2014,"Foreste Casentinesi",1410011616
+P1450703,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",3-9-2014,"Foreste Casentinesi",1410011826
+P1450692,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",3-9-2014,"Foreste Casentinesi",1410011943
+P1450688,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",3-9-2014,"Foreste Casentinesi",1410012049
+P1450783,animali,animalia,chordata,mammalia,artiodactyla,suidae,sus,scrofa,cinghiale,13-9-2014,"Foreste Casentinesi",1410703855
+P1450776,animali,animalia,arthropoda,insecta,lepidoptera,pieridae,colias,,,13-9-2014,"Foreste Casentinesi",1410703959
+P1450807,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",13-9-2014,"Foreste Casentinesi",1410704085
+P1450772,animali,animalia,arthropoda,insecta,hymenoptera,apidae,,,,13-9-2014,"Foreste Casentinesi",1410704185
+P1450750,funghi,fungi,,agaricomycetes,polyporales,polyporaceae,polyporus,montanus,,5-9-2014,"Foreste Casentinesi",1411326448
+P1450835,animali,animalia,arthropoda,insecta,coleoptera,carabidae,carabus,,,21-9-2014,Mondolfo,1411326685
+P1450730,funghi,fungi,,basidiomycetes,russulales,russulaceae,lactarius,,,5-9-2014,"Foreste Casentinesi",1411326808
+P1450761,animali,animalia,chordata,mammalia,artiodactyla,cervidae,dama,dama,daino,5-9-2014,"Foreste Casentinesi",1411326935
+P1450847,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",5-10-2014,"Foreste Casentinesi",1412670627
+P1450848,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",5-10-2014,"Foreste Casentinesi",1412670746
+P1450921,funghi,fungi,,basidiomycetes,agaricales,pluteaceae,pluteus,cervinus,,11-10-2014,"Foreste Casentinesi",1413186181
+P1450912,funghi,fungi,,basidiomycetes,phallales,geastraceae,geastrum,triplex,,11-10-2014,"Foreste Casentinesi",1413186398
+P1450915,funghi,fungi,,basidiomycetes,cantharellales,cantharellaceae,craterellus,cornucopioides,"trombetta dei morti",11-10-2014,"Foreste Casentinesi",1413186657
+P1450904,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,rosalia,alpina,,11-10-2014,"Foreste Casentinesi",1413186857
+P1450929,funghi,fungi,,basidiomycetes,boletales,boletaceae,boletus,edulis,porcino,11-10-2014,"Foreste Casentinesi",1413187012
+P1450908,funghi,fungi,,basidiomycetes,,,,,,11-10-2014,"Foreste Casentinesi",1413187122
+P1580259,animali,animalia,arthropoda,insecta,lepidoptera,crambidae,cydalima,perspectalis,"piralide del bosso",8-10-2014,"piazza xx settembre Fano",1413187229
+P1450859,paesaggi,,,,,,,,,11-10-2014,"Foreste Casentinesi",1413187330
+P1450863,paesaggi,,,,,,,,,11-10-2014,"Foreste Casentinesi",1413187456
+P1450867,paesaggi,,,,,,,,,11-10-2014,"Foreste Casentinesi",1413187537
+P1450871,paesaggi,,,,,,,,,11-10-2014,"Foreste Casentinesi",1413187641
+P1450926,funghi,fungi,amoebozoa,mycetozoa,liceales,reticulariaceae,lycogala,epidendrum,,11-10-2014,"Foreste Casentinesi",1413187785
+P1190556,funghi,fungi,,basidiomycetes,agaricales,agaricaceae,macrolepiota,procera,"mazza da tamburo",18-11-2008,"Monti del Furlo",1414873474
+P1190562,funghi,fungi,,basidiomycetes,agaricales,agaricaceae,macrolepiota,procera,"mazza da tamburo",18-11-2008,"Monti del Furlo",1414873623
+P1240967,animali,animalia,chordata,mammalia,artiodactyla,cervidae,dama,dama,daino,25-4-2009,"Foreste Casentinesi",1414873818
+P1360163,funghi,fungi,amoebozoa,mycetozoa,liceales,reticulariaceae,lycogala,epidendrum,,30-5-2010,"Foreste Casentinesi",1414874511
+P1190053,funghi,fungi,,basidiomycetes,agaricales,pluteaceae,pluteus,thomsonii,,2-11-2008,"Foreste Casentinesi",1414874860
+P1460055,animali,animalia,chordata,aves,passeriformes,turdidae,turdus,viscivorus,tordela,2-11-2014,"Monti del Furlo",1419607785
+P1460110,animali,animalia,arthropoda,insecta,coleoptera,coccinellidae,halyzia,sedecimguttata,,30-11-2014,"Foreste Casentinesi",1419607915
+P1460132,animali,animalia,chordata,mammalia,artiodactyla,suidae,sus,scrofa,cinghiale,8-12-2014,"Foreste Casentinesi",1419608041
+P1460134,paesaggi,,,,,,,,,8-12-2014,"Foreste Casentinesi",1419608139
+P1460181,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",25-12-2014,"Foreste Casentinesi",1419608282
+P1460176,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",25-12-2014,"Foreste Casentinesi",1419608397
+P1460252,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",4-1-2015,"Foreste Casentinesi",1420531776
+P1460279,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",4-1-2015,"Foreste Casentinesi",1420531895
+P1460352,paesaggi,,,,,,,,,21-3-2015,"Foreste Casentinesi",1427037449
+P1460364,animali,animalia,chordata,aves,passeriformes,regulidae,regulus,regulus,regolo,21-3-2015,"Foreste Casentinesi",1427037651
+P1460386,animali,animalia,chordata,aves,passeriformes,regulidae,regulus,regulus,regolo,21-3-2015,"Foreste Casentinesi",1427037767
+P1460296,animali,animalia,chordata,aves,passeriformes,paridae,parus,caeruleus,cinciarella,6-3-2015,"Gola del Furlo",1427038028
+P1460527,paesaggi,,,,,,,,,6-4-2015,"Foreste Casentinesi",1428526002
+P1460507,paesaggi,,,,,,,,,6-4-2015,"Foreste Casentinesi",1428526142
+P1460448,animali,animalia,chordata,aves,passeriformes,phylloscopidae,phylloscopus,,luÃ¬,6-4-2015,"Foreste Casentinesi",1428526372
+P1460437,animali,animalia,chordata,aves,passeriformes,phylloscopidae,phylloscopus,,luÃ¬,,"Foreste Casentinesi",1428526493
+P1460399,paesaggi,,,,,,,,,6-4-2015,"Foreste Casentinesi",1428526588
+P1460486,animali,animalia,chordata,aves,passeriformes,paridae,parus,palustris,"cincia bigia",6-4-2015,"Foreste Casentinesi",1428526731
+P1460643,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,chiasmia,clathrata,,9-5-2015,"Foreste Casentinesi",1432311547
+P1460633,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,chiasmia,clathrata,,9-5-2015,"Foreste Casentinesi",1432312131
+P1460683,piante,plantae,,liliopsida,orchidales,orchidaceae,ophrys,insectifera,,9-5-2015,"Foreste Casentinesi",1432312268
+P1460691,piante,plantae,,liliopsida,orchidales,orchidaceae,ophrys,bertolonii,,9-5-2015,"Foreste Casentinesi",1432312423
+P1460702,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,clorissa,viridata,,9-5-2015,"Foreste Casentinesi",1432312570
+P1460713,animali,animalia,arthropoda,insecta,lepidoptera,geometridae,clorissa,viridata,,9-5-2015,"Foreste Casentinesi",1432312821
+P1050293,animali,animalia,chordata,mammalia,carnivora,canidae,canis,lupus,lupo,11-3-2006,"Monti del Furlo",1432313891
+P1050291,animali,animalia,chordata,mammalia,carnivora,canidae,canis,lupus,lupo,11-3-2006,"Monti del Furlo",1432314192
+P1460336,paesaggi,,,,,,,,,21-3-2015,"Foreste Casentinesi",1432314361
+P1460903,animali,animalia,chordata,amphibia,anura,ranidae,rana,temporaria,,2-6-2015,"Foreste Casentinesi",1433595319
+P1460738,piante,plantae,,magnoliopsida,campanulales,campanulaceae,campanula,media,"campanula toscana",27-5-15,"Monti delle Cesane",1433595507
+P1460737,piante,plantae,,magnoliopsida,campanulales,campanulaceae,campanula,media,"campanula toscana",27-5-2015,"Monti delle Cesane",1433595655
+P1460772,piante,plantae,,liliopsida,orchidales,orchidaceae,serapias,vomeracea,"serapide maggiore",27-5-2015,"Monti delle Cesane",1433595837
+P1460796,piante,plantae,,liliopsida,orchidales,orchidaceae,serapias,vomeracea,"serapide maggiore",27-5-2015,"Monti delle Cesane",1433595955
+P1460747,piante,plantae,,liliopsida,orchidales,orchidaceae,ophrys,,,27-5-2015,"Monti delle Cesane",1433596091
+P1460913,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,saperda,scalaris,,2-6-2015,"Foreste Casentinesi",1433596320
+P1460887,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,rhagium,bifasciatum,,2-6-2015,"Foreste Casentinesi",1433596482
+P1460861,animali,animalia,arthropoda,insecta,hymenoptera,ichneumonidae,rhyssa,persuasoria,,29-5-2015,"Foreste Casentinesi",1433596653
+P1460968,animali,animalia,arthropoda,insecta,odonata,aeshnidae,anax,"imperator (maschio)",,10-6-2015,"Monti del Furlo",1435176872
+P1470096,animali,animalia,arthropoda,insecta,odonata,aeshnidae,anax,"imperator (femmina)",,23-6-2015,"piazza xx settembre Fano",1435177101
+P1470047,piante,plantae,,liliopsida,orchidales,orchidaceae,platanthera,chlorantha,,21-6-2015,"Foreste Casentinesi",1435177253
+P1470025,animali,animalia,arthropoda,insecta,lepidoptera,zygaenidae,,,,21-6-2015,"Foreste Casentinesi",1435177355
+P1460999,piante,plantae,,liliopsida,orchidales,orchidaceae,cephalanthera,rubra,,21-6-2015,"Foreste Casentinesi",1435177516
+P1460987,piante,plantae,,liliopsida,orchidales,orchidaceae,cephalanthera,rubra,,21-6-2015,"Foreste Casentinesi",1435177623
+P1470174,animali,animalia,arthropoda,arachnida,araneae,,,,,29-6-2015,"Foreste Casentinesi",1435835020
+P1470133,piante,plantae,,liliopsida,orchidales,orchidaceae,epipactis,muelleri,,28-6-2015,"Foreste Casentinesi",1435835176
+P1470132,piante,plantae,,liliopsida,orchidales,orchidaceae,epipactis,muelleri,,28-6-2015,"Foreste Casentinesi",1435835276
+P1470188,animali,animalia,chordata,amphibia,anura,bombinatoridae,bombina,variegata,"ululone dal ventre giallo",29-6-2015,"Foreste Casentinesi",1435835479
+P1470249,animali,animalia,chordata,aves,pelecaniformes,ardeidae,ardea,cinerea,"airone cenerino",10-7-2015,"Canale Albani Fano",1437060145
+P1470519,animali,animalia,chordata,mammalia,artiodactyla,bovidae,rupicapra,pyrenaica,"camoscio d'Abruzzo",12-9-2015,"parco nazionale d'Abruzzo",1442260885
+P1470531,animali,animalia,chordata,mammalia,artiodactyla,bovidae,rupicapra,pyrenaica,"camoscio d'Abruzzo",12-9-2015,"parco nazionale d'Abruzzo",1442261029
+P1470443,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",11-9-2015,"parco nazionale d'Abruzzo",1442261182
+P1470442,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",11-9-2015,"parco nazionale d'Abruzzo",1442261325
+P1470421,piante,plantae,,magnoliopsida,asterales,asteraceae,dipsacus,fullonum,"cardo dei lanaioli",6-9-2015,"Foreste Casentinesi",1442261545
+P1470632,animali,animalia,chordata,mammalia,rodentia,gliridae,muscardinus,avellanarius,moscardino,20-9-2015,"Foreste Casentinesi",1442851927
+P1470628,animali,animalia,chordata,mammalia,rodentia,gliridae,muscardinus,avellanarius,moscardino,20-9-2015,"Foreste Casentinesi",1442852045
+P1470636,funghi,fungi,amoebozoa,myxogastria,physarales,physaraceae,fuligo,septica,,20-9-2015,"Foreste Casentinesi",1447260344
+P1470661,animali,animalia,arthropoda,insecta,lepidoptera,noctuidae,triodia,sylvina,,24-9-2015,"piazza xx settembre Fano",1447260509
+P1620287,animali,animalia,chordata,aves,falconiformes,falconidae,falco,peregrinus,"falco pellegrino",27-8-2015,"piazza xx settembre Fano",1447260673
+P1470061,piante,plantae,,magnoliopsida,ericales,ericaceae,monotropa,uniflora,,21-6-2015,"Foreste Casentinesi",1447260837
+P1630446,animali,animalia,arthropoda,arachnida,araneae,,,,,27-10-2015,"piazza xx settembre Fano",1447260937
+P1470695,paesaggi,,,,,,,,,27-9-2015,"Monte Catria",1447261030
+P1470688,paesaggi,,,,,,,,,27-9-2015,"Monte Catria",1447261088
+P1470718,paesaggi,,,,,,,,,11-10-2015,"Foreste Casentinesi",1447261171
+P1480687,paesaggi,,,,,,,,,20-12-2015,"Foreste Casentinesi",1450648266
+P1480693,animali,animalia,chordata,mammalia,carnivora,canidae,canis,lupus,lupo,20-12-2015,"Foreste Casentinesi",1450648441
+P1340088,piante,plantae,,liliopsida,liliales,iridaceae,crocus,biflorus,,27-2-2010,"Monti del Furlo",1461079166
+P1340074,piante,plantae,,liliopsida,liliales,iridaceae,crocus,biflorus,,27-2-2010,"Monti del Furlo",1461079909
+P1490052,piante,plantae,,liliopsida,liliales,iridaceae,crocus,"vernus (albiflora)",,26-3-2016,"Foreste Casentinesi",1461080061
+P1180703,funghi,fungi,,basidiomycetes,agaricales,coprinaceae,coprinus,atramentarius,,18-10-2008,"Foreste Casentinesi",1461080300
+P1490078,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,nobilis,"cervo nobile",26-3-2016,"Foreste Casentinesi",1461080461
+P1490084,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,nobilis,"cervo nobile",26-3-2016,"Foreste Casentinesi",1461080585
+P1490055,animali,animalia,chordata,aves,strigiformes,strigidae,asio,flammeus,"gufo di palude",26-3-2016,"Foreste Casentinesi",1461080753
+P1490127,funghi,fungi,,basidiomycetes,agaricales,bolbitiaceae,bolbitius,,,9-4-2016,"Monti del Furlo",1461080885
+P1490108,funghi,fungi,,pezizomycetes,pezizales,pezizaceae,peziza,,,2-4-2016,"Foreste Casentinesi",1461081045
+P1490147,animali,animalia,arthropoda,insecta,hymenoptera,,,,,30-4-2016,"Foreste Casentinesi",1462807465
+P1490174,animali,animalia,arthropoda,insecta,lepidoptera,pieridae,,,,30-4-2016,"Foreste Casentinesi",1462807563
+P1490169,animali,animalia,arthropoda,insecta,hymenoptera,argidae,,,,30-4-2016,"Foreste Casentinesi",1462807749
+P1490164,animali,animalia,arthropoda,insecta,hymenoptera,argidae,,,,30-4-2016,"Foreste Casentinesi",1462807828
+P1490224,piante,plantae,,liliopsida,orchidales,orchidaceae,ophrys,holoserica,,1-5-2016,"Monti del Furlo",1462807918
+P1490219,piante,plantae,,liliopsida,orchidales,orchidaceae,ophrys,holoserica,,1-5-2016,"Monti del Furlo",1462807994
+P1490292,piante,plantae,,liliopsida,orchidales,orchidaceae,neottia,nidus-avis,,28-5-2016,"Foreste Casentinesi",1464704837
+P1490291,piante,plantae,,liliopsida,orchidales,orchidaceae,neottia,nidus-avis,,28-5-2016,"Foreste Casentinesi",1464704933
+P1490259,piante,plantae,,liliopsida,orchidales,orchidaceae,platanthera,chlorantha,,28-5-2016,"Foreste Casentinesi",1464705200
+P1490261,piante,plantae,,liliopsida,orchidales,orchidaceae,platanthera,chlorantha,,28-5-2016,"Foreste Casentinesi",1464705848
+P1490313,piante,plantae,,liliopsida,orchidales,orchidaceae,ophrys,holoserica,,28-5-2016,"Foreste Casentinesi",1464705971
+P1490264,piante,plantae,,liliopsida,orchidales,orchidaceae,ophrys,insectifera,,28-5-2016,"Foreste Casentinesi",1464706083
+P1500526,animali,animalia,arthropoda,insecta,mantodea,mantidae,mantis,religiosa,"mantide religiosa",25-9-2016,"Monti del Furlo",1475855275
+P1500522,animali,animalia,arthropoda,insecta,mantodea,mantidae,mantis,religiosa,"mantide religiosa",25-9-2016,"Monti del Furlo",1475855406
+P1500216,animali,animalia,chordata,mammalia,artiodactyla,cervidae,dama,dama,daino,14-9-2016,"Foreste Casentinesi",1475855703
+P1500214,animali,animalia,chordata,mammalia,artiodactyla,cervidae,dama,dama,daino,14-9-2016,"Foreste Casentinesi",1475855825
+P1490754,animali,animalia,chordata,aves,coraciformes,upupidae,upupa,epops,upupa,13-8-2016,"Monti del Furlo",1475856194
+P1500192,animali,animalia,chordata,aves,podicipediformes,podicipedidae,podiceps,cristatus,"svasso maggiore",10-9-2016,"lago di scanno",1475856519
+P1490722,animali,animalia,arthropoda,insecta,hemiptera,coreidae,syromastes,rhombeus,,13-8-2016,"Monti del Furlo",1475856799
+P1290610,animali,animalia,chordata,aves,podicipediformes,podicipedidae,podiceps,cristatus,"svasso maggiore",8-9-2009,"Lago Trasimeno",1475857053
+P1500435,funghi,fungi,,basidiomycetes,agaricales,tricholomataceae,clitocybe,geotropa,,23-9-2016,"parco nazionale d'Abruzzo",1475857339
+P1460126,funghi,fungi,,basidiomycetes,agaricales,tricholomataceae,clitocybe,gibba,imbutino,30-11-2014,"Foreste Casentinesi",1475857493
+P1490692,animali,animalia,arthropoda,insecta,neuroptera,myrmeleontidae,palpares,libelluloides,,6-8-2016,"Monti del Furlo",1475857703
+P1490785,animali,animalia,chordata,aves,falconiformes,accipitridae,circus,pygargus,"albanella minore",13-8-2016,"Monti del Furlo",1475857976
+P1490784,animali,animalia,chordata,aves,falconiformes,accipitridae,circus,pygargus,"albanella minore",13-8-2016,"Monti del Furlo",1475858089
+P1490839,animali,animalia,chordata,aves,pelecaniformes,ardeidae,nycticorax,nycticorax,nitticora,21-8-2016,"Canale Albani Fano",1475858517
+P1490837,animali,animalia,chordata,aves,pelecaniformes,ardeidae,nycticorax,nycticorax,nitticora,21-8-2016,"Canale Albani Fano",1475858635
+P1500394,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",23-9-2016,"parco nazionale d'Abruzzo",1475858797
+P1500404,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",23-9-2016,"parco nazionale d'Abruzzo",1475858915
+P1500410,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",23-9-2016,"parco nazionale d'Abruzzo",1475859033
+P1500431,animali,animalia,chordata,mammalia,artiodactyla,cervidae,cervus,elaphus,"cervo nobile",23-9-2016,"parco nazionale d'Abruzzo",1475859147
+P1190038,funghi,fungi,,basidiomycetes,hymenochaetales,hymenochaetaceae,inonotus,hispidus,"poliporo irsuto",2-11-2008,"Foreste Casentinesi",1476720338
+P1420735,funghi,fungi,,basidiomycetes,polyporales,polyporaceae,fomes,fomentarius,,4-9-2013,"Foresta Umbra",1476720556
+P1500536,funghi,fungi,,basidiomycetes,polyporales,polyporaceae,fomes,fomentarius,,28-9-2016,"Foreste Casentinesi",1476720695
+P1490829,piante,plantae,,magnoliopsida,fabales,fabaceae,lathyrus,silvestris,,20-8-2016,"Monti del Furlo",1476720880
+P1500516,animali,animalia,arthropoda,insecta,coleoptera,chrysomelidae,,,,25-9-2016,"Monti del Furlo",1476721001
+P1430195,paesaggi,,,,,,,,,20-10-2013,"Foreste Casentinesi",1476721094
+P1500737,paesaggi,,,,,,,,,21-10-2016,"Foreste Casentinesi",1480154228
+P1500316,animali,animalia,arthropoda,insecta,hemiptera,pentatomidae,pentatoma,rufipes,,23-9-2016,"parco nazionale d'Abruzzo",1480154426
+P1500806,funghi,fungi,,ascomycetes,pezizales,helvellaceae,helvella,crispa,,22-10-2016,"Foreste Casentinesi",1480154624
+P1410715,funghi,fungi,,agaricomycetes,polyporales,polyporaceae,polyporus,sulphureus,"gallina dei boschi",23-9-2012,"Dazio (SO)",1480154825
+P1020287,funghi,fungi,,basidiomycetes,agaricales,strophariaceae,hypholoma,fasciculare,,4-9-2005,"Foreste Casentinesi",1480155027
+P1500715,funghi,fungi,,agaricomycetes,agaricales,tricholomataceae,tricholoma,saponaceum,,21-10-2016,"Foreste Casentinesi",1480155998
+P1500768,funghi,fungi,,basidiomycetes,russulales,russulaceae,lactarius,helvus,,22-10-2016,"Foreste Casentinesi",1480156152
+P1410859,funghi,fungi,,agaricomycetes,agaricales,tricholomataceae,collybia,,,6-10-2012,"Monti del Furlo",1480156342
+P1500817,funghi,fungi,,basidiomycetes,hymenochaetales,hymenochaetaceae,inonotus,hispidus,"poliporo irsuto",22-10-2016,"Foreste Casentinesi",1480156514
+P1500268,funghi,fungi,,basidiomycetes,agaricales,tricholomataceae,collybia,mucida,,23-9-2016,"parco nazionale d'Abruzzo",1480156685
+P1500729,funghi,fungi,,basidiomycetes,agaricales,tricholomataceae,mycena,epipterygia,,21-10-2016,"Foreste Casentinesi",1480156878
+P1430185,funghi,fungi,,agaricomycetes,agaricales,strophariaceae,pholiota,aurivella,,20-10-2013,"Foreste Casentinesi",1480157092
+P1500777,funghi,fungi,,basidiomycetes,russulales,hericiaceae,hericium,coralloides,,22-10-2016,"Foreste Casentinesi",1480157255
+P1500789,funghi,fungi,,basidiomycetes,agaricales,strophariaceae,stropharia,aeruginosa,,22-10-2016,"Foreste Casentinesi",1480157393
+P1490988,animali,animalia,chordata,reptilia,squamata,lacertidae,podarcis,sicula,"lucertola campestre",3-9-2016,"Parco Naz. del Cilento",1483633883
+P1490960,animali,animalia,chordata,reptilia,squamata,lacertidae,podarcis,sicula,"lucertola campestre",3-9-2016,"Parco Naz. del Cilento",1483634005
+P1190046,funghi,fungi,,basidiomycetes,agaricales,tricholomataceae,hygrophorus,eburneus,,2-11-2008,"Foreste Casentinesi",1483634300
+P1080904,funghi,fungi,,basidiomycetes,agaricales,coprinaceae,coprinus,disseminatus,,7-10-2007,"Foreste Casentinesi",1483634484
+P1500911,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,,,,30-4-2017,"Monti del Furlo",1493911872
+P1500888,piante,plantae,,liliopsida,orchidales,orchidaceae,orchis,provincialis,,29-4-2017,"Foreste Casentinesi",1493912002
+P1420720,funghi,fungi,,basidiomycetes,polyporales,polyporaceae,trametes,hirsuta,,4-9-2013,"Foresta Umbra",1493912173
+P1500873,piante,plantae,,magnoliopsida,violales,violaceae,viola,alba,,25-3-2017,"Foreste Casentinesi",1493912403
+P1500843,funghi,fungi,,basidiomycetes,polyporales,polyporaceae,trametes,versicolor,,5-3-2017,"Monti del Furlo",1493912769
+P1500893,piante,plantae,,liliopsida,orchidales,orchidaceae,anacamptis,morio,,30-4-2017,"Monti del Furlo",1493912900
+P1000147,funghi,fungi,,basidiomycetes,polyporales,polyporaceae,trametes,versicolor,,5-3-2017,"Monti del Furlo",1493913005
+P1000159,funghi,fungi,,agaricomycetes,polyporales,polyporaceae,polyporus,sulphureus,"gallina dei boschi",29-4-2017,"Foreste Casentinesi",1493913301
+P1350607,piante,plantae,,liliopsida,orchidales,orchidaceae,anacamptis,morio,,30-4-2010,"Monti delle Cesane",1493998015
+P1360023,piante,plantae,,liliopsida,orchidales,orchidaceae,ophrys,fusca,,16-5-2010,"Monti del Furlo",1493998461
+P1360852,animali,animalia,arthropoda,insecta,lepidoptera,nymphalidae,argynnis,niobe,,24-7-2010,"Monti Sibillini",1493998826
+P1510042,piante,plantae,,liliopsida,orchidales,orchidaceae,orchis,"mascula var. olbiensis ",,14-5-2017,"Monte Catria",1495206775
+P1510034,piante,plantae,,liliopsida,orchidales,orchidaceae,orchis,"mascula var. alba",,14-5-2017,"Monte Catria",1495206924
+P1510018,piante,plantae,,liliopsida,orchidales,orchidaceae,orchis,mascula,,14-5-2017,"Monte Catria",1495207054
+P1500951,piante,plantae,,magnoliopsida,scrophulariales,orobanchaceae,orobanche,alba,,12-5-2017,"Monti del Furlo",1495207245
+P1000202,animali,animalia,chordata,reptilia,squamata,anguidae,anguis,fragilis,orbettino,12-5-2017,"Monti del Furlo",1495207412
+P1510021,piante,plantae,,magnoliopsida,violales,violaceae,viola,eugeniae,"viola di Eugenia",14-5-2017,"Monte Catria",1495207593
+P1510029,animali,animalia,arthropoda,insecta,hemiptera,lygaeidae,lygaeus,saxatilis,,14-5-2017,"Monte Catria",1495207746
+P1500999,animali,animalia,arthropoda,insecta,hymenoptera,apidae,rhodanthidium,septemdentatum,,13-5-2017,"Monti del Furlo",1495207842
+P1500989,piante,plantae,,magnoliopsida,lamiales,lamiaceae,stachys,recta,"pianta della paura",13-5-2017,"Monti del Furlo",1495207986
+P1510064,animali,animalia,arthropoda,insecta,hymenoptera,vespidae,vespa,crabro,calabrone,14-5-2017,"Monte Catria",1495553266
+P1500973,piante,plantae,,liliopsida,orchidales,orchidaceae,ophrys,holoserica,,13-5-2017,"Monti del Furlo",1495553458
+P1510262,piante,plantae,,liliopsida,orchidales,orchidaceae,serapias,parviflora,,31-5-2017,Fano,1496335058
+P1510301,piante,plantae,,liliopsida,orchidales,orchidaceae,serapias,parviflora,,31-5-2017,Fano,1496335188
+P1510135,piante,plantae,,magnoliopsida,violales,violaceae,viola,tricolor,,27-5-2017,"Foreste Casentinesi",1496335406
+P1510133,paesaggi,,,,,,,,,25-5-2017,"Monti del Furlo",1496335480
+P1510320,piante,plantae,,magnoliopsida,dipsacales,caprifoliaceae,lonicera,caprifolium,caprifoglio,31-5-2017,"Monti del Furlo",1496335734
+P1000255,animali,animalia,chordata,reptilia,squamata,colubridae,natrix,natrix,"biscia dal collare",27-5-2017,"Foreste Casentinesi",1496335861
+P1510160,piante,plantae,,pteridopsida,pteridales,hypolepidaceae,pteridium,aquilinum,"felce aquilina",27-5-2017,"Foreste Casentinesi",1496336040
+P1510478,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,,,,4-6-2017,"Monte Catria",1497020121
+P1510358,piante,plantae,,magnoliopsida,lamiales,plantaginaceae,digitalis,lutea,,3-6-2017,"Foreste Casentinesi",1497020300
+P1510346,piante,plantae,,magnoliopsida,lamiales,plantaginaceae,digitalis,lutea,,3-6-2017,"Foreste Casentinesi",1497020418
+P1510339,animali,animalia,arthropoda,insecta,coleoptera,cerambycidae,morimus,asper,,3-6-2017,"Foreste Casentinesi",1497020588
+P1510449,piante,plantae,,magnoliopsida,rosales,rosaceae,filipendula,vulgaris,"erba peperina",4-6-2017,"Monte Catria",1497020694
+P1510484,animali,animalia,arthropoda,insecta,coleoptera,scarabeidae,copris,,,4-6-2017,"Monte Catria",1497020847
+P1510470,piante,plantae,,liliopsida,cyperales,poaceae,bromus,erectus,,4-6-2017,"Monte Catria",1497021034
+P1510367,piante,plantae,,magnoliopsida,solanales,solanaceae,atropa,belladonna,,3-6-2017,"Foreste Casentinesi",1497021157
+P1510125,piante,plantae,,liliopsida,asparagales,iridaceae,gladiolus,italicus,,25-5-2017,"Monti del Furlo",1497357543
+P1510554,piante,plantae,,magnoliopsida,ranunculales,ranunculaceae,clematis,vitalba,vitalba,11-6-2017,"Monti del Furlo",1497357680
+P1510249,piante,plantae,,magnoliopsida,caryophyllales,caryophyllaceae,silene,vulgaris,,28-5-2017,"Monti del Furlo",1497454963
+P1510602,piante,plantae,,magnoliopsida,malpighiales,hypericaceae,hypericum,hircinum,,19-6-2017,"Gola del Furlo",1498234819
+P1510676,animali,animalia,arthropoda,insecta,coleoptera,lucanidae,dorcus,parallelipipedus,,8-7-2017,"Monti del Furlo",1501065074
+P1510649,piante,plantae,,magnoliopsida,fabales,fabaceae,cytisus,scoparius,"ginestra dei carbonai",1-7-2017,"Monti del Furlo",1501065249
+P1490856,paesaggi,,,,,,,,,20-8-2016,"Monte Catria",1501065343
+P1000309,animali,animalia,chordata,aves,passeriformes,motacillidae,anthus,"spinoletta spinoletta","spioncello di montagna",17-6-2017,"Monti del Furlo",1501065531
+P1510635,piante,plantae,,liliopsida,orchidales,orchidaceae,epipactis,helleborine,,1-7-2017,"Monti del Furlo",1501065684
+P1510619,piante,plantae,,liliopsida,orchidales,orchidaceae,epipactis,helleborine,,1-7-2017,"Monti del Furlo",1501065833
+P1510557,piante,plantae,,magnoliopsida,asterales,asteraceae,crepis,vesicaria,"radichiella vescicosa",17-6-2017,"Monti del Furlo",1501066002
+P1000374,animali,animalia,chordata,aves,falconiformes,falconidae,falco,tinnunculus,gheppio,15-7-2017,"Monte Catria",1501167348
+P1510700,piante,plantae,,magnoliopsida,saxifragales,crassulaceae,sempervivum,tectorum,,5-8-2017,"Monte Catria",1502119251
+P1010381,animali,animalia,chordata,aves,passeriformes,laniidae,lanius,collurio,"averla piccola",5-8-2017,"Monte Catria",1502120391
+P1510915,animali,animalia,arthropoda,insecta,coleoptera,silphidae,nicrophorus,investigator,,11-9-2017,Bialowieza,1506072002
+P1510892,funghi,fungi,,basidiomycetes,cantharellales,cantharellaceae,cantharellus,cibarius,galletto,11-9-2017,Bialowieza,1505750590
+P1030963,animali,animalia,chordata,aves,passeriformes,sittidae,sitta,europaeae,"picchio muratore",9-9-2017,Bialowieza,1505750818
+P1510767,funghi,fungi,,basidiomycetes,boletales,boletaceae,boletus,edulis,porcino,9-9-2017,Bialowieza,1505750975
+P1030990,animali,animalia,chordata,aves,piciformes,picidae,dendrocoptes,medius,"picchio rosso mezzano",9-9-2017,Bialowieza,1505751205
+P1040784,animali,animalia,chordata,mammalia,artiodactyla,bovidae,bison,bonasus,"bisonte europeo",10-9-2017,Bialowieza,1505751349
+P1040806,animali,animalia,chordata,mammalia,artiodactyla,bovidae,bison,bonasus,"bisonte europeo",10-9-2017,Bialowieza,1505751468
+P1510912,animali,animalia,arthropoda,insecta,coleoptera,silphidae,nicrophorus,investigator,,11-9-2017,Bialowieza,1506072113
+P1050537,animali,animalia,chordata,aves,galliformes,phasianidae,phasianus,colchicus,"fagiano comune",20-9-2017,"Foreste Casentinesi",1506072288
+P1040565,funghi,fungi,,agaricomycetes,agaricales,agaricaceae,lycoperdon,perlatum,,10-9-2017,Bialowieza,1506521489
+P1510754,funghi,fungi,,basidiomycetes,boletales,boletaceae,boletus,aestivalis,,9-9-2017,Bialowieza,1506521685
+P1510749,funghi,fungi,,basidiomycetes,agaricales,coprinaceae,coprinellus,micaceus,,9-9-2017,Bialowieza,1506522463
+P1040335,animali,animalia,chordata,aves,passeriformes,laniidae,lanius,collurio,"averla piccola",9-9-2017,Bialowieza,1506522619
+P1510791,funghi,fungi,,basidiomycetes,agaricales,amanitaceae,amanita,caesarea,,9-9-2017,Bialowieza,1506523066
+P1050466,funghi,fungi,,basidiomycetes,russulales,russulaceae,russula,virescens,,11-9-2017,Bialowieza,1506523356
+P1510841,funghi,fungi,,agaricomycetes,agaricales,strophariaceae,pholiota,adiposa,,10-9-2017,Bialowieza,1506523568
+P1040342,animali,animalia,chordata,aves,passeriformes,fringillidae,serinus,serinus,verzellino,9-9-2017,Bialowieza,1506523777
+P1510847,funghi,fungi,,basidiomycetes,agaricales,amanitaceae,amanita,fulva,"bubbolina bruna",10-9-2017,Bialowieza,1506524367
+P1510885,funghi,fungi,,basidiomycetes,agaricales,amanitaceae,amanita,citrina,,11-9-2017,Bialowieza,1506524541
+P1420814,funghi,fungi,,basidiomycetes,boletales,boletaceae,boletus,subtomentosus,,6-9-2013,"Foresta Umbra",1506524749
+P1510843,funghi,fungi,,sordariomycetes,xylariales,xylariaceae,xylaria,polymorpha,,10-9-2017,Bialowieza,1506524988
+P1510770,funghi,fungi,,agaricomycetes,polyporales,fomitopsidaceae,fomitopsis,betulina,,9-9-2017,Bialowieza,1506525194
+P1050552,funghi,fungi,,basidiomycetes,polyporales,sparassidaceae,sparassis,crispa,,20-9-2017,"Foreste Casentinesi",1506525571
+P1510783,funghi,fungi,,agaricomycetes,agaricales,strophariaceae,kuehneromycetes,mutabilis,,9-9-2017,Bialowieza,1506525771
+P1510890,funghi,fungi,,agaricomycetes,russulales,russulaceae,lactarius,turpis,,11-9-2017,Bialowieza,1506526016
+P1510964,funghi,fungi,amoebozoa,myxogastria,liceales,tubiferaceae,tubifera,ferruginosa,,20-9-2017,"Foreste Casentinesi",1506526425
+P1510939,funghi,fungi,,agaricomycetes,agaricales,strophariaceae,pholiota,squarrosa,,11-9-2017,Bialowieza,1506526647
+P1050497,animali,animalia,chordata,mammalia,rodentia,sciuridae,sciurus,vulgaris,scoiattolo,13-9-2017,Varsavia,1506526781
+P1400107,funghi,fungi,,basidiomycetes,agaricales,tricholomataceae,mycena,,,6-11-2011,"Monti del Furlo",1506527030
+P1040754,animali,animalia,chordata,aves,passeriformes,phylloscopidae,phylloscopus,,luÃ¬,10-9-2017,Bialowieza,1506527531
+P1050563,piante,plantae,,magnoliopsida,mirtales,onagraceae,oenothera,rubricaulis,,21-9-2017,"Fano Spiaggia Ponente",1506688436
+P1510854,funghi,fungi,,basidiomycetes,agaricales,tricholomataceae,mycena,leaiana,,10-9-2017,Bialowieza,1506688589
+P1510726,animali,animalia,arthropoda,insecta,coleoptera,coccinellidae,henosepilachna,elaterii,,2-9-2017,"Fano Spiaggia Levante",1506688908
+P1510721,animali,animalia,arthropoda,insecta,coleoptera,coccinellidae,henosepilachna,elaterii,,2-9-2017,"Fano Spiaggia Levante",1506689053
+P1040883,funghi,fungi,,basidiomycetes,russulales,russulaceae,russula,claroflava,,11-9-2017,Bialowieza,1506689435
+P1130837,animali,animalia,chordata,mammalia,logomorpha,leporidae,lepus,europaeus,lepre,28-6-2007,"Monte Catria",1506689657
+P1510833,funghi,fungi,,basidiomycetes,agaricales,tricholomataceae,mycena,inclinata,,10-9-2017,Bialowieza,1506695453
+P1030620,animali,animalia,chordata,aves,passeriformes,corvidae,coloeus,monedula,taccola,6-9-2017,Cracovia,1506695623
+P1510928,funghi,fungi,,basidiomycetes,agaricales,tricholomataceae,laccaria,amethystina,,11-9-2017,Bialowieza,1506695823
+P1510966,funghi,fungi,,basidiomycetes,agaricales,coprinaceae,coprinus,atramentarius,,20-9-2017,"Foreste Casentinesi",1506696053
+P1050460,funghi,fungi,,agaricomycetes,polyporales,polyporaceae,polyporus,sulphureus,"gallina dei boschi",11-9-2017,Bialowieza,1506696329
+P1510735,piante,plantae,,magnoliopsida,cucurbitales,cucurbitaceae,ecballium,elaterium,"cocomero asinino",2-9-2017,"Fano Spiaggia Levante",1506696932
+P1030937,animali,animalia,chordata,aves,passeriformes,paridae,parus,major,cinciallegra,9-9-2017,Bialowieza,1506697084
+P1030935,animali,animalia,chordata,aves,passeriformes,paridae,parus,major,cinciallegra,9-9-2017,Bialowieza,1506697182
+P1510862,funghi,fungi,,basidiomycetes,agaricales,tricholomataceae,lepista,rickenii,,10-9-2017,Bialowieza,1506955038
+P1510858,funghi,fungi,,basidiomycetes,boletales,gomphidiaceae,gomphidius,subroseus,,10-9-2017,Bialowieza,1506955286
+P1510824,funghi,fungi,,basidiomycetes,agaricales,marasmiaceae,armillaria,mellea,famigliola,10-9-2017,Bialowieza,1506955422
+P1510835,funghi,fungi,,basidiomycetes,,,,,,10-9-2017,Bialowieza,1506955528
+P1050519,animali,animalia,chordata,aves,anseriformes,anatidae,aix,galericulata,"anatra mandarina",13-9-2017,Varsavia,1506956761
+P1390508,piante,plantae,,magnoliopsida,solanales,solanaceae,atropa,belladonna,,30-7-2011,"Monte Catria",1507044399
+P1050663,funghi,fungi,,basidiomycetes,agaricales,cortinariaceae,inocybe,,,5-10-2017,"Fano ex ENAM",1507710146
+P1510997,piante,plantae,,magnoliopsida,lamiales,scrophulariaceae,linaria,vulgaris,linaiola,7-10-2017,"Monti del Furlo",1507710374
+P1050678,funghi,fungi,,basidiomycetes,agaricales,amanitaceae,amanita,ovoidea,farinaccio,7-10-2017,"Monti del Furlo",1507710528
+P1050660,funghi,fungi,,basidiomycetes,boletales,boletaceae,boletus,subtomentosus,,5-10-2017,"Fano ex ENAM",1507710758
+P1060030,animali,animalia,chordata,aves,passeriformes,corvidae,pica,pica,gazza,9-10-2017,"Fano ex ENAM",1507710896
+P1520006,funghi,fungi,,basidiomycetes,agaricales,amanitaceae,amanita,echinocephala,,7-10-2017,"Monti del Furlo",1507711070
+P1510977,funghi,fungi,,basidiomycetes,agaricales,cortinariaceae,cortinarius,,,7-10-2017,"Monti del Furlo",1507711634
+P1510805,animali,animalia,arthropoda,insecta,odonata,libellulidae,sympetrum,flaveolum,,9-9-2017,Bialowieza,1507908038
+P1040425,funghi,fungi,,basidiomycetes,russulales,russulaceae,russula,decolorans,,10-9-2017,Bialowieza,1507908331
+P1510758,funghi,fungi,,basidiomycetes,agaricales,amanitaceae,amanita,muscaria,,9-9-2017,Bialowieza,1507908455
+P1040439,funghi,fungi,,basidiomycetes,boletales,boletaceae,boletus,edulis,porcino,10-9-2017,Bialowieza,1507908604
+P1510944,animali,animalia,arthropoda,arachnida,araneae,araneidae,argiope,bruennichi,"argiope fasciata",12-9-2017,Bialowieza,1507908768
+P1040433,funghi,fungi,,basidiomycetes,russulales,russulaceae,russula,caerulea,,10-9-2017,Bialowieza,1507908877
+P1060652,animali,animalia,chordata,aves,passeriformes,sturnidae,sturnus,vulgaris,storno,16-10-2017,"Fano ex ENAM",1508254199
+P1060550,animali,animalia,chordata,aves,passeriformes,sturnidae,sturnus,vulgaris,storno,16-10-2017,"Fano ex ENAM",1508254314
+P1390428,animali,animalia,arthropoda,insecta,coleoptera,chrysomelidae,clytra,,,3-7-2011,"Monti del Furlo",1508912429
+P1390251,animali,animalia,arthropoda,insecta,diptera,syrphidae,sphaerophoria,,,25-6-2011,"Gola del Furlo",1508914179
+P1230402,animali,animalia,chordata,aves,charadriiformes,laridae,larus,michahellis,"gabbiano reale",22-10-2011,"Fano Spiaggia Ponente",1508918283
+P1030584,animali,animalia,chordata,aves,charadriiformes,laridae,larus,ridibundus,"gabbiano comune",2-9-2017,"Fano Darsena Borghese",1508918504
+P1410383,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,polyommatus,bellargus,,15-9-2012,"Monti del Furlo",1512666273
+P1410276,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,polyommatus,corydon,,12-8-2012,"Monti del Furlo",1511800213
+P1510681,piante,plantae,,magnoliopsida,ranunculales,ranunculaceae,aconitum,"lycoctonum vulparia",,15-7-2017,"Monte Catria",1512653297
+P1160519,animali,animalia,arthropoda,insecta,orthoptera,acrididae,pezotettix,,,8-8-2008,"Monti del Furlo",1512653501
+P1410379,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,polyommatus,bellargus,,15-9-2012,"Monti del Furlo",1512666495
+P1410374,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,polyommatus,bellargus,,15-9-2012,"Monti del Furlo",1512666637
+P1410373,animali,animalia,arthropoda,insecta,lepidoptera,lycaenidae,polyommatus,bellargus,,15-9-2012,"Monti del Furlo",1512666829
+P1070736,animali,animalia,arthropoda,chilopoda,lithobiomorpha,lithobiidae,lithobius,forficatus,,7-9-2007,"Foreste Casentinesi",1521119999
+P1120796,animali,animalia,arthropoda,arachnida,araneae,salticidae,pellenes,seriatus,,18-5-2008,"Monti del Furlo",1521120290
+P1030918,animali,animalia,arthropoda,arachnida,araneae,thomisidae,misumena,vatia,,26-5-2007,"Monti del Furlo",1521120511
+P1050567,animali,animalia,arthropoda,arachnida,araneae,thomisidae,misumena,vatia,,20-6-2007,"Monti del Furlo",1521120948
+P1050576,animali,animalia,arthropoda,arachnida,araneae,thomisidae,misumena,vatia,,20-6-2007,"Monti del Furlo",1521121102
+P1080881,animali,animalia,arthropoda,arachnida,opiliones,phalangiidae,phalangium,opilio,,7-10-2007,"Foreste Casentinesi",1521121353
+P1390452,animali,animalia,arthropoda,insecta,coleoptera,lucanidae,lucanus,cervus,"cervo volante",3-7-2011,"Monti del Furlo",1521131616
+P1140290,animali,animalia,arthropoda,chilopoda,scolopendromorpha,scolopendridae,scolopendra,cingulata,,15-6-2008,"Monti del Furlo",1521131813
+P1140226,animali,animalia,arthropoda,arachnida,araneae,salticidae,philaeus,"chrysops (maschio)",,15-6-2008,"Monti del Furlo",1521132197
+P1360523,animali,animalia,arthropoda,insecta,diptera,bombyliidae,,,,26-6-2010,"Foreste Casentinesi",1521132344
