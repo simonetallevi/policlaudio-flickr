@@ -86,9 +86,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
         .then(() => {
           dialog.componentInstance.data.tiles = this.tiles;
           dialog.componentInstance.data.hasMore = this.hasMore;
-          if(this.hasMore){
-            this.onLoaded.emit();
-          }
+          this.onLoaded.emit();
         })
         .catch();
     });
@@ -108,7 +106,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
       this.images.next({'tags': this.tags})
         .subscribe(res =>{
           // console.log(res)
-          if(res.photos.page == res.photos.pages){
+          if(!res || res.photos.page == res.photos.pages){
             this.hasMore = false;
           }
           this.tiles = this.tiles.concat(this.toTiles(res));
@@ -132,8 +130,8 @@ export class ImagesComponent implements OnInit, OnDestroy {
     this.images.reset()
     this.images.search({'tags': this.tags})
       .subscribe(res =>{
-        console.log(res);
-        if(res.photos.page == res.photos.pages){
+        //console.log(res);
+        if(!res || res.photos.page == res.photos.pages){
           console.log("no more photo");
           this.hasMore = false;
         }
@@ -288,8 +286,8 @@ export class SlideshowDialog implements AfterViewInit, OnInit, OnDestroy{
   }
   
   next(){
-    this.currentImgWith = 0;
     if((this.currentIndex + 1) < this.data.tiles.length){
+      this.currentImgWith = 0;
       this.currentIndex += 1;
       this.data.index = this.currentIndex;
       this.currentTile = this.data.tiles[this.currentIndex];
@@ -324,7 +322,10 @@ export class SlideshowDialog implements AfterViewInit, OnInit, OnDestroy{
     this.currentIndex = this.data.index;
     this.currentTile = this.data.tiles[this.currentIndex];
     this.data.onLoaded.subscribe(() => {
-      this.next();
+      if(this.data.hasMore){
+        this.currentImgWith = 0;
+        this.next();
+      }
     });
   }
 

@@ -2,10 +2,9 @@ import { Component, OnInit, OnDestroy, Output, EventEmitter, HostListener, Eleme
 import { FormControl} from '@angular/forms';
 import { MatChipInputEvent} from '@angular/material';
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
-import { ActivatedRoute, Router, NavigationEnd} from '@angular/router';
+import { ActivatedRoute, Router, NavigationEnd, Params} from '@angular/router';
 
-import {Observable} from 'rxjs';
-import {map, startWith} from 'rxjs/operators';
+import {map} from 'rxjs/operators';
 
 import { TagFilterService, Tag } from './tag-filter.service';
 
@@ -42,7 +41,7 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     constructor(
         private breakpointObserver: BreakpointObserver,
         private tagFilterService: TagFilterService,
-        private route: ActivatedRoute,
+        private activatedRoute: ActivatedRoute,
         private router: Router
     ){
         this.mediaObserve = this.breakpointObserver.observe([
@@ -68,6 +67,7 @@ export class TagFilterComponent implements OnInit, OnDestroy {
 
         this.routerEvent = this.router.events.subscribe((val) =>{
             if(val instanceof NavigationEnd && (val.url == "/" || val.url.startsWith("/search"))){
+                console.log("routing");
                 this._getSelectdTagFromUrl();
                 this._selectTag(this.selectedTags, false);
                 this.tagFilterService.search(this.selectedTags);
@@ -100,15 +100,16 @@ export class TagFilterComponent implements OnInit, OnDestroy {
     }
 
     private _getSelectdTagFromUrl(){
-        this.route.params.forEach(el => {
-            if(el['tags']){
-                var tags = atob(el['tags']).split("_");
-                this.selectedTags = [];
-                tags.forEach(function(t){
-                    this.selectedTags.push(Tag.fromString(t))
-                });
-            }
-        });
+        //TODO TO BE FIXED
+        // this.activatedRoute.params.forEach(el => {
+        //     if(el['tags']){
+        //         var tags = atob(el['tags']).split("_");
+        //         this.selectedTags = [];
+        //         tags.forEach(function(t){
+        //             this.selectedTags.push(Tag.fromString(t))
+        //         });
+        //     }
+        // });
     }
 
     private _selectTag(selected: Array<Tag>, deselect: Boolean){
