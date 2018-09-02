@@ -51,7 +51,7 @@ public class MainPhotoUploader {
     Properties properties = new Properties();
     InputStream in = null;
     try {
-      in = PhotoUploader.class.getResourceAsStream("/setup.properties");
+      in = MainPhotoUploader.class.getResourceAsStream("/setup.properties");
       if (in != null) {
         properties.load(in);
         apiKey = properties.getProperty("apiKey");
