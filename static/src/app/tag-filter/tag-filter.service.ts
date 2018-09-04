@@ -9,7 +9,7 @@ export class TagFilterService {
     keys = null;
     onSearch = new EventEmitter();
     headers;
-    baseUrl = "assets/"
+    baseUrl = "https://poli-claudio.appspot.com.storage.googleapis.com/"
 
     constructor(
         private http: HttpClient
