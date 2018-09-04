@@ -1,4 +1,4 @@
-<div class="toolbar-container">
+<div class="toolbar-container" [hidden]="!enableFilters && visibleLogo">
     <div style="display:flex;">
         <div class="logo-container" *ngIf="!visibleLogo" (click)="goToHome()">
             <div class="logo-title">
