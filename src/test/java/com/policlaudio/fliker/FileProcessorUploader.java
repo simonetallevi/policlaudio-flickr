@@ -34,7 +34,7 @@ public class FileProcessorUploader {
     this.rc = rc;
   }
 
-  public void processFileArg(String dir, String baseFileName, String title, List<String> tags, String setId) throws Exception {
+  public void processFileArg(String dir, String baseFileName, String title, List<String> tags, String setId, String description) throws Exception {
     String photoid;
     String filename = dir + baseFileName;
     if (filename.equals("")) {
@@ -54,7 +54,7 @@ public class FileProcessorUploader {
     }
     System.out.println("Calling uploadfile for filename : " + filename);
     System.out.println("Upload of " + filename + " started at: " + new Date() + "\n");
-    photoid = uploadfile(f, title, baseFileName, tags);
+    photoid = uploadfile(f, title, baseFileName, tags, description);
     // Add to Set. Create set if it does not exist.
     if (photoid != null) {
       addPhotoToSet(photoid, setId);
@@ -67,7 +67,7 @@ public class FileProcessorUploader {
     psetsInterface.addPhoto(setId, photoid);
   }
 
-  public String uploadfile(File file, String title, String baseFilename, List<String> tags) throws Exception {
+  public String uploadfile(File file, String title, String baseFilename, List<String> tags, String description) throws Exception {
 
     UploadMetaData metaData = new UploadMetaData();
     metaData.setPublicFlag(false);
@@ -77,6 +77,7 @@ public class FileProcessorUploader {
     metaData.setTitle(title);
     tags.add("autoUploadFilename='" + baseFilename + "'");
     metaData.setTags(tags);
+    metaData.setDescription(description);
 
     String safeFilename = makeSafeFilename(baseFilename);
     metaData.setFilename(baseFilename);

@@ -19,7 +19,7 @@
 }
 
 .info-container.hidden {
-    transform: translate(0px, 90px);
+    transform: translate(0px, 110px);
     transition: all;
     transition-timing-function: ease-out;
     transition-duration: 300ms;

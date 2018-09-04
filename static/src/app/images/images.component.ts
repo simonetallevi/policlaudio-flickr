@@ -130,7 +130,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
     this.images.reset()
     this.images.search({'tags': this.tags})
       .subscribe(res =>{
-        //console.log(res);
+        console.log(res);
         if(!res || res.photos.page == res.photos.pages){
           console.log("no more photo");
           this.hasMore = false;
@@ -159,7 +159,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
           lastupdate: p.lastupdate,
           views: p.views,
           title: p.title,
-          tags: (p.tags ? p.tags.split(" ") : []),
+          tags: (p.tags ? p.tags.split(" ").filter(t =>{return !t.startsWith("autouploadfilename")}) : []),
           url_l: p.url_l,
           url_m: p.url_m,
           url_s: p.url_s,

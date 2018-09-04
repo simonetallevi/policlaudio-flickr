@@ -10,6 +10,7 @@ import com.flickr4java.flickr.auth.Permission;
 import com.flickr4java.flickr.people.User;
 import com.flickr4java.flickr.util.AuthStore;
 import com.flickr4java.flickr.util.FileAuthStore;
+import com.google.common.base.Joiner;
 import com.google.common.collect.ImmutableList;
 import com.opencsv.CSVReader;
 import org.scribe.model.Token;
@@ -25,6 +26,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Scanner;
@@ -68,7 +70,18 @@ public class MainPhotoUploader {
           csvLine.put(headers[i], tokens[i].replaceAll(" ", "_").toLowerCase());
         }
         System.out.println(csvLine.get("id"));
-        fileProcessorUploader.processFileArg("/Users/tallesi001/Documents/policlaudio/photos/", csvLine.get("id")+".jpg",  csvLine.get("id"), new ArrayList<>(csvLine.values()), properties.getProperty(csvLine.get("genere_fotografico")));
+        List<String> tags = new ArrayList<>();
+        tags.add(csvLine.get("genere_fotografico"));
+        tags.add(csvLine.get("regno"));
+        tags.add(csvLine.get("phylum"));
+        tags.add(csvLine.get("classe"));
+        tags.add(csvLine.get("ordine"));
+        tags.add(csvLine.get("famiglia"));
+        tags.add(csvLine.get("genere"));
+        tags.add(csvLine.get("specie"));
+        tags.add(csvLine.get("nome_comune"));
+
+        fileProcessorUploader.processFileArg("/Users/tallesi001/Documents/policlaudio/photos/", csvLine.get("id")+".jpg",  csvLine.get("id"), tags, properties.getProperty(csvLine.get("genere_fotografico")), getDescription(csvLine));
       }
     } catch (Exception e) {
       e.printStackTrace();
@@ -76,6 +89,42 @@ public class MainPhotoUploader {
       if (in != null)
         in.close();
     }
+  }
+
+  private static String getDescription(Map<String, String> csvLine){
+    Joiner joiner = Joiner.on(",");
+    List<String> descriptions = new ArrayList<>();
+    if(!csvLine.get("genere_fotografico").isEmpty()){
+      descriptions.add("genere_fotografico="+csvLine.get("genere_fotografico"));
+    }
+    if(!csvLine.get("regno").isEmpty()){
+      descriptions.add("regno="+csvLine.get("regno"));
+    }
+    if(!csvLine.get("phylum").isEmpty()){
+      descriptions.add("phylum="+csvLine.get("phylum"));
+    }
+    if(!csvLine.get("classe").isEmpty()){
+      descriptions.add("classe="+csvLine.get("classe"));
+    }
+    if(!csvLine.get("ordine").isEmpty()){
+      descriptions.add("ordine="+csvLine.get("ordine"));
+    }
+    if(!csvLine.get("famiglia").isEmpty()){
+      descriptions.add("famiglia="+csvLine.get("famiglia"));
+    }
+    if(!csvLine.get("genere").isEmpty()){
+      descriptions.add("genere="+csvLine.get("genere"));
+    }
+    if(!csvLine.get("specie").isEmpty()){
+      descriptions.add("specie="+csvLine.get("specie"));
+    }
+    if(!csvLine.get("nome_comune").isEmpty()){
+      descriptions.add("nome_comune="+csvLine.get("nome_comune"));
+    }
+    if(!csvLine.get("luogo").isEmpty()){
+      descriptions.add("luogo="+csvLine.get("luogo"));
+    }
+    return joiner.join(descriptions);
   }
 
   private static void loadData() throws IOException {
