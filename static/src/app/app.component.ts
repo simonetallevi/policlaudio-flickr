@@ -81,10 +81,12 @@ export class AppComponent implements OnInit, OnDestroy{
 
   goToAbout(): void{
     this.router.navigate(['about']);
+    window.scroll(0,0);
   }
 
   goToHome(): void{
     this.router.navigate(['']);
+    window.scroll(0,0);
   }
 }
 

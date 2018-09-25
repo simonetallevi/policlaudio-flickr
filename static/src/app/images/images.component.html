@@ -24,22 +24,6 @@
                     <div class="date">{{(tile.lastupdate * 1000) | date : " MMMM d, y"}}</div>
                 </div>
             </div>
-
-            <!-- <div class="photo-name" [ngClass]="tile.nameVisibility" *ngIf="!isMobile">
-                <div>
-                    <div class="photo-title">{{tile.title}}</div>
-                    <div class="photo-tags">
-                        <div *ngFor="let tag of tile.tags">&nbsp;#{{tag}}</div>
-                    </div>
-                </div>
-                <div>
-                    <div class="photo-views">
-                        <span>{{tile.views}}</span>
-                        <mat-icon aria-label="visibility" class="material-icons md-18">visibility</mat-icon>
-                    </div>
-                    <div class="photo-date">{{(tile.lastupdate * 1000) | date : " MMMM d, y"}}</div>
-                </div>
-            </div> -->
         </div>
     </mat-grid-tile>
 </mat-grid-list>
