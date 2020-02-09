@@ -131,6 +131,7 @@ export class ImagesComponent implements OnInit, OnDestroy {
     this.images.search({'tags': this.tags})
       .subscribe(res =>{
         console.log(res);
+        debugger
         if(!res || res.photos.page == res.photos.pages){
           console.log("no more photo");
           this.hasMore = false;
@@ -147,8 +148,11 @@ export class ImagesComponent implements OnInit, OnDestroy {
     var results = [];
     if(res != null){
       res.photos.photo.forEach(p =>{
-        if(!p.url_s || !p.url_m || !p.url_l){
+        if(!p.url_s && !p.url_m){
           return;
+        }
+        if(!p.url_l){
+          p.url_l = p.url_c;
         }
         //WF=WI*HF/HI
 

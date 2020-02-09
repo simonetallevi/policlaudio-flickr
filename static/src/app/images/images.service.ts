@@ -1,16 +1,17 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs/Observable'; 
+import { Observable } from 'rxjs/Observable';
 import { HttpClient } from '@angular/common/http';
 import { ArrayType } from '@angular/compiler/src/output/output_ast';
 
 import { Secret } from '../config/secret';
 
 
-export class FlickrPhoto { 
+export class FlickrPhoto {
   id: string;
   url_l: string;
   url_m: string;
   url_s: string;
+  url_c: string;
   height_l: number;
   width_l: number;
   tags: string;
@@ -29,13 +30,13 @@ export class FlickrPhoto {
   }
 }
 
-export class FlickrPhotosSearch { 
+export class FlickrPhotosSearch {
   page: number;
   pages: number;
   perpage: number;
   total: string;
   photo: Array<FlickrPhoto>;
-  
+
   constructor(photo: Array<FlickrPhoto>) {
     this.photo = photo;
     this.page = 1;
@@ -43,7 +44,7 @@ export class FlickrPhotosSearch {
   }
 }
 
-export class FlickrPhotosSearchResponse { 
+export class FlickrPhotosSearchResponse {
   photos: FlickrPhotosSearch;
   stat: string;
 
@@ -54,15 +55,15 @@ export class FlickrPhotosSearchResponse {
 
 @Injectable()
 export class ImagesService {
-  
+
   input;
   currentPage;
-    
+
 
   constructor(
     private http: HttpClient,
     private secret: Secret
-  ) { 
+  ) {
     this.currentPage = 0;
     this.input = {
       'method': 'flickr.photos.search',
@@ -70,7 +71,7 @@ export class ImagesService {
       'api_key': this.secret.apiKey,
       'format': 'json',
       'nojsoncallback': '1',
-      'extras': 'tags,url_t,url_m,url_s,url_l,views,last_update',
+      'extras': 'tags,url_t,url_m,url_s,url_c,views,last_update',
       'per_page': 25,
       'page': 0,
       'tag_mode': 'all',
